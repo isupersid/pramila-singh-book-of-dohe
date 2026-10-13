@@ -1445,9 +1445,26 @@ footer small {
   }
 
   .book-spine,
-  .page-stack,
-  .turning-sheet {
+  .page-stack {
     display: none !important;
+  }
+
+  .turning-sheet {
+    right: 0;
+    width: 100%;
+    transform-origin: left center;
+  }
+
+  .turning-sheet.turn-previous {
+    right: 0;
+    transform-origin: left center;
+  }
+
+  .page-poem.has-mobile-artwork::before {
+    background:
+      linear-gradient(rgb(255 250 240 / 84%), rgb(255 250 240 / 88%)),
+      var(--mobile-artwork) center / cover no-repeat;
+    mix-blend-mode: normal;
   }
 
   .page-arrow {

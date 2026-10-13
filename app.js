@@ -192,10 +192,17 @@ function renderReader(poem, updateHash = true) {
     elements.artworkImage.alt = `${poem.title} के लिए कलाकृति`;
     elements.artworkImage.hidden = false;
     elements.artPlaceholder.hidden = true;
+    elements.poemPage.classList.add("has-mobile-artwork");
+    elements.poemPage.style.setProperty(
+      "--mobile-artwork",
+      `url(${JSON.stringify(poem.artwork)})`,
+    );
   } else {
     elements.artworkImage.removeAttribute("src");
     elements.artworkImage.hidden = true;
     elements.artPlaceholder.hidden = false;
+    elements.poemPage.classList.remove("has-mobile-artwork");
+    elements.poemPage.style.removeProperty("--mobile-artwork");
   }
 
   const index = state.poems.findIndex((entry) => entry.id === poem.id);
@@ -244,7 +251,6 @@ function moveReader(direction) {
   if (!next) return;
 
   const useSimpleTransition =
-    window.matchMedia("(max-width: 900px)").matches ||
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   if (useSimpleTransition) {
     renderReader(next);
