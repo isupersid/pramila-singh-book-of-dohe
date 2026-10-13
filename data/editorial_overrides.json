@@ -7748,5 +7748,700 @@
     "theme": "madhya-pradesh-culture",
     "confidence": "high",
     "contextConfidence": "high"
+  },
+  "notes_20240423125818": {
+    "literalEnglish": [
+      "1.",
+      "Desi, Magahi, Bangla, and Kapuri betel leaves:",
+      "Banarasi paan gives India a distinctive identity.",
+      "2.",
+      "The city of Vishwanath has a matchless identity;",
+      "there are Banarasi saris and many varieties of paan.",
+      "4.",
+      "Since gutka became common, the paan trade has declined;",
+      "the lives of betel-leaf farmers have suffered misfortune.",
+      "5.",
+      "Just as Shabari honoured Ramachandra,",
+      "in the same way, paan receives great honour in this world.",
+      "6.",
+      "Its price is five thousand, with no exception found;",
+      "Aurangabad is making an expensive paan."
+    ],
+    "childFriendlyEnglish": "These verses celebrate regional varieties of paan and Banaras traditions, while also worrying about struggling growers and marvelling at an unusually expensive paan associated with Aurangabad.",
+    "simpleHindiExplanation": "इन दोहों में देसी, मगही, बंगला, कपूरी और बनारसी पान की विविधता तथा बनारस की साड़ी-पान वाली पहचान का वर्णन है। साथ ही गुटखे से पान उद्योग और किसानों को हुए नुकसान, पान के आदर और औरंगाबाद के महँगे पान का उल्लेख है।",
+    "context": "Dated 2023-11-17 with “पान” as the prompt, this is a numbered set whose surviving sequence omits item 3. “Vishwanath's city” appears to mean Varanasi. The five-thousand price and Aurangabad reference are preserved as claims in the poem; the product, currency, and source are not identified.",
+    "theme": "paan-regions-trade-and-custom",
+    "confidence": "medium",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125822": {
+    "literalEnglish": [
+      "Watch Shami's bowling, and watch the catches.",
+      "The cricket final is tomorrow; we will win the match."
+    ],
+    "childFriendlyEnglish": "On the eve of a cricket final, the poem cheers for India's team and looks forward to Mohammed Shami's bowling, good catches, and a hoped-for victory.",
+    "simpleHindiExplanation": "क्रिकेट फाइनल से एक दिन पहले कवयित्री शमी की गेंदबाजी और अच्छे कैच देखने का उत्साह व्यक्त करती हैं। जीत की बात समर्थक की आशा है, निश्चित परिणाम नहीं।",
+    "context": "Dated 2023-11-18, the day before the 2023 men's Cricket World Cup final between India and Australia, the lines appear to refer to Indian bowler Mohammed Shami and express a fan's prediction. India did not win that final.",
+    "theme": "cricket-final-hope",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125836": {
+    "literalEnglish": [
+      "1.",
+      "Early in the morning, tea brings delight.",
+      "After drinking hot tea, we write verse.",
+      "2.",
+      "Have tea and pakoras while reading the newspaper.",
+      "The taste will double when you read with relish."
+    ],
+    "childFriendlyEnglish": "The poem enjoys two familiar tea-time pleasures: writing poetry after a hot morning cup, and sharing tea and pakoras while reading the newspaper.",
+    "simpleHindiExplanation": "सुबह की गरम चाय से मिलने वाले आनंद को कविता-लेखन से जोड़ा गया है। दूसरे दोहे में चाय-पकौड़ों के साथ अखबार पढ़ने के घरेलू सुख का चित्र है।",
+    "context": "Dated 2023-11-19 with “चाय” as the prompt, these two couplets describe ordinary domestic routines. “Taste will double” is playful emphasis rather than a measurable claim.",
+    "theme": "tea-time-pleasures",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125842": {
+    "literalEnglish": [
+      "The gulgula is round, and the rasgulla is round too.",
+      "Eat them with affection; do not bargain over the price.",
+      "2.",
+      "Round amla fruits conceal every secret of health.",
+      "Worship the tree, for today is Akshaya Navami."
+    ],
+    "childFriendlyEnglish": "The verses play with round shapes, first enjoying two sweets and then turning to amla fruit and the custom of honouring the amla tree on Akshaya Navami.",
+    "simpleHindiExplanation": "पहले दोहे में गोल गुलगुले और रसगुल्ले का आनंद लेने की बात है। दूसरे में गोल आँवले को स्वास्थ्य से जोड़कर अक्षय नवमी पर आँवला-वृक्ष पूजन की परंपरा बताई गई है।",
+    "context": "Dated 2023-11-21 with “गोल” as the prompt, the second couplet appears to invoke Amla or Akshaya Navami, when some Hindu communities worship the amla tree. “Every secret of health” is poetic praise, not medical guidance.",
+    "theme": "round-sweets-and-amla-navami",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125846": {
+    "literalEnglish": [
+      "1.",
+      "At Jwala Ji, a flame has burned since ancient times.",
+      "Mughals and the British also kept searching for its source.",
+      "2.",
+      "The cremation-ground flame burns; it is forever unending.",
+      "Even Rama and Krishna one day met their end here."
+    ],
+    "childFriendlyEnglish": "The first verse recalls the sacred flame at Jwala Ji and stories about attempts to explain it. The second uses the cremation fire to remind readers that even revered lives are described as ending in bodily death.",
+    "simpleHindiExplanation": "पहले दोहे में ज्वाला जी की निरंतर जलती पवित्र ज्योति और उसके स्रोत की खोज से जुड़ी लोककथाओं का संकेत है। दूसरा दोहा श्मशान की ज्वाला से शरीर की नश्वरता का स्मरण कराता है।",
+    "context": "Dated 2023-11-22 with “ज्वाला” as the prompt, the first couplet appears to refer to the Jwala Ji temple in Himachal Pradesh. Stories involving Mughal and British interest circulate in devotional tradition, but the note gives no source. The final line is a broad religious reflection and does not mean Rama and Krishna died at this cremation ground.",
+    "theme": "sacred-flame-and-mortality",
+    "confidence": "medium",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125851": {
+    "literalEnglish": [
+      "Artisans connected with betel-nut craft are distressed.",
+      "The identity of this Rewa craft is coming to an end."
+    ],
+    "childFriendlyEnglish": "The poem worries that Rewa's traditional craft made from areca nut is losing recognition and leaving the artisans who depend on it in difficulty.",
+    "simpleHindiExplanation": "रीवा की सुपारी से बनी हस्तकला के घटते महत्व पर चिंता जताई गई है। इस शिल्प से जुड़े कारीगर अपनी आजीविका और परंपरागत पहचान के संकट से परेशान बताए गए हैं।",
+    "context": "The record is dated 2023-11-23, while its raw metadata gives 2023-11-20 and “सुपारी” as the prompt. Rewa is known for carved areca-nut handicrafts; “coming to an end” is the poem's warning, not a verified declaration that the craft has disappeared.",
+    "theme": "rewa-areca-nut-craft",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125855": {
+    "literalEnglish": [
+      "Forgetting “Ram-Ram,” people now say “hi.”",
+      "They have forgotten auspicious greetings and say “goodbye.”"
+    ],
+    "childFriendlyEnglish": "With gentle satire, the poem contrasts traditional greetings such as “Ram-Ram” with the growing everyday use of English “hi” and “goodbye.”",
+    "simpleHindiExplanation": "दोहा पारंपरिक अभिवादन “राम-राम” और अंग्रेजी के “हाय” व “गुड बाय” की तुलना करता है। इसमें बदलती भाषा और रीति पर हल्का व्यंग्य तथा पुरानी शुभकामना के छूटने की चिंता है।",
+    "context": "The catalog date is 2023-11-23, while the raw metadata gives 2023-11-21 and “हाय” as the prompt. The verse expresses a preference for a traditional greeting; it does not establish that everyone has abandoned it.",
+    "theme": "changing-greetings",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130302": {
+    "literalEnglish": [
+      "You are the son of Shiva Shankar, Ganesha, son of Gauri.",
+      "You remove devotees' sorrow; cut away my troubles."
+    ],
+    "childFriendlyEnglish": "This prayer addresses Ganesha as the son of Shiva and Gauri and asks the beloved remover of obstacles to ease the speaker's suffering.",
+    "simpleHindiExplanation": "गणेश को शिव-शंकर और गौरी का पुत्र तथा भक्तों के दुख हरने वाला कहा गया है। कवयित्री उनसे अपने कष्ट दूर करने की प्रार्थना करती हैं।",
+    "context": "The record is dated 2023-11-23, while the raw metadata gives 2023-11-24 and “तनय” as the prompt. The family relationships and power to remove suffering belong to Hindu devotional tradition.",
+    "theme": "prayer-to-ganesha",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130307": {
+    "literalEnglish": [
+      "There are king, queen, workers, and labourers.",
+      "The ants' union is formed, full of order and rules."
+    ],
+    "childFriendlyEnglish": "The poem watches an ant colony as an organised community in which different members work together under a clear system.",
+    "simpleHindiExplanation": "चींटियों के समूह को सुव्यवस्थित संघ के रूप में देखा गया है, जहाँ अलग-अलग भूमिकाएँ और अनुशासन मिलकर सामूहिक जीवन चलाते हैं। “राजा” मानवीय उपमा है, वैज्ञानिक वर्गीकरण नहीं।",
+    "context": "Dated 2023-11-24 with “संघ” as the prompt, the couplet anthropomorphises an ant colony as a regulated society. Ant colonies have queens and workers, but the poem's “king” and “labourer” labels should be read as poetic social roles rather than precise entomology.",
+    "theme": "ant-colony-organisation",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130311": {
+    "literalEnglish": [
+      "1.",
+      "When cows leave the pasture and head towards their shelters,",
+      "the sun, wrapped in cow-dust dusk, moves to the western horizon.",
+      "2.",
+      "It is the hour of cow-dust dusk, and the calf is restless.",
+      "Its eyes are eager to meet its mother cow."
+    ],
+    "childFriendlyEnglish": "At sunset, returning cattle raise a soft haze of dust. Against that evening scene, a restless calf waits eagerly to be reunited with its mother.",
+    "simpleHindiExplanation": "गोधूलि में चरागाह से लौटती गायों की धूल और पश्चिम में ढलते सूर्य का सुंदर दृश्य है। दूसरे दोहे में बछड़ा अपनी माँ से मिलने के लिए व्याकुल दिखाई देता है।",
+    "context": "Dated 2023-11-25 with “गोधूलि” as the prompt, the verses draw on the literal image behind the Hindi term: dust raised by cattle returning around sunset. No specific village or observed herd is identified.",
+    "theme": "cattle-at-dusk",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130314": {
+    "literalEnglish": [
+      "The groom and bride take their wedding rounds, joined by the ceremonial knot.",
+      "They complete the rites, hand in hand."
+    ],
+    "childFriendlyEnglish": "The couple walks the wedding rounds together, linked by a knot and holding hands as they complete the marriage rituals.",
+    "simpleHindiExplanation": "वर-वधू विवाह की गाँठ से जुड़े हुए फेरे ले रहे हैं। हाथ में हाथ लेकर वे वैवाहिक रस्में पूरी करते हैं और साथ निभाने का संकल्प व्यक्त करते हैं।",
+    "context": "The catalog date is 2023-11-25, while the raw metadata gives 2023-11-24 and “वर” as the prompt. The imagery is that of Hindu wedding rounds and the tied garments used in the ceremony.",
+    "theme": "wedding-rites",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130318": {
+    "literalEnglish": [
+      "For an eye doctor, a magnetic instrument is remarkable.",
+      "It immediately removes an iron particle that has fallen into the eye."
+    ],
+    "childFriendlyEnglish": "The poem describes a doctor using a magnetic tool to remove an iron fragment from an eye, a task that needs trained medical care rather than a home remedy.",
+    "simpleHindiExplanation": "आँख में पड़ा लौह-कण निकालने के लिए नेत्र-चिकित्सक द्वारा चुंबकीय उपकरण के उपयोग का वर्णन है। ऐसी चोट में स्वयं प्रयोग करने के बजाय तुरंत विशेषज्ञ चिकित्सा लेनी चाहिए।",
+    "context": "Dated 2023-11-25 with “चुंबक” as the prompt, the couplet refers to the medical use of magnetism for some ferromagnetic eye foreign bodies. Suitability depends on the fragment and injury, so “immediately” should not be treated as universal clinical advice.",
+    "theme": "magnetic-eye-instrument",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130322": {
+    "literalEnglish": [
+      "1.",
+      "Remembering the old taste, regret rises in the heart.",
+      "When the batua sat on the stove, lentils cooked in it.",
+      "2.",
+      "The batua was scrubbed with ash and shone wonderfully.",
+      "Fragrant lentils, rich in vitamins, were served from it.",
+      "3.",
+      "The batua filled with foam as the lentils came to a boil.",
+      "Turmeric and rock salt were then added."
+    ],
+    "childFriendlyEnglish": "These verses remember lentils slowly cooking in an old household vessel called a batua, its ash-polished shine, earthy aroma, bubbling surface, and simple seasoning.",
+    "simpleHindiExplanation": "इन दोहों में “बटुआ” नाम के पुराने पकाने के बर्तन में दाल बनने की स्मृति है। राख से माँजना, दाल का उबलना और हल्दी-खड़े नमक से उसका सोंधा स्वाद बनना पुराने घरेलू जीवन को याद कराता है।",
+    "context": "Dated 2023-11-26 with “बटुआ” as the prompt, the word appears to name a traditional cooking vessel rather than a wallet. Its exact regional form and material are not stated. The vitamin description is the poem's general nutritional praise.",
+    "theme": "traditional-lentil-cooking-vessel",
+    "confidence": "medium",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423130326": {
+    "literalEnglish": [
+      "Mountain life is hard, with biting cold.",
+      "Cloudbursts occur here, and land masses sink."
+    ],
+    "childFriendlyEnglish": "The poem points to severe cold and dangerous events such as cloudbursts and ground subsidence to show why life in mountain regions can be difficult.",
+    "simpleHindiExplanation": "पर्वतीय जीवन की कठिनाइयों में कड़ाके की ठंड, बादल फटना और जमीन धँसना गिनाए गए हैं। यह पहाड़ी क्षेत्रों की प्राकृतिक जोखिमों के प्रति चिंता व्यक्त करता है।",
+    "context": "Dated 2023-11-26 with “पर्वतीय” as the prompt, the lines describe mountain hazards in general. They may resonate with recent Himalayan disasters, but no particular location or event is named.",
+    "theme": "mountain-life-hazards",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423130330": {
+    "literalEnglish": [
+      "A discerning person keeps a distinct identity within a crowd.",
+      "Among the constellations, the Pole Star holds a special place."
+    ],
+    "childFriendlyEnglish": "Like the Pole Star standing out in the night sky, a thoughtful person can keep an individual identity without simply blending into a crowd.",
+    "simpleHindiExplanation": "विवेकी व्यक्ति भीड़ में भी अपनी अलग पहचान बनाए रखता है। ध्रुव तारे की विशिष्टता को ऐसे स्वतंत्र और स्थिर व्यक्तित्व की उपमा बनाया गया है।",
+    "context": "The record is dated 2023-11-27, while the raw metadata gives 2023-11-26 and “भीड़” as the prompt. The Pole Star comparison is a moral image, not a technical description of constellations.",
+    "theme": "individuality-in-a-crowd",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130333": {
+    "literalEnglish": [
+      "Enjoy yourself while sitting at home; do not go to the shop.",
+      "All kinds of goods are now sold online."
+    ],
+    "childFriendlyEnglish": "The poem notices how online shopping lets people order many goods from home instead of visiting a physical shop.",
+    "simpleHindiExplanation": "ऑनलाइन खरीदारी के कारण घर बैठे सामान मँगाने की सुविधा बताई गई है। दोहा बदलते बाजार और दुकान तक जाने की कम होती आवश्यकता को हल्के-फुल्के ढंग से देखता है।",
+    "context": "The catalog date is 2023-11-27, while the raw metadata gives 2023-11-28 and “दुकान” as the prompt. “All goods” is conversational exaggeration; access and availability vary.",
+    "theme": "online-shopping-from-home",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130337": {
+    "literalEnglish": [
+      "1.",
+      "The ED reins in corrupt people.",
+      "It is a commonly used whip for stopping money laundering.",
+      "2.",
+      "Weigh your words before bringing them to expression.",
+      "To signal a horse, pull its reins.",
+      "3.",
+      "By banning old notes, a hand took hold of the reins.",
+      "Those who hoarded wealth found their plans disrupted."
+    ],
+    "childFriendlyEnglish": "The set uses a rein as a symbol of control: for financial enforcement, careful speech, guiding a horse, and the claimed effect of demonetisation on hoarded money.",
+    "simpleHindiExplanation": "“लगाम” को नियंत्रण के रूपक के रूप में कई जगह रखा गया है—ईडी की कार्रवाई, बोलने से पहले शब्द तौलना, घोड़े को दिशा देना और नोटबंदी से जमाखोरी रोकना। राजनीतिक दावे कविता के दृष्टिकोण हैं।",
+    "context": "Dated 2023-11-28 with “लगाम” as the prompt, ED appears to mean India's Enforcement Directorate and “old notes” appears to refer to demonetisation. The assertions that targets are corrupt and that hoarders were thwarted are political judgments in the poem, not independently established findings.",
+    "theme": "reins-as-control",
+    "confidence": "medium",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423130340": {
+    "literalEnglish": [
+      "With the Ujjwala scheme begun, women feel proud.",
+      "They received a new gas stove and can stay away from smoke."
+    ],
+    "childFriendlyEnglish": "The poem welcomes a household gas connection under the Ujjwala scheme as a way for women to cook with less exposure to smoke from traditional fuels.",
+    "simpleHindiExplanation": "उज्ज्वला योजना के तहत नया गैस चूल्हा मिलने से महिलाओं को धुएँ वाले पारंपरिक ईंधन से राहत मिलने की आशा दिखाई गई है। “गुरूर” यहाँ प्रसन्नता और गौरव के अर्थ में है।",
+    "context": "The catalog date is 2023-11-28, while the raw metadata gives 2023-11-29 and “योजना” as the prompt. The reference appears to be India's Pradhan Mantri Ujjwala Yojana. The verse praises its intended benefit but does not address refill cost or sustained use.",
+    "theme": "ujjwala-cleaner-cooking",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130344": {
+    "literalEnglish": [
+      "1.",
+      "Always show respect when a meal has been served on the plate.",
+      "Remember to eat first rather than becoming distracted by talk.",
+      "2.",
+      "Sir, always remain firm in your position.",
+      "A rolling eggplant on a plate loses its dignity.",
+      "3.",
+      "The Rajasthani thali has a distinction of its own.",
+      "Baati, khichda, and churma are among its many dishes.",
+      "4.",
+      "Idli, sambar, and rasam are served; medu vada is special.",
+      "A South Indian thali fills the heart with delight.",
+      "5.",
+      "There are roti, rice, lentils, vegetables, curd, and salad.",
+      "A traditional thali has an excellent taste."
+    ],
+    "childFriendlyEnglish": "Five playful verses move from respecting served food and standing by one's principles to enjoying the distinctive dishes of Rajasthani, South Indian, and everyday traditional thalis.",
+    "simpleHindiExplanation": "इन पाँच दोहों में परोसे भोजन का सम्मान, अपनी बात पर स्थिर रहने की सीख और अलग-अलग भारतीय थालियों का स्वाद है। “थाली का बैंगन” बार-बार पक्ष बदलने वाले व्यक्ति का मुहावरा है।",
+    "context": "Dated 2023-11-29 with “थाली” as the prompt, the set combines etiquette, an idiom, and regional food examples. The named dishes are illustrative rather than complete or exclusive definitions of Rajasthani and South Indian cuisines.",
+    "theme": "thali-etiquette-idiom-and-cuisines",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130347": {
+    "literalEnglish": [
+      "When trouble comes, never lose your judgment.",
+      "Use your wits quickly, and many paths will appear."
+    ],
+    "childFriendlyEnglish": "In a crisis, the poem advises staying calm, thinking clearly, and using quick judgment to find more than one possible solution.",
+    "simpleHindiExplanation": "संकट के समय विवेक न खोने और तुरंत समझदारी से काम लेने की सीख है। शांत और सजग सोच से समस्या के कई रास्ते मिल सकते हैं।",
+    "context": "The catalog date is 2023-11-29, while the raw metadata gives 2023-11-30 and “अक्ल” as the prompt. It offers general practical advice rather than referring to a named emergency.",
+    "theme": "clear-thinking-in-crisis",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130351": {
+    "literalEnglish": [
+      "1",
+      "I opened my album and saw old pictures.",
+      "My happiness doubled on seeing old",
+      "friends.",
+      "2.",
+      "Friend, let us go to Ajanta to view the life of the Buddha.",
+      "The caves show pictures of truth, nonviolence, and faith."
+    ],
+    "childFriendlyEnglish": "Old photographs bring back the joy of friendship, while the second verse invites a friend to see Ajanta's Buddhist paintings and stories.",
+    "simpleHindiExplanation": "पहले दोहे में पुराने एल्बम के चित्र देखकर मित्रों की याद और खुशी लौटती है। दूसरे में अजंता की बौद्ध गुफाओं के चित्र देखने का निमंत्रण है, जिन्हें सत्य, अहिंसा और धर्म से जोड़ा गया है।",
+    "context": "Dated 2023-11-30 with “चित्र” as the prompt, the source itself splits “old friends” across two lines, which the translation preserves. Ajanta contains Buddhist murals and narratives; describing them as a single Buddha biography is the poem's broad summary.",
+    "theme": "pictures-memory-and-ajanta",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130355": {
+    "literalEnglish": [
+      "1.",
+      "His vehicle is slow, and he is a treasury of wisdom.",
+      "Lord Ganesha is worshipped first in the world.",
+      "2.",
+      "When driving a vehicle, do not behave without restraint.",
+      "Follow the rules and slow down at turns.",
+      "3.",
+      "During the coronavirus period, the pace of development slowed.",
+      "Everyone was confined at home, and businesses were closed."
+    ],
+    "childFriendlyEnglish": "The set explores “slow” in three ways: Ganesha's mouse vehicle, safe driving at bends, and the slowdown caused by COVID-era restrictions.",
+    "simpleHindiExplanation": "“मंद” शब्द को तीन संदर्भों में रखा गया है—गणेश के छोटे वाहन की धीमी चाल, मोड़ पर वाहन धीमा रखने की सुरक्षा, और कोरोना काल में विकास व कारोबार की गति रुकना।",
+    "context": "Dated 2023-12-01 with “मंद” as the prompt, the first couplet uses devotional Ganesha imagery, the second gives road-safety advice, and the third recalls broad disruption during the COVID-19 pandemic. “Everyone” is rhetorical, since restrictions varied.",
+    "theme": "three-meanings-of-slow",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130401": {
+    "literalEnglish": [
+      "All living beings in the world seem like plants.",
+      "God is the gardener who waters everyone."
+    ],
+    "childFriendlyEnglish": "The poem imagines every living being as a growing plant and God as a caring gardener who gives nourishment to all.",
+    "simpleHindiExplanation": "संसार के सभी जीवों को पौधों और ईश्वर को सबकी सिंचाई करने वाले माली के रूप में देखा गया है। यह सृष्टि की देखभाल का भक्तिपूर्ण रूपक है।",
+    "context": "Dated 2023-12-02 with “माली” as the prompt, the couplet is a devotional metaphor. “Waters” means sustains or nurtures rather than describing a literal act.",
+    "theme": "god-as-gardener",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130404": {
+    "literalEnglish": [
+      "Lata was an empress of melody, in whom the nation took pride.",
+      "When her gentle waves of voice are heard, a rapture spreads."
+    ],
+    "childFriendlyEnglish": "The poem honours Lata Mangeshkar, praising the softness of her singing voice and the pride and pleasure listeners found in her music.",
+    "simpleHindiExplanation": "लता मंगेशकर को “सुर साम्राज्ञी” कहकर उनके मधुर और मृदु स्वर की प्रशंसा की गई है। उनकी गायकी से देश के गौरव और श्रोताओं के आनंद को जोड़ा गया है।",
+    "context": "The catalog date is 2023-12-02, while the raw metadata gives 2023-12-01 and “मृदु” as the prompt. “Lata” appears to identify Indian playback singer Lata Mangeshkar, widely honoured with the title used here.",
+    "theme": "tribute-to-lata-mangeshkar",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130408": {
+    "literalEnglish": [
+      "Everyone is playing the flute that is life.",
+      "In some places happiness resounds; elsewhere separation casts its shadow."
+    ],
+    "childFriendlyEnglish": "Life becomes a flute played by every person, producing different notes: joy in some moments and the sadness of separation in others.",
+    "simpleHindiExplanation": "जीवन को बाँसुरी का रूपक दिया गया है, जिसे हर व्यक्ति अपने ढंग से बजाता है। कहीं उससे खुशी की धुन निकलती है, तो कहीं वियोग का दुख सुनाई देता है।",
+    "context": "Dated 2023-12-02 with “बांसुरी” as the prompt, the couplet uses music to express life's contrasting emotional experiences. It does not identify a particular separation.",
+    "theme": "life-as-a-flute",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130411": {
+    "literalEnglish": [
+      "In this harsh world, many sins have spread.",
+      "A woman was burned alive, and it was named sati."
+    ],
+    "childFriendlyEnglish": "The poem condemns the cruelty of burning a living woman and rejects the respectful label once used to disguise that violence.",
+    "simpleHindiExplanation": "दोहा सती-प्रथा की कठोर निंदा करता है। जीवित स्त्री को जलाने जैसी हिंसा को धार्मिक या सम्मानजनक नाम देने के अन्याय को उजागर किया गया है।",
+    "context": "Dated 2023-12-03 with “कठोर” as the prompt, the couplet refers to the historical practice commonly called sati and frames it explicitly as violence against women. It does not describe a named case.",
+    "theme": "condemnation-of-sati",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130414": {
+    "literalEnglish": [
+      "This alone is my wish; listen, compassionate Lord.",
+      "May this world become heaven, and may everyone prosper."
+    ],
+    "childFriendlyEnglish": "The speaker offers a simple prayer that the whole world become peaceful and joyful, with well-being shared by everyone.",
+    "simpleHindiExplanation": "दीनदयाल प्रभु से प्रार्थना है कि संसार स्वर्ग जैसा सुखमय बने और सभी लोग खुशहाल रहें। यह सबके कल्याण की सार्वभौमिक कामना है।",
+    "context": "Dated 2023-12-03 with “स्वर्ग” as the prompt, the verse uses “heaven” as an image of universal well-being. “दीनदयाल” is a devotional address to a compassionate deity, not necessarily a named person.",
+    "theme": "prayer-for-universal-wellbeing",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130418": {
+    "literalEnglish": [
+      "An elephant is controlled by a goad, and a horse by a whip.",
+      "Take up the whip of love, and the world will move together."
+    ],
+    "childFriendlyEnglish": "After naming tools used to control animals, the poem replaces force with a surprising metaphor: love should be the power that brings the world together.",
+    "simpleHindiExplanation": "हाथी के अंकुश और घोड़े के चाबुक से शुरू होकर दोहा प्रेम को दुनिया चलाने वाली शक्ति बनाता है। संदेश है कि बल के बजाय प्रेम से लोगों को साथ लाया जाए।",
+    "context": "Dated 2023-12-04 with “चाबुक” as the prompt, the final “whip of love” is figurative. The editorial meaning favours persuasion and solidarity, not physical punishment.",
+    "theme": "love-instead-of-force",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130422": {
+    "literalEnglish": [
+      "A tiny spark flew and fell on a heap of dry straw.",
+      "A high flame then surrounded the nearby area."
+    ],
+    "childFriendlyEnglish": "One small spark landing on dry straw grows into a fire that spreads around it, warning how quickly a neglected danger can become large.",
+    "simpleHindiExplanation": "सूखी फूस पर गिरी छोटी-सी चिंगारी बड़ी ज्वाला बनकर आसपास फैल जाती है। दृश्य आग से सावधानी और छोटी लापरवाही के बड़े परिणाम की चेतावनी देता है।",
+    "context": "Dated 2023-12-04 with “चिंगारी” as the prompt, the lines directly describe fire spreading through combustible material. A broader moral lesson is possible, but no social conflict is named.",
+    "theme": "spark-starting-a-fire",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130425": {
+    "literalEnglish": [
+      "The lamb bleats in surprise, with its mother's imprint in its voice.",
+      "Hearing the beat of the drum, it looks all around."
+    ],
+    "childFriendlyEnglish": "A young lamb reacts to a drumbeat with wonder, looking around and calling in a voice that resembles its mother's.",
+    "simpleHindiExplanation": "ढोलक की थाप सुनकर मेमना चकित होकर चारों ओर देखता है। उसकी आवाज में माँ की छाप बताकर बच्चे और माँ के स्वाभाविक संबंध का कोमल चित्र बनाया गया है।",
+    "context": "Dated 2023-12-05 with “स्वर” as the prompt, the scene appears observational or imaginative. The phrase about the mother's imprint in the lamb's voice is poetic and somewhat ambiguous.",
+    "theme": "lamb-hearing-a-drum",
+    "confidence": "medium",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423130428": {
+    "literalEnglish": [
+      "1.",
+      "Kaikeyi became merciless and struck at Dasharatha.",
+      "She demanded the two promises that had remained owed until then.",
+      "2.",
+      "The merciless Ghori abandoned all compassion and righteousness.",
+      "He captured Prithviraj and had his eyes put out."
+    ],
+    "childFriendlyEnglish": "Two remembered stories illustrate cruelty: Kaikeyi calling in Dasharatha's two promises, and a later legend in which Muhammad Ghori blinds Prithviraj Chauhan.",
+    "simpleHindiExplanation": "पहले दोहे में कैकेयी द्वारा दशरथ से पुराने दो वर माँगने को निर्ममता कहा गया है। दूसरे में पृथ्वीराज चौहान और मुहम्मद गौरी से जुड़ी अंधा किए जाने की लोककथा का उल्लेख है।",
+    "context": "Dated 2023-12-05 with “निर्मम” as the prompt, the first couplet draws on the Ramayana. In the second, “गौरी” appears to mean Muhammad Ghori; the blinding episode is prominent in later Prithviraj legend, while its historical reliability is disputed.",
+    "theme": "cruelty-in-epic-and-legend",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130432": {
+    "literalEnglish": [
+      "1.",
+      "A painted story shows Holi on the walls.",
+      "Those crimson marks look like palash flowers.",
+      "2.",
+      "Mother Yashoda is angry, and Krishna is running away.",
+      "The child ate soil, and a mark adorns his face.",
+      "3.",
+      "She received a new soap whose foam is tremendous.",
+      "Now the mother does not worry; stains seem good."
+    ],
+    "childFriendlyEnglish": "The three verses turn stains into colourful images: Holi marks like palash flowers, soil on child Krishna's face, and a playful detergent-style claim that a child's stains can be welcome.",
+    "simpleHindiExplanation": "तीन दोहों में “दाग” के अलग रूप हैं—होली के लाल निशान, मिट्टी खाने वाले बाल कृष्ण के मुख का दाग, और नए साबुन के साथ बच्चों के दागों को सहज मानने वाला विज्ञापन-जैसा भाव।",
+    "context": "Dated 2023-12-06 with “दाग” as the prompt, the set combines festival imagery, a Krishna childhood story, and wording that appears to echo the familiar “stains are good” detergent-advertising idea. No brand is named.",
+    "theme": "three-images-of-stains",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423130435": {
+    "literalEnglish": [
+      "He loosed an arrow at a target by listening for its sound.",
+      "No second Chauhan like him appeared again in this world."
+    ],
+    "childFriendlyEnglish": "The poem praises Prithviraj Chauhan through the famous legend that he could strike a target by sound alone.",
+    "simpleHindiExplanation": "पृथ्वीराज चौहान की “शब्दभेदी बाण” चलाने वाली प्रसिद्ध कथा के आधार पर उनकी वीरता और अद्वितीय कौशल की प्रशंसा की गई है।",
+    "context": "The catalog date is 2023-12-06, while the raw metadata gives 2023-12-05 and “आहट” as the prompt. The sound-guided arrow episode belongs to later heroic legend and should not be treated as securely documented history.",
+    "theme": "prithviraj-sound-guided-arrow",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130438": {
+    "literalEnglish": [
+      "1.",
+      "Metallic elements are valuable and have different prices.",
+      "Gold, silver, and platinum have different names.",
+      "2.",
+      "Among metals, mercury appears in liquid form and has useful forms.",
+      "Shiva lingams are made from it, with an incomparable shine.",
+      "3.",
+      "Science states that there are ninety-one metallic elements.",
+      "Human beings were able to discover copper first."
+    ],
+    "childFriendlyEnglish": "These verses introduce metals through precious examples, liquid mercury, ritual objects, and an account of how science classifies and humans first used metals.",
+    "simpleHindiExplanation": "दोहों में सोना, चाँदी, प्लेटिनम, पारा और ताँबा लेकर धातुओं के मूल्य, रूप और उपयोग की चर्चा है। पारे के शिवलिंग, धातुओं की संख्या और ताँबे की खोज वाले कथन सामान्यीकृत हैं, इसलिए उन्हें वैज्ञानिक निष्कर्ष न माना जाए।",
+    "context": "Dated 2023-12-07 with “धातु” as the prompt, the set mixes scientific and devotional claims. Mercury is liquid near room temperature, but it is toxic. The count of ninety-one metals depends on classification and is not a stable textbook fact; copper was among the earliest metals used by humans, not demonstrably the single first discovery everywhere.",
+    "theme": "metals-science-and-ritual",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130441": {
+    "literalEnglish": [
+      "Chandrayaan's sensation created a great stir.",
+      "The country's banner of fame spread in every direction.",
+      "2.",
+      "Early in the morning, a crow makes noise at the door.",
+      "Hope that a loved one is coming sends waves through the heart."
+    ],
+    "childFriendlyEnglish": "One verse celebrates the nationwide excitement around Chandrayaan; the other draws on the folk idea that a calling crow may announce the arrival of someone dear.",
+    "simpleHindiExplanation": "पहला दोहा चंद्रयान की सफलता से फैले राष्ट्रीय उत्साह और गौरव को व्यक्त करता है। दूसरा सुबह द्वार पर कौए की आवाज को प्रिय अतिथि के आने की लोक-मान्यता से जोड़ता है।",
+    "context": "Dated 2023-12-08 with “शोर” as the prompt, the Chandrayaan reference likely reflects the attention following Chandrayaan-3's 2023 lunar landing, though the mission number is not stated. The crow as a sign of a visitor is folklore, not a prediction.",
+    "theme": "chandrayaan-and-crow-calls",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423130445": {
+    "literalEnglish": [
+      "God has given a body to every living being.",
+      "This body itself, like a garment, is everyone's identity."
+    ],
+    "childFriendlyEnglish": "The poem imagines the body as a garment given by God, the visible form through which each living being is recognised.",
+    "simpleHindiExplanation": "हर जीव की देह को ईश्वर का दिया हुआ वस्त्र माना गया है। शरीर बाहरी पहचान देता है, जबकि “वस्त्र” यहाँ आध्यात्मिक रूपक है।",
+    "context": "Dated 2023-12-08 with “वस्त्र” as the prompt, the body-as-garment image is devotional and philosophical. It need not imply that outward appearance is a person's complete identity.",
+    "theme": "body-as-garment",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130449": {
+    "literalEnglish": [
+      "When you see wrongdoing, oppose it firmly.",
+      "But do not direct anger at anyone helpless."
+    ],
+    "childFriendlyEnglish": "The poem distinguishes courage from cruelty: speak strongly against wrong actions, but do not take anger out on a vulnerable person.",
+    "simpleHindiExplanation": "गलत काम का दृढ़ विरोध करने की सीख दी गई है, पर असहाय व्यक्ति पर क्रोध उतारने से रोका गया है। न्याय के साथ करुणा बनाए रखना इसका संदेश है।",
+    "context": "The catalog date is 2023-12-08, while the raw metadata gives 2023-12-07 and “विरोध” as the prompt. The advice is general and names no particular wrongdoing or protest.",
+    "theme": "firm-opposition-with-compassion",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130452": {
+    "literalEnglish": [
+      "Shiva dwells in the city of Kashi, and Rama in the city of Awadh.",
+      "Kanha dwells in Vrindavan, while Pushkar is Brahma's sacred abode."
+    ],
+    "childFriendlyEnglish": "The poem maps four sacred places to the deities most closely associated with them: Shiva with Kashi, Rama with Awadh, Krishna with Vrindavan, and Brahma with Pushkar.",
+    "simpleHindiExplanation": "काशी को शिव, अवध को राम, वृंदावन को कृष्ण और पुष्कर को ब्रह्मा से जोड़कर भारत के चार पवित्र स्थलों का भक्तिपूर्ण मानचित्र बनाया गया है।",
+    "context": "Dated 2023-12-09 with “अवध” as the prompt, these place-deity associations belong to Hindu sacred geography. “Dwells” expresses devotional association rather than a historical residence claim.",
+    "theme": "sacred-places-and-deities",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130456": {
+    "literalEnglish": [
+      "Sur's compositions are chiefly filled with the sentiment of parental love.",
+      "He described the child form of Shri Krishna wonderfully."
+    ],
+    "childFriendlyEnglish": "The poem praises Surdas for tenderly portraying child Krishna and the loving bond between a parent and child.",
+    "simpleHindiExplanation": "सूरदास की रचनाओं में वात्सल्य रस की प्रमुखता और बाल कृष्ण के सुंदर वर्णन की प्रशंसा की गई है। यहाँ “सूर” से सूरदास अभिप्रेत हैं।",
+    "context": "Dated 2023-12-09 with “वात्सल्य” as the prompt, “Sur” appears to mean the Bhakti poet Surdas, whose Krishna poetry is especially associated with childhood scenes and maternal affection.",
+    "theme": "surdas-and-child-krishna",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130459": {
+    "literalEnglish": [
+      "The vanara brothers Nala and Nila built the bridge.",
+      "The stones they touched floated upon the water."
+    ],
+    "childFriendlyEnglish": "The poem recalls the Ramayana tradition in which Nala and Nila help the vanara army build a sea bridge and the stones float.",
+    "simpleHindiExplanation": "रामकथा के नल-नील द्वारा समुद्र पर सेतु बनाने का प्रसंग है। उनके स्पर्श से पत्थरों के तैरने की बात भक्तिपरक कथा-परंपरा का हिस्सा है।",
+    "context": "Dated 2023-12-10 with “कपि” as the prompt, the lines refer to the Ramayana bridge-building episode. The floating stones are presented as sacred narrative, not as a scientific account.",
+    "theme": "nala-nila-building-the-bridge",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130503": {
+    "literalEnglish": [
+      "Those who receive grants become idle people.",
+      "The taxpayer in this country always remains troubled."
+    ],
+    "childFriendlyEnglish": "The poem voices a taxpayer's frustration that financial support can encourage dependency. It is a sharp opinion, not a fair description of every person who receives assistance.",
+    "simpleHindiExplanation": "दोहा अनुदान पाने वालों के निकम्मे हो जाने और करदाता के परेशान रहने की कठोर शिकायत करता है। यह कविताई मत है; सभी अनुदान या सभी लाभार्थियों पर इसे तथ्य की तरह लागू नहीं किया जा सकता।",
+    "context": "Dated 2023-12-10 with “अनुदान” as the prompt, the couplet presents a critical view of public subsidies or grants without naming a programme. It supplies no evidence that recipients generally become idle, so the claim should not be generalised.",
+    "theme": "critique-of-grants-and-tax-burden",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130507": {
+    "literalEnglish": [
+      "1.",
+      "Lankini became distressed after being struck by the vanara.",
+      "She understood that the destruction of the demon clan was about to begin.",
+      "2.",
+      "Then she remembered Brahma's boon.",
+      "At once she recognised the vanara as Hanuman, Rama's messenger.",
+      "3.",
+      "Bowing, she spoke to the vanara and made a comparison with holy company:",
+      "even if heaven were placed on a scale, it would not equal one part of it."
+    ],
+    "childFriendlyEnglish": "The verses retell Hanuman's meeting with Lankini at Lanka's gate: his blow fulfils a prophecy, she recognises Rama's messenger, and she praises the worth of holy company.",
+    "simpleHindiExplanation": "हनुमान के लंका प्रवेश पर लंकिनी से हुई भेंट का वर्णन है। प्रहार के बाद उसे ब्रह्मा के वर की याद आती है, वह हनुमान को रामदूत पहचानती है और सत्संग को स्वर्ग से भी अधिक मूल्यवान बताती है।",
+    "context": "Dated 2023-12-10 with “कपि” as the prompt, the set follows a devotional Ramayana tradition, especially the Lankini episode familiar from the Ramcharitmanas. The comparison between satsang and heaven is a statement of faith.",
+    "theme": "hanuman-and-lankini",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130515": {
+    "literalEnglish": [
+      "The Kauravas remain in doubt, taking an army of falsehood.",
+      "Shri Krishna stands with truth, always acting with ease."
+    ],
+    "childFriendlyEnglish": "Using the Mahabharata's opposing sides, the poem says that a large force built on falsehood remains insecure, while truth has Krishna's support.",
+    "simpleHindiExplanation": "कौरवों को असत्य की बड़ी सेना के साथ भी दुविधा में दिखाया गया है, जबकि सत्य के पक्ष में श्रीकृष्ण हैं। संदेश है कि संख्या से अधिक महत्व धर्म और सत्य का है।",
+    "context": "The catalog date is 2023-12-10, while the raw metadata gives 2023-12-11 and “असत्य” as the prompt. The couplet interprets the Mahabharata morally rather than summarising every character or event.",
+    "theme": "truth-in-the-mahabharata",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130519": {
+    "literalEnglish": [
+      "Tear drops were in the eyes, while everyone's gaze was on the television.",
+      "When the match was lost, everyone became distressed."
+    ],
+    "childFriendlyEnglish": "People watch an important match on television and react to defeat with tears and shared disappointment.",
+    "simpleHindiExplanation": "टीवी पर मैच देखते लोगों की हार के बाद की निराशा और आँखों के आँसू दिखाए गए हैं। कौन-सा मैच था, यह स्रोत में स्पष्ट नहीं है।",
+    "context": "Dated 2023-12-11 with “बिंदु” as the prompt, the verse describes spectators upset by a match loss. Although it may recall a prominent recent cricket defeat, no team, sport, or match is named, so a specific event cannot be confirmed.",
+    "theme": "spectators-grieving-a-match-loss",
+    "confidence": "high",
+    "contextConfidence": "low"
+  },
+  "notes_20240423130525": {
+    "literalEnglish": [
+      "Whenever you are surrounded by trouble, go before Krishna.",
+      "Place your case before Nandalal."
+    ],
+    "childFriendlyEnglish": "The poem encourages a person in distress to speak openly to Krishna in prayer and entrust the problem to him.",
+    "simpleHindiExplanation": "संकट में कृष्ण के सामने जाकर अपनी बात रखने की भक्तिपूर्ण सलाह है। “नंदलाल” कृष्ण का स्नेहपूर्ण नाम है और “पक्ष रखना” प्रार्थना में मन की व्यथा कहना है।",
+    "context": "The catalog date is 2023-12-11, while the raw metadata gives 2023-12-12 and “पक्ष” as the prompt. The couplet offers devotional reassurance rather than a guaranteed solution to hardship.",
+    "theme": "placing-troubles-before-krishna",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130530": {
+    "literalEnglish": [
+      "Lawyer Parasaran presented Rama's case.",
+      "He obtained justice for Rama before the whole world."
+    ],
+    "childFriendlyEnglish": "The poem praises lawyer K. Parasaran's role in presenting the Ram Lalla side of the Ayodhya title case, describing the outcome in devotional language as justice for Rama.",
+    "simpleHindiExplanation": "अयोध्या भूमि-विवाद में रामलला पक्ष की ओर से वरिष्ठ वकील के. परासरन की भूमिका की प्रशंसा है। “राम को न्याय” निर्णय की भक्तिपूर्ण व्याख्या है, पूरा कानूनी विवरण नहीं।",
+    "context": "The catalog date is 2023-12-11, while the raw metadata gives 2023-12-12 and “पक्ष” as the prompt. “पाराशरण” appears to mean senior advocate K. Parasaran, who argued for Ram Lalla Virajman in the Supreme Court Ayodhya case. The second line states the poem's religious and legal interpretation of the 2019 judgment.",
+    "theme": "k-parasaran-and-ayodhya-case",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130533": {
+    "literalEnglish": [
+      "It is regrettable that people lack knowledge.",
+      "Not all people in India now know the Vedas."
+    ],
+    "childFriendlyEnglish": "The poem laments that knowledge of the Vedas is no longer widespread in India and expresses a wish for greater familiarity with that scriptural tradition.",
+    "simpleHindiExplanation": "भारत में वेदों का ज्ञान व्यापक न रहने पर खेद व्यक्त किया गया है। यह धार्मिक-सांस्कृतिक शिक्षा की चिंता है, पर लोगों की अज्ञानता का व्यापक निर्णय कविता का मत है।",
+    "context": "Dated 2023-12-12 with “वेद” as the prompt, the couplet makes a broad cultural criticism. “Not all” is rendered literally; the record provides no survey of Vedic knowledge and should not be read as one.",
+    "theme": "concern-about-vedic-knowledge",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130537": {
+    "literalEnglish": [
+      "To wear the crown, someone left the party today.",
+      "Many legislators have been bought; they will deliver power."
+    ],
+    "childFriendlyEnglish": "The poem sharply criticises political defection, alleging that ambition for office and the buying of legislators can be used to gain control of a government.",
+    "simpleHindiExplanation": "सत्ता का “ताज” पाने के लिए दल बदलने और विधायकों की खरीद-फरोख्त का आरोप लगाया गया है। यह राजनीतिक व्यंग्य है; किसी व्यक्ति, दल या घटना का नाम स्रोत में नहीं है।",
+    "context": "The catalog date is 2023-12-12, while the raw metadata gives 2023-12-13 and “ताज” as the prompt. The lines appear to comment on party switching and alleged horse-trading, but no jurisdiction or actors are identified. “Bought” remains an unverified allegation voiced by the poem.",
+    "theme": "political-defection-and-power",
+    "confidence": "high",
+    "contextConfidence": "low"
+  },
+  "notes_20240423130540": {
+    "literalEnglish": [
+      "If an unknown person asks you for shelter,",
+      "think carefully before giving them a place in your home."
+    ],
+    "childFriendlyEnglish": "The poem balances kindness with safety, advising people to pause and assess the situation before allowing an unfamiliar person into their home.",
+    "simpleHindiExplanation": "किसी अनजान व्यक्ति को आश्रय देना करुणा का काम हो सकता है, पर घर में स्थान देने से पहले सावधानी से सोचने की सलाह दी गई है।",
+    "context": "Dated 2023-12-13 with “आश्रय” as the prompt, the couplet gives general household-safety advice. It does not say that every stranger is dangerous or reject helping through safer alternatives.",
+    "theme": "caution-when-offering-shelter",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423130546": {
+    "literalEnglish": [
+      "Violence is to be rejected in the world, all religions say.",
+      "Life has been given for living; everyone should understand this truth."
+    ],
+    "childFriendlyEnglish": "The poem makes a broad appeal to reject violence, respect life, and recognise that human life should be lived rather than destroyed.",
+    "simpleHindiExplanation": "सभी धर्मों के साझा संदेश के रूप में हिंसा छोड़ने और जीवन का सम्मान करने की बात कही गई है। मनुष्य को मिले जीवन के मूल्य को समझना इसका मुख्य संदेश है।",
+    "context": "The catalog date is 2023-12-13, while the raw metadata gives 2023-12-14 and “त्याज्य” as the prompt. “All religions” is an inclusive moral generalisation rather than a detailed comparison of doctrines.",
+    "theme": "rejection-of-violence",
+    "confidence": "high",
+    "contextConfidence": "high"
   }
 }
