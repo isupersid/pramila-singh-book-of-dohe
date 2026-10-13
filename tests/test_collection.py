@@ -2,6 +2,7 @@ import json
 import subprocess
 import sys
 import unittest
+from collections import Counter
 from pathlib import Path
 
 
@@ -30,6 +31,14 @@ class CollectionBuildTests(unittest.TestCase):
             source = ROOT / poem["source"]
             expected = source.read_text(encoding="utf-8-sig").strip()
             self.assertEqual(expected, poem["raw"], poem["id"])
+
+    def test_source_notes_are_unique(self):
+        contents = [
+            source.read_text(encoding="utf-8-sig").strip()
+            for source in (ROOT / "content" / "notes").glob("*.txt")
+        ]
+        duplicates = [text for text, count in Counter(contents).items() if count > 1]
+        self.assertEqual([], duplicates)
 
     def test_entries_have_readable_content(self):
         for poem in self.poems:
