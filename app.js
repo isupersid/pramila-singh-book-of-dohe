@@ -23,8 +23,10 @@ const elements = {
   readerNumber: document.querySelector("#reader-number"),
   readerTitle: document.querySelector("#reader-title"),
   readerBody: document.querySelector("#reader-body"),
-  readerRaw: document.querySelector("#reader-raw"),
-  originalNote: document.querySelector(".original-note"),
+  readerTabs: [...document.querySelectorAll("[data-reader-tab]")],
+  readerInterpretation: document.querySelector("#reader-interpretation"),
+  editorialConfidence: document.querySelector("#editorial-confidence"),
+  scrollAffordance: document.querySelector("#scroll-affordance"),
   favoriteButton: document.querySelector("#favorite-button"),
   copyLink: document.querySelector("#copy-link"),
   printPoem: document.querySelector("#print-poem"),
@@ -41,14 +43,24 @@ const elements = {
 
 const state = {
   poems: [],
+  editorial: {},
   visible: [],
   selectedYear: "all",
   favoritesOnly: false,
   renderedCount: PAGE_SIZE,
   currentPoem: null,
   displayedArtworkId: null,
+  activeReaderTab: "roman",
   isTurning: false,
   favorites: new Set(JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]")),
+};
+
+const readerTabLabels = {
+  roman: "Roman transliteration",
+  english: "English draft",
+  simple: "सरल अर्थ",
+  context: "संदर्भ",
+  archive: "मूल अभिलेख",
 };
 
 function searchableText(poem) {
@@ -221,14 +233,147 @@ function renderArtworkPage(poem) {
   }
 }
 
+function appendHeading(container, text) {
+  const heading = document.createElement("h3");
+  heading.textContent = text;
+  container.append(heading);
+}
+
+function appendLines(container, lines, className = "") {
+  const group = document.createElement("div");
+  if (className) group.className = className;
+  lines.forEach((line) => {
+    const paragraph = document.createElement("p");
+    paragraph.textContent = line || "\u00a0";
+    group.append(paragraph);
+  });
+  container.append(group);
+}
+
+function appendEditorialNote(container, text) {
+  if (!text) return;
+  const note = document.createElement("p");
+  note.className = "editorial-note";
+  note.textContent = text;
+  container.append(note);
+}
+
+function readerTabHasContent(tab, editorial) {
+  if (tab === "archive") return Boolean(state.currentPoem?.raw);
+  if (!editorial) return false;
+  if (tab === "roman") return Boolean(editorial.romanTransliteration?.lines?.length);
+  if (tab === "english") {
+    return Boolean(
+      editorial.literalEnglish?.lines?.length ||
+      editorial.childFriendlyEnglish?.text,
+    );
+  }
+  if (tab === "simple") return Boolean(editorial.simpleHindiExplanation?.text);
+  if (tab === "context") return Boolean(editorial.context?.text);
+  return false;
+}
+
+function updateScrollAffordance() {
+  if (!elements.readerInterpretation || !elements.scrollAffordance) return;
+  const panel = elements.readerInterpretation;
+  const hasOverflow = panel.scrollHeight > panel.clientHeight + 2;
+  const atEnd = panel.scrollTop + panel.clientHeight >= panel.scrollHeight - 4;
+  elements.scrollAffordance.hidden = !hasOverflow || atEnd;
+}
+
+function renderEditorialTab(tab = state.activeReaderTab) {
+  if (!state.currentPoem || !elements.readerInterpretation) return;
+  const editorial = state.editorial[state.currentPoem.id];
+  const availableTabs = elements.readerTabs.filter((button) =>
+    readerTabHasContent(button.dataset.readerTab, editorial),
+  );
+  if (!readerTabHasContent(tab, editorial)) {
+    tab = availableTabs[0]?.dataset.readerTab || "archive";
+  }
+  state.activeReaderTab = tab;
+
+  elements.readerTabs.forEach((button) => {
+    const isAvailable = readerTabHasContent(button.dataset.readerTab, editorial);
+    const isSelected = button.dataset.readerTab === tab;
+    button.disabled = !isAvailable;
+    button.setAttribute("aria-selected", String(isSelected));
+    button.tabIndex = isSelected ? 0 : -1;
+  });
+
+  const panel = elements.readerInterpretation;
+  panel.replaceChildren();
+  panel.setAttribute("aria-label", readerTabLabels[tab]);
+
+  if (tab === "roman") {
+    appendLines(panel, editorial.romanTransliteration.lines, "roman-lines");
+    appendEditorialNote(
+      panel,
+      "Machine transliteration draft; pronunciation and word boundaries need family review.",
+    );
+  } else if (tab === "english") {
+    appendHeading(panel, "Literal English draft");
+    appendLines(panel, editorial.literalEnglish.lines, "english-lines");
+    appendEditorialNote(panel, editorial.literalEnglish.editorialNote);
+    if (editorial.childFriendlyEnglish?.text) {
+      appendHeading(panel, "For younger readers");
+      const meaning = document.createElement("p");
+      meaning.textContent = editorial.childFriendlyEnglish.text;
+      panel.append(meaning);
+      appendEditorialNote(panel, editorial.childFriendlyEnglish.editorialNote);
+    }
+  } else if (tab === "simple") {
+    const meaning = document.createElement("p");
+    meaning.lang = "hi";
+    meaning.textContent = editorial.simpleHindiExplanation.text;
+    panel.append(meaning);
+    appendEditorialNote(panel, editorial.simpleHindiExplanation.editorialNote);
+  } else if (tab === "context") {
+    const context = document.createElement("p");
+    context.textContent = editorial.context.text;
+    panel.append(context);
+    appendHeading(panel, "साक्ष्य");
+    const evidence = document.createElement("ul");
+    editorial.context.evidence.forEach((item) => {
+      const entry = document.createElement("li");
+      entry.textContent =
+        item.type === "provided-prompt"
+          ? `मंच/अभिलेख में दिया शब्द: ${item.value}`
+          : `सुरक्षित तारीख: ${item.value}`;
+      evidence.append(entry);
+    });
+    panel.append(evidence);
+    appendEditorialNote(panel, editorial.context.editorialNote);
+  } else {
+    const pre = document.createElement("pre");
+    pre.textContent = state.currentPoem.raw;
+    panel.append(pre);
+  }
+
+  const confidence =
+    tab === "archive"
+      ? ""
+      : editorial?.[
+          tab === "roman"
+            ? "romanTransliteration"
+            : tab === "english"
+              ? "literalEnglish"
+              : tab === "simple"
+                ? "simpleHindiExplanation"
+                : "context"
+        ]?.confidence;
+  elements.editorialConfidence.textContent = confidence
+    ? `विश्वास: ${confidence === "medium" ? "मध्यम" : "कम"}`
+    : "";
+  panel.scrollTop = 0;
+  requestAnimationFrame(updateScrollAffordance);
+}
+
 function renderReader(poem, updateHash = true) {
   state.currentPoem = poem;
   elements.readerNumber.textContent = `पृष्ठ ${formatNumber(poem.number)} · ${
     poem.date ? new Intl.DateTimeFormat("hi-IN", { dateStyle: "long" }).format(new Date(`${poem.date}T00:00:00`)) : "दिनांक उपलब्ध नहीं"
   }`;
   elements.readerTitle.textContent = poem.title;
-  elements.readerRaw.textContent = poem.raw;
-  elements.originalNote.open = false;
   elements.readerBody.replaceChildren(
     ...poem.body.map((line) => {
       const paragraph = document.createElement("p");
@@ -236,6 +381,9 @@ function renderReader(poem, updateHash = true) {
       return paragraph;
     }),
   );
+  elements.readerBody.closest(".reader-original").scrollTop = 0;
+  state.activeReaderTab = "roman";
+  renderEditorialTab();
   renderArtworkPage(poem);
 
   const index = state.poems.findIndex((entry) => entry.id === poem.id);
@@ -274,7 +422,16 @@ function cloneCurrentPageForTurn() {
     element.setAttribute("tabindex", "-1");
   });
   elements.turningFront.replaceChildren(clone);
-  clone.scrollTop = elements.poemPage.scrollTop;
+  const sourceScrollers = elements.poemPage.querySelectorAll(
+    ".reader-original, .reader-interpretation, .reader-tabs",
+  );
+  const cloneScrollers = clone.querySelectorAll(
+    ".reader-original, .reader-interpretation, .reader-tabs",
+  );
+  sourceScrollers.forEach((source, index) => {
+    cloneScrollers[index].scrollTop = source.scrollTop;
+    cloneScrollers[index].scrollLeft = source.scrollLeft;
+  });
 }
 
 function cloneArtworkPageForTurn(poem) {
@@ -433,8 +590,23 @@ function bindEvents() {
   elements.nextPoem.addEventListener("click", () => moveReader(1));
   elements.copyLink.addEventListener("click", copyCurrentLink);
   elements.printPoem.addEventListener("click", () => window.print());
+  elements.readerTabs.forEach((button) => {
+    button.addEventListener("click", () => renderEditorialTab(button.dataset.readerTab));
+    button.addEventListener("keydown", (event) => {
+      if (!["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+      event.preventDefault();
+      const available = elements.readerTabs.filter((tab) => !tab.disabled);
+      const currentIndex = available.indexOf(button);
+      const direction = event.key === "ArrowRight" ? 1 : -1;
+      const next = available[(currentIndex + direction + available.length) % available.length];
+      next.focus();
+      renderEditorialTab(next.dataset.readerTab);
+    });
+  });
+  elements.readerInterpretation.addEventListener("scroll", updateScrollAffordance);
   window.addEventListener("keydown", (event) => {
     if (!elements.reader.open) return;
+    if (event.target.closest?.(".reader-tabs, .reader-interpretation")) return;
     if (event.key === "ArrowLeft") moveReader(-1);
     if (event.key === "ArrowRight") moveReader(1);
   });
@@ -443,18 +615,21 @@ function bindEvents() {
 
 async function start() {
   try {
-    const [poemsResponse, statsResponse] = await Promise.all([
+    const [poemsResponse, statsResponse, editorialResponse] = await Promise.all([
       fetch("data/poems.json"),
       fetch("data/stats.json"),
+      fetch("data/editorial.json"),
     ]);
-    if (!poemsResponse.ok || !statsResponse.ok) {
+    if (!poemsResponse.ok || !statsResponse.ok || !editorialResponse.ok) {
       throw new Error("Collection files could not be loaded.");
     }
-    const [poems, stats] = await Promise.all([
+    const [poems, stats, editorial] = await Promise.all([
       poemsResponse.json(),
       statsResponse.json(),
+      editorialResponse.json(),
     ]);
     state.poems = poems;
+    state.editorial = editorial.records;
     if (elements.totalCount) elements.totalCount.textContent = formatNumber(stats.total);
     if (elements.yearCount) elements.yearCount.textContent = formatNumber(stats.years.length);
     makeYearFilters(stats.years);

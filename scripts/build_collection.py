@@ -8,6 +8,8 @@ import re
 from datetime import date
 from pathlib import Path
 
+from build_editorial import main as build_editorial
+
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_DIR = ROOT / "content" / "notes"
@@ -212,6 +214,7 @@ def main() -> None:
         json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     print(f"Built {len(poems)} entries across {len(years)} years.")
+    build_editorial()
 
 
 if __name__ == "__main__":

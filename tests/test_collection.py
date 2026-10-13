@@ -1,4 +1,5 @@
 import json
+import hashlib
 import subprocess
 import sys
 import unittest
@@ -19,6 +20,9 @@ class CollectionBuildTests(unittest.TestCase):
         )
         cls.poems = json.loads(
             (ROOT / "data" / "poems.json").read_text(encoding="utf-8")
+        )
+        cls.editorial = json.loads(
+            (ROOT / "data" / "editorial.json").read_text(encoding="utf-8")
         )
 
     def test_every_source_note_is_present_once(self):
@@ -52,6 +56,50 @@ class CollectionBuildTests(unittest.TestCase):
             if artwork:
                 self.assertFalse(Path(artwork).is_absolute(), poem["id"])
                 self.assertTrue((ROOT / artwork).is_file(), poem["id"])
+
+    def test_editorial_records_cover_every_note_once(self):
+        records = self.editorial["records"]
+        poem_ids = {poem["id"] for poem in self.poems}
+        self.assertEqual(poem_ids, set(records))
+        self.assertEqual(750, len(records))
+
+    def test_editorial_records_are_unreviewed_drafts(self):
+        for note_id, record in self.editorial["records"].items():
+            self.assertEqual(note_id, record["noteId"])
+            self.assertEqual("draft", record["status"])
+            self.assertFalse(record["review"]["familyReviewed"])
+            self.assertIsNone(record["review"]["reviewedBy"])
+            self.assertIsNone(record["review"]["reviewedAt"])
+            self.assertIn("family-review-required", record["flags"])
+
+    def test_editorial_source_linkage_and_layers(self):
+        poems_by_id = {poem["id"]: poem for poem in self.poems}
+        for note_id, record in self.editorial["records"].items():
+            poem = poems_by_id[note_id]
+            digest = hashlib.sha256(poem["raw"].encode("utf-8")).hexdigest()
+            self.assertEqual(poem["source"], record["source"]["path"])
+            self.assertEqual(poem["date"], record["source"]["date"])
+            self.assertEqual(digest, record["source"]["sha256"])
+            self.assertEqual(
+                len(poem["body"]),
+                len(record["romanTransliteration"]["lines"]),
+            )
+            self.assertEqual(
+                len(poem["body"]),
+                len(record["literalEnglish"]["lines"]),
+            )
+            self.assertTrue(record["childFriendlyEnglish"]["text"].strip())
+            self.assertTrue(record["simpleHindiExplanation"]["text"].strip())
+            self.assertTrue(record["context"]["text"].strip())
+            self.assertTrue(record["context"]["evidence"])
+
+    def test_reader_has_structured_editorial_tabs(self):
+        for page_name in ("index.html", "collection.html"):
+            markup = (ROOT / page_name).read_text(encoding="utf-8")
+            for tab in ("roman", "english", "simple", "context", "archive"):
+                self.assertIn(f'data-reader-tab="{tab}"', markup)
+            self.assertIn('id="reader-interpretation"', markup)
+            self.assertNotIn("मूल अभिलेख देखें", markup)
 
 
 if __name__ == "__main__":
