@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="प्रमिला सिंह की दोहा रचनाओं का पारिवारिक स्मृति-संग्रह।"
+    />
+    <meta name="theme-color" content="#6f1d2c" />
+    <title>मन के मोती — प्रमिला सिंह का दोहा संग्रह</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&family=Kalam:wght@300;400;700&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#collection">संग्रह पर जाएँ</a>
+
+    <header class="hero">
+      <nav class="nav shell" aria-label="मुख्य नेविगेशन">
+        <a class="brand" href="#" aria-label="मन के मोती — मुखपृष्ठ">
+          <span class="brand-mark" aria-hidden="true">✦</span>
+          <span>मन के मोती</span>
+        </a>
+        <div class="nav-links">
+          <a href="#about">परिचय</a>
+          <a href="#collection">रचनाएँ</a>
+          <button class="quiet-button" id="random-button" type="button">
+            कोई पन्ना खोलें
+          </button>
+        </div>
+      </nav>
+
+      <div class="hero-content shell">
+        <div class="cover-wrap" aria-hidden="true">
+          <div class="book-shadow"></div>
+          <div class="book-cover">
+            <div class="cover-border">
+              <div class="cover-ornament">❦</div>
+              <p class="cover-kicker">स्मृति-संग्रह</p>
+              <h1>मन के<br />मोती</h1>
+              <div class="cover-divider"><span>◆</span></div>
+              <p class="cover-subtitle">दोहा एवं काव्य संग्रह</p>
+              <p class="cover-author">प्रमिला सिंह</p>
+              <div class="cover-ornament bottom">❦</div>
+            </div>
+          </div>
+          <div class="book-pages"></div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">एक माँ के शब्दों की अमर धरोहर</p>
+          <h2>हर दोहे में<br /><em>जीवन की एक सीख</em></h2>
+          <p class="hero-intro">
+            प्रमिला सिंह की कलम से निकली रचनाओं का यह डिजिटल स्मृति-ग्रंथ
+            उनके विचारों, आस्था और स्नेह को आने वाली पीढ़ियों के लिए सहेजता है।
+          </p>
+          <div class="hero-actions">
+            <button class="primary-button" id="start-reading" type="button">
+              पढ़ना आरंभ करें
+            </button>
+            <a class="text-link" href="#about">इस संग्रह के बारे में <span>→</span></a>
+          </div>
+          <dl class="hero-stats" aria-label="संग्रह के आँकड़े">
+            <div>
+              <dt id="total-count">—</dt>
+              <dd>सहेजी हुई रचनाएँ</dd>
+            </div>
+            <div>
+              <dt id="year-count">—</dt>
+              <dd>रचना-वर्ष</dd>
+            </div>
+            <div>
+              <dt>∞</dt>
+              <dd>अनमोल स्मृतियाँ</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+      <div class="hero-flower hero-flower-left" aria-hidden="true">❁</div>
+      <div class="hero-flower hero-flower-right" aria-hidden="true">❋</div>
+    </header>
+
+    <main>
+      <section class="featured-section shell" aria-labelledby="featured-title">
+        <div class="section-heading centered">
+          <p class="eyebrow">आज का पन्ना</p>
+          <h2 id="featured-title">शब्द जो साथ रहें</h2>
+          <div class="heading-flourish" aria-hidden="true"><span>❦</span></div>
+        </div>
+        <button class="featured-card" id="featured-card" type="button">
+          <span class="large-quote" aria-hidden="true">“</span>
+          <span class="featured-title">रचना खुल रही है…</span>
+          <span class="featured-lines"></span>
+          <span class="featured-signature">— प्रमिला सिंह</span>
+          <span class="featured-cta">पूरा पन्ना पढ़ें <b>→</b></span>
+        </button>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-inner shell">
+          <div class="portrait-frame" aria-label="यहाँ प्रमिला सिंह का चित्र जोड़ा जा सकता है">
+            <div class="portrait-placeholder">
+              <span class="portrait-initials">प्र</span>
+              <small>स्मृति चित्र</small>
+            </div>
+            <span class="portrait-corner top-left" aria-hidden="true"></span>
+            <span class="portrait-corner bottom-right" aria-hidden="true"></span>
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow">कलम और करुणा</p>
+            <h2>श्रीमती प्रमिला सिंह</h2>
+            <p class="about-lead">
+              सहज शब्दों में गहरी बात कह देना उनकी रचनाओं की सबसे सुंदर पहचान है।
+            </p>
+            <p>
+              धर्म, परिवार, प्रकृति, समाज और रोज़मर्रा के अनुभव—उनकी लेखनी ने हर
+              विषय को दोहे की लय में पिरोया। फोन के नोट्स में सहेजी गई इन रचनाओं
+              को उसी आत्मीयता के साथ यहाँ एक पुस्तक का रूप दिया गया है।
+            </p>
+            <blockquote>
+              <span>“</span>
+              शब्द चले जाते नहीं, स्मृति बनते साथ।<br />
+              माँ की लिखी हर पंक्ति में, मिलता उनका हाथ।
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection-section shell" id="collection" aria-labelledby="collection-title">
+        <div class="section-heading">
+          <p class="eyebrow">संपूर्ण संग्रह</p>
+          <h2 id="collection-title">रचनाओं के पन्ने</h2>
+          <p>शीर्षक या पंक्ति खोजें, वर्ष चुनें, और किसी पन्ने को खोलकर पढ़ें।</p>
+        </div>
+
+        <div class="collection-toolbar">
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <span class="sr-only">रचनाओं में खोजें</span>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="शीर्षक या शब्द खोजें…"
+              autocomplete="off"
+            />
+          </label>
+          <div class="filter-row" id="year-filters" aria-label="वर्ष के अनुसार छाँटें"></div>
+          <button
+            class="favorites-filter"
+            id="favorites-filter"
+            type="button"
+            aria-pressed="false"
+          >
+            <span aria-hidden="true">♡</span> प्रिय पन्ने
+          </button>
+        </div>
+
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+        <div class="poem-grid" id="poem-grid"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span aria-hidden="true">❦</span>
+          <h3>कोई रचना नहीं मिली</h3>
+          <p>किसी दूसरे शब्द या वर्ष से खोजकर देखें।</p>
+        </div>
+        <button class="load-more" id="load-more" type="button" hidden>
+          और पन्ने दिखाएँ
+        </button>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-flourish" aria-hidden="true">❦</div>
+      <p>प्रमिला सिंह की स्मृति और उनकी लेखनी को समर्पित</p>
+      <small>सप्रेम, परिवार की ओर से</small>
+    </footer>
+
+    <dialog class="reader" id="reader">
+      <div class="reader-shell">
+        <button class="reader-close" id="reader-close" type="button" aria-label="पन्ना बंद करें">
+          ×
+        </button>
+        <button class="page-arrow previous" id="previous-poem" type="button" aria-label="पिछली रचना">
+          ‹
+        </button>
+        <div class="book-stage">
+          <div class="page-stack page-stack-left" aria-hidden="true"></div>
+          <div class="page-stack page-stack-right" aria-hidden="true"></div>
+          <article class="reader-page">
+          <div class="page-art" id="page-art">
+            <img id="artwork-image" alt="" hidden />
+            <div class="art-placeholder" id="art-placeholder">
+              <span>❁</span>
+              <p>इस रचना के लिए<br />चित्र का स्थान</p>
+              <small>कला बाद में जोड़ी जा सकती है</small>
+            </div>
+          </div>
+          <div class="page-poem">
+            <div class="reader-tools">
+              <button id="favorite-button" type="button" aria-pressed="false">
+                <span aria-hidden="true">♡</span><span>प्रिय</span>
+              </button>
+              <button id="copy-link" type="button">
+                <span aria-hidden="true">⌁</span><span>लिंक</span>
+              </button>
+              <button id="print-poem" type="button">
+                <span aria-hidden="true">▣</span><span>प्रिंट</span>
+              </button>
+            </div>
+            <p class="reader-number" id="reader-number"></p>
+            <h2 id="reader-title"></h2>
+            <div class="title-flourish" aria-hidden="true">— ◆ —</div>
+            <div class="reader-body" id="reader-body"></div>
+            <p class="reader-author">— प्रमिला सिंह</p>
+            <details class="original-note">
+              <summary>मूल फोन नोट देखें</summary>
+              <pre id="reader-raw"></pre>
+            </details>
+          </div>
+          <div class="book-spine" aria-hidden="true"></div>
+          </article>
+          <div class="turning-sheet" id="turning-sheet" aria-hidden="true" hidden>
+            <div class="turning-face turning-front"></div>
+            <div class="turning-face turning-back">
+              <span class="turning-ornament">❦</span>
+            </div>
+          </div>
+        </div>
+        <button class="page-arrow next" id="next-poem" type="button" aria-label="अगली रचना">
+          ›
+        </button>
+      </div>
+    </dialog>
+
+    <template id="poem-card-template">
+      <article class="poem-card">
+        <button class="card-open" type="button">
+          <span class="card-number"></span>
+          <span class="card-year"></span>
+          <h3></h3>
+          <span class="card-divider" aria-hidden="true">❦</span>
+          <span class="card-excerpt"></span>
+          <span class="card-footer">
+            <span>पूरा पढ़ें</span>
+            <b aria-hidden="true">→</b>
+          </span>
+        </button>
+        <button class="card-favorite" type="button" aria-label="प्रिय पन्नों में जोड़ें">
+          ♡
+        </button>
+      </article>
+    </template>
+  </body>
+</html>
