@@ -73,19 +73,23 @@ function toggleFavorite(id) {
     state.favorites.add(id);
   }
   saveFavorites();
-  renderCollection(false);
+  if (elements.poemGrid) {
+    renderCollection(false);
+  }
   if (state.currentPoem?.id === id) {
     updateReaderFavorite();
   }
 }
 
 function updateReaderFavorite() {
+  if (!elements.favoriteButton) return;
   const isFavorite = state.currentPoem && state.favorites.has(state.currentPoem.id);
   elements.favoriteButton.setAttribute("aria-pressed", String(Boolean(isFavorite)));
   elements.favoriteButton.querySelector("span:first-child").textContent = isFavorite ? "♥" : "♡";
 }
 
 function makeYearFilters(years) {
+  if (!elements.yearFilters) return;
   const options = [{ label: "सभी", value: "all" }, ...years.map((year) => ({
     label: formatNumber(year),
     value: String(year),
@@ -149,6 +153,7 @@ function createCard(poem) {
 }
 
 function renderCollection(resetGrid = true) {
+  if (!elements.poemGrid) return;
   applyFilters();
   const displayed = state.visible.slice(0, state.renderedCount);
 
@@ -295,7 +300,7 @@ function moveReader(direction) {
 }
 
 function chooseFeatured() {
-  if (!state.poems.length) return;
+  if (!state.poems.length || !elements.featuredCard) return;
   const dayNumber = Math.floor(Date.now() / 86_400_000);
   const featured = state.poems[dayNumber % state.poems.length];
   elements.featuredTitle.textContent = featured.title;
@@ -329,28 +334,30 @@ async function copyCurrentLink() {
 }
 
 function bindEvents() {
-  let searchTimer;
-  elements.searchInput.addEventListener("input", () => {
-    window.clearTimeout(searchTimer);
-    searchTimer = window.setTimeout(() => {
+  if (elements.searchInput) {
+    let searchTimer;
+    elements.searchInput.addEventListener("input", () => {
+      window.clearTimeout(searchTimer);
+      searchTimer = window.setTimeout(() => {
+        state.renderedCount = PAGE_SIZE;
+        renderCollection();
+      }, 120);
+    });
+    elements.favoritesFilter.addEventListener("click", () => {
+      state.favoritesOnly = !state.favoritesOnly;
       state.renderedCount = PAGE_SIZE;
+      elements.favoritesFilter.setAttribute("aria-pressed", String(state.favoritesOnly));
       renderCollection();
-    }, 120);
-  });
-  elements.favoritesFilter.addEventListener("click", () => {
-    state.favoritesOnly = !state.favoritesOnly;
-    state.renderedCount = PAGE_SIZE;
-    elements.favoritesFilter.setAttribute("aria-pressed", String(state.favoritesOnly));
-    renderCollection();
-  });
-  elements.loadMore.addEventListener("click", () => {
-    state.renderedCount += PAGE_SIZE;
-    renderCollection();
-  });
-  elements.startReading.addEventListener("click", () => {
+    });
+    elements.loadMore.addEventListener("click", () => {
+      state.renderedCount += PAGE_SIZE;
+      renderCollection();
+    });
+  }
+  elements.startReading?.addEventListener("click", () => {
     if (state.poems.length) openReader(state.poems[0]);
   });
-  elements.randomButton.addEventListener("click", openRandomPoem);
+  elements.randomButton?.addEventListener("click", openRandomPoem);
   elements.readerClose.addEventListener("click", closeReader);
   elements.reader.addEventListener("click", (event) => {
     if (event.target === elements.reader) closeReader();
@@ -388,8 +395,8 @@ async function start() {
       statsResponse.json(),
     ]);
     state.poems = poems;
-    elements.totalCount.textContent = formatNumber(stats.total);
-    elements.yearCount.textContent = formatNumber(stats.years.length);
+    if (elements.totalCount) elements.totalCount.textContent = formatNumber(stats.total);
+    if (elements.yearCount) elements.yearCount.textContent = formatNumber(stats.years.length);
     makeYearFilters(stats.years);
     renderCollection();
     chooseFeatured();
@@ -397,8 +404,10 @@ async function start() {
     openHashPoem();
   } catch (error) {
     console.error(error);
-    elements.poemGrid.innerHTML =
-      '<p class="empty-state">संग्रह लोड नहीं हो सका। कृपया स्थानीय वेब सर्वर से यह पुस्तक खोलें।</p>';
+    if (elements.poemGrid) {
+      elements.poemGrid.innerHTML =
+        '<p class="empty-state">संग्रह लोड नहीं हो सका। कृपया स्थानीय वेब सर्वर से यह पुस्तक खोलें।</p>';
+    }
   }
 }
 
