@@ -45,6 +45,7 @@ const state = {
   favoritesOnly: false,
   renderedCount: PAGE_SIZE,
   currentPoem: null,
+  displayedArtworkId: null,
   isTurning: false,
   favorites: new Set(JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]")),
 };
@@ -178,22 +179,8 @@ function renderCollection(resetGrid = true) {
   elements.loadMore.hidden = displayed.length >= state.visible.length;
 }
 
-function renderReader(poem, updateHash = true) {
-  state.currentPoem = poem;
-  elements.readerNumber.textContent = `पृष्ठ ${formatNumber(poem.number)} · ${
-    poem.date ? new Intl.DateTimeFormat("hi-IN", { dateStyle: "long" }).format(new Date(`${poem.date}T00:00:00`)) : "दिनांक उपलब्ध नहीं"
-  }`;
-  elements.readerTitle.textContent = poem.title;
-  elements.readerRaw.textContent = poem.raw;
-  elements.originalNote.open = false;
-  elements.readerBody.replaceChildren(
-    ...poem.body.map((line) => {
-      const paragraph = document.createElement("p");
-      paragraph.textContent = line || "\u00a0";
-      return paragraph;
-    }),
-  );
-
+function renderArtworkPage(poem) {
+  state.displayedArtworkId = poem.id;
   elements.artworkImage.onload = null;
   elements.artworkImage.onerror = null;
   elements.artworkImage.hidden = true;
@@ -202,12 +189,12 @@ function renderReader(poem, updateHash = true) {
   if (poem.artwork) {
     const expectedArtwork = poem.artwork;
     const revealArtwork = () => {
-      if (state.currentPoem?.artwork === expectedArtwork) {
+      if (state.displayedArtworkId === poem.id) {
         elements.artworkImage.hidden = false;
       }
     };
     const showArtworkFallback = () => {
-      if (state.currentPoem?.artwork === expectedArtwork) {
+      if (state.displayedArtworkId === poem.id) {
         elements.artPlaceholder.hidden = false;
       }
     };
@@ -231,6 +218,24 @@ function renderReader(poem, updateHash = true) {
     elements.poemPage.classList.remove("has-mobile-artwork");
     elements.poemPage.style.removeProperty("--mobile-artwork");
   }
+}
+
+function renderReader(poem, updateHash = true) {
+  state.currentPoem = poem;
+  elements.readerNumber.textContent = `पृष्ठ ${formatNumber(poem.number)} · ${
+    poem.date ? new Intl.DateTimeFormat("hi-IN", { dateStyle: "long" }).format(new Date(`${poem.date}T00:00:00`)) : "दिनांक उपलब्ध नहीं"
+  }`;
+  elements.readerTitle.textContent = poem.title;
+  elements.readerRaw.textContent = poem.raw;
+  elements.originalNote.open = false;
+  elements.readerBody.replaceChildren(
+    ...poem.body.map((line) => {
+      const paragraph = document.createElement("p");
+      paragraph.textContent = line || "\u00a0";
+      return paragraph;
+    }),
+  );
+  renderArtworkPage(poem);
 
   const index = state.poems.findIndex((entry) => entry.id === poem.id);
   elements.previousPoem.disabled = index <= 0;
@@ -298,6 +303,7 @@ function cloneArtworkPageForTurn(poem) {
 function moveReader(direction) {
   if (state.isTurning) return;
   const index = state.poems.findIndex((poem) => poem.id === state.currentPoem?.id);
+  const current = state.currentPoem;
   const next = state.poems[index + direction];
   if (!next) return;
 
@@ -314,7 +320,6 @@ function moveReader(direction) {
   if (direction > 0) {
     cloneCurrentPageForTurn();
   } else {
-    const current = state.currentPoem;
     cloneArtworkPageForTurn(current);
     renderReader(next, false);
     cloneCurrentPageForTurn();
@@ -327,6 +332,8 @@ function moveReader(direction) {
   if (direction > 0) {
     renderReader(next);
     cloneArtworkPageForTurn(next);
+    renderArtworkPage(current);
+    window.setTimeout(() => renderArtworkPage(next), 350);
   }
 
   void elements.turningSheet.offsetWidth;
