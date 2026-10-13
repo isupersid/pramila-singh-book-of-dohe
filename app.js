@@ -7,6 +7,7 @@ const elements = {
   featuredCard: document.querySelector("#featured-card"),
   featuredTitle: document.querySelector(".featured-title"),
   featuredLines: document.querySelector(".featured-lines"),
+  startReading: document.querySelector("#start-reading"),
   randomButton: document.querySelector("#random-button"),
   searchInput: document.querySelector("#search-input"),
   yearFilters: document.querySelector("#year-filters"),
@@ -31,7 +32,8 @@ const elements = {
   artworkImage: document.querySelector("#artwork-image"),
   artPlaceholder: document.querySelector("#art-placeholder"),
   turningSheet: document.querySelector("#turning-sheet"),
-  turningPageNumber: document.querySelector(".turning-page-number"),
+  turningFront: document.querySelector(".turning-front"),
+  poemPage: document.querySelector(".page-poem"),
 };
 
 const state = {
@@ -224,6 +226,17 @@ function closeReader() {
   }
 }
 
+function cloneCurrentPageForTurn() {
+  const clone = elements.poemPage.cloneNode(true);
+  clone.classList.add("turning-page-clone");
+  clone.querySelectorAll("[id]").forEach((element) => element.removeAttribute("id"));
+  clone.querySelectorAll("button, summary").forEach((element) => {
+    element.setAttribute("tabindex", "-1");
+  });
+  elements.turningFront.replaceChildren(clone);
+  clone.scrollTop = elements.poemPage.scrollTop;
+}
+
 function moveReader(direction) {
   if (state.isTurning) return;
   const index = state.poems.findIndex((poem) => poem.id === state.currentPoem?.id);
@@ -240,13 +253,29 @@ function moveReader(direction) {
 
   state.isTurning = true;
   elements.reader.classList.add("is-turning");
-  elements.turningPageNumber.textContent = formatNumber(state.currentPoem.number);
+
+  if (direction > 0) {
+    cloneCurrentPageForTurn();
+  } else {
+    const current = state.currentPoem;
+    renderReader(next, false);
+    cloneCurrentPageForTurn();
+    renderReader(current, false);
+  }
+
   elements.turningSheet.hidden = false;
   elements.turningSheet.classList.remove("turn-next", "turn-previous");
+
+  if (direction > 0) {
+    renderReader(next);
+  }
+
   void elements.turningSheet.offsetWidth;
   elements.turningSheet.classList.add(direction > 0 ? "turn-next" : "turn-previous");
 
-  window.setTimeout(() => renderReader(next), 350);
+  if (direction < 0) {
+    window.setTimeout(() => renderReader(next), 350);
+  }
   elements.turningSheet.addEventListener(
     "animationend",
     () => {
@@ -311,6 +340,9 @@ function bindEvents() {
   elements.loadMore.addEventListener("click", () => {
     state.renderedCount += PAGE_SIZE;
     renderCollection();
+  });
+  elements.startReading.addEventListener("click", () => {
+    if (state.poems.length) openReader(state.poems[0]);
   });
   elements.randomButton.addEventListener("click", openRandomPoem);
   elements.readerClose.addEventListener("click", closeReader);
