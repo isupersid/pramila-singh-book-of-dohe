@@ -325,6 +325,7 @@ function moveReader(direction) {
     renderReader(next, false);
     cloneCurrentPageForTurn();
     renderReader(current, false);
+    renderArtworkPage(next);
   }
 
   elements.turningSheet.hidden = false;
