@@ -1160,8 +1160,11 @@ footer a {
 
 .page-poem {
   position: relative;
+  display: flex;
+  min-width: 0;
   padding: 66px 76px 50px;
-  overflow-y: auto;
+  flex-direction: column;
+  overflow: hidden;
   color: var(--ink);
   background:
     radial-gradient(circle at 18% 23%, rgb(137 92 47 / 7%) 0 0.7px, transparent 1.2px),
@@ -1384,29 +1387,166 @@ footer a {
 }
 
 .reader-author {
-  margin-top: 32px;
+  margin: 22px 0 0;
   color: var(--wine);
   font-family: var(--hand);
   font-size: 1.1rem;
   text-align: right;
 }
 
-.original-note {
-  margin-top: 38px;
-  padding-top: 14px;
+.reader-original {
+  min-height: 92px;
+  max-height: 44%;
+  padding-right: 8px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-color: rgb(111 29 44 / 28%) transparent;
+}
+
+.editorial-header {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
   color: var(--muted);
   border-top: 1px solid #e1d5c1;
-  font-size: 0.75rem;
+  font-size: 0.68rem;
 }
 
-.original-note summary {
+.draft-badge {
+  display: inline-flex;
+  padding: 5px 9px;
+  margin-top: -1px;
+  color: #724b21;
+  background: #f4e4bd;
+  border: 1px solid #dec894;
+  border-radius: 0 0 5px 5px;
+  font-weight: 700;
+}
+
+.editorial-confidence {
+  padding-top: 5px;
+}
+
+.reader-tabs {
+  position: sticky;
+  z-index: 3;
+  display: flex;
+  min-height: 42px;
+  gap: 4px;
+  margin-top: 12px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.reader-tabs button {
+  flex: 0 0 auto;
+  padding: 7px 10px;
+  color: var(--muted);
   cursor: pointer;
+  background: rgb(255 255 255 / 36%);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  white-space: nowrap;
 }
 
-.original-note pre {
+.reader-tabs button:hover,
+.reader-tabs button:focus-visible,
+.reader-tabs button[aria-selected="true"] {
+  color: var(--wine);
+  background: #fff8e9;
+  border-color: rgb(111 29 44 / 22%);
+}
+
+.reader-tabs button:disabled {
+  cursor: default;
+  opacity: 0.38;
+}
+
+.reader-interpretation-wrap {
+  position: relative;
+  min-height: 0;
+  margin-top: 7px;
+  flex: 1 1 150px;
+}
+
+.reader-interpretation {
+  height: 100%;
+  padding: 14px 16px 34px;
+  overflow-y: auto;
+  color: #493b33;
+  background: rgb(255 252 244 / 64%);
+  border: 1px solid rgb(111 29 44 / 11%);
+  border-radius: 7px;
+  overscroll-behavior: contain;
+  scrollbar-color: rgb(111 29 44 / 28%) transparent;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.reader-interpretation h3 {
+  margin: 0 0 8px;
+  color: var(--wine-dark);
+  font-family: var(--display);
+  font-size: 0.9rem;
+}
+
+.reader-interpretation h3:not(:first-child) {
+  margin-top: 22px;
+}
+
+.reader-interpretation p {
+  margin: 0 0 8px;
+}
+
+.reader-interpretation ul {
+  padding-left: 20px;
+  margin: 0 0 12px;
+}
+
+.reader-interpretation pre {
+  margin: 0;
   overflow-x: auto;
   white-space: pre-wrap;
   font-family: var(--serif);
+  font-size: 0.78rem;
+}
+
+.roman-lines {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+}
+
+.english-lines {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.editorial-note {
+  padding-top: 10px;
+  margin-top: 14px !important;
+  color: var(--muted);
+  border-top: 1px dashed rgb(111 29 44 / 18%);
+  font-size: 0.72rem;
+}
+
+.scroll-affordance {
+  position: absolute;
+  right: 9px;
+  bottom: 7px;
+  left: 9px;
+  padding: 18px 8px 2px;
+  color: var(--wine);
+  pointer-events: none;
+  background: linear-gradient(transparent, #fffaf0 55%);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.scroll-affordance[hidden] {
+  display: none;
 }
 
 .reader-close {
@@ -1595,10 +1735,67 @@ footer a {
   .page-poem {
     min-height: 0;
     height: 100%;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+    overscroll-behavior: none;
     touch-action: pan-y;
+  }
+
+  .reader-original,
+  .reader-interpretation {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .reader-tabs {
+    max-width: 100%;
+    scroll-snap-type: x proximity;
+  }
+
+  .reader-tabs button {
+    scroll-snap-align: start;
+  }
+}
+
+@media (max-height: 760px) and (min-width: 901px) {
+  .page-poem {
+    padding: 36px 48px 28px;
+  }
+
+  .reader-number {
+    margin-top: 8px;
+  }
+
+  .page-poem h2 {
+    font-size: clamp(1.75rem, 3vw, 2.3rem);
+  }
+
+  .title-flourish {
+    margin: 4px 0 12px;
+  }
+
+  .reader-original {
+    max-height: 32%;
+  }
+
+  .reader-body {
+    font-size: 1.08rem;
+    line-height: 1.72;
+  }
+
+  .reader-author {
+    margin-top: 12px;
+  }
+
+  .editorial-header {
+    margin-top: 9px;
+  }
+
+  .reader-tabs {
+    min-height: 36px;
+    margin-top: 6px;
+  }
+
+  .reader-tabs button {
+    padding-block: 5px;
   }
 }
 
@@ -1726,6 +1923,30 @@ footer a {
     padding: 55px 26px 78px;
   }
 
+  .reader-number {
+    margin-top: 12px;
+  }
+
+  .page-poem h2 {
+    font-size: clamp(1.65rem, 9vw, 2.35rem);
+  }
+
+  .title-flourish {
+    margin-bottom: 14px;
+  }
+
+  .reader-original {
+    max-height: 39%;
+  }
+
+  .editorial-header {
+    margin-top: 12px;
+  }
+
+  .draft-badge {
+    max-width: 78%;
+  }
+
   .reader-shell,
   .book-stage,
   .reader-page {
@@ -1775,11 +1996,18 @@ footer a {
   .reader-close,
   .page-arrow,
   .reader-tools,
-  .original-note {
+  .editorial-header,
+  .reader-tabs,
+  .reader-interpretation-wrap {
     display: none;
   }
 
   .page-poem {
+    overflow: visible;
+  }
+
+  .reader-original {
+    max-height: none;
     overflow: visible;
   }
 }

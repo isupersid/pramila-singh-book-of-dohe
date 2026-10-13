@@ -16,8 +16,8 @@
       href="https://fonts.googleapis.com/css2?family=Gotu&family=Kalam:wght@300;400;700&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css?v=editorial-1" />
+    <script src="app.js?v=editorial-1" defer></script>
   </head>
   <body class="collection-page">
     <a class="skip-link" href="#collection">संग्रह पर जाएँ</a>
@@ -121,12 +121,32 @@
               <p class="reader-number" id="reader-number"></p>
               <h2 id="reader-title"></h2>
               <div class="title-flourish" aria-hidden="true">— ◆ —</div>
-              <div class="reader-body" id="reader-body"></div>
-              <p class="reader-author">— प्रमिला सिंह</p>
-              <details class="original-note">
-                <summary>मूल अभिलेख देखें</summary>
-                <pre id="reader-raw"></pre>
-              </details>
+              <div class="reader-original">
+                <div class="reader-body" id="reader-body"></div>
+                <p class="reader-author">— प्रमिला सिंह</p>
+              </div>
+              <div class="editorial-header">
+                <span class="draft-badge">संपादकीय प्रारूप · पारिवारिक समीक्षा शेष</span>
+                <span class="editorial-confidence" id="editorial-confidence"></span>
+              </div>
+              <div class="reader-tabs" role="tablist" aria-label="अनुवाद और संदर्भ">
+                <button type="button" role="tab" data-reader-tab="roman">Roman</button>
+                <button type="button" role="tab" data-reader-tab="english">English</button>
+                <button type="button" role="tab" data-reader-tab="simple">सरल अर्थ</button>
+                <button type="button" role="tab" data-reader-tab="context">संदर्भ</button>
+                <button type="button" role="tab" data-reader-tab="archive">अभिलेख</button>
+              </div>
+              <div class="reader-interpretation-wrap">
+                <div
+                  class="reader-interpretation"
+                  id="reader-interpretation"
+                  role="tabpanel"
+                  tabindex="0"
+                ></div>
+                <span class="scroll-affordance" id="scroll-affordance" aria-hidden="true">
+                  और पढ़ें ↓
+                </span>
+              </div>
             </div>
             <div class="book-spine" aria-hidden="true"></div>
           </article>

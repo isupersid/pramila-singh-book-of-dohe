@@ -16,6 +16,8 @@ The public site is:
 - `styles.css` contains the landing, catalog, responsive reader, paper textures, and page-turn animations.
 - `content/notes/` contains 750 preserved, unique UTF-8 source notes. Twenty-four byte-for-byte duplicate export files were removed with user approval in October 2026.
 - `scripts/build_collection.py` parses the notes and generates `data/poems.json` and `data/stats.json`.
+- `scripts/build_editorial.py` generates `data/editorial.json`, keyed by note ID, with draft transliteration, optional curated translation/explanation layers, context, evidence, confidence, flags, and review metadata. Its contract is documented by `data/editorial.schema.json`.
+- `data/editorial_overrides.json` contains the readable poem-specific translation and explanation drafts that survive regeneration. Records without an override stay explicitly untranslated.
 - `data/artwork.json` maps a note ID to its artwork path.
 - `art/prompts.md` is the visual style guide and prompt history for generated illustrations.
 - `images/pramila-singh.jpg` is the optimized memorial portrait.
@@ -30,6 +32,8 @@ The public site is:
   ```powershell
   python scripts/build_collection.py
   ```
+
+  This also regenerates the editorial draft dataset.
 
 ## Artwork workflow
 
@@ -77,6 +81,19 @@ Future translations should preserve distinct layers:
 7. Editorial confidence and review status
 
 Do not present inferred context as confirmed authorial intent. Use language such as “appears to refer to” when evidence is incomplete. AI-generated translations should remain drafts until family-reviewed. Visually distinguish Pramila Singh's words from editorial notes.
+
+The editorial generator must never display token-substitution or mixed Romanized-Hindi
+output as English. Readable poem-specific drafts live in `data/editorial_overrides.json`.
+When no responsible draft exists, translation and explanation layers remain `null`, the
+record carries `needs-human-translation`, and the UI hides those tabs. All generated
+records retain `status: "draft"` and `familyReviewed: false`. Before storing family-approved
+edits, introduce a separate reviewed-data workflow rather than changing draft status in
+the generated dataset.
+
+The reader keeps the original work visible above a tabbed internal reading area. Roman,
+English, सरल अर्थ, संदर्भ, and अभिलेख tabs must reset their internal scroll position when
+the poem or tab changes. On phones the tab row scrolls horizontally while the interpretation
+panel scrolls vertically; the dialog and browser viewport remain overflow-locked.
 
 ## About-section voice
 

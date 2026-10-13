@@ -2,7 +2,7 @@
 
 **प्रमिला सिंह की दोहा एवं काव्य रचनाओं का डिजिटल स्मृति-संग्रह।**
 
-यह वेबसाइट फोन के नोट्स में सहेजी गई मूल रचनाओं को एक पुस्तक-जैसे अनुभव में प्रस्तुत करती है। मूल `.txt` फाइलें बिना बदले `content/notes/` में सुरक्षित हैं और उनसे खोजने योग्य संग्रह अपने-आप बनाया जाता है।
+यह वेबसाइट सहेजी गई मूल रचनाओं को एक पुस्तक-जैसे अनुभव में प्रस्तुत करती है। मूल `.txt` फाइलें बिना बदले `content/notes/` में सुरक्षित हैं और उनसे खोजने योग्य संग्रह अपने-आप बनाया जाता है।
 
 ## स्थानीय रूप से खोलें
 
@@ -23,9 +23,31 @@ python -m http.server 8000
    python scripts/build_collection.py
    ```
 
-3. बदली हुई मूल नोट फाइल और `data/poems.json` व `data/stats.json` को commit करें।
+3. बदली हुई मूल फाइल और `data/poems.json`, `data/stats.json` व
+   `data/editorial.json` को commit करें।
 
-शीर्षक, तारीख, प्रदत्त शब्द और मूल रचना सामान्य फोन-नोट प्रारूप से स्वतः पहचाने जाते हैं। पाठक में **मूल फोन नोट देखें** खोलकर सुरक्षित मूल पाठ भी देखा जा सकता है।
+शीर्षक, तारीख, प्रदत्त शब्द और मूल रचना सुरक्षित अभिलेख के प्रारूप से स्वतः
+पहचाने जाते हैं। पाठक के **अभिलेख** टैब में पूरा सुरक्षित मूल पाठ देखा जा सकता है।
+
+## अनुवाद और संपादकीय प्रारूप
+
+`data/editorial.json` में हर note ID के लिए मूल रचना से अलग संपादकीय record है।
+इसमें Roman transliteration, उपलब्ध होने पर पढ़ने योग्य English draft, बच्चों के
+लिए poem-specific English अर्थ, सरल हिंदी अर्थ, संदर्भ, साक्ष्य, confidence और
+review status अलग-अलग रखे गए हैं। इसका schema `data/editorial.schema.json` में
+है।
+
+सभी मौजूदा records **draft** हैं। पढ़ने योग्य, रचना-विशिष्ट translation
+`data/editorial_overrides.json` में रखी जाती है। जिस रचना का जिम्मेदारी से
+अनुवाद अभी तैयार नहीं है, उसमें translation/explanation fields `null`,
+`needs-human-translation` flag सक्रिय, और reader में संबंधित tabs छिपे रहते हैं।
+टूटी हुई word-by-word या Romanized Hindi को English translation की तरह नहीं
+दिखाया जाता। परिवार की समीक्षा होने तक `familyReviewed` हमेशा `false` रहेगा।
+
+संग्रह बनाते समय `scripts/build_collection.py` अपने-आप
+`scripts/build_editorial.py` भी चलाता है। Curated drafts override file से
+दोबारा जुड़ते हैं, इसलिए regeneration उन्हें नहीं मिटाता। परिवार से स्वीकृत
+records के लिए भविष्य में draft overrides से अलग reviewed dataset बनाना होगा।
 
 ## किसी पन्ने पर कला जोड़ें
 
@@ -50,6 +72,9 @@ python -m http.server 8000
 - textured दो-पृष्ठ पुस्तक reader, animated page turns और keyboard navigation
 - browser में सुरक्षित किए जाने वाले प्रिय पन्ने
 - हर रचना का shareable link और print layout
+- मूल रचना को सामने रखते हुए scrollable Roman, English, सरल अर्थ, संदर्भ और
+  अभिलेख tabs
+- सभी 750 रचनाओं के अलग, schema-validated संपादकीय draft records
 - हर पन्ने के लिए भविष्य की कलाकृति का स्थान
 - responsive mobile और desktop design
 - GitHub Pages पर स्वचालित deployment
@@ -59,4 +84,6 @@ python -m http.server 8000
 ```powershell
 python scripts/build_collection.py
 python -m unittest discover -s tests
+node --check app.js
+git diff --check
 ```
