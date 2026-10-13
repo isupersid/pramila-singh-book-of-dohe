@@ -8,6 +8,7 @@ const elements = {
   featuredTitle: document.querySelector(".featured-title"),
   featuredLines: document.querySelector(".featured-lines"),
   startReading: document.querySelector("#start-reading"),
+  coverOpen: document.querySelector("#cover-open"),
   randomButton: document.querySelector("#random-button"),
   searchInput: document.querySelector("#search-input"),
   yearFilters: document.querySelector("#year-filters"),
@@ -410,9 +411,11 @@ function bindEvents() {
       renderCollection();
     });
   }
-  elements.startReading?.addEventListener("click", () => {
+  const startReading = () => {
     if (state.poems.length) openReader(state.poems[0]);
-  });
+  };
+  elements.startReading?.addEventListener("click", startReading);
+  elements.coverOpen?.addEventListener("click", startReading);
   elements.randomButton?.addEventListener("click", openRandomPoem);
   elements.readerClose.addEventListener("click", closeReader);
   elements.reader.addEventListener("click", (event) => {
