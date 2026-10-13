@@ -7008,5 +7008,745 @@
     "theme": "praise-for-a-rainbow",
     "confidence": "high",
     "contextConfidence": "high"
+  },
+  "notes_20240423125416": {
+    "literalEnglish": [
+      "A person without humanity is like a demon.",
+      "Forgiveness, good character, and generosity are the marks of a divine person."
+    ],
+    "childFriendlyEnglish": "The poem says that being human means showing kindness, patience, and generosity; without those qualities, a person can behave cruelly.",
+    "simpleHindiExplanation": "जिस व्यक्ति में मानवता नहीं है, उसे असुर के समान कहा गया है। क्षमा, अच्छा आचरण और दानशीलता को सज्जन या देवतुल्य मनुष्य की पहचान बताया गया है।",
+    "context": "Dated 2023-10-20 with “असुर” as the prompt, the couplet contrasts demonic and divine conduct as moral metaphors. It does not literally classify any named person.",
+    "theme": "humanity-and-virtue",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125420": {
+    "literalEnglish": [
+      "Mira broke the shackles of social shame and sat among saints.",
+      "See how she became steeped in the colour of devotion to Krishna."
+    ],
+    "childFriendlyEnglish": "Mira is shown setting aside social expectations so she can join holy people and devote herself freely to Krishna.",
+    "simpleHindiExplanation": "मीराबाई ने लोक-लाज के बंधन तोड़कर संतों की संगति और कृष्ण-भक्ति को अपनाया। भक्ति का रंग चढ़ना उनके गहरे समर्पण का रूपक है।",
+    "context": "Dated 2023-10-21 with “बेड़ी” as the prompt, the verse evokes the devotional life traditionally associated with Mirabai. “Shackles” refers figuratively to social restraint and concern for reputation.",
+    "theme": "mirabai-and-devotional-freedom",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125423": {
+    "literalEnglish": [
+      "Only through labour does one consistently earn a place in the world.",
+      "Those who shirk work always remain disgraced."
+    ],
+    "childFriendlyEnglish": "Steady effort helps people achieve something worthwhile, while repeatedly avoiding one's responsibilities harms trust and respect.",
+    "simpleHindiExplanation": "परिश्रम से ही जीवन में स्थान और सफलता मिलने की बात कही गई है। काम से जी चुराने वाले व्यक्ति की प्रतिष्ठा घटती है।",
+    "context": "Dated 2023-10-21 with “चोर” as the prompt, the poem uses the compound “कामचोर,” meaning a person who habitually avoids work. It offers general moral advice rather than describing theft.",
+    "theme": "work-and-reputation",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125432": {
+    "literalEnglish": [
+      "Among the Nine Gems, Birbal was the wisest and most discerning.",
+      "He held special honour in Akbar's court."
+    ],
+    "childFriendlyEnglish": "The poem remembers Birbal as a clever and respected adviser in Emperor Akbar's court.",
+    "simpleHindiExplanation": "बीरबल को अकबर के नवरत्नों में अत्यंत चतुर और समझदार बताया गया है। दरबार में उन्हें विशेष सम्मान मिलने का उल्लेख है।",
+    "context": "The catalog date is 2023-10-21, while the raw metadata gives 2023-10-22 and “चतुर” as the prompt. Birbal is popularly remembered as one of Akbar's Navaratnas, though the formal list varies across later traditions.",
+    "theme": "birbal-in-akbars-court",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125441": {
+    "literalEnglish": [
+      "The darkness of Kaliyuga is spreading; take away everyone's suffering.",
+      "The world is impatient to behold the form of Kalki."
+    ],
+    "childFriendlyEnglish": "The poem voices a devotional hope that Kalki will appear in a troubled age and relieve people's suffering.",
+    "simpleHindiExplanation": "कलियुग के बढ़ते अंधकार और दुख को देखकर कल्कि अवतार से पीड़ा दूर करने की प्रार्थना की गई है। संसार उनके दर्शन की प्रतीक्षा करता दिखाया गया है।",
+    "context": "Dated 2023-10-22 with “युग” as the prompt, the verse draws on the Hindu belief that Kalki is Vishnu's future avatar at the end of Kaliyuga. The language is devotional expectation, not a dated prediction.",
+    "theme": "kaliyuga-and-kalki",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125447": {
+    "literalEnglish": [
+      "Adda slippers are quite famous in the country.",
+      "This Thai brand travels to places far and wide."
+    ],
+    "childFriendlyEnglish": "The poem uses the prompt “Adda” to mention a well-known slipper brand and its reach beyond Thailand.",
+    "simpleHindiExplanation": "दोहा “अड्डा” शब्द को चप्पल के एक ब्रांड के रूप में लेता है। उसे थाईलैंड का प्रसिद्ध ब्रांड बताते हुए दूर-दूर तक पहुँचने की बात कही गई है।",
+    "context": "Dated 2023-10-23 with “अड्डा” as the prompt, the poem appears to refer to the footwear brand ADDA. The preserved text calls it a Thai brand; this editorial layer does not independently verify its origin or market reach.",
+    "theme": "adda-footwear-brand",
+    "confidence": "medium",
+    "contextConfidence": "low"
+  },
+  "notes_20240423125451": {
+    "literalEnglish": [
+      "Understand the world's glitter and show as an enclosing snare.",
+      "The light within always gives true illumination."
+    ],
+    "childFriendlyEnglish": "Outer glamour can trap our attention, but inner goodness and understanding provide a more lasting kind of light.",
+    "simpleHindiExplanation": "संसार की बाहरी चमक-दमक को बाँध लेने वाला आकर्षण कहा गया है। इसके विपरीत अंतर्मन की रोशनी को सच्चा और स्थायी प्रकाश माना गया है।",
+    "context": "Dated 2023-10-23 with “चमक” as the prompt, the phrase “भुज पाश” literally suggests an embrace or arm-like snare. It is read metaphorically as worldly glamour that holds a person captive.",
+    "theme": "outer-glitter-and-inner-light",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125457": {
+    "literalEnglish": [
+      "Do not take pride in practising deceit in the world.",
+      "The festival of Vijayadashami teaches us this very lesson."
+    ],
+    "childFriendlyEnglish": "Vijayadashami is presented as a reminder not to feel proud of trickery or wrongdoing, because goodness should overcome them.",
+    "simpleHindiExplanation": "छल-कपट करके गर्व न करने की सीख दी गई है। विजयादशमी को असत्य और अधर्म पर विजय का संदेश देने वाला पर्व माना गया है।",
+    "context": "Dated 2023-10-24 with “छल” as the prompt, the couplet draws a general ethical lesson from Vijayadashami. It does not identify one specific episode of deceit.",
+    "theme": "vijayadashami-against-deceit",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125501": {
+    "literalEnglish": [
+      "The festival of Dussehra gives everyone this message:",
+      "never cause suffering to your brother."
+    ],
+    "childFriendlyEnglish": "The poem draws a family lesson from Dussehra: brothers and siblings should care for one another instead of causing pain.",
+    "simpleHindiExplanation": "दशहरा पर्व से भाई को कष्ट न देने और पारिवारिक प्रेम बनाए रखने की सीख निकाली गई है। यह संदेश राम-लक्ष्मण और रावण-विभीषण जैसे संबंधों की ओर संकेत कर सकता है।",
+    "context": "The catalog date is 2023-10-24, while the raw metadata gives 2023-10-25 and “दशहरा” as the prompt. The exact brotherly relationship intended is not named, so any Ramayana connection remains an inference.",
+    "theme": "dussehra-and-brotherly-care",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125505": {
+    "literalEnglish": [
+      "1.",
+      "Do not slander others; keep your mind pure.",
+      "The truly great person in this world is the one who forgives.",
+      "2.",
+      "Look within yourself, and give up speaking ill of people.",
+      "Leave your own faults behind and form a bond with the Divine.",
+      "3.",
+      "If you hear criticism of yourself, do not abandon discernment.",
+      "An elephant walks with dignity while many dogs bark."
+    ],
+    "childFriendlyEnglish": "These verses ask us not to gossip about others, to examine our own faults, to forgive, and to stay calm and thoughtful when people criticize us.",
+    "simpleHindiExplanation": "दूसरों की निंदा छोड़कर अपना मन साफ रखने, अपने अवगुण देखने और ईश्वर से जुड़ने की सीख है। अपनी निंदा सुनकर भी विवेक न खोने और हाथी की तरह गरिमा से आगे बढ़ने को कहा गया है।",
+    "context": "Dated 2023-10-25 with “निंदा” as the prompt, the three numbered couplets give moral advice. The elephant-and-barking-dogs image is a traditional metaphor for remaining composed amid criticism, not a literal comparison of particular people to animals.",
+    "theme": "avoiding-slander-and-keeping-composure",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125509": {
+    "literalEnglish": [
+      "Everyone celebrates with joy at truth's victory.",
+      "See how the enactment of Ravana's defeat continues year after year."
+    ],
+    "childFriendlyEnglish": "Each year people celebrate the victory of truth and goodness by remembering or staging the defeat of Ravana.",
+    "simpleHindiExplanation": "सत्य की विजय पर लोगों के उल्लास और हर वर्ष रावण-वध के आयोजन का वर्णन है। यह दशहरा की निरंतर चली आ रही परंपरा की ओर संकेत करता है।",
+    "context": "The catalog date is 2023-10-25, while the raw metadata gives 2023-10-24 and “सिलसिला” as the prompt. The verse appears to refer to the recurring Dussehra custom of staging or symbolically reenacting Ravana's defeat.",
+    "theme": "annual-dussehra-tradition",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125512": {
+    "literalEnglish": [
+      "Couplet: 25/10/2023",
+      "If brothers share love like Rama and Lakshmana,",
+      "they will win, whatever the battle may be."
+    ],
+    "childFriendlyEnglish": "The poem says that brothers who stand together with love and loyalty, like Rama and Lakshmana, can face even very hard struggles.",
+    "simpleHindiExplanation": "राम और लक्ष्मण जैसे भाई-प्रेम और एकता को शक्ति बताया गया है। साथ रहने वाले भाई कठिन संघर्ष में भी विजय पा सकते हैं।",
+    "context": "Dated 2023-10-25 with “जीत” as the title, the first body line preserves the note's own date label. Rama and Lakshmana serve as a moral example of brotherly loyalty.",
+    "theme": "brotherly-unity-and-victory",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125518": {
+    "literalEnglish": [
+      "Couplet: 25/10/2023",
+      "The ten-headed Ravana had struck his own brother",
+      "with a kick.",
+      "That is why he met defeat in the war."
+    ],
+    "childFriendlyEnglish": "The poem recalls Ravana insulting his brother Vibhishana and treats that cruelty toward family as one reason for Ravana's eventual defeat.",
+    "simpleHindiExplanation": "रावण द्वारा अपने भाई विभीषण का अपमान करके लात मारने की रामायण-परंपरा का संकेत है। दोहा इस अन्याय को युद्ध में रावण की हार से जोड़ता है।",
+    "context": "Dated 2023-10-25 with “मात” as the title, “दशकंध” identifies ten-headed Ravana and the unnamed brother appears to be Vibhishana. The causal link to Ravana's defeat is the poem's moral interpretation of the epic episode.",
+    "theme": "ravana-vibhishana-and-defeat",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125522": {
+    "literalEnglish": [
+      "Life lasts only a few days; may we remain contented.",
+      "By doing good deeds, may we become an example for the world."
+    ],
+    "childFriendlyEnglish": "Because life is short, the poem encourages us to live happily, do good, and leave others a positive example.",
+    "simpleHindiExplanation": "जीवन को बहुत छोटा मानकर प्रसन्न रहने और अच्छे कर्म करने की प्रेरणा दी गई है। ऐसा जीवन दूसरों के लिए मिसाल बन सकता है।",
+    "context": "The catalog date is 2023-10-25, while the raw metadata gives 2023-10-26 and “जिंदगी” as the prompt. “Four days” is an idiom for life's brevity, not a literal duration.",
+    "theme": "short-life-and-good-deeds",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125527": {
+    "literalEnglish": [
+      "1.",
+      "A person intoxicated with pride keeps uttering pointless ravings.",
+      "One day that person falls into an abyss and suffers anguish.",
+      "2.",
+      "Politicians make tall claims and deliver campaign bluster.",
+      "Take a measuring standard in hand and weigh your vote."
+    ],
+    "childFriendlyEnglish": "The poem warns against arrogant talk and asks voters to judge campaign promises carefully before deciding whom to support.",
+    "simpleHindiExplanation": "अहंकार में व्यर्थ बोलने वाले व्यक्ति के पतन की चेतावनी है। दूसरे दोहे में नेताओं के ऊँचे दावों को परखकर सोच-समझकर मतदान करने की सलाह दी गई है।",
+    "context": "Dated 2023-10-26 with “प्रलाप” as the prompt, the second couplet uses measurement as a metaphor for evaluating political claims. No election, party, candidate, or jurisdiction is identified.",
+    "theme": "arrogance-and-informed-voting",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125532": {
+    "literalEnglish": [
+      "Domesticated animals and birds are clever and perceptive.",
+      "They hear their owner's footsteps and recognize them."
+    ],
+    "childFriendlyEnglish": "Animals who live closely with people can learn familiar sounds and often recognize when their caregiver is approaching.",
+    "simpleHindiExplanation": "पालतू पशु-पक्षियों की समझ और पहचानने की क्षमता का वर्णन है। वे मालिक की परिचित आहट सुनकर उसे पहचान लेते हैं।",
+    "context": "The catalog date is 2023-10-26, while the raw metadata gives 2023-10-27 and “आहट” as the prompt. The observation is general and does not claim that every animal responds in the same way.",
+    "theme": "pets-recognizing-familiar-sounds",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125536": {
+    "literalEnglish": [
+      "1.",
+      "Rama's boundless glory is seen in the Rama Setu.",
+      "The world marvelled to see stones float upon the sea.",
+      "2.",
+      "In the Ashoka grove, Janaki was overwhelmed by sorrow.",
+      "The Son of the Wind astonished her by presenting Rama's ring.",
+      "3.",
+      "Janaki was amazed when she recognized the ring.",
+      "When victory belongs to Rama, what power can worldly illusion claim?",
+      "4.",
+      "Krishna lengthened the cloth when he saw Draupadi in distress.",
+      "Everyone stood amazed, and Dushasana was defeated.",
+      "5.",
+      "Kashmir is no longer separate from this country.",
+      "Opponents, astonished by the new law, are displeased."
+    ],
+    "childFriendlyEnglish": "The poem gathers several scenes of amazement: miracles from the Ramayana and Mahabharata, followed by the author's approval of a legal change concerning Kashmir.",
+    "simpleHindiExplanation": "पहले चार दोहों में रामसेतु, हनुमान द्वारा सीता को अंगूठी देना और द्रौपदी-चीरहरण जैसे पौराणिक प्रसंगों का आश्चर्य है। अंतिम दोहा कश्मीर से जुड़े नए कानून पर कवयित्री की राजनीतिक प्रतिक्रिया व्यक्त करता है।",
+    "context": "Dated 2023-10-27 with “चकित” as the prompt, the first four numbered sections recount devotional or epic traditions. The fifth appears to approve the 2019 changes to Jammu and Kashmir's constitutional status, likely the effective removal of Article 370's special provisions; its wording expresses a viewpoint and should not be treated as a complete legal description.",
+    "theme": "epic-wonders-and-kashmir-law",
+    "confidence": "medium",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125540": {
+    "literalEnglish": [
+      "Know Meghaduta as a great work of poetry.",
+      "The poet Kalidasa sang of a yaksha's separation and longing."
+    ],
+    "childFriendlyEnglish": "The poem praises Kalidasa's Meghaduta, in which a separated yaksha sends a message to his beloved through a cloud.",
+    "simpleHindiExplanation": "कालिदास के प्रसिद्ध काव्य “मेघदूत” की प्रशंसा की गई है। उसमें विरही यक्ष की अपनी प्रिया से दूरी और संदेश का भाव प्रमुख है।",
+    "context": "The catalog date is 2023-10-27, while the raw metadata gives 2023-10-28 and “काव्य” as the prompt. Meghaduta is a Sanskrit lyric poem attributed to Kalidasa about an exiled yaksha sending a cloud-borne message.",
+    "theme": "kalidasas-meghaduta",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125543": {
+    "literalEnglish": [
+      "1.",
+      "Always meditate upon Hanuman, the Son of the Wind.",
+      "This devotee of Ramachandra removes suffering.",
+      "2.",
+      "Everyone here suffers, whether poor or wealthy.",
+      "Reading Krishna's Gita brings this understanding.",
+      "3.",
+      "One who relieves suffering seems like God.",
+      "That person receives blessings and earns respect."
+    ],
+    "childFriendlyEnglish": "The verses combine faith with compassion: prayer can offer strength, everyone faces hardship, and a person who helps ease another's pain deserves gratitude.",
+    "simpleHindiExplanation": "हनुमान-स्मरण से कष्ट दूर होने का भक्तिपूर्ण विश्वास है। साथ ही कहा गया है कि गरीब-अमीर सभी दुख पाते हैं और जो किसी का कष्ट कम करता है, वह ईश्वर जैसा आदर पाता है।",
+    "context": "Dated 2023-10-28 with “कष्ट” as the prompt, the first two sections use Hindu devotional references to Hanuman and the Bhagavad Gita. The final comparison to God praises compassionate help rather than making a literal theological identification.",
+    "theme": "devotion-and-relieving-suffering",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125546": {
+    "literalEnglish": [
+      "Rama's story is delightful; immerse yourself in it.",
+      "Attend to every episode, and you will not become bored."
+    ],
+    "childFriendlyEnglish": "The poem invites readers to enter deeply into Rama's story and discover interest and meaning in each part.",
+    "simpleHindiExplanation": "रामकथा को रसपूर्ण बताया गया है। उसके प्रत्येक प्रसंग को ध्यान से सुनने या पढ़ने पर ऊब नहीं होगी और कथा का आनंद मिलेगा।",
+    "context": "Dated 2023-10-29 with “ऊब” as the prompt, this is a devotional appreciation of the Ramayana tradition. It does not specify one version or performance of Rama's story.",
+    "theme": "engaging-with-rama-story",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125550": {
+    "literalEnglish": [
+      "The Lord, friend of the helpless, heard the elephant's anguished cry.",
+      "He sent the Sudarshana Chakra and slew the crocodile."
+    ],
+    "childFriendlyEnglish": "The poem recalls the story of Gajendra, whose desperate prayer is answered when Vishnu rescues him from a crocodile.",
+    "simpleHindiExplanation": "गजेंद्र-मोक्ष की पौराणिक कथा का वर्णन है। संकट में पड़े हाथी की करुण पुकार सुनकर भगवान विष्णु सुदर्शन चक्र से ग्राह का वध करते हैं।",
+    "context": "Dated 2023-10-29 with “करुण” as the prompt, the verse refers to the Hindu narrative commonly known as Gajendra Moksha. “गज” and “ग्राह” are read as the elephant and crocodile in that tradition.",
+    "theme": "gajendra-moksha",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125555": {
+    "literalEnglish": [
+      "1.",
+      "By Rama's grace, Hanuman crossed the ocean.",
+      "He broke the pride of Surasa, Simhika, and Lankini.",
+      "2",
+      "The Son of the Wind did not rest even briefly.",
+      "By Ramachandra's grace, he reached the city of Lanka.",
+      "3.",
+      "After giving Sita the signet ring, he received this blessing:",
+      "“May the Lord's grace always be with you, brave Hanuman.”",
+      "4.",
+      "By Mother Sita's grace, the banyan became evergreen.",
+      "For bearing witness to the pind-daan, it received enduring life."
+    ],
+    "childFriendlyEnglish": "The verses celebrate Hanuman's determined journey to Lanka and then recall a separate sacred tradition in which Sita blesses a banyan tree that truthfully witnessed an ancestral offering.",
+    "simpleHindiExplanation": "पहले तीन दोहों में रामकृपा से हनुमान के समुद्र पार करने, बाधाएँ जीतने, लंका पहुँचने और सीता को मुद्रिका देने का वर्णन है। चौथा दोहा पिंडदान की साक्षी बने बरगद को सीता के वरदान से सदाबहार होने की लोक-धार्मिक कथा से जोड़ता है।",
+    "context": "Dated 2023-10-30 with “कृपा” as the prompt, sections one through three follow Ramayana episodes involving Surasa, Simhika, Lankini, and Sita. Section four appears to invoke the Gaya tradition in which Sita blesses the Akshayavat after witnesses to her pind-daan are tested; details vary across retellings.",
+    "theme": "hanuman-journey-and-sitas-banyan-blessing",
+    "confidence": "medium",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125618": {
+    "literalEnglish": [
+      "Arjuna became Brihannala; you know the story.",
+      "He performed a woman's role while living through his curse."
+    ],
+    "childFriendlyEnglish": "The poem recalls Arjuna's year as Brihannala, when he lived in disguise and taught music and dance while the Pandavas remained hidden.",
+    "simpleHindiExplanation": "महाभारत में अर्जुन के बृहन्नला रूप का संकेत है। अज्ञातवास के दौरान उन्होंने स्त्री-वेश में रहकर नृत्य-संगीत सिखाया; दोहे में इसे श्राप भोगने से जोड़ा गया है।",
+    "context": "Dated 2023-10-30 with “स्त्रैण” as the prompt, the verse refers to Arjuna's Brihannala disguise during the Pandavas' incognito exile and to the curse associated with Urvashi. The source uses a gendered term and compresses differing narrative details, so the translation avoids treating feminine expression as a fault.",
+    "theme": "arjuna-as-brihannala",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125632": {
+    "literalEnglish": [
+      "Seeing the condition of the world makes the heart sad.",
+      "Moral values are declining in the world at every moment."
+    ],
+    "childFriendlyEnglish": "The speaker feels saddened by society and worries that honesty, kindness, and other moral values are becoming weaker.",
+    "simpleHindiExplanation": "संसार की स्थिति देखकर मन उदास होता है। कवयित्री को लगता है कि नैतिक मूल्यों का लगातार ह्रास हो रहा है।",
+    "context": "The catalog date is 2023-10-30, while the raw metadata gives 2023-10-31 and “ह्रास” as the prompt. This is a broad moral judgment and names no event, place, or measured trend.",
+    "theme": "concern-about-moral-decline",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125639": {
+    "literalEnglish": [
+      "1.",
+      "It is the night of the Maharaas, and everyone dances in delight.",
+      "Krishna rejoices together with Radha and the gopis.",
+      "2.",
+      "They assume wondrous forms to witness the Maharaas.",
+      "Brahma, Vishnu, and Mahesh dance along with them.",
+      "3.",
+      "The dance of the Maharaas takes place on Sharad Purnima night.",
+      "Kamadeva could not defeat Shri Krishna.",
+      "4.",
+      "When Radha, the gopis, and Krishna all dance,",
+      "Kamadeva always fails, and his mischief has no effect.",
+      "5.",
+      "A rainbow's radiance has spread across the sky.",
+      "Delighted by the clouds, the peacock dances."
+    ],
+    "childFriendlyEnglish": "Four verses celebrate Krishna's sacred Maharaas with Radha and the gopis, while the last turns to nature, where a peacock dances beneath clouds and a rainbow.",
+    "simpleHindiExplanation": "पहले चार दोहों में शरद पूर्णिमा की महारास-लीला, राधा-गोपियों के साथ कृष्ण का नृत्य और कामदेव पर उनकी आध्यात्मिक विजय है। अंतिम दोहे में मेघ और इंद्रधनुष देखकर नाचते मोर का प्राकृतिक दृश्य है।",
+    "context": "Dated 2023-10-31 with “नृत्य” as the prompt, sections one through four draw on devotional traditions about Krishna's Maharaas and victory over desire; details such as the Trimurti joining the dance belong to devotional retelling. Section five is an independent nature image.",
+    "theme": "maharaas-and-peacock-dance",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125643": {
+    "literalEnglish": [
+      "May there be love throughout the whole world, making it one family.",
+      "I offer this prayer; O Lord, please accept it."
+    ],
+    "childFriendlyEnglish": "The speaker prays for people everywhere to care for one another as members of one worldwide family.",
+    "simpleHindiExplanation": "पूरे विश्व में प्रेम फैलने और सबके एक परिवार की तरह बनने की प्रार्थना है। कवयित्री ईश्वर से इस मंगल-कामना को स्वीकार करने का निवेदन करती हैं।",
+    "context": "Dated 2023-11-01 with “अखिल” as the prompt, the couplet expresses a universal devotional wish. Its “one family” image resembles the broad ideal of world kinship without quoting a specific maxim.",
+    "theme": "world-as-one-family",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125646": {
+    "literalEnglish": [
+      "3.",
+      "Akhilesh, the Lord, is the doer of all three worlds.",
+      "The troubles of those who receive his grace are erased.",
+      "2.",
+      "The head of a family is like a protective shield.",
+      "That person is called the doer and looks after everyone.",
+      "3.",
+      "Wise people should understand Hindi grammar.",
+      "The subject case is said here to be sixth and identified by its marker.",
+      "4.",
+      "When Ram or Shyam takes the subject marker, recognize the subject case.",
+      "When Ram or Shyam takes the object marker, the object case is foremost."
+    ],
+    "childFriendlyEnglish": "The verses explore different meanings of “doer”: God as creator, a family leader as caretaker, and the grammatical subject of a Hindi sentence.",
+    "simpleHindiExplanation": "“कर्ता” के अलग अर्थ बताए गए हैं—तीनों लोकों के कर्ता ईश्वर, परिवार की देखभाल करने वाला मुखिया और हिंदी व्याकरण का कर्ता कारक। अंतिम उदाहरणों में “ने” को कर्ता और “को” को कर्म कारक का चिह्न बताया गया है।",
+    "context": "Dated 2023-11-01 with “कर्ता” as the prompt, the note's numbering begins with “3” and later repeats it; the translation preserves that source order. The grammar lines present a simplified rule: “ने” can mark an ergative subject and “को” can mark an object, but Hindi case marking is more context-dependent, and the phrase “कर्ता कारक छह बने” is unclear.",
+    "theme": "meanings-of-karta",
+    "confidence": "low",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125650": {
+    "literalEnglish": [
+      "Languages and religions differ, and clothing takes many forms.",
+      "Our country India looks like a rainbow."
+    ],
+    "childFriendlyEnglish": "India's many languages, faiths, and styles of dress are compared to the different colours that make one rainbow.",
+    "simpleHindiExplanation": "भारत में भाषा, धर्म और वेशभूषा की विविधता है। इन अनेक रूपों को मिलकर बने सुंदर इंद्रधनुष के समान बताया गया है।",
+    "context": "Dated 2023-11-02 with “अंतर” as the prompt, the rainbow is a metaphor for India's cultural diversity. The verse celebrates difference within a shared national identity.",
+    "theme": "indias-cultural-diversity",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125653": {
+    "literalEnglish": [
+      "The scheming woman Manthara filled the mind of Queen Kaikeyi",
+      "with malicious counsel.",
+      "Dasharatha was astonished by the queen's extraordinary demands."
+    ],
+    "childFriendlyEnglish": "The poem recalls how Manthara influenced Queen Kaikeyi, whose later demands shocked King Dasharatha and changed Rama's life.",
+    "simpleHindiExplanation": "रामायण में मंथरा द्वारा कैकेयी को भड़काने का प्रसंग है। उसके प्रभाव में रानी के वर माँगने से राजा दशरथ हैरान और दुखी हुए।",
+    "context": "Dated 2023-11-02 with “कुटिल” as the prompt, the first sentence is split across two preserved source lines. “Filled her ears” is an idiom for prejudicial influence; the final line appears to refer to Kaikeyi claiming her two boons.",
+    "theme": "manthara-influences-kaikeyi",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125658": {
+    "literalEnglish": [
+      "War always destroys happiness and joy in the world.",
+      "It causes the value placed on humanity to decline."
+    ],
+    "childFriendlyEnglish": "The poem warns that war takes away ordinary happiness and weakens respect for human life and compassion.",
+    "simpleHindiExplanation": "युद्ध संसार के सुख और आनंद को नष्ट करता है। उससे मानवता और मानवीय मूल्यों का पतन होता है।",
+    "context": "The catalog date is 2023-11-02, while the raw metadata gives 2023-11-03 and “अपकर्ष” as the prompt. No conflict is named, so this remains a general anti-war statement rather than commentary securely tied to one event.",
+    "theme": "war-and-human-decline",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125707": {
+    "literalEnglish": [
+      "The endeavour succeeded through steadfast faith.",
+      "The Ganga flowed upon the earth through Bhagiratha's effort."
+    ],
+    "childFriendlyEnglish": "Bhagiratha's determined effort to bring the Ganga to earth becomes an example of how faith and persistence can accomplish a great task.",
+    "simpleHindiExplanation": "भगीरथ के दृढ़ विश्वास और कठिन प्रयास से गंगा के धरती पर आने की पौराणिक कथा का संकेत है। “भागीरथी प्रयास” बहुत बड़े और निरंतर प्रयत्न का रूपक भी है।",
+    "context": "Dated 2023-11-03 with “चेष्टा” as the prompt, the couplet invokes the Hindu story of Bhagiratha bringing the Ganga from heaven to earth. “Bhagiratha's effort” is also a familiar expression for extraordinary perseverance.",
+    "theme": "bhagirathas-perseverance",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125711": {
+    "literalEnglish": [
+      "1.",
+      "Bitter words inflict wounds upon the inner heart.",
+      "Sweeten your speech, and tension will recede.",
+      "2.",
+      "Always maintain an attachment to literature of the highest quality.",
+      "Then the world's material illusion will not cause you tension.",
+      "3.",
+      "As tension increases, divorces occur every day.",
+      "Relationships between husbands and wives are being reduced to ashes.",
+      "4.",
+      "They stand in court today, carrying their tension.",
+      "Love and affection have disappeared between them.",
+      "5.",
+      "Mother Earth too is troubled by tension these days.",
+      "That is why humanity is now distressed by earthquakes."
+    ],
+    "childFriendlyEnglish": "The verses connect stress with hurtful speech and strained marriages, recommend gentle words and good literature, and finally personify the Earth as tense—an image rather than a scientific explanation of earthquakes.",
+    "simpleHindiExplanation": "कटु वाणी से मन को चोट और तनाव बढ़ता है, जबकि मधुर बोल और अच्छा साहित्य मन को सहारा देते हैं। वैवाहिक तनाव और अदालत तक पहुँचे संबंधों पर चिंता है। अंतिम दोहे में धरती के तनाव को भूकंप से जोड़ना काव्यात्मक मानवीकरण है, वैज्ञानिक कारण नहीं।",
+    "context": "Dated 2023-11-04 with “तनाव” as the prompt, the five sections move from interpersonal stress to marriage and divorce. The final section poetically attributes earthquakes to Mother Earth's tension; earthquakes result from geological processes, so that line should not be read as a scientific claim.",
+    "theme": "speech-relationships-and-tension",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125714": {
+    "literalEnglish": [
+      "1.",
+      "Think deeply and carefully, and only then begin the work.",
+      "Dedication and labour consistently bring a pleasing result.",
+      "2.",
+      "One who remains in deep shade still searches for light.",
+      "A palash tree does not thrive beneath a banyan's shadow.",
+      "3.",
+      "Waves rise in the ocean, yet it remains deep and solemn.",
+      "It does not abandon its bounds, nor does its water run dry."
+    ],
+    "childFriendlyEnglish": "The poem values thoughtful work, warns that living under another's heavy shadow can limit growth, and praises the deep ocean as an image of steadiness and restraint.",
+    "simpleHindiExplanation": "काम शुरू करने से पहले गहन चिंतन और फिर लगन-परिश्रम की सलाह है। वटवृक्ष की घनी छाया में पलाश न पनपने की छवि स्वतंत्र विकास की जरूरत बताती है। समुद्र की गहराई और मर्यादा को स्थिरता का रूपक बनाया गया है।",
+    "context": "Dated 2023-11-05 with “गहन” as the prompt, the three sections use practical, botanical, and oceanic images. The banyan-and-palash line may be read literally as shade limiting growth and figuratively as dependence limiting development.",
+    "theme": "deep-thought-growth-and-restraint",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125718": {
+    "literalEnglish": [
+      "Learn, everyone, the value of the rising sun.",
+      "It provides several nutrients, with vitamin D foremost."
+    ],
+    "childFriendlyEnglish": "The poem encourages appreciation of morning sunlight, which helps the body make vitamin D, while other nutrients still come from food.",
+    "simpleHindiExplanation": "उगते सूर्य और सुबह की धूप के लाभ बताए गए हैं। धूप शरीर में विटामिन डी बनने में मदद करती है; अन्य पोषक तत्व भोजन आदि से मिलते हैं।",
+    "context": "Dated 2023-11-05 with “उदय” as the prompt, the poem links sunlight with nutrients and especially vitamin D. More precisely, ultraviolet B exposure helps skin synthesize vitamin D; sunlight does not directly supply multiple nutrients, and safe exposure varies by person and conditions.",
+    "theme": "sunlight-and-vitamin-d",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125722": {
+    "literalEnglish": [
+      "When honour is damaged, the heart is hurt.",
+      "A flaw then develops in the relationship between people."
+    ],
+    "childFriendlyEnglish": "When someone feels humiliated or disrespected, trust can be wounded and a relationship may begin to suffer.",
+    "simpleHindiExplanation": "मान-सम्मान को ठेस लगने से मन दुखता है। इससे आपसी संबंध में अविश्वास या खटास पैदा हो सकती है।",
+    "context": "Dated 2023-11-06 with “क्षति” as the prompt, the couplet describes a general emotional consequence of damaged dignity. It names no people or incident.",
+    "theme": "hurt-respect-and-relationships",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125726": {
+    "literalEnglish": [
+      "1.",
+      "Everyone compares beauty to a blooming rose.",
+      "When compliments are offered, it feels as though rare wings have appeared.",
+      "2.",
+      "Today I unexpectedly found a long-forgotten book.",
+      "A suffocated rose inside it left me astonished."
+    ],
+    "childFriendlyEnglish": "One verse celebrates the rose as a symbol of beauty and praise; the other finds an old pressed rose in a forgotten book, carrying a quiet memory from the past.",
+    "simpleHindiExplanation": "पहले दोहे में खिले गुलाब को सुंदरता और प्रशंसा का प्रतीक बनाया गया है। दूसरे में भूली हुई किताब के भीतर दबा, सूख चुका गुलाब अचानक पुरानी स्मृति जगा देता है।",
+    "context": "Dated 2023-11-06 with “गुलाब” as the prompt, “पंख सुरखाब” is an idiom suggesting added distinction or splendour. “दमघुटा गुलाब” appears to describe a rose long pressed inside a closed book; the memory attached to it is not specified.",
+    "theme": "rose-beauty-and-memory",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125729": {
+    "literalEnglish": [
+      "1.",
+      "At every moment, fulfil all your duties.",
+      "Let no debt owed by children to their parents remain unpaid.",
+      "2.",
+      "They take bank loans by giving false identities.",
+      "These fraudsters are harming India.",
+      "3.",
+      "Harishchandra has always remained unequalled in this world.",
+      "To repay his debt, he gave up everything.",
+      "4.",
+      "He sold his son and wife, yet the debt was not fully paid.",
+      "He sold himself to a Dom and faithfully fulfilled his duty.",
+      "5.",
+      "He even demanded half a garment from his wife.",
+      "The gods felt the pain created by this debt.",
+      "6.",
+      "Seeing his dead son, he held back his tears.",
+      "To discharge the debt, he firmly demanded the required tax.",
+      "7.",
+      "This story of Harishchandra teaches everyone:",
+      "one must not beg in order to repay a debt."
+    ],
+    "childFriendlyEnglish": "The poem first urges responsibility and condemns loan fraud, then retells the severe trials of King Harishchandra, famed for keeping his word even through terrible personal loss.",
+    "simpleHindiExplanation": "कर्तव्य और माता-पिता के प्रति दायित्व निभाने की सीख तथा झूठी पहचान से बैंक-कर्ज लेने वाले ठगों की आलोचना है। आगे राजा हरिश्चंद्र की कथा है, जिन्होंने सत्य और वचन निभाने के लिए परिवार, राज्य और स्वयं तक का त्याग किया; कथा की कठोर घटनाएँ आदर्श की परीक्षा के रूप में प्रस्तुत हैं।",
+    "context": "Dated 2023-11-06 with “कर्ज” as the prompt, sections three through seven compress the traditional story of King Harishchandra's debt to Vishvamitra and his work under a Dom at a cremation ground. Retellings differ: references to selling his son, demanding cloth or a cremation fee, and the gods' intervention should be understood within that legendary narrative, not as modern financial advice.",
+    "theme": "debt-duty-fraud-and-harishchandra",
+    "confidence": "medium",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125733": {
+    "literalEnglish": [
+      "Action",
+      "Leave ritual formalities behind and worship the Lord's name.",
+      "Through heartfelt devotion, Shabari found Shri Rama."
+    ],
+    "childFriendlyEnglish": "The poem says that sincere love and devotion matter more than elaborate ceremonies, using Shabari's welcome of Rama as its example.",
+    "simpleHindiExplanation": "बाहरी कर्मकांड से अधिक सच्ची भक्ति और प्रभु-स्मरण को महत्व दिया गया है। शबरी की निष्कपट भक्ति के कारण राम से मिलन का उदाहरण दिया गया है।",
+    "context": "Dated 2023-11-06, the note title is “कर्म,” the prompt is “कर्मकांड,” and the first body line repeats “कर्म.” The Shabari episode from Ramayana tradition is used to contrast heartfelt devotion with ritual display.",
+    "theme": "shabari-and-sincere-devotion",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125736": {
+    "literalEnglish": [
+      "1.",
+      "One who completes every task at the proper time",
+      "makes life successful and earns a name in the world.",
+      "2.",
+      "Who knows how many people here are hungry and destitute?",
+      "It is not right to throw away even a single grain of food.",
+      "3.",
+      "What is right today is to conserve water.",
+      "Work together to resolve this serious crisis.",
+      "4.",
+      "It is proper to rise in the morning and salute the sun.",
+      "Vitamin D is gained, along with many benefits."
+    ],
+    "childFriendlyEnglish": "The verses recommend timely work, avoiding food waste, conserving water together, and appreciating safe morning sunlight as one support for health.",
+    "simpleHindiExplanation": "समय पर काम करने, भूखे लोगों को ध्यान में रखकर अन्न न फेंकने और जल-संरक्षण की सीख है। अंतिम दोहा सुबह सूर्य को प्रणाम और धूप से विटामिन डी मिलने की बात करता है।",
+    "context": "Dated 2023-11-07 with “उचित” as the prompt, the four sections offer separate practical lessons. Sunlight can help the body synthesize vitamin D, but the health effects and safe amount of exposure vary; the verse is not comprehensive medical guidance.",
+    "theme": "timely-work-food-water-and-sunlight",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125740": {
+    "literalEnglish": [
+      "The grace of dust from the Lord's lotus feet is boundless.",
+      "Freed from her stone body, Ahalya became a woman again."
+    ],
+    "childFriendlyEnglish": "The poem recalls the Ramayana story in which Ahalya is released from a stone-like curse through Rama's sacred presence.",
+    "simpleHindiExplanation": "रामायण के अहल्या-उद्धार प्रसंग का वर्णन है। प्रभु राम के चरण-स्पर्श या चरण-रज की कृपा से अहल्या पत्थर-रूप के श्राप से मुक्त होकर फिर नारी रूप पाती हैं।",
+    "context": "Dated 2023-11-08 with “सरोज” as the prompt, “lotus feet” is devotional imagery and “उपल देह” means a stone body. Versions of the Ahalya story differ on whether Rama's foot, dust, sight, or presence ends the curse.",
+    "theme": "ahalya-redemption",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125743": {
+    "literalEnglish": [
+      "1.",
+      "Gather a wealth of virtue and fill your treasury.",
+      "Carry it wherever you wish; it will give contentment.",
+      "2.",
+      "This world's picture is impossible without water.",
+      "Store water in abundance and relieve the world's pain.",
+      "3.",
+      "One who shares a wealth of knowledge remains ever abundant.",
+      "That person's fame spreads and their radiance grows.",
+      "4.",
+      "You arrived empty-handed; what will you take with you?",
+      "The Lord of the world never obstructs a wealth of virtue."
+    ],
+    "childFriendlyEnglish": "The poem plays with different kinds of “wealth”: good deeds, stored water, and shared knowledge. It says these matter more than possessions we cannot carry beyond life.",
+    "simpleHindiExplanation": "“राशि” शब्द से पुण्य, जल और ज्ञान की संपदा का वर्णन है। अच्छे कर्मों का संतोष, जल-संचय की आवश्यकता और ज्ञान बाँटने से बढ़ती समृद्धि बताई गई है; अंत में भौतिक वस्तुओं की नश्वरता याद दिलाई गई है।",
+    "context": "Dated 2023-11-08 with “राशि” as the prompt, the four sections use the word for an accumulated store of virtue, water, and knowledge. The final line is devotional and somewhat compressed; it appears to affirm that spiritual merit accompanies a person when material possessions do not.",
+    "theme": "wealth-of-virtue-water-and-knowledge",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125748": {
+    "literalEnglish": [
+      "This life has always learned from deprivation.",
+      "Do not ignore the cry of the poor and suffering."
+    ],
+    "childFriendlyEnglish": "Hardship can teach compassion, and the poem asks us to listen and respond when people in need call for help.",
+    "simpleHindiExplanation": "अभावों से जीवन को सीख मिलने की बात है। अपने अनुभव से संवेदनशील होकर गरीब और दुखी व्यक्ति की पुकार अनसुनी न करने का आग्रह किया गया है।",
+    "context": "The catalog date is 2023-11-08, while the raw metadata gives 2023-11-09 and “अभावों” as the prompt. The speaker's exact deprivation is not described, so the lesson remains general.",
+    "theme": "hardship-and-compassion",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125751": {
+    "literalEnglish": [
+      "1.",
+      "Rama and Sita's horoscopes too were matched.",
+      "Yet they found no release from lifelong struggle.",
+      "2.",
+      "Mars in the horoscope's seventh house brings separation.",
+      "Such people are able to enjoy very little marital happiness."
+    ],
+    "childFriendlyEnglish": "The poem questions whether matching horoscopes can guarantee a happy marriage, using Rama and Sita's hardships and a traditional astrological belief about Mars as examples.",
+    "simpleHindiExplanation": "राम-सीता की कुंडली मिलान के बाद भी उनके जीवन में संघर्ष रहने का उदाहरण देकर विवाह-सुख की गारंटी पर प्रश्न उठता है। दूसरे दोहे में सप्तम भाव के मंगल से वियोग की पारंपरिक ज्योतिष-मान्यता कही गई है, जो वैज्ञानिक रूप से सिद्ध भविष्यवाणी नहीं है।",
+    "context": "Dated 2023-11-09 with “कुंडली” as the prompt, the verses combine a later cultural idea of Rama and Sita's horoscope matching with the astrological concept often called Manglik or Mangala dosha. Astrological predictions are matters of belief and should not be presented as established evidence about marriage outcomes.",
+    "theme": "horoscope-matching-and-marriage",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125754": {
+    "literalEnglish": [
+      "1.",
+      "I offer bilva leaves, together with bhang and dhatura.",
+      "May a stream of Ganga water please Bholenath.",
+      "2.",
+      "A new age has arrived, and letters have ceased.",
+      "The mobile phone now rules here without rival."
+    ],
+    "childFriendlyEnglish": "One verse describes traditional offerings to Shiva; the other contrasts old handwritten letters with the near-total presence of mobile phones in modern communication.",
+    "simpleHindiExplanation": "पहले दोहे में शिव को बेलपत्र, भांग, धतूरा और गंगाजल अर्पित करने की भक्ति-परंपरा है। दूसरे में पत्रों के कम होते चलन और मोबाइल के बढ़ते प्रभुत्व पर टिप्पणी है।",
+    "context": "Dated 2023-11-11 with “पत्र” as the prompt, the poem uses two senses and associations of the word: a leaf in “बेलपत्र” and a written letter. The claim that letters have stopped is rhetorical; postal and handwritten letters still exist.",
+    "theme": "bilva-leaves-letters-and-mobile-phones",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125757": {
+    "literalEnglish": [
+      "Conserve water; do not let it be wasted.",
+      "Otherwise, one day a grave water crisis will arrive."
+    ],
+    "childFriendlyEnglish": "The poem asks everyone to save water now so communities do not face a severe shortage in the future.",
+    "simpleHindiExplanation": "जल का संचय करने और उसे व्यर्थ न बहाने की चेतावनी है। अभी सावधानी न बरतने पर भविष्य में गंभीर जल-संकट हो सकता है।",
+    "context": "The catalog date is 2023-11-11, while the raw metadata gives 2023-11-10 and “संकट” as the prompt. This is a general conservation warning and does not identify a particular region, forecast, or deadline.",
+    "theme": "water-conservation-warning",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125801": {
+    "literalEnglish": [
+      "An overly straightforward person cannot get by in this world, O Lord.",
+      "Only when a finger is bent does the ghee come into one's hand."
+    ],
+    "childFriendlyEnglish": "Using a familiar proverb, the poem says that gentleness alone may not always work and that a difficult situation sometimes calls for a firmer or less direct approach.",
+    "simpleHindiExplanation": "सीधे-सादे व्यक्ति के लिए संसार में कठिनाई होने की शिकायत है। “टेढ़ी उंगली से घी निकालना” मुहावरे द्वारा कहा गया है कि कभी-कभी काम कराने के लिए कठोर या चतुर उपाय अपनाना पड़ता है।",
+    "context": "Dated 2023-11-13 with “टेढ़ा” as the prompt, the second line uses the proverb “सीधी उंगली से घी नहीं निकलता.” It can suggest firmness or indirect strategy; it should not automatically be read as approval of dishonesty.",
+    "theme": "straightforwardness-and-strategy",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125804": {
+    "literalEnglish": [
+      "Ravana's pride was completely shattered.",
+      "His sinful deeds destroyed him, and his lineage was sacrificed."
+    ],
+    "childFriendlyEnglish": "The poem presents Ravana's fall as a warning that pride and harmful actions can destroy not only a person but also those around them.",
+    "simpleHindiExplanation": "रावण का अभिमान चूर होने और उसके पापकर्मों से स्वयं तथा वंश के विनाश की बात कही गई है। यह अहंकार और अधर्म के परिणाम की चेतावनी है।",
+    "context": "Dated 2023-11-14 with “चूर” as the prompt, the couplet offers a moral reading of Ravana's defeat in the Ramayana. “वंश हुआ कुर्बान” is broad poetic language; the epic includes surviving relatives such as Vibhishana.",
+    "theme": "ravanas-pride-and-fall",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125807": {
+    "literalEnglish": [
+      "He ate bread made of grass and endured countless pains.",
+      "There will never be another hero in the world like Pratap."
+    ],
+    "childFriendlyEnglish": "The poem praises Maharana Pratap's endurance and courage through the popular story that hardship forced him and his family to eat bread made from grass.",
+    "simpleHindiExplanation": "महाराणा प्रताप के संघर्ष, कष्ट और वीरता की प्रशंसा है। घास की रोटी खाने की लोकप्रिय कथा उनके कठिन वनवास और स्वाभिमान का प्रतीक बनती है।",
+    "context": "Dated 2023-11-15 with “घास” as the prompt, “Pratap” appears to mean Maharana Pratap. The grass-bread episode is widely repeated in patriotic and biographical tradition, but its exact historical details are debated.",
+    "theme": "maharana-prataps-hardship",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125810": {
+    "literalEnglish": [
+      "No second hero like Pratap can be found in the world.",
+      "He ate bread made of grass and endured countless pains."
+    ],
+    "childFriendlyEnglish": "The poem honours Maharana Pratap as an exceptional hero and remembers the severe hardship symbolized by the story of grass bread.",
+    "simpleHindiExplanation": "महाराणा प्रताप को अद्वितीय वीर कहा गया है। घास की रोटी और अनेक पीड़ाओं का उल्लेख उनके संघर्ष तथा स्वाभिमान के लोकप्रिय स्मरण के रूप में है।",
+    "context": "Dated 2023-11-15 with “घास” as the prompt, this record reverses the two lines of the immediately preceding poem. The grass-bread story is a popular part of Maharana Pratap's remembrance, though its precise historical basis is debated.",
+    "theme": "maharana-prataps-heroism",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125814": {
+    "literalEnglish": [
+      "Beautiful Madhya Pradesh is arranged like a bouquet.",
+      "Its setting of culture and literature is wondrous."
+    ],
+    "childFriendlyEnglish": "The poem praises Madhya Pradesh as a colourful bouquet enriched by many cultural and literary traditions.",
+    "simpleHindiExplanation": "मध्य प्रदेश को सुंदर गुलदस्ते के समान बताया गया है। उसकी विविध संस्कृति और साहित्यिक परंपरा की प्रशंसा की गई है।",
+    "context": "Dated 2023-11-16 with “मध्य” as the prompt, the wording clearly turns the prompt into the state name Madhya Pradesh. The bouquet is a metaphor for its cultural and literary variety.",
+    "theme": "madhya-pradesh-culture",
+    "confidence": "high",
+    "contextConfidence": "high"
   }
 }
