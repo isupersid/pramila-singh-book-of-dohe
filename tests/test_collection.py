@@ -24,6 +24,9 @@ class CollectionBuildTests(unittest.TestCase):
         cls.editorial = json.loads(
             (ROOT / "data" / "editorial.json").read_text(encoding="utf-8")
         )
+        cls.editorial_overrides = json.loads(
+            (ROOT / "data" / "editorial_overrides.json").read_text(encoding="utf-8")
+        )
 
     def test_every_source_note_is_present_once(self):
         sources = list((ROOT / "content" / "notes").glob("*.txt"))
@@ -62,6 +65,17 @@ class CollectionBuildTests(unittest.TestCase):
         poem_ids = {poem["id"] for poem in self.poems}
         self.assertEqual(poem_ids, set(records))
         self.assertEqual(750, len(records))
+
+    def test_every_note_has_a_curated_editorial_override(self):
+        poem_ids = {poem["id"] for poem in self.poems}
+        self.assertEqual(poem_ids, set(self.editorial_overrides))
+        self.assertEqual(750, len(self.editorial_overrides))
+        for note_id, record in self.editorial["records"].items():
+            self.assertIsNotNone(record["literalEnglish"], note_id)
+            self.assertIsNotNone(record["childFriendlyEnglish"], note_id)
+            self.assertIsNotNone(record["simpleHindiExplanation"], note_id)
+            self.assertNotIn("needs-human-translation", record["flags"])
+            self.assertNotIn("needs-specific-explanation", record["flags"])
 
     def test_editorial_records_are_unreviewed_drafts(self):
         for note_id, record in self.editorial["records"].items():
