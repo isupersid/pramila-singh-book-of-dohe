@@ -585,27 +585,12 @@ a {
   box-shadow: 16px 20px 0 #dac19b;
 }
 
-.portrait-placeholder {
-  display: grid;
+.portrait-image {
+  display: block;
+  width: 100%;
   aspect-ratio: 0.82;
-  place-content: center;
-  color: #f4dfba;
-  background:
-    radial-gradient(circle at 50% 35%, rgb(255 255 255 / 15%), transparent 20%),
-    linear-gradient(150deg, #8c4651, var(--wine-dark));
-  text-align: center;
-}
-
-.portrait-initials {
-  font-family: var(--display);
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.portrait-placeholder small {
-  margin-top: 18px;
-  color: rgb(255 255 255 / 66%);
-  letter-spacing: 0.15em;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .portrait-corner {
