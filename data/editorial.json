@@ -29486,13 +29486,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "When beginning a task, first think it through.",
+          "Lay the foundation only when the framework is ready."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Good work begins with planning: understand the whole structure before taking the first major step.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "किसी काम को शुरू करने से पहले उसकी पूरी योजना सोच लेनी चाहिए। आधार तभी बनाना उचित है जब आगे का ढाँचा स्पष्ट हो।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-06 and identifies “ढांचा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-06 with “ढांचा” as the prompt, the couplet uses building as a metaphor for careful planning. It identifies no particular project.",
+        "theme": "planning-before-action",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -29505,13 +29521,11 @@
             "source": "content/notes/notes_20240423124457.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124504": {
@@ -29536,13 +29550,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "A human skeleton appeared; I was frightened, taking it for a devil.",
+          "It began explaining to me that it too had once been human."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "A frightening skeleton becomes a reminder that every body is mortal and that appearances can hide a shared human past.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "मानव कंकाल को देखकर वक्ता पहले डर जाता है। फिर वही ढाँचा याद दिलाता है कि वह भी कभी जीवित मनुष्य था और शरीर नश्वर है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-06 and identifies “ढांचा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-06 with “ढांचा” as the prompt, “ढांचा” appears to mean a skeleton. The speaking skeleton is a poetic device.",
+        "theme": "skeleton-and-mortality",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -29555,13 +29585,11 @@
             "source": "content/notes/notes_20240423124504.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124509": {
@@ -29586,13 +29614,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "To gain power, religion is used as a weapon.",
+          "Carrying religion's banner, people commit massacres."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem condemns using religious identity to seek political power or to justify violence against other people.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "सत्ता पाने के लिए धर्म का हथियार की तरह उपयोग करने और उसके नाम पर हिंसा फैलाने की निंदा की गई है। दोहा किसी धर्म को नहीं, धर्म के दुरुपयोग को लक्ष्य करता है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-07 and identifies “परचम” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-07 with “परचम” as the prompt, the couplet warns about religion being used for power and violence. No conflict, group, or incident is named.",
+        "theme": "misuse-of-religion-for-power",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -29605,13 +29649,11 @@
             "source": "content/notes/notes_20240423124509.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124515": {
@@ -29636,13 +29678,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "The cutting of forests has harmed living creatures.",
+          "Troops of monkeys have caused increasing disturbance in cities."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "When forests disappear, monkeys and other animals lose their homes and may enter towns in search of food and shelter.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "जंगल कटने से वन्य जीवों का प्राकृतिक घर छिनता है। इसी कारण बंदरों के समूह शहरों में आकर परेशानी पैदा कर सकते हैं।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-07 and identifies “वानर” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-07 with “वानर” as the prompt, the poem links deforestation with monkeys entering cities. No location or measured incident is supplied.",
+        "theme": "deforestation-and-urban-wildlife",
+        "confidence": "medium",
         "evidence": [
           {
             "type": "source-date",
@@ -29655,13 +29713,11 @@
             "source": "content/notes/notes_20240423124515.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124519": {
@@ -29686,13 +29742,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Seeing Hawa Mahal, the world is amazed.",
+          "Know that this five-storey structure was made without a foundation."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem marvels at Jaipur's five-storey Hawa Mahal and repeats a popular claim about its unusual construction.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "जयपुर के पाँच मंज़िला हवा महल की बनावट पर आश्चर्य व्यक्त किया गया है। बिना नींव का कथन प्रचलित वर्णन है, यहाँ वास्तु-तकनीकी तथ्य के रूप में सिद्ध नहीं किया गया।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-07 and identifies “महल” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "The catalog date is 2023-08-07, while the raw note gives 2023-06-03 and “महल” as the prompt. The verse appears to refer to Jaipur's Hawa Mahal; its construction statement is retained as the poem's claim.",
+        "theme": "hawa-mahal-architecture",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -29705,13 +29777,11 @@
             "source": "content/notes/notes_20240423124519.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124522": {
@@ -29736,13 +29806,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "When practising shavasana, forget every task.",
+          "Then loosen body and mind, and find comfort and rest."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "During the resting yoga pose shavasana, setting worries aside and relaxing the whole body can create a peaceful pause.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "शवासन करते समय काम-काज की चिंता छोड़कर शरीर और मन को ढीला करने की बात कही गई है। इससे विश्राम और शांति का अनुभव हो सकता है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-08 and identifies “ढील” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-08 with “ढील” as the prompt, the couplet describes relaxation in shavasana. It gives general wellness advice, not medical treatment.",
+        "theme": "relaxation-in-shavasana",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -29755,13 +29841,11 @@
             "source": "content/notes/notes_20240423124522.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124526": {
@@ -29786,13 +29870,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "When duelling with kites, let the string go slack.",
+          "When the strings become entwined, pull yours toward you."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem describes a kite-flying tactic: loosen the line during a contest, then pull when the competing strings cross.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "पतंग के पेंच लड़ाते समय डोर को ढील देने और डोरें उलझने पर अपनी ओर खींचने की युक्ति बताई गई है। यह पतंगबाज़ी का दृश्य है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-08 and identifies “ढील” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-08 with “ढील” as the prompt, the verse uses the vocabulary of competitive kite flying. Exact techniques vary.",
+        "theme": "kite-flying-tactic",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -29805,13 +29905,11 @@
             "source": "content/notes/notes_20240423124526.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124530": {
@@ -29836,13 +29934,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "The flame keeps burning, while the wind is left powerless.",
+          "When Rama grants protection, the light always shines."
+        ],
+        "method": "curated-draft",
+        "confidence": "medium",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "A protected flame becomes an image of faith: the speaker trusts Rama to keep hope and spiritual light alive despite difficulties.",
+        "confidence": "medium",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "हवा के बीच भी जलती लौ को ईश्वर की रक्षा और अडिग विश्वास का प्रतीक बनाया गया है। राम की कृपा से आशा का प्रकाश बने रहने की भावना व्यक्त हुई है।",
+        "confidence": "medium",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-08 and identifies “सुरक्षा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-08 with “सुरक्षा” as the prompt, the flame is devotional imagery of Rama's protection, not a literal guarantee against harm.",
+        "theme": "rams-protection-as-light",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -29855,13 +29969,11 @@
             "source": "content/notes/notes_20240423124530.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124534": {
@@ -29886,13 +29998,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Brave soldiers maintain the country's strict security.",
+          "When the nation's interest calls, they sacrifice their lives."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem honours soldiers who guard the country and may risk or give their lives while carrying out that duty.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "देश की सुरक्षा करने वाले जवानों के साहस और त्याग को सम्मान दिया गया है। राष्ट्रहित में प्राण न्योछावर करने की उनकी तत्परता बताई गई है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-08 and identifies “सुरक्षा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-08 with “सुरक्षा” as the prompt, the couplet broadly praises military service and sacrifice. It names no conflict or operation.",
+        "theme": "soldiers-and-national-security",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -29905,13 +30033,11 @@
             "source": "content/notes/notes_20240423124534.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124538": {
@@ -29936,13 +30062,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Parashurama grew angry on hearing Pinaka's twang.",
+          "Holding his axe, he displayed its blade in the full assembly."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem recalls the Ramayana scene in which the breaking or resounding of Shiva's bow brings an angry Parashurama before the gathered court.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "रामकथा के धनुष-भंग प्रसंग का संकेत है। शिवधनुष पिनाक की टंकार सुनकर परशुराम क्रोधित होकर सभा में फरसा लिए आते हैं।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-08 and identifies “टंकार” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "The catalog date is 2023-08-08, while the raw note gives 2023-08-09 and “टंकार” as the prompt. The lines invoke the Ramayana's bow-breaking episode; retellings vary.",
+        "theme": "parashurama-and-pinaka",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -29955,13 +30097,11 @@
             "source": "content/notes/notes_20240423124538.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124749": {
@@ -29986,13 +30126,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Brick and cement make only a house.",
+          "Know as a home the place where people live together in harmony."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "A building becomes a true home through the affection, cooperation, and shared life of the people inside it.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "ईंट-सीमेंट केवल मकान बनाते हैं। परिवार के लोग प्रेम और मेल-जोल से रहें, तभी वह स्थान सच्चा घर बनता है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-09 and identifies “गृह” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-09 with “गृह” as the prompt, the couplet contrasts a physical building with the relationships that make it a home.",
+        "theme": "relationships-make-a-home",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30005,13 +30161,11 @@
             "source": "content/notes/notes_20240423124749.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124754": {
@@ -30036,13 +30190,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Build the prayer room toward the east or north.",
+          "Through meditation and worship, may the home always prosper."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem combines a traditional preferred direction for a prayer space with the hope that regular worship will bring well-being to a home.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "पूजा-घर को पूर्व या उत्तर दिशा में बनाने की पारंपरिक मान्यता बताई गई है। ध्यान और अर्चना से घर के कल्याण की कामना की गई है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-10 and identifies “दिशा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-10 with “दिशा” as the prompt, the advice appears rooted in vastu or custom. It is tradition, not a verified architectural requirement.",
+        "theme": "prayer-room-direction-tradition",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30055,13 +30225,11 @@
             "source": "content/notes/notes_20240423124754.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124758": {
@@ -30086,13 +30254,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Let the direction be east or north, the abode of the fire deity.",
+          "This place is considered special for the kitchen in a home."
+        ],
+        "method": "curated-draft",
+        "confidence": "medium",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem gives a traditional household rule about choosing a direction for the kitchen and connects that space with the fire deity.",
+        "confidence": "medium",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "रसोई की दिशा के बारे में पारंपरिक वास्तु-मान्यता दी गई है और उसे अग्निदेव से जोड़ा गया है। पंक्ति में पूर्व या उत्तर का उल्लेख है, जिसे कविता का कथन मानना चाहिए।",
+        "confidence": "medium",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-10 and identifies “दिशा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-10 with “दिशा” as the prompt, the couplet states a vastu-style prescription. Its wording may not match every vastu tradition, so no endorsement is inferred.",
+        "theme": "kitchen-direction-tradition",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30105,13 +30289,11 @@
             "source": "content/notes/notes_20240423124758.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124801": {
@@ -30136,13 +30318,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Candidates are selected on the basis of caste and religion.",
+          "Meritorious students endure discrimination."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem voices concern that identity-based selection can feel unfair to capable students, though it does not explain the policy or institution involved.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "रचना में यह शिकायत व्यक्त की गई है कि जाति और धर्म के आधार पर चयन होने से कुछ मेधावी छात्रों को भेदभाव महसूस होता है। किसी विशेष नीति या संस्था का नाम नहीं दिया गया।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-11 and identifies “पात्र” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-11 with “पात्र” as the prompt, the composition criticizes caste- and religion-based selection. It does not provide a complete account of any policy.",
+        "theme": "perceived-bias-in-selection",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30155,14 +30353,12 @@
             "source": "content/notes/notes_20240423124801.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
         "family-review-required",
-        "long-form-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "long-form-review-required"
       ]
     },
     "notes_20240423124805": {
@@ -30187,13 +30383,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Worthy candidates wander in tears, unable to gain admission.",
+          "Through the device of caste division, fools live in comfort."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The speaker angrily describes an admissions system believed to favour caste categories over merit, but the poem provides no details for judging a real case.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "कवि की आवाज़ में प्रवेश न मिलने पर योग्य अभ्यर्थियों की पीड़ा और जाति-आधारित व्यवस्था के प्रति रोष दिखता है। “मूर्ख” कविता का कठोर मूल्यांकन है, सिद्ध तथ्य नहीं।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-11 and identifies “पात्र” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-11 with “पात्र” as the prompt, the couplet expresses an opinion about caste-based admissions. It names no institution or policy.",
+        "theme": "critique-of-caste-based-admission",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30206,13 +30418,11 @@
             "source": "content/notes/notes_20240423124805.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124809": {
@@ -30237,13 +30447,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Liberation of the self is what the world calls nirvana.",
+          "Lord Buddha gave many proofs of this."
+        ],
+        "method": "curated-draft",
+        "confidence": "medium",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem connects nirvana with freedom of the self and credits the Buddha's teaching and example, while compressing a complex philosophy into two lines.",
+        "confidence": "medium",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "निर्वाण को आत्म-मुक्ति के रूप में समझाया गया है और बुद्ध के उपदेशों को उसका प्रमाण कहा गया है। बौद्ध दर्शन की विस्तृत अवधारणा यहाँ संक्षेप में प्रस्तुत हुई है।",
+        "confidence": "medium",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-12 and identifies “प्रमाण” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-12 with “प्रमाण” as the prompt, the couplet invokes Buddha and nirvana. Its terms may not precisely represent all Buddhist doctrines.",
+        "theme": "buddha-and-nirvana",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30256,13 +30482,11 @@
             "source": "content/notes/notes_20240423124809.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124813": {
@@ -30287,13 +30511,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "A diligent person always receives credit in the world.",
+          "That person's fame lives on, remaining forever unconquered."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Steady work can earn lasting respect, allowing the memory of a person's achievements to endure beyond immediate success.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "कर्मठ व्यक्ति को उसके कार्य का श्रेय मिलता है। उसके अच्छे कामों की कीर्ति लंबे समय तक जीवित रह सकती है और मिटती नहीं।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-12 and identifies “अखिल” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-12, the catalog title is “अजेय” but the raw note gives “अखिल” as the prompt. The mismatch awaits family review.",
+        "theme": "lasting-fame-through-work",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30306,13 +30546,11 @@
             "source": "content/notes/notes_20240423124813.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124841": {
@@ -30337,13 +30575,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "God is the master of the entire moving and unmoving universe.",
+          "God dwells in every particle; this power is great."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The devotional verse sees the divine throughout the whole universe, present in every living being and every part of creation.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "समस्त चर-अचर जगत का स्वामी ईश्वर को माना गया है। कण-कण में उसकी उपस्थिति और महान शक्ति का भक्तिभाव से वर्णन है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-12 and identifies “अखिल” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "The catalog date is 2023-08-12, while the raw note gives 2023-08-11 and “अखिल” as the prompt. This is a devotional belief.",
+        "theme": "divine-omnipresence",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30356,13 +30610,11 @@
             "source": "content/notes/notes_20240423124841.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124845": {
@@ -30387,13 +30639,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "It is filled with medicinal qualities and is called camphor.",
+          "It destroys germs and is full of fragrance."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem praises camphor for its fragrance and repeats traditional health claims that should not replace reliable hygiene or medical advice.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "कपूर की सुगंध और पारंपरिक औषधीय उपयोगों की प्रशंसा की गई है। कीटाणु नाश करने का व्यापक दावा कविता का है; इसे बिना प्रमाण चिकित्सा-सलाह नहीं मानना चाहिए।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-12 and identifies “कपूर” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "The catalog date is 2023-08-12, while the raw note gives 2023-08-10 and “कपूर” as the prompt. The germ claim is not independently established here.",
+        "theme": "traditional-claims-about-camphor",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30406,13 +30674,11 @@
             "source": "content/notes/notes_20240423124845.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124849": {
@@ -30437,13 +30703,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Gentle speech always leaves a wondrous impression.",
+          "It soothes a scorched heart and removes one's own heat."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Kind, calm words can comfort someone who is hurting and can also cool the speaker's own anger.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "मधुर और शांत वाणी दुखी मन को तृप्त कर सकती है। ऐसे शब्द सुनने वाले के साथ बोलने वाले का क्रोध और तनाव भी कम करते हैं।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-13 and identifies “छाप” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-13 with “छाप” as the prompt, heat and cooling serve as metaphors for emotional pain and calm speech.",
+        "theme": "healing-effect-of-gentle-speech",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30456,13 +30738,11 @@
             "source": "content/notes/notes_20240423124849.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124852": {
@@ -30487,13 +30767,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Feelings of compassion and love make friends.",
+          "Malice and hatred always create fear in hearts."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Care and affection help friendships grow, while hostility and hatred make people afraid and push them apart.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "दया और प्रेम से मित्रता बनती है। द्वेष और घृणा लोगों के मन में डर पैदा करके संबंधों को दूर कर देते हैं।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-13 and identifies “दया” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-13 with “दया” as the prompt, the couplet gives general moral advice about relationships.",
+        "theme": "compassion-builds-friendship",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30506,13 +30802,11 @@
             "source": "content/notes/notes_20240423124852.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124856": {
@@ -30537,13 +30831,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "What kind of mark has the mobile phone left on humankind?",
+          "People have forgotten themselves, as though suffering a curse."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem worries that becoming absorbed in mobile phones can make people lose awareness of themselves and the life around them.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "मोबाइल के अत्यधिक प्रभाव पर चिंता जताई गई है। लगातार उसमें डूबे रहने से मनुष्य अपने आप, समय और वास्तविक जीवन को भूल सकता है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-13 and identifies “छाप” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-13 with “छाप” as the prompt, the verse criticizes mobile-phone use. “Curse” is a metaphor, not a clinical claim.",
+        "theme": "mobile-phone-overuse",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30556,13 +30866,11 @@
             "source": "content/notes/notes_20240423124856.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124900": {
@@ -30587,13 +30895,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Panna Dhai was great; she sacrificed her son.",
+          "On the path of loyalty to her sovereign, she sacrificed maternal love."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem honours Panna Dhai for the tradition that she gave up her own son's life to protect the young prince she served.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "पन्ना धाय के उस प्रसिद्ध बलिदान को याद किया गया है जिसमें उन्होंने राजकुमार की रक्षा के लिए अपने पुत्र को खो दिया। राजभक्ति और मातृत्व के कठिन संघर्ष को रेखांकित किया गया है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-14 and identifies “बलिदान” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-14 with “बलिदान” as the prompt, the couplet refers to the Mewar tradition of Panna Dhai protecting Udai Singh at the cost of her son Chandan's life. Retellings vary.",
+        "theme": "panna-dhai-sacrifice",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30606,13 +30930,11 @@
             "source": "content/notes/notes_20240423124900.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124904": {
@@ -30637,13 +30959,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "When conflict with the British came in the year fifty-seven,",
+          "freedom then took the form of the Queen of Jhansi."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem presents Rani Lakshmibai of Jhansi as a powerful symbol of resistance during the uprising of 1857.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "सन् 1857 के विद्रोह में झाँसी की रानी लक्ष्मीबाई को स्वतंत्रता के साकार रूप की तरह याद किया गया है। उनका संघर्ष औपनिवेशिक शासन के विरोध का प्रतीक बना।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-15 and identifies “स्वतंत्रता” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "The catalog date is 2023-08-15, while the raw note gives 2023-08-14 and “स्वतंत्रता” as the prompt. The lines refer to Rani Lakshmibai and the 1857 uprising.",
+        "theme": "rani-lakshmibai-and-1857",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30656,13 +30994,11 @@
             "source": "content/notes/notes_20240423124904.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124915": {
@@ -30687,13 +31023,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "An understanding of beauty arose when knowledge arrived.",
+          "Know as beautiful the one who keeps the inner self beautiful."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "True beauty is not only outward appearance; wisdom helps us recognize kindness and goodness within a person.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "ज्ञान मिलने पर सुंदरता का गहरा अर्थ समझ में आता है। केवल बाहरी रूप नहीं, बल्कि स्वच्छ और अच्छा अंतर्मन ही सच्चा सौंदर्य है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-16 and identifies “सौंदर्य” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-16 with “सौंदर्य” as the prompt, the couplet contrasts outward appearance with inner character.",
+        "theme": "inner-beauty-and-wisdom",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30706,13 +31058,11 @@
             "source": "content/notes/notes_20240423124915.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124919": {
@@ -30737,13 +31087,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "India's learned people hold leading positions in the world.",
+          "Seeing their talent, the whole world is amazed."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem proudly celebrates Indian scholars and professionals whose abilities have earned prominent roles around the world.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "विश्व के ऊँचे पदों पर पहुँचे भारतीय विद्वानों और प्रतिभाशाली लोगों पर गर्व व्यक्त किया गया है। किसी विशेष व्यक्ति या संस्था का उल्लेख नहीं है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-16 and identifies “भारत” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-16 with “भारत” as the prompt, the couplet expresses national pride in accomplished Indians. It supplies no names or data for a narrower claim.",
+        "theme": "pride-in-indian-talent",
+        "confidence": "medium",
         "evidence": [
           {
             "type": "source-date",
@@ -30756,13 +31122,11 @@
             "source": "content/notes/notes_20240423124919.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124923": {
@@ -30787,13 +31151,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Gudiya, Rakhi, and Teej are all festivals of Sawan.",
+          "Wearing green veils, all the women rejoice."
+        ],
+        "method": "curated-draft",
+        "confidence": "medium",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem pictures the rainy month of Sawan filled with seasonal festivals, green clothing, and the cheerful celebration of women.",
+        "confidence": "medium",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "सावन में गुड़िया, राखी और तीज जैसे पर्वों का उल्लास दिखाया गया है। हरी चुनरी पहने स्त्रियाँ वर्षा ऋतु के उत्सव में प्रसन्न हैं।",
+        "confidence": "medium",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-17 and identifies “सावन” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "The catalog date is 2023-08-17, while the raw note gives 2023-08-16 and “सावन” as the prompt. Customs vary by region; “गुड़िया” appears to be a local Sawan observance.",
+        "theme": "sawan-festivals",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30806,13 +31186,11 @@
             "source": "content/notes/notes_20240423124923.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124930": {
@@ -30837,13 +31215,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
-      "context": {
-        "text": "The preserved record is dated 2023-08-17 and identifies “पदार्थ” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
+      "literalEnglish": {
+        "lines": [
+          "What is formed by atoms is called matter.",
+          "Living beings perceive it for an inherent purpose."
+        ],
+        "method": "curated-draft",
         "confidence": "low",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem offers a simple science-themed definition of matter as something made from atoms and experienced by living beings, though its second line is not technically precise.",
+        "confidence": "low",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "पदार्थ को अणुओं से बना हुआ बताया गया है। दूसरी पंक्ति में जीवों द्वारा उसे महसूस करने और उसके अर्थ का संबंध अस्पष्ट है, इसलिए इसे पूरी वैज्ञानिक परिभाषा नहीं मानना चाहिए।",
+        "confidence": "low",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
+      "context": {
+        "text": "Dated 2023-08-17 with “पदार्थ” as the prompt, the first line simplifies matter. The phrase “जीवों को निहितार्थ” is ambiguous, so the draft remains cautious.",
+        "theme": "matter-and-atoms",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30856,13 +31250,11 @@
             "source": "content/notes/notes_20240423124930.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124933": {
@@ -30887,13 +31279,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "The branch of the immortal vine is delicate and lovely.",
+          "Around its beloved peepal, it swings like a victory garland."
+        ],
+        "method": "curated-draft",
+        "confidence": "medium",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "A soft climbing vine wraps around a peepal tree like a beautiful garland placed around someone beloved.",
+        "confidence": "medium",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "कोमल लता पीपल के पेड़ से लिपटकर झूल रही है। उसे प्रिय के गले में पड़ी सुंदर जयमाला जैसा रूप दिया गया है।",
+        "confidence": "medium",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-18 and identifies “कमनीय” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-18 with “कमनीय” as the prompt, the verse personifies a vine and peepal as beloved partners. The exact vine species is uncertain.",
+        "theme": "vine-garlanding-peepal",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30906,13 +31314,11 @@
             "source": "content/notes/notes_20240423124933.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124937": {
@@ -30937,13 +31343,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Wearing armour of seventy-two kilos, Rana fights in battle.",
+          "His spear weighs eighty-one kilos, leaving Akbar astonished."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem magnifies Maharana Pratap's strength through famous stories about extremely heavy armour and a spear that amazed Akbar.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "राणा की वीरता और शक्ति दिखाने के लिए बहुत भारी कवच और भाले का वर्णन किया गया है। दिए गए वजन लोकप्रिय कथनों का हिस्सा हैं; उन्हें यहाँ प्रमाणित इतिहास नहीं माना गया।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-18 and identifies “कवच” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-18 with “कवच” as the prompt, “Rana” appears to mean Maharana Pratap. The stated 72- and 81-kilogram weights are disputed popular claims and are retained only as the poem's wording.",
+        "theme": "maharana-pratap-legend",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -30956,13 +31378,11 @@
             "source": "content/notes/notes_20240423124937.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124940": {
@@ -30987,13 +31407,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Those who recite the protective hymn of Goddess Durga—",
+          "epidemics stay far away, and body and mind remain healthy."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The devotional couplet expresses faith that reciting Durga Kavach brings protection and well-being, but it should not replace medical care during disease outbreaks.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "दुर्गा कवच के पाठ से रक्षा और तन-मन के स्वास्थ्य की धार्मिक आस्था व्यक्त हुई है। महामारी से बचाव का दावा भक्तिभाव का है; यह स्वास्थ्य-सुरक्षा और उपचार का विकल्प नहीं।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-18 and identifies “कवच” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-18 with “कवच” as the prompt, the verse refers to Durga Kavach. Its epidemic claim is faith, not verified medical guidance.",
+        "theme": "durga-kavach-protection",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31006,13 +31442,11 @@
             "source": "content/notes/notes_20240423124940.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124944": {
@@ -31037,13 +31471,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Desire, anger, pride, and greed all cause deep confusion.",
+          "This world is a wilderness in which all beings wander."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Strong impulses such as greed and anger can make life feel like a confusing forest where people lose their direction.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "काम, क्रोध, अहंकार और लोभ मनुष्य को भ्रमित करते हैं। इनके कारण संसार जंगल जैसा कठिन लगता है और जीव सही मार्ग से भटकते हैं।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-19 and identifies “अरण्य” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-19 with “अरण्य” as the prompt, the wilderness is a moral-spiritual metaphor for worldly confusion.",
+        "theme": "worldly-desires-as-wilderness",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31056,13 +31506,11 @@
             "source": "content/notes/notes_20240423124944.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124947": {
@@ -31087,13 +31535,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Officials accept gifts, and only then do the work.",
+          "All government offices have become notorious."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem criticizes bribery by describing officials who demand a gift before doing their duty, while making a broad generalization about public offices.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "काम करने के बदले भेंट या रिश्वत लेने वाले अधिकारियों की आलोचना की गई है। सभी सरकारी दफ्तरों को बदनाम कहना कविता का व्यापक व्यंग्य है, प्रमाणित सार्वभौमिक तथ्य नहीं।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-19 and identifies “भेंट” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-19 with “भेंट” as the prompt, “gift” appears to be a euphemism for a bribe. No office, official, or case is named.",
+        "theme": "bribery-in-public-offices",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31106,13 +31570,11 @@
             "source": "content/notes/notes_20240423124947.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124950": {
@@ -31137,13 +31599,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "An extract made from jasmine is filled with fragrance.",
+          "It always provides coolness and drives away heat."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem praises fragrant jasmine extract for a cooling feeling, reflecting a traditional or sensory description rather than medical advice.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "मोगरे के अर्क की सुगंध और ठंडक देने वाले अनुभव की प्रशंसा की गई है। गर्मी दूर करने का कथन सामान्य या पारंपरिक अनुभव है, चिकित्सा-सिद्ध दावा नहीं।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-20 and identifies “अर्क” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-20 with “अर्क” as the prompt, the couplet describes jasmine extract. The preparation and cooling effect are not independently verified.",
+        "theme": "jasmine-extract-and-cooling",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31156,13 +31634,11 @@
             "source": "content/notes/notes_20240423124950.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124953": {
@@ -31187,13 +31663,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Nature's rule operates throughout the whole world.",
+          "By making caves, it gives creatures the gift of a home."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Nature provides many animals with caves and other shelters that become safe homes in the landscape.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "प्रकृति को संसार चलाने वाली शक्ति के रूप में देखा गया है। गुफाएँ बनाकर वह अनेक जीवों को रहने का प्राकृतिक स्थान देती है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-20 and identifies “गुफा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-20 with “गुफा” as the prompt, nature is personified as a ruler and giver of shelter. No cave or species is named.",
+        "theme": "caves-as-natural-shelter",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31206,13 +31698,11 @@
             "source": "content/notes/notes_20240423124953.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423124957": {
@@ -31237,13 +31727,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Piece by piece, the ruin gives this call:",
+          "Human, do not take pride in your body."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "A crumbling ruin reminds people that physical strength and beauty do not last forever, so pride in the body should be kept in perspective.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "टूटता हुआ खंडहर मनुष्य को शरीर की नश्वरता याद दिलाता है। रूप और देह पर घमंड न करने की सीख दी गई है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-21 and identifies “खंडहर” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-21 with “खंडहर” as the prompt, the ruin is personified as warning humans about mortality and pride.",
+        "theme": "ruins-and-bodily-pride",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31256,13 +31762,11 @@
             "source": "content/notes/notes_20240423124957.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125000": {
@@ -31287,13 +31791,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Consider one who has no aspiration almost dead.",
+          "For a beautiful life, take a variety of measures."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Hopes and goals give life energy, and building a fulfilling life may require trying different constructive paths.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "इच्छा और लक्ष्य को जीवन की सक्रियता से जोड़ा गया है। सुंदर जीवन बनाने के लिए अलग-अलग सकारात्मक प्रयास करने की सलाह दी गई है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-22 and identifies “अभिलाषा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-22 with “अभिलाषा” as the prompt, the poem strongly equates aspiration with vitality. “Almost dead” is rhetorical, not a judgment about illness or depression.",
+        "theme": "aspiration-gives-vitality",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31306,13 +31826,11 @@
             "source": "content/notes/notes_20240423125000.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125003": {
@@ -31337,13 +31855,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Where water stands still, it spreads a foul smell.",
+          "Understand aspiration as a bond with fragrance."
+        ],
+        "method": "curated-draft",
+        "confidence": "medium",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Stagnant water becomes a contrast for hopeful desire: worthwhile aspirations can keep life fresh and moving instead of stuck.",
+        "confidence": "medium",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "रुका पानी दुर्गंध देता है, जबकि अभिलाषा को सुगंध से जोड़ा गया है। भाव यह है कि सकारात्मक इच्छा जीवन में गति और ताजगी बनाए रखती है।",
+        "confidence": "medium",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-22 and identifies “अभिलाषा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-22 with “अभिलाषा” as the prompt, stagnant water and fragrance form a metaphor valuing aspiration.",
+        "theme": "aspiration-against-stagnation",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31356,13 +31890,11 @@
             "source": "content/notes/notes_20240423125003.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125007": {
@@ -31387,13 +31919,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Always do good deeds in the world without a reason.",
+          "With the Lord's blessing, pleasant results are received."
+        ],
+        "method": "curated-draft",
+        "confidence": "medium",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Do kind things without waiting for a special reason or reward, and trust that goodness can bring positive results.",
+        "confidence": "medium",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "बिना स्वार्थ या खास कारण के अच्छे काम करने की सीख दी गई है। ईश्वर के आशीर्वाद से उनके सुखद फल मिलने का विश्वास व्यक्त हुआ है।",
+        "confidence": "medium",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-22 and identifies “अकारण” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-22 with “अकारण” as the prompt, “without reason” is read as spontaneous or selfless goodness. The result is devotional belief, not a guarantee.",
+        "theme": "selfless-good-deeds",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31406,13 +31954,11 @@
             "source": "content/notes/notes_20240423125007.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125010": {
@@ -31437,13 +31983,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Who in the world has ever found the depth of aspiration?",
+          "Where there is a will, a path always emerges."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Human hopes can be limitless, and determination often helps people discover a way forward.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "मनुष्य की इच्छाओं की सीमा पाना कठिन है। दृढ़ चाह और संकल्प होने पर आगे बढ़ने का रास्ता मिल सकता है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-22 and identifies “अभिलाषा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-22 with “अभिलाषा” as the prompt, the second line is proverb-like encouragement, not a guarantee that every barrier can be overcome.",
+        "theme": "will-finds-a-way",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31456,13 +32018,11 @@
             "source": "content/notes/notes_20240423125010.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125013": {
@@ -31487,13 +32047,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Begin the work together with aspiration.",
+          "Only through labour are pleasant results always obtained."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "A goal may start the journey, but effort is what turns that hope into a meaningful result.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "काम की शुरुआत इच्छा और लक्ष्य के साथ करें, लेकिन सफलता केवल चाहने से नहीं मिलती। अच्छा परिणाम पाने के लिए मेहनत आवश्यक है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-22 and identifies “अभिलाषा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-22 with “अभिलाषा” as the prompt, the couplet pairs aspiration with labour as motivational advice.",
+        "theme": "aspiration-requires-effort",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31506,13 +32082,11 @@
             "source": "content/notes/notes_20240423125013.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125017": {
@@ -31538,13 +32112,30 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
-      "context": {
-        "text": "The preserved record is dated 2023-08-23 and identifies “हनु” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
+      "literalEnglish": {
+        "lines": [
+          "A salutation to the poetry forum.",
+          "Their cheeks looked like Kashmiri apples.",
+          "When drops of rain fell, the deception was exposed."
+        ],
+        "method": "curated-draft",
         "confidence": "low",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Someone's apple-red cheeks appear attractive until rain reveals that the colour was cosmetic rather than natural.",
+        "confidence": "low",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "कश्मीरी सेब जैसे लाल गालों की प्रशंसा के बाद वर्षा से बनावटी रंग उतरने का हास्यपूर्ण दृश्य है। पहली पंक्ति मंच को नमन करने वाला शीर्षकीय अंश प्रतीत होती है।",
+        "confidence": "low",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
+      "context": {
+        "text": "Dated 2023-08-23 with “हनु” as the prompt, “हनु” is read as cheek or jaw. The first body line appears to be a malformed forum salutation; the rest satirizes cosmetic colour.",
+        "theme": "cosmetic-colour-revealed",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31557,13 +32148,11 @@
             "source": "content/notes/notes_20240423125017.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125041": {
@@ -31588,13 +32177,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
-      "context": {
-        "text": "The preserved record is dated 2023-08-23 and identifies “कुंजी” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
+      "literalEnglish": {
+        "lines": [
+          "Parents with a son like Ramachandra are fortunate.",
+          "They hand over the key to the kingdom while chanting the Lord's name."
+        ],
+        "method": "curated-draft",
         "confidence": "low",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The couplet imagines fortunate parents entrusting royal responsibility to a son like Rama while remaining devoted to God.",
+        "confidence": "low",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "रामचंद्र जैसे पुत्र वाले माता-पिता को भाग्यवान कहा गया है। वे राज्य की जिम्मेदारी सौंपकर प्रभु-स्मरण करते हैं; संकेत संभवतः रामकथा की ओर है।",
+        "confidence": "low",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
+      "context": {
+        "text": "Dated 2023-08-23 with “कुंजी” as the prompt, the syntax is irregular. It appears to praise parents with a Rama-like son and use a kingdom's key for transferred responsibility; the episode is uncertain.",
+        "theme": "entrusting-rule-to-a-worthy-son",
+        "confidence": "medium",
         "evidence": [
           {
             "type": "source-date",
@@ -31607,13 +32212,11 @@
             "source": "content/notes/notes_20240423125041.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125044": {
@@ -31702,13 +32305,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Vikram went as a flag-bearer to the realm of the moon god.",
+          "ISRO and Ashoka leave their marks upon the lunar ground."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem celebrates Chandrayaan-3's Vikram lander and India's space agency reaching the Moon, with national symbols imagined as India's mark there.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "चंद्रयान-3 के विक्रम लैंडर की चंद्रमा पर सफलता का उत्सव मनाया गया है। इसरो और अशोक-चिह्न को चंद्रभूमि पर भारत की पहचान छोड़ने के प्रतीक की तरह कहा गया है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-25 and identifies “ध्वजवाहक” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-25, two days after Chandrayaan-3's landing, with “ध्वजवाहक” as the prompt. “Ashoka” likely means the Lion Capital emblem associated with Pragyan's wheel, though the verse compresses lander and rover details.",
+        "theme": "chandrayaan-3-national-pride",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31721,13 +32340,11 @@
             "source": "content/notes/notes_20240423125048.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125052": {
@@ -31752,13 +32369,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "One who sings the praises of mighty Hanuman—",
+          "ghosts and demons never trouble that person."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The devotional verse expresses faith that remembering Hanuman protects a devotee from frightening or harmful forces.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "महावीर हनुमान का गुणगान करने वाले भक्त को भूत-पिशाच से रक्षा मिलने की आस्था व्यक्त की गई है। यह धार्मिक विश्वास है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-25 and identifies “भूत” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-25 with “भूत” as the prompt, the wording echoes a protective idea from Hanuman devotion. It is faith, not clinical advice.",
+        "theme": "hanuman-devotional-protection",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31771,13 +32404,11 @@
             "source": "content/notes/notes_20240423125052.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125055": {
@@ -31802,13 +32433,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "What has passed is the past; the present is today.",
+          "Think about the future, and do your work now."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "Learn from what is over, prepare for what lies ahead, and use the present moment to take action.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "जो बीत गया वह भूतकाल है और आज वर्तमान है। भविष्य की चिंता को केवल सोच तक न रखें, बल्कि अभी आवश्यक काम करें।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-25 and identifies “भूत” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-25 with “भूत” as the prompt, “भूत” is used in its temporal sense of the past.",
+        "theme": "act-in-the-present",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31821,13 +32468,11 @@
             "source": "content/notes/notes_20240423125055.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125058": {
@@ -31852,13 +32497,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "If you live abroad, do not forget this country.",
+          "Yet adapt yourself according to the surroundings."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "People living in another country can remember their homeland while also respecting and adjusting to the place where they now live.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "विदेश में रहने पर अपने देश को याद रखने की बात कही गई है। साथ ही नए समाज और परिवेश के अनुसार समझदारी से ढलना भी आवश्यक बताया गया है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-26 and identifies “विदेश” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-26 with “विदेश” as the prompt, the couplet balances attachment to one's homeland with adaptation abroad.",
+        "theme": "homeland-and-adaptation-abroad",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31871,13 +32532,11 @@
             "source": "content/notes/notes_20240423125058.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125101": {
@@ -31902,13 +32561,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "In this world, a flatterer forms deep relationships.",
+          "Through diplomacy, such a person gets every task done while embroidering praise."
+        ],
+        "method": "curated-draft",
+        "confidence": "high",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem satirizes people who use flattery and clever manoeuvring to build useful connections and get what they want.",
+        "confidence": "high",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "चापलूसी करने वाला मीठी प्रशंसा और कूटनीति से गहरे संबंध बनाकर अपने काम निकलवाता है। दोहा इस स्वार्थपूर्ण व्यवहार पर व्यंग्य करता है।",
+        "confidence": "high",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-26 and identifies “प्रगाढ़” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-26 with “प्रगाढ़” as the prompt, “कसीदा काढ़ना” is an idiom for elaborate praise. No person is identified.",
+        "theme": "flattery-and-opportunism",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -31921,13 +32596,11 @@
             "source": "content/notes/notes_20240423125101.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125105": {
@@ -31952,12 +32625,28 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "Earlier, a one-unit coin used to command respect.",
+          "Now the thumb has become a sign, and the taunt is a new pride."
+        ],
+        "method": "curated-draft",
+        "confidence": "low",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The poem plays with changing hand signs and the lost value of an old small coin, but its exact contrast between the thumb and a dismissive gesture is uncertain.",
+        "confidence": "low",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "पुराने छोटे सिक्के के सम्मान और आज के अंगूठे या ठेंगे के संकेत पर शब्द-खेल किया गया है। दूसरी पंक्ति का ठीक सामाजिक संदर्भ स्पष्ट नहीं है।",
+        "confidence": "low",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-28 and identifies “अंगूठा” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
+        "text": "Dated 2023-08-28 with “अंगूठा” as the prompt, the verse may contrast an old coin with thumb signs and “ठेंगा दिखाना.” Several readings remain possible.",
+        "theme": "thumb-sign-wordplay",
         "confidence": "low",
         "evidence": [
           {
@@ -31971,13 +32660,11 @@
             "source": "content/notes/notes_20240423125105.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125108": {
@@ -32002,13 +32689,29 @@
         "method": "deterministic-machine-transliteration",
         "confidence": "medium"
       },
-      "literalEnglish": null,
-      "childFriendlyEnglish": null,
-      "simpleHindiExplanation": null,
+      "literalEnglish": {
+        "lines": [
+          "When you perform the consecration, the divine becomes enlivened.",
+          "The powerful effect of heartfelt worship and adoration becomes visible."
+        ],
+        "method": "curated-draft",
+        "confidence": "medium",
+        "editorialNote": "Readable editorial draft preserving the source line structure; family and bilingual review are still required."
+      },
+      "childFriendlyEnglish": {
+        "text": "The verse describes pran pratishtha, when worshippers ceremonially consecrate a sacred image and approach it with deep devotion.",
+        "confidence": "medium",
+        "editorialNote": "Poem-specific editorial draft; not confirmed authorial intent."
+      },
+      "simpleHindiExplanation": {
+        "text": "प्राण-प्रतिष्ठा के बाद देव-प्रतिमा को सजीव दिव्य उपस्थिति के रूप में पूजने की धार्मिक भावना बताई गई है। भावपूर्ण पूजन-अर्चन की शक्ति पर विश्वास व्यक्त हुआ है।",
+        "confidence": "medium",
+        "editorialNote": "यह रचना-विशिष्ट संपादकीय प्रारूप है; पारिवारिक समीक्षा अभी शेष है।"
+      },
       "context": {
-        "text": "The preserved record is dated 2023-08-28 and identifies “प्राणित” as the provided prompt. No more specific historical or authorial context is asserted without family review.",
-        "theme": "unclassified",
-        "confidence": "low",
+        "text": "Dated 2023-08-28 with “प्राणित” as the prompt, the couplet appears to refer to pran pratishtha. “Enlivened” represents ritual belief, not a biological claim.",
+        "theme": "pran-pratishtha-devotion",
+        "confidence": "high",
         "evidence": [
           {
             "type": "source-date",
@@ -32021,13 +32724,11 @@
             "source": "content/notes/notes_20240423125108.txt"
           }
         ],
-        "editorialNote": "This context is limited to evidence in the preserved record and is not presented as confirmed authorial intent."
+        "editorialNote": "The contextual identification is a cautious editorial inference from the preserved date, prompt, and wording."
       },
       "flags": [
         "ai-generated-draft",
-        "family-review-required",
-        "needs-human-translation",
-        "needs-specific-explanation"
+        "family-review-required"
       ]
     },
     "notes_20240423125111": {

@@ -5802,5 +5802,606 @@
     "theme": "deforestation-and-environmental-damage",
     "confidence": "high",
     "contextConfidence": "high"
+  },
+  "notes_20240423124457": {
+    "literalEnglish": [
+      "When beginning a task, first think it through.",
+      "Lay the foundation only when the framework is ready."
+    ],
+    "childFriendlyEnglish": "Good work begins with planning: understand the whole structure before taking the first major step.",
+    "simpleHindiExplanation": "किसी काम को शुरू करने से पहले उसकी पूरी योजना सोच लेनी चाहिए। आधार तभी बनाना उचित है जब आगे का ढाँचा स्पष्ट हो।",
+    "context": "Dated 2023-08-06 with “ढांचा” as the prompt, the couplet uses building as a metaphor for careful planning. It identifies no particular project.",
+    "theme": "planning-before-action",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124504": {
+    "literalEnglish": [
+      "A human skeleton appeared; I was frightened, taking it for a devil.",
+      "It began explaining to me that it too had once been human."
+    ],
+    "childFriendlyEnglish": "A frightening skeleton becomes a reminder that every body is mortal and that appearances can hide a shared human past.",
+    "simpleHindiExplanation": "मानव कंकाल को देखकर वक्ता पहले डर जाता है। फिर वही ढाँचा याद दिलाता है कि वह भी कभी जीवित मनुष्य था और शरीर नश्वर है।",
+    "context": "Dated 2023-08-06 with “ढांचा” as the prompt, “ढांचा” appears to mean a skeleton. The speaking skeleton is a poetic device.",
+    "theme": "skeleton-and-mortality",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124509": {
+    "literalEnglish": [
+      "To gain power, religion is used as a weapon.",
+      "Carrying religion's banner, people commit massacres."
+    ],
+    "childFriendlyEnglish": "The poem condemns using religious identity to seek political power or to justify violence against other people.",
+    "simpleHindiExplanation": "सत्ता पाने के लिए धर्म का हथियार की तरह उपयोग करने और उसके नाम पर हिंसा फैलाने की निंदा की गई है। दोहा किसी धर्म को नहीं, धर्म के दुरुपयोग को लक्ष्य करता है।",
+    "context": "Dated 2023-08-07 with “परचम” as the prompt, the couplet warns about religion being used for power and violence. No conflict, group, or incident is named.",
+    "theme": "misuse-of-religion-for-power",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124515": {
+    "literalEnglish": [
+      "The cutting of forests has harmed living creatures.",
+      "Troops of monkeys have caused increasing disturbance in cities."
+    ],
+    "childFriendlyEnglish": "When forests disappear, monkeys and other animals lose their homes and may enter towns in search of food and shelter.",
+    "simpleHindiExplanation": "जंगल कटने से वन्य जीवों का प्राकृतिक घर छिनता है। इसी कारण बंदरों के समूह शहरों में आकर परेशानी पैदा कर सकते हैं।",
+    "context": "Dated 2023-08-07 with “वानर” as the prompt, the poem links deforestation with monkeys entering cities. No location or measured incident is supplied.",
+    "theme": "deforestation-and-urban-wildlife",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423124519": {
+    "literalEnglish": [
+      "Seeing Hawa Mahal, the world is amazed.",
+      "Know that this five-storey structure was made without a foundation."
+    ],
+    "childFriendlyEnglish": "The poem marvels at Jaipur's five-storey Hawa Mahal and repeats a popular claim about its unusual construction.",
+    "simpleHindiExplanation": "जयपुर के पाँच मंज़िला हवा महल की बनावट पर आश्चर्य व्यक्त किया गया है। बिना नींव का कथन प्रचलित वर्णन है, यहाँ वास्तु-तकनीकी तथ्य के रूप में सिद्ध नहीं किया गया।",
+    "context": "The catalog date is 2023-08-07, while the raw note gives 2023-06-03 and “महल” as the prompt. The verse appears to refer to Jaipur's Hawa Mahal; its construction statement is retained as the poem's claim.",
+    "theme": "hawa-mahal-architecture",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124522": {
+    "literalEnglish": [
+      "When practising shavasana, forget every task.",
+      "Then loosen body and mind, and find comfort and rest."
+    ],
+    "childFriendlyEnglish": "During the resting yoga pose shavasana, setting worries aside and relaxing the whole body can create a peaceful pause.",
+    "simpleHindiExplanation": "शवासन करते समय काम-काज की चिंता छोड़कर शरीर और मन को ढीला करने की बात कही गई है। इससे विश्राम और शांति का अनुभव हो सकता है।",
+    "context": "Dated 2023-08-08 with “ढील” as the prompt, the couplet describes relaxation in shavasana. It gives general wellness advice, not medical treatment.",
+    "theme": "relaxation-in-shavasana",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124526": {
+    "literalEnglish": [
+      "When duelling with kites, let the string go slack.",
+      "When the strings become entwined, pull yours toward you."
+    ],
+    "childFriendlyEnglish": "The poem describes a kite-flying tactic: loosen the line during a contest, then pull when the competing strings cross.",
+    "simpleHindiExplanation": "पतंग के पेंच लड़ाते समय डोर को ढील देने और डोरें उलझने पर अपनी ओर खींचने की युक्ति बताई गई है। यह पतंगबाज़ी का दृश्य है।",
+    "context": "Dated 2023-08-08 with “ढील” as the prompt, the verse uses the vocabulary of competitive kite flying. Exact techniques vary.",
+    "theme": "kite-flying-tactic",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124530": {
+    "literalEnglish": [
+      "The flame keeps burning, while the wind is left powerless.",
+      "When Rama grants protection, the light always shines."
+    ],
+    "childFriendlyEnglish": "A protected flame becomes an image of faith: the speaker trusts Rama to keep hope and spiritual light alive despite difficulties.",
+    "simpleHindiExplanation": "हवा के बीच भी जलती लौ को ईश्वर की रक्षा और अडिग विश्वास का प्रतीक बनाया गया है। राम की कृपा से आशा का प्रकाश बने रहने की भावना व्यक्त हुई है।",
+    "context": "Dated 2023-08-08 with “सुरक्षा” as the prompt, the flame is devotional imagery of Rama's protection, not a literal guarantee against harm.",
+    "theme": "rams-protection-as-light",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124534": {
+    "literalEnglish": [
+      "Brave soldiers maintain the country's strict security.",
+      "When the nation's interest calls, they sacrifice their lives."
+    ],
+    "childFriendlyEnglish": "The poem honours soldiers who guard the country and may risk or give their lives while carrying out that duty.",
+    "simpleHindiExplanation": "देश की सुरक्षा करने वाले जवानों के साहस और त्याग को सम्मान दिया गया है। राष्ट्रहित में प्राण न्योछावर करने की उनकी तत्परता बताई गई है।",
+    "context": "Dated 2023-08-08 with “सुरक्षा” as the prompt, the couplet broadly praises military service and sacrifice. It names no conflict or operation.",
+    "theme": "soldiers-and-national-security",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124538": {
+    "literalEnglish": [
+      "Parashurama grew angry on hearing Pinaka's twang.",
+      "Holding his axe, he displayed its blade in the full assembly."
+    ],
+    "childFriendlyEnglish": "The poem recalls the Ramayana scene in which the breaking or resounding of Shiva's bow brings an angry Parashurama before the gathered court.",
+    "simpleHindiExplanation": "रामकथा के धनुष-भंग प्रसंग का संकेत है। शिवधनुष पिनाक की टंकार सुनकर परशुराम क्रोधित होकर सभा में फरसा लिए आते हैं।",
+    "context": "The catalog date is 2023-08-08, while the raw note gives 2023-08-09 and “टंकार” as the prompt. The lines invoke the Ramayana's bow-breaking episode; retellings vary.",
+    "theme": "parashurama-and-pinaka",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124749": {
+    "literalEnglish": [
+      "Brick and cement make only a house.",
+      "Know as a home the place where people live together in harmony."
+    ],
+    "childFriendlyEnglish": "A building becomes a true home through the affection, cooperation, and shared life of the people inside it.",
+    "simpleHindiExplanation": "ईंट-सीमेंट केवल मकान बनाते हैं। परिवार के लोग प्रेम और मेल-जोल से रहें, तभी वह स्थान सच्चा घर बनता है।",
+    "context": "Dated 2023-08-09 with “गृह” as the prompt, the couplet contrasts a physical building with the relationships that make it a home.",
+    "theme": "relationships-make-a-home",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124754": {
+    "literalEnglish": [
+      "Build the prayer room toward the east or north.",
+      "Through meditation and worship, may the home always prosper."
+    ],
+    "childFriendlyEnglish": "The poem combines a traditional preferred direction for a prayer space with the hope that regular worship will bring well-being to a home.",
+    "simpleHindiExplanation": "पूजा-घर को पूर्व या उत्तर दिशा में बनाने की पारंपरिक मान्यता बताई गई है। ध्यान और अर्चना से घर के कल्याण की कामना की गई है।",
+    "context": "Dated 2023-08-10 with “दिशा” as the prompt, the advice appears rooted in vastu or custom. It is tradition, not a verified architectural requirement.",
+    "theme": "prayer-room-direction-tradition",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124758": {
+    "literalEnglish": [
+      "Let the direction be east or north, the abode of the fire deity.",
+      "This place is considered special for the kitchen in a home."
+    ],
+    "childFriendlyEnglish": "The poem gives a traditional household rule about choosing a direction for the kitchen and connects that space with the fire deity.",
+    "simpleHindiExplanation": "रसोई की दिशा के बारे में पारंपरिक वास्तु-मान्यता दी गई है और उसे अग्निदेव से जोड़ा गया है। पंक्ति में पूर्व या उत्तर का उल्लेख है, जिसे कविता का कथन मानना चाहिए।",
+    "context": "Dated 2023-08-10 with “दिशा” as the prompt, the couplet states a vastu-style prescription. Its wording may not match every vastu tradition, so no endorsement is inferred.",
+    "theme": "kitchen-direction-tradition",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124801": {
+    "literalEnglish": [
+      "Candidates are selected on the basis of caste and religion.",
+      "Meritorious students endure discrimination."
+    ],
+    "childFriendlyEnglish": "The poem voices concern that identity-based selection can feel unfair to capable students, though it does not explain the policy or institution involved.",
+    "simpleHindiExplanation": "रचना में यह शिकायत व्यक्त की गई है कि जाति और धर्म के आधार पर चयन होने से कुछ मेधावी छात्रों को भेदभाव महसूस होता है। किसी विशेष नीति या संस्था का नाम नहीं दिया गया।",
+    "context": "Dated 2023-08-11 with “पात्र” as the prompt, the composition criticizes caste- and religion-based selection. It does not provide a complete account of any policy.",
+    "theme": "perceived-bias-in-selection",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124805": {
+    "literalEnglish": [
+      "Worthy candidates wander in tears, unable to gain admission.",
+      "Through the device of caste division, fools live in comfort."
+    ],
+    "childFriendlyEnglish": "The speaker angrily describes an admissions system believed to favour caste categories over merit, but the poem provides no details for judging a real case.",
+    "simpleHindiExplanation": "कवि की आवाज़ में प्रवेश न मिलने पर योग्य अभ्यर्थियों की पीड़ा और जाति-आधारित व्यवस्था के प्रति रोष दिखता है। “मूर्ख” कविता का कठोर मूल्यांकन है, सिद्ध तथ्य नहीं।",
+    "context": "Dated 2023-08-11 with “पात्र” as the prompt, the couplet expresses an opinion about caste-based admissions. It names no institution or policy.",
+    "theme": "critique-of-caste-based-admission",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124809": {
+    "literalEnglish": [
+      "Liberation of the self is what the world calls nirvana.",
+      "Lord Buddha gave many proofs of this."
+    ],
+    "childFriendlyEnglish": "The poem connects nirvana with freedom of the self and credits the Buddha's teaching and example, while compressing a complex philosophy into two lines.",
+    "simpleHindiExplanation": "निर्वाण को आत्म-मुक्ति के रूप में समझाया गया है और बुद्ध के उपदेशों को उसका प्रमाण कहा गया है। बौद्ध दर्शन की विस्तृत अवधारणा यहाँ संक्षेप में प्रस्तुत हुई है।",
+    "context": "Dated 2023-08-12 with “प्रमाण” as the prompt, the couplet invokes Buddha and nirvana. Its terms may not precisely represent all Buddhist doctrines.",
+    "theme": "buddha-and-nirvana",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124813": {
+    "literalEnglish": [
+      "A diligent person always receives credit in the world.",
+      "That person's fame lives on, remaining forever unconquered."
+    ],
+    "childFriendlyEnglish": "Steady work can earn lasting respect, allowing the memory of a person's achievements to endure beyond immediate success.",
+    "simpleHindiExplanation": "कर्मठ व्यक्ति को उसके कार्य का श्रेय मिलता है। उसके अच्छे कामों की कीर्ति लंबे समय तक जीवित रह सकती है और मिटती नहीं।",
+    "context": "Dated 2023-08-12, the catalog title is “अजेय” but the raw note gives “अखिल” as the prompt. The mismatch awaits family review.",
+    "theme": "lasting-fame-through-work",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124841": {
+    "literalEnglish": [
+      "God is the master of the entire moving and unmoving universe.",
+      "God dwells in every particle; this power is great."
+    ],
+    "childFriendlyEnglish": "The devotional verse sees the divine throughout the whole universe, present in every living being and every part of creation.",
+    "simpleHindiExplanation": "समस्त चर-अचर जगत का स्वामी ईश्वर को माना गया है। कण-कण में उसकी उपस्थिति और महान शक्ति का भक्तिभाव से वर्णन है।",
+    "context": "The catalog date is 2023-08-12, while the raw note gives 2023-08-11 and “अखिल” as the prompt. This is a devotional belief.",
+    "theme": "divine-omnipresence",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124845": {
+    "literalEnglish": [
+      "It is filled with medicinal qualities and is called camphor.",
+      "It destroys germs and is full of fragrance."
+    ],
+    "childFriendlyEnglish": "The poem praises camphor for its fragrance and repeats traditional health claims that should not replace reliable hygiene or medical advice.",
+    "simpleHindiExplanation": "कपूर की सुगंध और पारंपरिक औषधीय उपयोगों की प्रशंसा की गई है। कीटाणु नाश करने का व्यापक दावा कविता का है; इसे बिना प्रमाण चिकित्सा-सलाह नहीं मानना चाहिए।",
+    "context": "The catalog date is 2023-08-12, while the raw note gives 2023-08-10 and “कपूर” as the prompt. The germ claim is not independently established here.",
+    "theme": "traditional-claims-about-camphor",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124849": {
+    "literalEnglish": [
+      "Gentle speech always leaves a wondrous impression.",
+      "It soothes a scorched heart and removes one's own heat."
+    ],
+    "childFriendlyEnglish": "Kind, calm words can comfort someone who is hurting and can also cool the speaker's own anger.",
+    "simpleHindiExplanation": "मधुर और शांत वाणी दुखी मन को तृप्त कर सकती है। ऐसे शब्द सुनने वाले के साथ बोलने वाले का क्रोध और तनाव भी कम करते हैं।",
+    "context": "Dated 2023-08-13 with “छाप” as the prompt, heat and cooling serve as metaphors for emotional pain and calm speech.",
+    "theme": "healing-effect-of-gentle-speech",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124852": {
+    "literalEnglish": [
+      "Feelings of compassion and love make friends.",
+      "Malice and hatred always create fear in hearts."
+    ],
+    "childFriendlyEnglish": "Care and affection help friendships grow, while hostility and hatred make people afraid and push them apart.",
+    "simpleHindiExplanation": "दया और प्रेम से मित्रता बनती है। द्वेष और घृणा लोगों के मन में डर पैदा करके संबंधों को दूर कर देते हैं।",
+    "context": "Dated 2023-08-13 with “दया” as the prompt, the couplet gives general moral advice about relationships.",
+    "theme": "compassion-builds-friendship",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124856": {
+    "literalEnglish": [
+      "What kind of mark has the mobile phone left on humankind?",
+      "People have forgotten themselves, as though suffering a curse."
+    ],
+    "childFriendlyEnglish": "The poem worries that becoming absorbed in mobile phones can make people lose awareness of themselves and the life around them.",
+    "simpleHindiExplanation": "मोबाइल के अत्यधिक प्रभाव पर चिंता जताई गई है। लगातार उसमें डूबे रहने से मनुष्य अपने आप, समय और वास्तविक जीवन को भूल सकता है।",
+    "context": "Dated 2023-08-13 with “छाप” as the prompt, the verse criticizes mobile-phone use. “Curse” is a metaphor, not a clinical claim.",
+    "theme": "mobile-phone-overuse",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124900": {
+    "literalEnglish": [
+      "Panna Dhai was great; she sacrificed her son.",
+      "On the path of loyalty to her sovereign, she sacrificed maternal love."
+    ],
+    "childFriendlyEnglish": "The poem honours Panna Dhai for the tradition that she gave up her own son's life to protect the young prince she served.",
+    "simpleHindiExplanation": "पन्ना धाय के उस प्रसिद्ध बलिदान को याद किया गया है जिसमें उन्होंने राजकुमार की रक्षा के लिए अपने पुत्र को खो दिया। राजभक्ति और मातृत्व के कठिन संघर्ष को रेखांकित किया गया है।",
+    "context": "Dated 2023-08-14 with “बलिदान” as the prompt, the couplet refers to the Mewar tradition of Panna Dhai protecting Udai Singh at the cost of her son Chandan's life. Retellings vary.",
+    "theme": "panna-dhai-sacrifice",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124904": {
+    "literalEnglish": [
+      "When conflict with the British came in the year fifty-seven,",
+      "freedom then took the form of the Queen of Jhansi."
+    ],
+    "childFriendlyEnglish": "The poem presents Rani Lakshmibai of Jhansi as a powerful symbol of resistance during the uprising of 1857.",
+    "simpleHindiExplanation": "सन् 1857 के विद्रोह में झाँसी की रानी लक्ष्मीबाई को स्वतंत्रता के साकार रूप की तरह याद किया गया है। उनका संघर्ष औपनिवेशिक शासन के विरोध का प्रतीक बना।",
+    "context": "The catalog date is 2023-08-15, while the raw note gives 2023-08-14 and “स्वतंत्रता” as the prompt. The lines refer to Rani Lakshmibai and the 1857 uprising.",
+    "theme": "rani-lakshmibai-and-1857",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124915": {
+    "literalEnglish": [
+      "An understanding of beauty arose when knowledge arrived.",
+      "Know as beautiful the one who keeps the inner self beautiful."
+    ],
+    "childFriendlyEnglish": "True beauty is not only outward appearance; wisdom helps us recognize kindness and goodness within a person.",
+    "simpleHindiExplanation": "ज्ञान मिलने पर सुंदरता का गहरा अर्थ समझ में आता है। केवल बाहरी रूप नहीं, बल्कि स्वच्छ और अच्छा अंतर्मन ही सच्चा सौंदर्य है।",
+    "context": "Dated 2023-08-16 with “सौंदर्य” as the prompt, the couplet contrasts outward appearance with inner character.",
+    "theme": "inner-beauty-and-wisdom",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124919": {
+    "literalEnglish": [
+      "India's learned people hold leading positions in the world.",
+      "Seeing their talent, the whole world is amazed."
+    ],
+    "childFriendlyEnglish": "The poem proudly celebrates Indian scholars and professionals whose abilities have earned prominent roles around the world.",
+    "simpleHindiExplanation": "विश्व के ऊँचे पदों पर पहुँचे भारतीय विद्वानों और प्रतिभाशाली लोगों पर गर्व व्यक्त किया गया है। किसी विशेष व्यक्ति या संस्था का उल्लेख नहीं है।",
+    "context": "Dated 2023-08-16 with “भारत” as the prompt, the couplet expresses national pride in accomplished Indians. It supplies no names or data for a narrower claim.",
+    "theme": "pride-in-indian-talent",
+    "confidence": "high",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423124923": {
+    "literalEnglish": [
+      "Gudiya, Rakhi, and Teej are all festivals of Sawan.",
+      "Wearing green veils, all the women rejoice."
+    ],
+    "childFriendlyEnglish": "The poem pictures the rainy month of Sawan filled with seasonal festivals, green clothing, and the cheerful celebration of women.",
+    "simpleHindiExplanation": "सावन में गुड़िया, राखी और तीज जैसे पर्वों का उल्लास दिखाया गया है। हरी चुनरी पहने स्त्रियाँ वर्षा ऋतु के उत्सव में प्रसन्न हैं।",
+    "context": "The catalog date is 2023-08-17, while the raw note gives 2023-08-16 and “सावन” as the prompt. Customs vary by region; “गुड़िया” appears to be a local Sawan observance.",
+    "theme": "sawan-festivals",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124930": {
+    "literalEnglish": [
+      "What is formed by atoms is called matter.",
+      "Living beings perceive it for an inherent purpose."
+    ],
+    "childFriendlyEnglish": "The poem offers a simple science-themed definition of matter as something made from atoms and experienced by living beings, though its second line is not technically precise.",
+    "simpleHindiExplanation": "पदार्थ को अणुओं से बना हुआ बताया गया है। दूसरी पंक्ति में जीवों द्वारा उसे महसूस करने और उसके अर्थ का संबंध अस्पष्ट है, इसलिए इसे पूरी वैज्ञानिक परिभाषा नहीं मानना चाहिए।",
+    "context": "Dated 2023-08-17 with “पदार्थ” as the prompt, the first line simplifies matter. The phrase “जीवों को निहितार्थ” is ambiguous, so the draft remains cautious.",
+    "theme": "matter-and-atoms",
+    "confidence": "low",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124933": {
+    "literalEnglish": [
+      "The branch of the immortal vine is delicate and lovely.",
+      "Around its beloved peepal, it swings like a victory garland."
+    ],
+    "childFriendlyEnglish": "A soft climbing vine wraps around a peepal tree like a beautiful garland placed around someone beloved.",
+    "simpleHindiExplanation": "कोमल लता पीपल के पेड़ से लिपटकर झूल रही है। उसे प्रिय के गले में पड़ी सुंदर जयमाला जैसा रूप दिया गया है।",
+    "context": "Dated 2023-08-18 with “कमनीय” as the prompt, the verse personifies a vine and peepal as beloved partners. The exact vine species is uncertain.",
+    "theme": "vine-garlanding-peepal",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124937": {
+    "literalEnglish": [
+      "Wearing armour of seventy-two kilos, Rana fights in battle.",
+      "His spear weighs eighty-one kilos, leaving Akbar astonished."
+    ],
+    "childFriendlyEnglish": "The poem magnifies Maharana Pratap's strength through famous stories about extremely heavy armour and a spear that amazed Akbar.",
+    "simpleHindiExplanation": "राणा की वीरता और शक्ति दिखाने के लिए बहुत भारी कवच और भाले का वर्णन किया गया है। दिए गए वजन लोकप्रिय कथनों का हिस्सा हैं; उन्हें यहाँ प्रमाणित इतिहास नहीं माना गया।",
+    "context": "Dated 2023-08-18 with “कवच” as the prompt, “Rana” appears to mean Maharana Pratap. The stated 72- and 81-kilogram weights are disputed popular claims and are retained only as the poem's wording.",
+    "theme": "maharana-pratap-legend",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124940": {
+    "literalEnglish": [
+      "Those who recite the protective hymn of Goddess Durga—",
+      "epidemics stay far away, and body and mind remain healthy."
+    ],
+    "childFriendlyEnglish": "The devotional couplet expresses faith that reciting Durga Kavach brings protection and well-being, but it should not replace medical care during disease outbreaks.",
+    "simpleHindiExplanation": "दुर्गा कवच के पाठ से रक्षा और तन-मन के स्वास्थ्य की धार्मिक आस्था व्यक्त हुई है। महामारी से बचाव का दावा भक्तिभाव का है; यह स्वास्थ्य-सुरक्षा और उपचार का विकल्प नहीं।",
+    "context": "Dated 2023-08-18 with “कवच” as the prompt, the verse refers to Durga Kavach. Its epidemic claim is faith, not verified medical guidance.",
+    "theme": "durga-kavach-protection",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124944": {
+    "literalEnglish": [
+      "Desire, anger, pride, and greed all cause deep confusion.",
+      "This world is a wilderness in which all beings wander."
+    ],
+    "childFriendlyEnglish": "Strong impulses such as greed and anger can make life feel like a confusing forest where people lose their direction.",
+    "simpleHindiExplanation": "काम, क्रोध, अहंकार और लोभ मनुष्य को भ्रमित करते हैं। इनके कारण संसार जंगल जैसा कठिन लगता है और जीव सही मार्ग से भटकते हैं।",
+    "context": "Dated 2023-08-19 with “अरण्य” as the prompt, the wilderness is a moral-spiritual metaphor for worldly confusion.",
+    "theme": "worldly-desires-as-wilderness",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124947": {
+    "literalEnglish": [
+      "Officials accept gifts, and only then do the work.",
+      "All government offices have become notorious."
+    ],
+    "childFriendlyEnglish": "The poem criticizes bribery by describing officials who demand a gift before doing their duty, while making a broad generalization about public offices.",
+    "simpleHindiExplanation": "काम करने के बदले भेंट या रिश्वत लेने वाले अधिकारियों की आलोचना की गई है। सभी सरकारी दफ्तरों को बदनाम कहना कविता का व्यापक व्यंग्य है, प्रमाणित सार्वभौमिक तथ्य नहीं।",
+    "context": "Dated 2023-08-19 with “भेंट” as the prompt, “gift” appears to be a euphemism for a bribe. No office, official, or case is named.",
+    "theme": "bribery-in-public-offices",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124950": {
+    "literalEnglish": [
+      "An extract made from jasmine is filled with fragrance.",
+      "It always provides coolness and drives away heat."
+    ],
+    "childFriendlyEnglish": "The poem praises fragrant jasmine extract for a cooling feeling, reflecting a traditional or sensory description rather than medical advice.",
+    "simpleHindiExplanation": "मोगरे के अर्क की सुगंध और ठंडक देने वाले अनुभव की प्रशंसा की गई है। गर्मी दूर करने का कथन सामान्य या पारंपरिक अनुभव है, चिकित्सा-सिद्ध दावा नहीं।",
+    "context": "Dated 2023-08-20 with “अर्क” as the prompt, the couplet describes jasmine extract. The preparation and cooling effect are not independently verified.",
+    "theme": "jasmine-extract-and-cooling",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124953": {
+    "literalEnglish": [
+      "Nature's rule operates throughout the whole world.",
+      "By making caves, it gives creatures the gift of a home."
+    ],
+    "childFriendlyEnglish": "Nature provides many animals with caves and other shelters that become safe homes in the landscape.",
+    "simpleHindiExplanation": "प्रकृति को संसार चलाने वाली शक्ति के रूप में देखा गया है। गुफाएँ बनाकर वह अनेक जीवों को रहने का प्राकृतिक स्थान देती है।",
+    "context": "Dated 2023-08-20 with “गुफा” as the prompt, nature is personified as a ruler and giver of shelter. No cave or species is named.",
+    "theme": "caves-as-natural-shelter",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423124957": {
+    "literalEnglish": [
+      "Piece by piece, the ruin gives this call:",
+      "Human, do not take pride in your body."
+    ],
+    "childFriendlyEnglish": "A crumbling ruin reminds people that physical strength and beauty do not last forever, so pride in the body should be kept in perspective.",
+    "simpleHindiExplanation": "टूटता हुआ खंडहर मनुष्य को शरीर की नश्वरता याद दिलाता है। रूप और देह पर घमंड न करने की सीख दी गई है।",
+    "context": "Dated 2023-08-21 with “खंडहर” as the prompt, the ruin is personified as warning humans about mortality and pride.",
+    "theme": "ruins-and-bodily-pride",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125000": {
+    "literalEnglish": [
+      "Consider one who has no aspiration almost dead.",
+      "For a beautiful life, take a variety of measures."
+    ],
+    "childFriendlyEnglish": "Hopes and goals give life energy, and building a fulfilling life may require trying different constructive paths.",
+    "simpleHindiExplanation": "इच्छा और लक्ष्य को जीवन की सक्रियता से जोड़ा गया है। सुंदर जीवन बनाने के लिए अलग-अलग सकारात्मक प्रयास करने की सलाह दी गई है।",
+    "context": "Dated 2023-08-22 with “अभिलाषा” as the prompt, the poem strongly equates aspiration with vitality. “Almost dead” is rhetorical, not a judgment about illness or depression.",
+    "theme": "aspiration-gives-vitality",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125003": {
+    "literalEnglish": [
+      "Where water stands still, it spreads a foul smell.",
+      "Understand aspiration as a bond with fragrance."
+    ],
+    "childFriendlyEnglish": "Stagnant water becomes a contrast for hopeful desire: worthwhile aspirations can keep life fresh and moving instead of stuck.",
+    "simpleHindiExplanation": "रुका पानी दुर्गंध देता है, जबकि अभिलाषा को सुगंध से जोड़ा गया है। भाव यह है कि सकारात्मक इच्छा जीवन में गति और ताजगी बनाए रखती है।",
+    "context": "Dated 2023-08-22 with “अभिलाषा” as the prompt, stagnant water and fragrance form a metaphor valuing aspiration.",
+    "theme": "aspiration-against-stagnation",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125007": {
+    "literalEnglish": [
+      "Always do good deeds in the world without a reason.",
+      "With the Lord's blessing, pleasant results are received."
+    ],
+    "childFriendlyEnglish": "Do kind things without waiting for a special reason or reward, and trust that goodness can bring positive results.",
+    "simpleHindiExplanation": "बिना स्वार्थ या खास कारण के अच्छे काम करने की सीख दी गई है। ईश्वर के आशीर्वाद से उनके सुखद फल मिलने का विश्वास व्यक्त हुआ है।",
+    "context": "Dated 2023-08-22 with “अकारण” as the prompt, “without reason” is read as spontaneous or selfless goodness. The result is devotional belief, not a guarantee.",
+    "theme": "selfless-good-deeds",
+    "confidence": "medium",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125010": {
+    "literalEnglish": [
+      "Who in the world has ever found the depth of aspiration?",
+      "Where there is a will, a path always emerges."
+    ],
+    "childFriendlyEnglish": "Human hopes can be limitless, and determination often helps people discover a way forward.",
+    "simpleHindiExplanation": "मनुष्य की इच्छाओं की सीमा पाना कठिन है। दृढ़ चाह और संकल्प होने पर आगे बढ़ने का रास्ता मिल सकता है।",
+    "context": "Dated 2023-08-22 with “अभिलाषा” as the prompt, the second line is proverb-like encouragement, not a guarantee that every barrier can be overcome.",
+    "theme": "will-finds-a-way",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125013": {
+    "literalEnglish": [
+      "Begin the work together with aspiration.",
+      "Only through labour are pleasant results always obtained."
+    ],
+    "childFriendlyEnglish": "A goal may start the journey, but effort is what turns that hope into a meaningful result.",
+    "simpleHindiExplanation": "काम की शुरुआत इच्छा और लक्ष्य के साथ करें, लेकिन सफलता केवल चाहने से नहीं मिलती। अच्छा परिणाम पाने के लिए मेहनत आवश्यक है।",
+    "context": "Dated 2023-08-22 with “अभिलाषा” as the prompt, the couplet pairs aspiration with labour as motivational advice.",
+    "theme": "aspiration-requires-effort",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125017": {
+    "literalEnglish": [
+      "A salutation to the poetry forum.",
+      "Their cheeks looked like Kashmiri apples.",
+      "When drops of rain fell, the deception was exposed."
+    ],
+    "childFriendlyEnglish": "Someone's apple-red cheeks appear attractive until rain reveals that the colour was cosmetic rather than natural.",
+    "simpleHindiExplanation": "कश्मीरी सेब जैसे लाल गालों की प्रशंसा के बाद वर्षा से बनावटी रंग उतरने का हास्यपूर्ण दृश्य है। पहली पंक्ति मंच को नमन करने वाला शीर्षकीय अंश प्रतीत होती है।",
+    "context": "Dated 2023-08-23 with “हनु” as the prompt, “हनु” is read as cheek or jaw. The first body line appears to be a malformed forum salutation; the rest satirizes cosmetic colour.",
+    "theme": "cosmetic-colour-revealed",
+    "confidence": "low",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125041": {
+    "literalEnglish": [
+      "Parents with a son like Ramachandra are fortunate.",
+      "They hand over the key to the kingdom while chanting the Lord's name."
+    ],
+    "childFriendlyEnglish": "The couplet imagines fortunate parents entrusting royal responsibility to a son like Rama while remaining devoted to God.",
+    "simpleHindiExplanation": "रामचंद्र जैसे पुत्र वाले माता-पिता को भाग्यवान कहा गया है। वे राज्य की जिम्मेदारी सौंपकर प्रभु-स्मरण करते हैं; संकेत संभवतः रामकथा की ओर है।",
+    "context": "Dated 2023-08-23 with “कुंजी” as the prompt, the syntax is irregular. It appears to praise parents with a Rama-like son and use a kingdom's key for transferred responsibility; the episode is uncertain.",
+    "theme": "entrusting-rule-to-a-worthy-son",
+    "confidence": "low",
+    "contextConfidence": "medium"
+  },
+  "notes_20240423125048": {
+    "literalEnglish": [
+      "Vikram went as a flag-bearer to the realm of the moon god.",
+      "ISRO and Ashoka leave their marks upon the lunar ground."
+    ],
+    "childFriendlyEnglish": "The poem celebrates Chandrayaan-3's Vikram lander and India's space agency reaching the Moon, with national symbols imagined as India's mark there.",
+    "simpleHindiExplanation": "चंद्रयान-3 के विक्रम लैंडर की चंद्रमा पर सफलता का उत्सव मनाया गया है। इसरो और अशोक-चिह्न को चंद्रभूमि पर भारत की पहचान छोड़ने के प्रतीक की तरह कहा गया है।",
+    "context": "Dated 2023-08-25, two days after Chandrayaan-3's landing, with “ध्वजवाहक” as the prompt. “Ashoka” likely means the Lion Capital emblem associated with Pragyan's wheel, though the verse compresses lander and rover details.",
+    "theme": "chandrayaan-3-national-pride",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125052": {
+    "literalEnglish": [
+      "One who sings the praises of mighty Hanuman—",
+      "ghosts and demons never trouble that person."
+    ],
+    "childFriendlyEnglish": "The devotional verse expresses faith that remembering Hanuman protects a devotee from frightening or harmful forces.",
+    "simpleHindiExplanation": "महावीर हनुमान का गुणगान करने वाले भक्त को भूत-पिशाच से रक्षा मिलने की आस्था व्यक्त की गई है। यह धार्मिक विश्वास है।",
+    "context": "Dated 2023-08-25 with “भूत” as the prompt, the wording echoes a protective idea from Hanuman devotion. It is faith, not clinical advice.",
+    "theme": "hanuman-devotional-protection",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125055": {
+    "literalEnglish": [
+      "What has passed is the past; the present is today.",
+      "Think about the future, and do your work now."
+    ],
+    "childFriendlyEnglish": "Learn from what is over, prepare for what lies ahead, and use the present moment to take action.",
+    "simpleHindiExplanation": "जो बीत गया वह भूतकाल है और आज वर्तमान है। भविष्य की चिंता को केवल सोच तक न रखें, बल्कि अभी आवश्यक काम करें।",
+    "context": "Dated 2023-08-25 with “भूत” as the prompt, “भूत” is used in its temporal sense of the past.",
+    "theme": "act-in-the-present",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125058": {
+    "literalEnglish": [
+      "If you live abroad, do not forget this country.",
+      "Yet adapt yourself according to the surroundings."
+    ],
+    "childFriendlyEnglish": "People living in another country can remember their homeland while also respecting and adjusting to the place where they now live.",
+    "simpleHindiExplanation": "विदेश में रहने पर अपने देश को याद रखने की बात कही गई है। साथ ही नए समाज और परिवेश के अनुसार समझदारी से ढलना भी आवश्यक बताया गया है।",
+    "context": "Dated 2023-08-26 with “विदेश” as the prompt, the couplet balances attachment to one's homeland with adaptation abroad.",
+    "theme": "homeland-and-adaptation-abroad",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125101": {
+    "literalEnglish": [
+      "In this world, a flatterer forms deep relationships.",
+      "Through diplomacy, such a person gets every task done while embroidering praise."
+    ],
+    "childFriendlyEnglish": "The poem satirizes people who use flattery and clever manoeuvring to build useful connections and get what they want.",
+    "simpleHindiExplanation": "चापलूसी करने वाला मीठी प्रशंसा और कूटनीति से गहरे संबंध बनाकर अपने काम निकलवाता है। दोहा इस स्वार्थपूर्ण व्यवहार पर व्यंग्य करता है।",
+    "context": "Dated 2023-08-26 with “प्रगाढ़” as the prompt, “कसीदा काढ़ना” is an idiom for elaborate praise. No person is identified.",
+    "theme": "flattery-and-opportunism",
+    "confidence": "high",
+    "contextConfidence": "high"
+  },
+  "notes_20240423125105": {
+    "literalEnglish": [
+      "Earlier, a one-unit coin used to command respect.",
+      "Now the thumb has become a sign, and the taunt is a new pride."
+    ],
+    "childFriendlyEnglish": "The poem plays with changing hand signs and the lost value of an old small coin, but its exact contrast between the thumb and a dismissive gesture is uncertain.",
+    "simpleHindiExplanation": "पुराने छोटे सिक्के के सम्मान और आज के अंगूठे या ठेंगे के संकेत पर शब्द-खेल किया गया है। दूसरी पंक्ति का ठीक सामाजिक संदर्भ स्पष्ट नहीं है।",
+    "context": "Dated 2023-08-28 with “अंगूठा” as the prompt, the verse may contrast an old coin with thumb signs and “ठेंगा दिखाना.” Several readings remain possible.",
+    "theme": "thumb-sign-wordplay",
+    "confidence": "low",
+    "contextConfidence": "low"
+  },
+  "notes_20240423125108": {
+    "literalEnglish": [
+      "When you perform the consecration, the divine becomes enlivened.",
+      "The powerful effect of heartfelt worship and adoration becomes visible."
+    ],
+    "childFriendlyEnglish": "The verse describes pran pratishtha, when worshippers ceremonially consecrate a sacred image and approach it with deep devotion.",
+    "simpleHindiExplanation": "प्राण-प्रतिष्ठा के बाद देव-प्रतिमा को सजीव दिव्य उपस्थिति के रूप में पूजने की धार्मिक भावना बताई गई है। भावपूर्ण पूजन-अर्चन की शक्ति पर विश्वास व्यक्त हुआ है।",
+    "context": "Dated 2023-08-28 with “प्राणित” as the prompt, the couplet appears to refer to pran pratishtha. “Enlivened” represents ritual belief, not a biological claim.",
+    "theme": "pran-pratishtha-devotion",
+    "confidence": "medium",
+    "contextConfidence": "high"
   }
 }
