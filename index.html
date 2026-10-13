@@ -20,7 +20,7 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#collection">संग्रह पर जाएँ</a>
+    <a class="skip-link" href="#about">परिचय पर जाएँ</a>
 
     <header class="hero">
       <nav class="nav shell" aria-label="मुख्य नेविगेशन">
@@ -30,7 +30,7 @@
         </a>
         <div class="nav-links">
           <a href="#about">परिचय</a>
-          <a href="#collection">रचनाएँ</a>
+          <a href="collection.html">रचनाएँ</a>
           <button class="quiet-button" id="random-button" type="button">
             कोई पन्ना खोलें
           </button>
@@ -131,49 +131,11 @@
               शब्द चले जाते नहीं, स्मृति बनते साथ।<br />
               माँ की लिखी हर पंक्ति में, मिलता उनका हाथ।
             </blockquote>
+            <a class="collection-link" href="collection.html">
+              संपूर्ण रचना-संग्रह देखें <span aria-hidden="true">→</span>
+            </a>
           </div>
         </div>
-      </section>
-
-      <section class="collection-section shell" id="collection" aria-labelledby="collection-title">
-        <div class="section-heading">
-          <p class="eyebrow">संपूर्ण संग्रह</p>
-          <h2 id="collection-title">रचनाओं के पन्ने</h2>
-          <p>शीर्षक या पंक्ति खोजें, वर्ष चुनें, और किसी पन्ने को खोलकर पढ़ें।</p>
-        </div>
-
-        <div class="collection-toolbar">
-          <label class="search-box">
-            <span aria-hidden="true">⌕</span>
-            <span class="sr-only">रचनाओं में खोजें</span>
-            <input
-              id="search-input"
-              type="search"
-              placeholder="शीर्षक या शब्द खोजें…"
-              autocomplete="off"
-            />
-          </label>
-          <div class="filter-row" id="year-filters" aria-label="वर्ष के अनुसार छाँटें"></div>
-          <button
-            class="favorites-filter"
-            id="favorites-filter"
-            type="button"
-            aria-pressed="false"
-          >
-            <span aria-hidden="true">♡</span> प्रिय पन्ने
-          </button>
-        </div>
-
-        <p class="result-count" id="result-count" aria-live="polite"></p>
-        <div class="poem-grid" id="poem-grid"></div>
-        <div class="empty-state" id="empty-state" hidden>
-          <span aria-hidden="true">❦</span>
-          <h3>कोई रचना नहीं मिली</h3>
-          <p>किसी दूसरे शब्द या वर्ष से खोजकर देखें।</p>
-        </div>
-        <button class="load-more" id="load-more" type="button" hidden>
-          और पन्ने दिखाएँ
-        </button>
       </section>
     </main>
 
@@ -239,24 +201,5 @@
         </button>
       </div>
     </dialog>
-
-    <template id="poem-card-template">
-      <article class="poem-card">
-        <button class="card-open" type="button">
-          <span class="card-number"></span>
-          <span class="card-year"></span>
-          <h3></h3>
-          <span class="card-divider" aria-hidden="true">❦</span>
-          <span class="card-excerpt"></span>
-          <span class="card-footer">
-            <span>पूरा पढ़ें</span>
-            <b aria-hidden="true">→</b>
-          </span>
-        </button>
-        <button class="card-favorite" type="button" aria-label="प्रिय पन्नों में जोड़ें">
-          ♡
-        </button>
-      </article>
-    </template>
   </body>
 </html>
