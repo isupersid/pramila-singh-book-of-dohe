@@ -1714,9 +1714,14 @@ footer a {
 
   .page-poem.has-mobile-artwork::before {
     background:
-      linear-gradient(rgb(255 250 240 / 84%), rgb(255 250 240 / 88%)),
+      linear-gradient(rgb(255 250 240 / 72%), rgb(255 250 240 / 79%)),
       var(--mobile-artwork) center / cover no-repeat;
     mix-blend-mode: normal;
+  }
+
+  .page-poem.has-mobile-artwork .reader-interpretation {
+    background: rgb(255 252 244 / 56%);
+    backdrop-filter: blur(1px);
   }
 
   .page-arrow {
