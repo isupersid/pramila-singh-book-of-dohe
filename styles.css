@@ -634,20 +634,6 @@ a {
   color: var(--muted);
 }
 
-.about-copy blockquote {
-  margin: 32px 0 0;
-  padding: 18px 0 12px 28px;
-  color: var(--green);
-  border-left: 2px solid var(--saffron);
-  font-family: var(--hand);
-  font-size: 1.25rem;
-}
-
-.about-copy blockquote span {
-  color: var(--saffron);
-  font-size: 2rem;
-}
-
 .collection-link {
   display: inline-flex;
   margin-top: 30px;
@@ -996,8 +982,10 @@ footer a {
   height: 100%;
   max-height: none;
   padding: 0;
+  overflow: hidden;
   background: rgb(38 19 17 / 88%);
   border: 0;
+  overscroll-behavior: none;
 }
 
 .reader::backdrop {
@@ -1290,15 +1278,20 @@ footer a {
 }
 
 .turning-back {
+  display: block;
   background-color: #f5ead4;
   box-shadow: inset -20px 0 30px -24px rgb(54 30 17 / 42%);
   transform: rotateY(180deg);
 }
 
-.turning-ornament {
-  font-size: 5rem;
-  opacity: 0.45;
+.turning-art-clone {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  backface-visibility: hidden;
 }
+
+
 
 .reader-tools {
   display: flex;
@@ -1522,6 +1515,10 @@ footer a {
   .turning-sheet.turn-previous {
     right: 0;
     transform-origin: left center;
+  }
+
+  .turning-art-clone {
+    display: none;
   }
 
   .page-poem.has-mobile-artwork::before {
