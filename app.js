@@ -31,8 +31,10 @@ const elements = {
   nextPoem: document.querySelector("#next-poem"),
   artworkImage: document.querySelector("#artwork-image"),
   artPlaceholder: document.querySelector("#art-placeholder"),
+  pageArt: document.querySelector(".page-art"),
   turningSheet: document.querySelector("#turning-sheet"),
   turningFront: document.querySelector(".turning-front"),
+  turningBack: document.querySelector(".turning-back"),
   poemPage: document.querySelector(".page-poem"),
 };
 
@@ -192,19 +194,39 @@ function renderReader(poem, updateHash = true) {
     }),
   );
 
+  elements.artworkImage.onload = null;
+  elements.artworkImage.onerror = null;
+  elements.artworkImage.hidden = true;
+  elements.artPlaceholder.hidden = true;
+
   if (poem.artwork) {
+    const expectedArtwork = poem.artwork;
+    const revealArtwork = () => {
+      if (state.currentPoem?.artwork === expectedArtwork) {
+        elements.artworkImage.hidden = false;
+      }
+    };
+    const showArtworkFallback = () => {
+      if (state.currentPoem?.artwork === expectedArtwork) {
+        elements.artPlaceholder.hidden = false;
+      }
+    };
+
+    elements.artworkImage.onload = revealArtwork;
+    elements.artworkImage.onerror = showArtworkFallback;
     elements.artworkImage.src = poem.artwork;
     elements.artworkImage.alt = `${poem.title} के लिए कलाकृति`;
-    elements.artworkImage.hidden = false;
-    elements.artPlaceholder.hidden = true;
+    if (elements.artworkImage.complete && elements.artworkImage.naturalWidth) {
+      revealArtwork();
+    }
     elements.poemPage.classList.add("has-mobile-artwork");
     elements.poemPage.style.setProperty(
       "--mobile-artwork",
       `url(${JSON.stringify(poem.artwork)})`,
     );
   } else {
+    elements.artworkImage.removeAttribute("alt");
     elements.artworkImage.removeAttribute("src");
-    elements.artworkImage.hidden = true;
     elements.artPlaceholder.hidden = false;
     elements.poemPage.classList.remove("has-mobile-artwork");
     elements.poemPage.style.removeProperty("--mobile-artwork");
@@ -249,6 +271,30 @@ function cloneCurrentPageForTurn() {
   clone.scrollTop = elements.poemPage.scrollTop;
 }
 
+function cloneArtworkPageForTurn(poem) {
+  const clone = elements.pageArt.cloneNode(true);
+  const image = clone.querySelector("img");
+  const placeholder = clone.querySelector(".art-placeholder");
+
+  clone.classList.add("turning-art-clone");
+  clone.removeAttribute("id");
+  clone.querySelectorAll("[id]").forEach((element) => element.removeAttribute("id"));
+
+  if (poem.artwork) {
+    image.src = poem.artwork;
+    image.alt = `${poem.title} के लिए कलाकृति`;
+    image.hidden = false;
+    placeholder.hidden = true;
+  } else {
+    image.removeAttribute("src");
+    image.removeAttribute("alt");
+    image.hidden = true;
+    placeholder.hidden = false;
+  }
+
+  elements.turningBack.replaceChildren(clone);
+}
+
 function moveReader(direction) {
   if (state.isTurning) return;
   const index = state.poems.findIndex((poem) => poem.id === state.currentPoem?.id);
@@ -269,6 +315,7 @@ function moveReader(direction) {
     cloneCurrentPageForTurn();
   } else {
     const current = state.currentPoem;
+    cloneArtworkPageForTurn(current);
     renderReader(next, false);
     cloneCurrentPageForTurn();
     renderReader(current, false);
@@ -279,6 +326,7 @@ function moveReader(direction) {
 
   if (direction > 0) {
     renderReader(next);
+    cloneArtworkPageForTurn(next);
   }
 
   void elements.turningSheet.offsetWidth;
@@ -292,6 +340,7 @@ function moveReader(direction) {
     () => {
       elements.turningSheet.classList.remove("turn-next", "turn-previous");
       elements.turningSheet.hidden = true;
+      elements.turningBack.replaceChildren();
       elements.reader.classList.remove("is-turning");
       state.isTurning = false;
     },
