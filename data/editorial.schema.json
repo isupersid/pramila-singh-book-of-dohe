@@ -6,7 +6,7 @@
   "required": ["schemaVersion", "status", "notice", "records"],
   "properties": {
     "schemaVersion": {
-      "const": 1
+      "const": 2
     },
     "status": {
       "const": "draft"
@@ -89,21 +89,34 @@
           "$ref": "#/$defs/lineLayer"
         },
         "literalEnglish": {
-          "allOf": [
+          "anyOf": [
             {
-              "$ref": "#/$defs/lineLayer"
+              "type": "null"
             },
             {
-              "type": "object",
-              "required": ["coverage", "editorialNote"]
+              "$ref": "#/$defs/translationLayer"
             }
           ]
         },
         "childFriendlyEnglish": {
-          "$ref": "#/$defs/textLayer"
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/textLayer"
+            }
+          ]
         },
         "simpleHindiExplanation": {
-          "$ref": "#/$defs/textLayer"
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/textLayer"
+            }
+          ]
         },
         "context": {
           "type": "object",
@@ -154,6 +167,30 @@
           "minItems": 1,
           "items": {
             "type": "string"
+          }
+        },
+        "translationLayer": {
+          "type": "object",
+          "required": ["lines", "method", "confidence", "editorialNote"],
+          "properties": {
+            "lines": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "method": {
+              "const": "curated-draft"
+            },
+            "confidence": {
+              "$ref": "#/$defs/confidence"
+            },
+            "editorialNote": {
+              "type": "string",
+              "minLength": 1
+            }
           }
         },
         "method": {

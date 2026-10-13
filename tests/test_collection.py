@@ -84,14 +84,125 @@ class CollectionBuildTests(unittest.TestCase):
                 len(poem["body"]),
                 len(record["romanTransliteration"]["lines"]),
             )
-            self.assertEqual(
-                len(poem["body"]),
-                len(record["literalEnglish"]["lines"]),
-            )
-            self.assertTrue(record["childFriendlyEnglish"]["text"].strip())
-            self.assertTrue(record["simpleHindiExplanation"]["text"].strip())
+            if record["literalEnglish"] is None:
+                self.assertIsNone(record["childFriendlyEnglish"])
+                self.assertIsNone(record["simpleHindiExplanation"])
+                self.assertIn("needs-human-translation", record["flags"])
+                self.assertIn("needs-specific-explanation", record["flags"])
+            else:
+                self.assertEqual(
+                    len(poem["body"]),
+                    len(record["literalEnglish"]["lines"]),
+                )
+                self.assertTrue(record["childFriendlyEnglish"]["text"].strip())
+                self.assertTrue(record["simpleHindiExplanation"]["text"].strip())
+                self.assertNotIn("needs-human-translation", record["flags"])
             self.assertTrue(record["context"]["text"].strip())
             self.assertTrue(record["context"]["evidence"])
+
+    def test_curated_english_is_readable_not_mixed_glossing(self):
+        common_english = {
+            "a",
+            "and",
+            "are",
+            "as",
+            "be",
+            "by",
+            "for",
+            "from",
+            "has",
+            "have",
+            "in",
+            "is",
+            "it",
+            "of",
+            "on",
+            "that",
+            "the",
+            "their",
+            "them",
+            "they",
+            "this",
+            "to",
+            "when",
+            "who",
+            "with",
+        }
+        allowed_shared_terms = {
+            "bharat",
+            "brahma",
+            "chandrayaan",
+            "cup",
+            "mahesh",
+            "mobile",
+            "modi",
+            "pakistan",
+            "rohini",
+            "shashank",
+            "shiva",
+            "shiv",
+            "vishnu",
+            "yoga",
+        }
+        banned_gloss_tokens = {"hai", "hain", "kar", "ko", "mein", "men", "se"}
+        devanagari = set(chr(code) for code in range(0x0900, 0x0980))
+        curated_count = 0
+        for record in self.editorial["records"].values():
+            literal = record["literalEnglish"]
+            if literal is None:
+                continue
+            curated_count += 1
+            for index, line in enumerate(literal["lines"]):
+                self.assertFalse(any(char in devanagari for char in line), line)
+                words = [
+                    word.strip(".,;:!?—–()\"'").lower()
+                    for word in line.split()
+                    if word.strip(".,;:!?—–()\"'").isalpha()
+                ]
+                self.assertFalse(banned_gloss_tokens.intersection(words), line)
+                roman_words = {
+                    word.strip(".,;:!?—–()\"'").lower()
+                    for word in record["romanTransliteration"]["lines"][index].split()
+                }
+                unresolved = (
+                    set(words)
+                    .intersection(roman_words)
+                    .difference(common_english)
+                    .difference(allowed_shared_terms)
+                )
+                if words:
+                    self.assertLessEqual(len(unresolved) / len(words), 0.2, line)
+        self.assertGreaterEqual(curated_count, 10)
+
+    def test_curated_meanings_are_poem_specific(self):
+        children = []
+        simple_hindi = []
+        for record in self.editorial["records"].values():
+            if record["childFriendlyEnglish"] is not None:
+                children.append(record["childFriendlyEnglish"]["text"])
+                simple_hindi.append(record["simpleHindiExplanation"]["text"])
+        self.assertEqual(len(children), len(set(children)))
+        self.assertEqual(len(simple_hindi), len(set(simple_hindi)))
+
+    def test_required_spot_checks_have_curated_drafts(self):
+        required_ids = {
+            "notes_20240423113656",
+            "notes_20240423113758",
+            "notes_20240423113808",
+            "notes_20240423113814",
+            "notes_20240423113821",
+            "notes_20240423125044",
+            "notes_20240423123457",
+            "notes_20240423125321",
+            "notes_20240423130256",
+            "notes_20240423123137",
+            "notes_20240423131041",
+        }
+        for note_id in required_ids:
+            record = self.editorial["records"][note_id]
+            self.assertIsNotNone(record["literalEnglish"], note_id)
+            self.assertIsNotNone(record["childFriendlyEnglish"], note_id)
+            self.assertIsNotNone(record["simpleHindiExplanation"], note_id)
 
     def test_reader_has_structured_editorial_tabs(self):
         for page_name in ("index.html", "collection.html"):

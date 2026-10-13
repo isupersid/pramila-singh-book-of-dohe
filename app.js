@@ -311,9 +311,11 @@ function renderEditorialTab(tab = state.activeReaderTab) {
       "Machine transliteration draft; pronunciation and word boundaries need family review.",
     );
   } else if (tab === "english") {
-    appendHeading(panel, "Literal English draft");
-    appendLines(panel, editorial.literalEnglish.lines, "english-lines");
-    appendEditorialNote(panel, editorial.literalEnglish.editorialNote);
+    if (editorial.literalEnglish?.lines?.length) {
+      appendHeading(panel, "Literal English draft");
+      appendLines(panel, editorial.literalEnglish.lines, "english-lines");
+      appendEditorialNote(panel, editorial.literalEnglish.editorialNote);
+    }
     if (editorial.childFriendlyEnglish?.text) {
       appendHeading(panel, "For younger readers");
       const meaning = document.createElement("p");
@@ -349,17 +351,17 @@ function renderEditorialTab(tab = state.activeReaderTab) {
     panel.append(pre);
   }
 
-  const confidence =
-    tab === "archive"
-      ? ""
+  const confidence = tab === "archive"
+    ? ""
+    : tab === "english"
+      ? editorial.literalEnglish?.confidence ||
+        editorial.childFriendlyEnglish?.confidence
       : editorial?.[
           tab === "roman"
             ? "romanTransliteration"
-            : tab === "english"
-              ? "literalEnglish"
-              : tab === "simple"
-                ? "simpleHindiExplanation"
-                : "context"
+            : tab === "simple"
+              ? "simpleHindiExplanation"
+              : "context"
         ]?.confidence;
   elements.editorialConfidence.textContent = confidence
     ? `विश्वास: ${confidence === "medium" ? "मध्यम" : "कम"}`

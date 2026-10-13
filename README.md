@@ -32,20 +32,22 @@ python -m http.server 8000
 ## अनुवाद और संपादकीय प्रारूप
 
 `data/editorial.json` में हर note ID के लिए मूल रचना से अलग संपादकीय record है।
-इसमें Roman transliteration, शाब्दिक English gloss, बच्चों के लिए English अर्थ,
-सरल हिंदी अर्थ, संदर्भ, साक्ष्य, confidence और review status अलग-अलग रखे गए हैं।
-इसका schema `data/editorial.schema.json` में है।
+इसमें Roman transliteration, उपलब्ध होने पर पढ़ने योग्य English draft, बच्चों के
+लिए poem-specific English अर्थ, सरल हिंदी अर्थ, संदर्भ, साक्ष्य, confidence और
+review status अलग-अलग रखे गए हैं। इसका schema `data/editorial.schema.json` में
+है।
 
-सभी मौजूदा records machine-produced **draft** हैं। English gloss जानबूझकर
-शब्द-स्तर पर सावधान है: जिन शब्दों का भरोसेमंद gloss उपलब्ध नहीं है, उन्हें
-Roman रूप में रहने दिया गया है। इसे polished literary translation या लेखिका की
-पुष्ट मंशा न माना जाए। परिवार की समीक्षा होने तक `familyReviewed` हमेशा `false`
-रहेगा।
+सभी मौजूदा records **draft** हैं। पढ़ने योग्य, रचना-विशिष्ट translation
+`data/editorial_overrides.json` में रखी जाती है। जिस रचना का जिम्मेदारी से
+अनुवाद अभी तैयार नहीं है, उसमें translation/explanation fields `null`,
+`needs-human-translation` flag सक्रिय, और reader में संबंधित tabs छिपे रहते हैं।
+टूटी हुई word-by-word या Romanized Hindi को English translation की तरह नहीं
+दिखाया जाता। परिवार की समीक्षा होने तक `familyReviewed` हमेशा `false` रहेगा।
 
 संग्रह बनाते समय `scripts/build_collection.py` अपने-आप
-`scripts/build_editorial.py` भी चलाता है। किसी record की मानवीय समीक्षा होने पर
-generated draft को सीधे overwrite करने के बजाय generator/review workflow को
-पहले अलग करना चाहिए, ताकि समीक्षा अगली build में न मिटे।
+`scripts/build_editorial.py` भी चलाता है। Curated drafts override file से
+दोबारा जुड़ते हैं, इसलिए regeneration उन्हें नहीं मिटाता। परिवार से स्वीकृत
+records के लिए भविष्य में draft overrides से अलग reviewed dataset बनाना होगा।
 
 ## किसी पन्ने पर कला जोड़ें
 
