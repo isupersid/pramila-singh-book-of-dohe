@@ -14,8 +14,10 @@ These prompts define the shared visual identity for artwork generated for Pramil
 > - Gentle, dignified, reflective and emotionally warm
 > - Symbolic visual storytelling rather than overly literal scenes
 > - Delicate brushwork, subtle paper grain, restrained details and soft natural lighting
-> - Portrait orientation, 4:5 aspect ratio
-> - Important subjects should remain clearly recognizable after cropping
+> - Portrait orientation, using Gemini's native 3:4 aspect ratio
+> - High resolution, preferably at least 1600 x 2000 pixels when supported
+> - Keep every essential subject fully inside an 8% safe margin on all sides; decorative paper texture and nonessential washes may extend to the edges
+> - Preserve the downloaded image's original dimensions and bytes; do not crop, stretch, resize-to-fill or otherwise alter the generated composition
 > - Place the strongest visual elements around the edges and lower portions while keeping some calm, lower-detail space through the center for possible text overlay on phones
 > - No written words, letters, captions, calligraphy, signatures, numbers, logos or decorative typography
 > - Do not imitate any named artist
@@ -221,3 +223,229 @@ These prompts define the shared visual identity for artwork generated for Pramil
 > The image should communicate emotional security, trust and the fragility of relationships without depicting an argument literally.
 >
 > No text or lettering.
+
+## सम्मान
+
+- Note ID: `notes_20240423113827`
+- Image: `notes_20240423113827.jpg`
+- Status: Accepted. Downloaded in Gemini's native 3:4 format and preserved byte-for-byte after the later no-cropping correction.
+
+> श्रद्धा भूली प्रेम में , परिजन का सम्मान।
+> पैंतिस टुकड़े हो गए, व्यर्थ गंवाए प्रान।"
+
+> Create the next illustration in the established "मन के मोती" style.
+>
+> This doha appears to respond to a tragic current-affairs case, warning that abandoning family counsel and personal safety in the name of love can lead to devastating consequences. Treat the subject with solemn dignity and avoid graphic violence, sensationalism, blame, or a literal crime scene.
+>
+> Show a young Indian woman at a symbolic crossroads at dusk. Behind and to one side, place the warm, protective glow of a family courtyard, with elder hands extended in concern and a softly lit doorway suggesting सम्मान, care and counsel. Ahead, let an alluring path begin with rose-colored light but dissolve into cold fractured shadows, broken petals and separated pieces of a once-whole clay vessel, symbolizing trust and life shattered without depicting bodily harm.
+>
+> A delicate protective thread from the family doorway may be slipping from the woman's hand, while one intact diya near the safe path offers a final point of guidance. Keep her expression reflective and human, not terrified. The emotional center should be caution, grief and the value of listening to loving family concern.
+>
+> No blood, body parts, weapons, threatening figure, text, lettering or sensational imagery.
+
+## आराम
+
+- Note ID: `notes_20240423113833`
+- Image: `notes_20240423113833.jpg`
+- Status: Accepted. The prompt predates the no-cropping correction; the downloaded native 3:4 image was not cropped or resized.
+
+> सुखमय जीवन के लिए, खूब करो तुम काम‌।
+> तन जब यह थक जाय तो, दो इसको आराम।
+
+> Create the next illustration in the established "मन के मोती" style, using the same watercolor-and-gouache identity and palette already established in this conversation. Generate exactly one finished portrait illustration, high resolution, with all essential subjects inside an 8% safe margin, no text or lettering.
+>
+> The doha advises wholehearted work for a fulfilling life, balanced by giving the body proper rest when it becomes tired.
+>
+> Show one harmonious Indian interior-and-garden scene moving naturally from purposeful effort toward restorative rest. Along the lower outer edge, include signs of honest daily work: a neatly placed writing book, simple hand tools, a woven basket and completed household tasks. At the emotional center, show an adult resting peacefully on a traditional woven charpai beneath a leafy tree or shaded veranda, with relaxed natural posture and a light cotton shawl.
+>
+> A cooling brass lota, soft evening light, a quiet bird and gently moving leaves may suggest the body settling after useful work. Keep the scene warm and dignified, celebrating balance rather than idleness. Preserve calm, lower-detail space through the center where possible.
+>
+> Portrait composition intended for a final 4:5 crop; keep every person, face, hand, foot and important object comfortably inside the safe margin. No clocks, written pages, signs, words, letters or logos.
+
+## जिरह
+
+- Note ID: `notes_20240423113838`
+- Image: `notes_20240423113838.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> रामलला के पक्ष में, तगड़ी पड़ी दलील।
+> पाराशरण वकील ने,की थी जिरह  अपील।
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette established in this conversation. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep all essential subjects fully inside an 8% safe margin. The downloaded composition will be preserved exactly without cropping or resizing. No text or lettering.
+>
+> This doha appears to refer to senior advocate K. Parasaran's legal arguments in the Ram Janmabhoomi case. Present the historical and devotional subject with restraint, and do not imply details beyond the poem.
+>
+> Create a dignified symbolic courtroom scene rather than a literal political tableau. At one lower side, show an elderly Indian advocate in traditional black legal robes, standing calmly with one open hand and a small stack of unmarked papers. Across the composition, let warm antique-gold light illuminate balanced scales of justice and a subtle temple silhouette in the distance, suggesting the case concerning Ram Lalla.
+>
+> Use a quiet archway, carved wood and soft indigo shadows to evoke the gravity of a long legal appeal. The advocate should appear scholarly, composed and respectful, with natural anatomy. Keep the mood solemn and contemplative, emphasizing reasoned argument, faith and justice rather than victory or confrontation.
+>
+> No identifiable modern political figures, courtroom labels, national emblems, written documents, legal text, words, letters, numbers, logos or triumphalist imagery.
+
+## सुगन्ध
+
+- Note ID: `notes_20240423113847`
+- Image: `notes_20240423113847.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> ७/१२/२०२२
+> टीवी चैनल से उड़ी,जनादेश की गंध‌।
+> कमल खिले गुजरात में, उड़ने लगी सुगंध‌।
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained burgundy, saffron, antique-gold, earthy-green, indigo and cream palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep all essential subjects inside an 8% safe margin. Preserve the downloaded composition exactly without cropping or resizing. No text or lettering.
+>
+> This current-affairs doha appears to refer to televised Gujarat election results and uses blooming lotuses and fragrance as poetic symbols of the public mandate. Treat it as an editorial, symbolic scene rather than campaign propaganda.
+>
+> Show a quiet Gujarati landscape at dawn with a broad stepwell-inspired or courtyard setting. Across the lower edges, several natural pink lotuses bloom in water, and their fragrance is suggested by soft saffron-and-gold watercolor currents moving through the air. In the distance, a few families watch the gentle glow of an old-fashioned television shape, but its screen must contain only abstract light with no faces, maps, numbers, writing or logos.
+>
+> Include restrained regional details such as carved stone, bandhani-like color dots used only as non-lettered decorative texture, dry grasses and a distant village skyline. The mood should convey anticipation and a decisive public result without depicting politicians, party emblems or a rally. Keep the center calm and luminous.
+>
+> No party logos, flags, election symbols presented as branding, maps, vote counts, news tickers, words, letters, numbers, captions or signage.
+
+## आलोक
+
+- Note ID: `notes_20240423113858`
+- Image: `notes_20240423113858.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> दोहा :८/१२/२०२२
+> रात अमावस देखके, घबराओ मत कोय।
+> दीपक के आलोक से, नाश तिमिर का होय।
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image exactly without cropping or resizing. No text or lettering.
+>
+> The doha reassures us not to fear even the darkest moonless night, because the light of a small lamp can overcome darkness.
+>
+> Show a deep indigo अमावस्या night surrounding a traditional Indian courtyard or quiet pathway. At the lower center, place one small clay diya whose warm saffron-and-antique-gold light expands in gentle watercolor rings, revealing leaves, stone steps and a safe way forward. The outer edges may remain dark with soft silhouettes of trees and clouds, but the darkness should feel calm rather than threatening.
+>
+> A solitary figure may stand at a respectful distance, visibly reassured by the lamp, with natural posture and a softly lit face. Include one or two closed night flowers beginning to open near the light as a symbol of hope. Keep the composition simple, luminous and emotionally warm, with calm lower-detail space through the middle sky.
+>
+> No moon, electric lights, text, letters, signs, numbers, logos or frightening imagery.
+
+## धीर — कछुआ और खरगोश
+
+- Note ID: `notes_20240423113937`
+- Image: `notes_20240423113937.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> कछुए से बाजी लगा, हारा था खरगोश।
+> धीर धरे कछुआ चला,जीत मिली आगोश।
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject inside an 8% safe margin, and preserve the downloaded image exactly without cropping or resizing. No text or lettering.
+>
+> The doha retells the familiar lesson that steady patience and persistence can triumph over speed and overconfidence.
+>
+> Show a graceful forest path at early morning. Near the lower center, a calm tortoise moves steadily toward a simple flower garland or warm patch of finish-line light, while a hare rests farther back beneath a tree after having rushed ahead. The animals should be naturally proportioned and expressive without becoming cartoon characters or wearing clothing.
+>
+> Use small stones, measured footprints, grasses and gently opening flowers to emphasize patient progress. A winding path may guide the eye from the sleepy hare toward the quietly successful tortoise. Keep the mood encouraging and affectionate rather than mocking, with soft gold light touching the tortoise and cooler indigo-green shade around the hare.
+>
+> No banners, finish-line text, numbers, words, letters, signs, logos, trophies with inscriptions or anthropomorphic costumes.
+
+## प्रकांड
+
+- Note ID: `notes_20240423113951`
+- Image: `notes_20240423113951.jpg`
+- Status: Accepted after regeneration removed pseudo-writing; final native 3:4 download preserved byte-for-byte.
+
+> आदि शंकराचार्य जी,थे प्रकांड विद्वान।
+> शास्त्रार्थ जिससे किया, कर ना सका गुमान।
+
+> Regenerate the illustration for doha `notes_20240423113951` (प्रकांड) in the same established "मन के मोती" watercolor-and-gouache style and Gemini-native 3:4 portrait ratio.
+>
+> The previous candidate is rejected because several papers contained visible line-like pseudo-writing. Create a fresh single illustration with absolutely no papers, manuscripts, books, scrolls, tablets, writing surfaces, glyph-like marks, lines resembling handwriting, text, letters, numbers, signatures or logos anywhere in the image.
+>
+> Retain the core meaning: portray a young saffron-robed Adi Shankaracharya respectfully beneath a monastery arch, calmly explaining philosophy to two learned listeners whose posture conveys humility and thoughtful attention. Use an unmarked wooden teaching seat, a simple staff, a diya, prayer beads, lotus forms and a distant river-and-mountain landscape as the only scholarly or spiritual symbols. Emphasize wisdom dissolving pride, not victory over opponents.
+>
+> Generate exactly one finished high-resolution image. Keep every face, hand, foot and essential sacred object inside an 8% safe margin. The downloaded image will be preserved exactly without cropping or resizing.
+
+## धीर — वाणी
+
+- Note ID: `notes_20240423114012`
+- Image: `notes_20240423114012.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> सोच समझ के बोलिये, धर के मन में धीर।
+> नहीं शब्द ये लौटते , ज्यों कमान का तीर।
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject inside an 8% safe margin, and preserve the downloaded image exactly without cropping or resizing. No text or lettering.
+>
+> The doha advises patience and careful thought before speaking, because spoken words cannot be recalled, just as an arrow cannot return once released.
+>
+> Create a symbolic Indian courtyard scene at quiet dawn. Show a thoughtful adult pausing before speaking, one hand resting gently near the heart and the other relaxed, while a bow with one already-released arrow appears only as a subtle metaphor along the outer edge. Transform the arrow's path into a delicate ripple through the air that reaches another person, suggesting the lasting effect of words without showing injury or conflict.
+>
+> Place a still diya or bowl of water near the speaker as a symbol of calm reflection. The listening figure should remain dignified and emotionally safe. Use soft indigo shadows and warm gold around the pause before speech, emphasizing restraint, responsibility and kindness.
+>
+> No speech bubbles, written words, letters, inscriptions, visible wounds, threatening aim, battle scene, text, numbers, signatures or logos.
+
+## धीर — मकड़ी
+
+- Note ID: `notes_20240423114021`
+- Image: `notes_20240423114021.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> मकड़ी से तुम सीख लो, रखती मन में धीर।
+> गिर कर भी कोशिश करे,होती नहीं अधीर‌।
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject inside an 8% safe margin, and preserve the downloaded image exactly without cropping or resizing. No text or lettering.
+>
+> The doha asks us to learn patience and persistence from a spider, which keeps trying after every fall without becoming restless.
+>
+> Show a delicate spider rebuilding its web between two leafy branches after rain. Several broken silk strands and silver droplets may suggest earlier failed attempts, while the spider steadily reconnects the web one thread at a time. The spider should be anatomically believable, small and graceful, not frightening or cartoon-like.
+>
+> Below, include a few fallen leaves and a young shoot rising again, echoing resilience. Let early sunlight catch the newly repaired portion of the web in antique gold while the older broken strands remain in soft indigo-grey. Keep the composition contemplative and encouraging, with generous calm paper-textured space around the web.
+>
+> No giant spider, prey, trapped insects, fear imagery, words, letters, numbers, captions, signatures or logos.
+
+## रथ
+
+- Note ID: `notes_20240423114026`
+- Image: `notes_20240423114026.jpg`
+- Status: Accepted after regeneration produced exactly seven horses; final native 3:4 download preserved byte-for-byte.
+
+> सूर्य देव रथ पे चले,घोड़ों की क्या बात?
+> कहते हैं सप्ताह के, दिवस बने हैं सात।
+
+> Regenerate the illustration for doha `notes_20240423114026` (रथ) in the same established "मन के मोती" watercolor-and-gouache style and native 3:4 portrait ratio.
+>
+> The previous candidate is rejected because it visibly contains only six horses. Create a fresh single illustration with exactly SEVEN complete, individually countable horses. Arrange them clearly as four horses in a front row and three horses in a slightly elevated back row, with seven distinct heads and seven distinct bodies visible. Do not hide or merge any horse behind another. Keep every horse's head, legs and body fully inside the 8% safe margin with natural anatomy.
+>
+> Retain respectful Surya Deva iconography: a serene golden Surya seated in a traditional celestial chariot with a charioteer, crossing a luminous saffron-and-indigo dawn above a river, fields, temple silhouettes and lotuses. Keep the feeling rhythmic, reverent and peaceful.
+>
+> Generate exactly one finished high-resolution image. No calendar, weekday names, clock, numerals, inscriptions, text, letters, signatures or logos. Preserve the downloaded composition exactly without cropping or resizing.
+
+## रक्त
+
+- Note ID: `notes_20240423114101`
+- Image: `notes_20240423114101.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> देवि चंडिका ने किया, रक्तबीज पर वार।
+> रक्त भूमि पर ना गिरे, पीकर किया संहार।
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject inside an 8% safe margin, and preserve the downloaded image exactly without cropping or resizing. No text or lettering.
+>
+> This devotional doha refers to Goddess Chandika defeating Raktabeej by preventing his blood from reaching the earth. Portray the sacred myth respectfully and symbolically, avoiding graphic violence.
+>
+> Show Goddess Chandika as a luminous, dignified divine presence in traditional poetic iconography, standing above a dark symbolic battlefield of swirling shadows. Her raised weapon may be present but not shown striking flesh. Instead of blood or gore, depict deep burgundy droplets transforming into red flower petals or glowing seeds before they touch the ground, gathered into a dark sacred bowl or absorbed by divine light.
+>
+> Use a protective halo, restrained lion motif, storm clouds opening to gold and a few devotees' folded hands at the distant lower edge. The emotional focus should be divine protection and the ending of multiplying evil, not horror or aggression.
+>
+> No blood, wounds, severed bodies, graphic combat, frightening anatomy, text, letters, numbers, inscriptions, signatures or logos.
+
+## चकमा
+
+- Note ID: `notes_20240423114107`
+- Image: `notes_20240423114107.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> बाबा चकमा दे रहे, टीवी करे प्रचार।
+> मंत्र बना हर रोग का, डॉक्टर हैं बेकार।
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject inside an 8% safe margin, and preserve the downloaded image exactly without cropping or resizing. No text or lettering.
+>
+> This satirical doha criticizes televised promotion of a self-styled बाबा claiming one mantra can cure every illness and dismissing doctors. Present the subject as gentle social satire without identifying a real person or mocking sincere religious practice.
+>
+> Show a symbolic split within one Indian household scene. At one outer side, an indistinct theatrical guru-like silhouette appears inside the glow of an old television, gesturing dramatically toward identical unmarked bottles or beads. The screen must contain no readable content. In the real room, place a thoughtful family member turning instead toward a calm doctor with a simple medical bag and stethoscope, emphasizing evidence-based care.
+>
+> Use exaggerated light and drifting smoke around the television to suggest भ्रम or चकमा, while the doctor's side has clear natural daylight, a healthy plant and measured calm. Keep the satire compassionate and visually subtle, not hostile.
+>
+> No identifiable public figure, religious insignia used mockingly, medicine labels, television text, news ticker, slogans, words, letters, numbers, signatures or logos.
