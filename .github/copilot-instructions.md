@@ -14,7 +14,7 @@ The public site is:
 - `collection.html` contains search, year filters, favorites, and poem cards.
 - `app.js` supports both pages. Keep all page-specific elements optional.
 - `styles.css` contains the landing, catalog, responsive reader, paper textures, and page-turn animations.
-- `content/notes/` contains the preserved original UTF-8 source notes.
+- `content/notes/` contains 750 preserved, unique UTF-8 source notes. Twenty-four byte-for-byte duplicate export files were removed with user approval in October 2026.
 - `scripts/build_collection.py` parses the notes and generates `data/poems.json` and `data/stats.json`.
 - `data/artwork.json` maps a note ID to its artwork path.
 - `art/prompts.md` is the visual style guide and prompt history for generated illustrations.
