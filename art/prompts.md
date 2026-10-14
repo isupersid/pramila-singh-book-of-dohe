@@ -2038,3 +2038,282 @@ All files in this batch are untouched native Gemini 3:4 downloads. Dimensions an
 > Behind it, retain the distant Samudra Manthan: central mountain, serpent visibly wrapped around it, and two groups pulling opposite ends. Add lotus-lit ocean mist and a small respectful Indra in gold cloud light. Keep all essentials inside an 8% safe margin.
 >
 > No extra heads, trunks, legs or malformed anatomy. No text, inscriptions, symbols, words, letters, numbers, signatures or logos.
+
+## Gemini native 3:4 batch — pages 94–108
+
+All files in this batch are untouched native Gemini 3:4 downloads. Dimensions and byte identity were verified before import. Page 109 could not be generated after three Gemini safety refusals.
+
+### 94. सशंकित
+
+- Note ID: `notes_20240423114952`
+- Image: `notes_20240423114952.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image's original dimensions and bytes without cropping, stretching or resampling. No text or lettering.
+>
+> Doha title: सशंकित
+> Note ID: notes_20240423114952
+>
+> मानस जैसे ग्रंथ पे, यूं न सशंकित होय।
+> पढ़ प्रसंग को ध्यान से,जातिवाद ना कोय।
+>
+> This doha advises readers not to judge a revered work such as the Ramcharitmanas through doubt or isolated assumptions, but to study each passage carefully before concluding that it promotes caste division. Present this as a call for attentive, contextual reading and social harmony, not as a definitive scholarly ruling or confirmed authorial intent.
+>
+> Show a peaceful Indian veranda where a diverse intergenerational group sits together in an equal circle, listening thoughtfully as an elder guides close reading. At the center, place an open traditional scripture on a low wooden stand, but keep both visible pages completely blank and softly luminous—no lines, glyphs or pseudo-writing. A small respectful silhouette of Ram, Sita and Lakshman may appear only within a warm halo above the blank pages, suggesting the sacred narrative rather than printed content.
+>
+> Use a visual metaphor of doubt becoming understanding: cool indigo mist at one edge gradually clears into connected lotus petals and warm gold light surrounding every participant equally. Ensure people of varied ages and appearances share the same level, with no one elevated by social status. Use natural cream, muted saffron, earthy green, soft indigo and antique gold.
+>
+> No written scripture, page lines, caste symbols, labels, inscriptions, text, words, letters, numbers, signatures or logos.
+
+### 95. उद्देश्य
+
+- Note ID: `notes_20240423114957`
+- Image: `notes_20240423114957.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image's original dimensions and bytes without cropping, stretching or resampling. No text or lettering.
+>
+> Doha title: उद्देश्य
+> Note ID: notes_20240423114957
+>
+> जीवन के उद्देश्य को, समझो मेरे मीत।
+> आगे ही बढ़ना सदा, इस जीवन की रीत।
+>
+> This encouraging doha asks a friend to understand life's purpose and keep moving forward. Portray purposeful growth and steady progress without implying that rest, reflection or changing direction is failure.
+>
+> Show two adult Indian friends at dawn beside a winding uphill path. One gently points toward a sunlit horizon while the other takes a thoughtful first step forward, carrying only a small cloth bag. Behind them, the path passes through several quiet stages—a shaded grove, a resting stone, a stream crossed by simple stepping stones—and continues toward open golden fields, suggesting learning through experience.
+>
+> Use a subtle compass-like arrangement of lotus petals on the ground without letters or directional marks. Include a young sapling becoming a mature flowering tree along the path as a symbolic progression. Keep both friends dignified, hopeful and mutually supportive, with natural anatomy and no heroic triumph pose.
+>
+> Use soft indigo, earthy green, natural cream, muted saffron and antique gold. No milestones with writing, road signs, maps, arrows containing symbols, text, words, letters, numbers, signatures or logos.
+
+### 96. उत्कर्ष
+
+- Note ID: `notes_20240423115001`
+- Image: `notes_20240423115001.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image's original dimensions and bytes without cropping, stretching or resampling. No text or lettering.
+>
+> Doha title: उत्कर्ष
+> Note ID: notes_20240423115001
+>
+> धरती पर अब दीखता, फागुन का उत्कर्ष‌।
+> कुदरत के श्रृंगार से, जग में व्यापक हर्ष।
+>
+> This joyful doha celebrates the flourishing peak of Phagun, when nature adorns the earth and spreads delight everywhere. Portray seasonal renewal and shared wonder rather than a crowded festival.
+>
+> Show an expansive North Indian countryside in early spring. A flowering पलाश tree anchors one lower edge with vivid but restrained orange-red blossoms, while mustard fields, new mango leaves, bougainvillea and scattered wildflowers create layered natural ornament. A koel and a pair of small birds may perch among branches; butterflies drift over the field.
+>
+> At a respectful distance, include a small multigenerational family walking along a village path, pausing to admire the landscape. Their joy should come from nature itself—gentle smiles, open posture and shared attention—not colored powder or celebration props. Let soft saffron morning light move across the scene as if the earth is dressing herself for spring.
+>
+> Use earthy green, mustard, पलाश orange, natural cream, soft indigo and antique gold. No Holi powder, water guns, banners, signs, text, words, letters, numbers, signatures or logos.
+
+### 97. उत्कर्ष
+
+- Note ID: `notes_20240423115006`
+- Image: `notes_20240423115006.jpg`
+- Status: Accepted after regeneration; final native 3:4 download preserved byte-for-byte.
+
+> Regenerate notes_20240423115006 from scratch. The previous candidate is rejected because a building contained a red sign-like panel with a white pseudo-mark, violating the no-text/no-logo requirement.
+>
+> Create exactly one native 3:4 high-resolution illustration in the established "मन के मोती" watercolor-and-gouache style. Retain the concept of five equally dignified connected spheres of Indian economic activity: farming, handloom craft, a small produce market, engineers collaborating around plain machinery, and rail or port workers moving goods. Connect them in a harmonious sunrise landscape with a diverse group of workers sharing quiet pride.
+>
+> Remove every signboard, panel, label, poster, package mark, shop awning symbol and writing surface. All buildings must have plain unmarked walls. All machines, trains, boats, baskets, solar panels and market stalls must be completely unbranded and contain no glyph-like decoration. Keep essentials inside an 8% safe margin.
+>
+> No numeral five, ranking chart, currency symbol, political figure, flag, party emblem, text, words, letters, numbers, signatures, logos or pseudo-writing anywhere.
+
+### 98. दोहा पूर्ति पंक्ति
+
+- Note ID: `notes_20240423115010`
+- Image: `notes_20240423115010.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image's original dimensions and bytes without cropping, stretching or resampling. No text or lettering.
+>
+> Title: दोहा पूर्ति पंक्ति
+> Note ID: notes_20240423115010
+>
+> आसमान गिरने लगा, उड़ने लगी जमीन।
+> आंखों से जब देख लो, करना तभी यक़ीन।
+>
+> This playful, paradoxical doha says that extraordinary claims—like the sky falling and the ground flying—should be believed only after one has truly seen the evidence. Portray curiosity and careful observation, not a literal disaster.
+>
+> Show a thoughtful adult and child beside a broad rain puddle after a storm. In the puddle's clear reflection, low dramatic clouds appear beneath their feet as though the sky has fallen to earth. A sudden harmless breeze lifts dry leaves, flower petals and a light empty woven mat just above the ground, creating the illusion that the earth itself is flying. The observers bend closer and compare the real scene with its reflection, calm and intrigued.
+>
+> Use a subtle split between appearance and reality: turbulent indigo cloud reflections below, while the actual clearing sky above becomes warm and steady. Include a simple magnifying glass held naturally by the child, with no writing or marks. No collapsing buildings, airborne people, injury, panic or apocalyptic imagery.
+>
+> Use soft indigo, rain-washed green, natural cream, muted saffron and antique gold. No text, captions, signs, words, letters, numbers, signatures or logos.
+
+### 99. रेत/बालू
+
+- Note ID: `notes_20240423115014`
+- Image: `notes_20240423115014.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image's original dimensions and bytes without cropping, stretching or resampling. No text or lettering.
+>
+> Doha title: रेत/बालू
+> Note ID: notes_20240423115014
+>
+> मानव जीवन है बना, ज्यों बालू का ढेर।
+> हवा चले ढह जाय ये, तनिक न लगती देर।
+>
+> This reflective doha compares fragile human life to a mound of sand that can collapse quickly when the wind blows. Portray impermanence gently and contemplatively, without depicting death, injury or fear.
+>
+> Show an older adult and a child together on a quiet riverbank at late afternoon, carefully shaping a modest mound or small sand structure. A soft breeze begins to loosen one side, carrying a few grains into warm light, while their calm expressions acknowledge change rather than panic. Nearby, footprints soften at the edges and a fallen leaf drifts onward, reinforcing transience.
+>
+> Balance fragility with continuity: a sturdy tree shades the figures, new grass grows beside the sand, and the river continues peacefully toward the horizon. The adult may rest a reassuring hand near the child's shoulder, suggesting that awareness of impermanence can deepen care for the present moment.
+>
+> Use sand beige, natural cream, muted saffron, earthy green, soft indigo and antique gold. No grave, funeral, corpse, hourglass with markings, text, words, letters, numbers, signatures or logos.
+
+### 100. उड़ान
+
+- Note ID: `notes_20240423115024`
+- Image: `notes_20240423115024.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image's original dimensions and bytes without cropping, stretching or resampling. No text or lettering.
+>
+> Doha title: उड़ान
+> Note ID: notes_20240423115024
+>
+> बेंगलुरु में शुरू हुआ, है उड़ान अभियान।
+> नये प्रशिक्षु विमान पे, उड़ते अब
+> हनुमान।
+>
+> This dated doha appears to celebrate an aviation training initiative in Bengaluru and playfully compares newly flying trainees with Hanuman's courageous leap. Treat the specific program context as inferred, not a verified institutional claim. Portray disciplined learning, aspiration and safe flight rather than military power.
+>
+> Show a diverse group of young adult Indian aviation trainees at a green Bengaluru-area airfield during dawn, gathered with an experienced instructor beside a small plain training aircraft. One trainee completes a careful pre-flight inspection while another sits visibly confident in the cockpit. A second small aircraft climbs gently in the distant sky.
+>
+> Suggest Hanuman only through a respectful, subtle cloud-and-sunlight silhouette high above the horizon—mace lowered, posture calm, never merged with the aircraft or portrayed as a pilot. The divine metaphor should convey courage and devoted effort without dominating the realistic training scene.
+>
+> Keep aircraft anatomically coherent, civilian and completely unmarked. No military weapons, dangerous stunts, airline branding, runway numbers, uniforms with badges, written checklists, signs, text, words, letters, numbers, signatures or logos.
+
+### 101. कोमल/नाजुक
+
+- Note ID: `notes_20240423115031`
+- Image: `notes_20240423115031.jpg`
+- Status: Accepted after regeneration; final native 3:4 download preserved byte-for-byte.
+
+> Regenerate notes_20240423115031 from scratch. The previous candidate is rejected because the couple were not visibly holding hands, which is the central image in the doha.
+>
+> Create exactly one native 3:4 high-resolution illustration in the established "मन के मोती" watercolor-and-gouache style. Show the newly married adult couple walking forward side by side on a garden path, BOTH full bodies visible. Their nearest hands must be clearly joined in one natural, unmistakable handhold at waist height: five-finger anatomy where visible, no merged arms, no hidden hands, no folded hands. Their joined hands should be the visual center, surrounded by a soft protective golden glow and a single pale lotus bud.
+>
+> They exchange a calm reassuring look while both families offer blessings from a respectful distance behind them. Keep the scene mutual and equal; neither person pulls or leads the other. Use a welcoming home and flowering trees ahead.
+>
+> Remove wall medallions, sacred glyphs, monograms and sign-like decoration. No written wedding banners, initials, signs, cards, labels, text, words, letters, numbers, signatures, logos or pseudo-writing.
+
+### 102. कौशल
+
+- Note ID: `notes_20240423115035`
+- Image: `notes_20240423115035.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image's original dimensions and bytes without cropping, stretching or resampling. No text or lettering.
+>
+> Doha title: कौशल
+> Note ID: notes_20240423115035
+>
+> देख बया का घोंसला, होते सब हैरान।
+> कौशल कुदरत ने दिया, अद्भुत उसका ज्ञान।
+>
+> This doha marvels at the extraordinary natural skill of the baya weaver bird and the intricate nest it knows how to build. Center the bird's patient craftsmanship and natural intelligence without anthropomorphism.
+>
+> Show one anatomically believable baya weaver bird carefully weaving a long blade of grass into a nearly complete hanging nest suspended from the outer branch of a leafy acacia or palm beside quiet water. The nest's woven fibers should be detailed, organic and structurally convincing, with its rounded chamber and downward entrance clearly visible.
+>
+> At a respectful distance, a child and grandparent observe silently from below with expressions of wonder, never touching the nest. Include a few loose grass strands, reeds and a second unfinished loop to show the stages of construction. Keep the bird and complete nest as the dominant subjects, safely inside the frame.
+>
+> Use straw gold, earthy green, natural cream, soft indigo and warm brown. No cage, tools held by the bird, human clothing on animals, labels, text, words, letters, numbers, signatures or logos.
+
+### 103. वसुधा/धरा
+
+- Note ID: `notes_20240423115040`
+- Image: `notes_20240423115040.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image's original dimensions and bytes without cropping, stretching or resampling. No text or lettering.
+>
+> Doha title: वसुधा/धरा
+> Note ID: notes_20240423115040
+>
+> फागुन आया है सखी,करे धरा श्रृंगार।
+> सेमल,टेसू से सजी,लगे सुहागन नार।
+>
+> This spring doha imagines the earth adorned by Phagun, dressed in the brilliant blossoms of semal and tesu like a newly married woman. Celebrate the poetic comparison through landscape symbolism, without turning the earth into a literal giant person.
+>
+> Show a sweeping North Indian spring landscape where tall semal trees and flame-of-the-forest tesu trees form graceful arcs of crimson and orange blossoms around fields and a winding path. Let flowering branches resemble a natural bridal veil and garland through their arrangement alone. Warm golden sunlight may create a subtle jewelry-like glow on dew, leaves and a quiet stream.
+>
+> At the lower edge, show two adult women friends in simple traditional clothing admiring the transformed countryside, one gently pointing out the blossoms. Keep them secondary to the richly adorned earth. Include fresh green shoots, scattered petals and distant village rooftops, with no festival powder or wedding ceremony.
+>
+> Use semal crimson, tesu orange, earthy green, natural cream, soft indigo and antique gold. No literal giant bride, banners, wedding signs, text, words, letters, numbers, signatures or logos.
+
+### 104. दूर
+
+- Note ID: `notes_20240423115057`
+- Image: `notes_20240423115057.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image's original dimensions and bytes without cropping, stretching or resampling. No text or lettering.
+>
+> Doha title: दूर
+> Note ID: notes_20240423115057
+>
+> लगातार आगे बढ़ो, मन में ले विश्वास।
+> मंजिल कल जो दूर थी,आ आएगी पास।
+>
+> This encouraging doha says that steady progress and inner confidence can bring a once-distant destination closer. Portray persistence as patient, sustainable movement rather than relentless pressure or instant success.
+>
+> Show a solitary adult traveler on a long winding hill path at early morning. In the lower foreground, small measured footprints and a walking staff suggest steady effort. Across successive bends, the path gradually approaches a warm hilltop shelter or temple pavilion that appeared tiny in the distance but is now visibly near. The traveler pauses briefly at a resting stone, looking ahead with calm confidence before continuing.
+>
+> Use repeating visual markers—a stream crossing, three shade trees and opening flowers—to show distance already covered without signs or numbers. Let cooler indigo shadows recede behind the traveler while saffron-gold light grows stronger around the nearby destination. Keep the figure natural, uninjured and equipped with a small water flask.
+>
+> No race, trophy, written milestones, road signs, maps, arrows, text, words, letters, numbers, signatures or logos.
+
+### 106. रचना 107
+
+- Note ID: `notes_20240423115106`
+- Image: `notes_20240423115106.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image's original dimensions and bytes without cropping, stretching or resampling. No text or lettering.
+>
+> Title: किशोर
+> Note ID: notes_20240423115106
+>
+> बचपन लगता है भला, जैसे सूरज भोर।
+> चक्र समय का घूमता, बचपन बने किशोर।
+> बचपन बने किशोर, जोश इसमें है भरता।
+> बहती जिधर बयार,उधर ही रुख ये करता।
+> बन जाओ मजबूत, नहीं हो अब तुम छुटकन।
+> जागो मेरे लाल,बना अब सपना बचपन।
+>
+> This kundaliya reflects on childhood growing into adolescence: youthful energy is strong but can follow every passing influence, so the young person is encouraged to become resilient and awaken to their own dreams. Portray adolescence with empathy and possibility, not scolding or stereotypes.
+>
+> Show one Indian teenager at sunrise standing between two connected landscape zones. Behind them, a warm childhood garden contains a small swing, marbles and a young sapling, all unmarked and gently receding. Ahead, branching paths move through changing wind, but the teenager steadies a flexible bamboo sapling with one hand and looks toward a clear open horizon where a mature tree catches golden light.
+>
+> Include subtle signs of growing capability: a plain backpack, a sketchbook held closed with no writing, and sports shoes beside traditional home sandals. A caring parent stands at a respectful distance, offering encouragement without directing the path. Use flowing grasses and shifting birds to suggest outside influences while the teenager's posture becomes centered and confident.
+>
+> Use dawn saffron, earthy green, natural cream, soft indigo and antique gold. No competition numbers, written dreams, school logos, text, words, letters, numbers, signatures or logos.
+
+### 108. वृक्ष
+
+- Note ID: `notes_20240423115116`
+- Image: `notes_20240423115116.jpg`
+- Status: Accepted in native 3:4; original downloaded bytes preserved.
+
+> Create the next illustration in the established "मन के मोती" style, using the same hand-painted Indian watercolor-and-gouache identity, warm textured paper and restrained palette. Generate exactly one finished high-resolution image in Gemini's native 3:4 portrait ratio. Keep every essential subject fully inside an 8% safe margin. Preserve the downloaded image's original dimensions and bytes without cropping, stretching or resampling. No text or lettering.
+>
+> Doha title: वृक्ष
+> Note ID: notes_20240423115116
+>
+> कल्प-वृक्ष से मांग लो, जो भी इच्छा होय।
+> मनोकामना पूर्ण हो,निष्फल ना हो कोय।
+>
+> This devotional-folkloric doha invokes the wish-fulfilling Kalpavriksha. Portray the tree as a symbol of hope, abundance and generous possibility without promising literal guaranteed outcomes or encouraging material excess.
+>
+> Show one magnificent ancient Indian tree in a serene celestial garden at dawn, with a broad sheltering canopy, luminous new leaves, flowers and varied fruits growing harmoniously. Beneath it, a small diverse group offers folded hands or quiet wishes: a child hopes for learning, a farmer for healthy crops, an elder for wellbeing and a family for harmony. Suggest these hopes only through nearby symbolic objects—a blank closed book, grain seedlings, healing herbs and joined hands—with no written labels.
+>
+> Let warm golden light flow from the canopy into small seeds and saplings around the roots, emphasizing generosity that renews life. Include birds, lotus water and a calm distant horizon. Keep the tree dominant and sacred without hanging wish notes, ribbons or objects from its branches.
+>
+> Use earthy green, natural cream, muted saffron, soft indigo, fruit tones and antique gold. No currency, luxury goods, written wishes, tags, sacred text, words, letters, numbers, signatures or logos.
