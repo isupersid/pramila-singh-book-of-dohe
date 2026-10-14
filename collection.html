@@ -111,6 +111,9 @@
                 <button id="favorite-button" type="button" aria-pressed="false">
                   <span aria-hidden="true">♡</span><span>प्रिय</span>
                 </button>
+                <button id="editorial-open" type="button">
+                  <span aria-hidden="true">✦</span><span>अर्थ</span>
+                </button>
                 <button id="copy-link" type="button">
                   <span aria-hidden="true">⌁</span><span>लिंक</span>
                 </button>
@@ -125,27 +128,50 @@
                 <div class="reader-body" id="reader-body"></div>
                 <p class="reader-author">— प्रमिला सिंह</p>
               </div>
-              <div class="editorial-header">
-                <span class="draft-badge">संपादकीय प्रारूप · पारिवारिक समीक्षा शेष</span>
-                <span class="editorial-confidence" id="editorial-confidence"></span>
-              </div>
-              <div class="reader-tabs" role="tablist" aria-label="अनुवाद और संदर्भ">
-                <button type="button" role="tab" data-reader-tab="roman">Roman</button>
-                <button type="button" role="tab" data-reader-tab="english">English</button>
-                <button type="button" role="tab" data-reader-tab="simple">सरल अर्थ</button>
-                <button type="button" role="tab" data-reader-tab="context">संदर्भ</button>
-                <button type="button" role="tab" data-reader-tab="archive">अभिलेख</button>
-              </div>
-              <div class="reader-interpretation-wrap">
-                <div
-                  class="reader-interpretation"
-                  id="reader-interpretation"
-                  role="tabpanel"
-                  tabindex="0"
-                ></div>
-                <span class="scroll-affordance" id="scroll-affordance" aria-hidden="true">
-                  और पढ़ें ↓
-                </span>
+              <div class="editorial-overlay" id="editorial-overlay" hidden aria-hidden="true">
+                <section
+                  class="editorial-sheet"
+                  role="dialog"
+                  aria-modal="false"
+                  aria-labelledby="editorial-sheet-title"
+                >
+                  <div class="editorial-sheet-heading">
+                    <div>
+                      <p class="editorial-kicker">पाठक के लिए</p>
+                      <h3 id="editorial-sheet-title">अर्थ एवं संदर्भ</h3>
+                    </div>
+                    <button
+                      class="editorial-close"
+                      id="editorial-close"
+                      type="button"
+                      aria-label="अर्थ एवं संदर्भ बंद करें"
+                    >
+                      ×
+                    </button>
+                  </div>
+                  <div class="reader-tabs" role="tablist" aria-label="अनुवाद और संदर्भ">
+                    <button type="button" role="tab" data-reader-tab="roman">Roman</button>
+                    <button type="button" role="tab" data-reader-tab="english">English</button>
+                    <button type="button" role="tab" data-reader-tab="simple">सरल अर्थ</button>
+                    <button type="button" role="tab" data-reader-tab="context">संदर्भ</button>
+                    <button type="button" role="tab" data-reader-tab="archive">अभिलेख</button>
+                  </div>
+                  <div class="reader-interpretation-wrap">
+                    <div
+                      class="reader-interpretation"
+                      id="reader-interpretation"
+                      role="tabpanel"
+                      tabindex="0"
+                    ></div>
+                    <span class="scroll-affordance" id="scroll-affordance" aria-hidden="true">
+                      और पढ़ें ↓
+                    </span>
+                  </div>
+                  <div class="editorial-header">
+                    <span class="draft-badge">अनुवाद का प्रारूप · परिवार द्वारा समीक्षा बाकी</span>
+                    <span class="editorial-confidence" id="editorial-confidence"></span>
+                  </div>
+                </section>
               </div>
             </div>
             <div class="book-spine" aria-hidden="true"></div>
