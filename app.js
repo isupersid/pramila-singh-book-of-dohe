@@ -465,6 +465,8 @@ function cloneArtworkPageForTurn(poem) {
 }
 
 function startPageTurnAnimation(direction) {
+  elements.turningSheet.style.transform =
+    direction > 0 ? "rotateY(0deg)" : "rotateY(-180deg)";
   elements.turningSheet.hidden = false;
   elements.turningSheet.classList.remove("turn-next", "turn-previous");
   void elements.turningSheet.offsetWidth;
@@ -474,6 +476,7 @@ function startPageTurnAnimation(direction) {
     () => {
       elements.turningSheet.classList.remove("turn-next", "turn-previous");
       elements.turningSheet.hidden = true;
+      elements.turningSheet.style.removeProperty("transform");
       elements.turningBack.replaceChildren();
       elements.reader.classList.remove("is-turning");
       state.isTurning = false;
