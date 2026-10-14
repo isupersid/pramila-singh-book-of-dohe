@@ -416,14 +416,14 @@ function closeReader() {
   }
 }
 
-function cloneCurrentPageForTurn() {
+function clonePoemPageForTurn(container) {
   const clone = elements.poemPage.cloneNode(true);
   clone.classList.add("turning-page-clone");
   clone.querySelectorAll("[id]").forEach((element) => element.removeAttribute("id"));
   clone.querySelectorAll("button, summary").forEach((element) => {
     element.setAttribute("tabindex", "-1");
   });
-  elements.turningFront.replaceChildren(clone);
+  container.replaceChildren(clone);
   const sourceScrollers = elements.poemPage.querySelectorAll(
     ".reader-original, .reader-interpretation, .reader-tabs",
   );
@@ -434,6 +434,10 @@ function cloneCurrentPageForTurn() {
     cloneScrollers[index].scrollTop = source.scrollTop;
     cloneScrollers[index].scrollLeft = source.scrollLeft;
   });
+}
+
+function cloneCurrentPageForTurn() {
+  clonePoemPageForTurn(elements.turningFront);
 }
 
 function cloneArtworkPageForTurn(poem) {
@@ -460,6 +464,24 @@ function cloneArtworkPageForTurn(poem) {
   elements.turningBack.replaceChildren(clone);
 }
 
+function startPageTurnAnimation(direction) {
+  elements.turningSheet.hidden = false;
+  elements.turningSheet.classList.remove("turn-next", "turn-previous");
+  void elements.turningSheet.offsetWidth;
+  elements.turningSheet.classList.add(direction > 0 ? "turn-next" : "turn-previous");
+  elements.turningSheet.addEventListener(
+    "animationend",
+    () => {
+      elements.turningSheet.classList.remove("turn-next", "turn-previous");
+      elements.turningSheet.hidden = true;
+      elements.turningBack.replaceChildren();
+      elements.reader.classList.remove("is-turning");
+      state.isTurning = false;
+    },
+    { once: true },
+  );
+}
+
 function moveReader(direction) {
   if (state.isTurning) return;
   const index = state.poems.findIndex((poem) => poem.id === state.currentPoem?.id);
@@ -477,6 +499,20 @@ function moveReader(direction) {
   state.isTurning = true;
   elements.reader.classList.add("is-turning");
 
+  if (window.matchMedia("(max-width: 900px)").matches) {
+    if (direction > 0) {
+      clonePoemPageForTurn(elements.turningFront);
+      renderReader(next);
+      clonePoemPageForTurn(elements.turningBack);
+    } else {
+      clonePoemPageForTurn(elements.turningBack);
+      renderReader(next);
+      clonePoemPageForTurn(elements.turningFront);
+    }
+    startPageTurnAnimation(direction);
+    return;
+  }
+
   if (direction > 0) {
     cloneCurrentPageForTurn();
   } else {
@@ -487,9 +523,6 @@ function moveReader(direction) {
     renderArtworkPage(next);
   }
 
-  elements.turningSheet.hidden = false;
-  elements.turningSheet.classList.remove("turn-next", "turn-previous");
-
   if (direction > 0) {
     renderReader(next);
     cloneArtworkPageForTurn(next);
@@ -497,23 +530,10 @@ function moveReader(direction) {
     window.setTimeout(() => renderArtworkPage(next), 350);
   }
 
-  void elements.turningSheet.offsetWidth;
-  elements.turningSheet.classList.add(direction > 0 ? "turn-next" : "turn-previous");
-
   if (direction < 0) {
     window.setTimeout(() => renderReader(next), 350);
   }
-  elements.turningSheet.addEventListener(
-    "animationend",
-    () => {
-      elements.turningSheet.classList.remove("turn-next", "turn-previous");
-      elements.turningSheet.hidden = true;
-      elements.turningBack.replaceChildren();
-      elements.reader.classList.remove("is-turning");
-      state.isTurning = false;
-    },
-    { once: true },
-  );
+  startPageTurnAnimation(direction);
 }
 
 function chooseFeatured() {
