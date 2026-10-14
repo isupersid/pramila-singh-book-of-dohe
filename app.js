@@ -27,6 +27,9 @@ const elements = {
   readerInterpretation: document.querySelector("#reader-interpretation"),
   editorialConfidence: document.querySelector("#editorial-confidence"),
   scrollAffordance: document.querySelector("#scroll-affordance"),
+  editorialOpen: document.querySelector("#editorial-open"),
+  editorialOverlay: document.querySelector("#editorial-overlay"),
+  editorialClose: document.querySelector("#editorial-close"),
   favoriteButton: document.querySelector("#favorite-button"),
   copyLink: document.querySelector("#copy-link"),
   printPoem: document.querySelector("#print-poem"),
@@ -51,9 +54,71 @@ const state = {
   currentPoem: null,
   displayedArtworkId: null,
   activeReaderTab: "roman",
+  isEditorialOpen: false,
   isTurning: false,
   favorites: new Set(JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]")),
 };
+
+const artworkPreloads = new Map();
+const MAX_PRELOADED_ARTWORK = 6;
+
+function preloadArtwork(path) {
+  if (!path) return Promise.resolve(true);
+  if (artworkPreloads.has(path)) {
+    const cached = artworkPreloads.get(path);
+    artworkPreloads.delete(path);
+    artworkPreloads.set(path, cached);
+    return cached.promise;
+  }
+
+  const image = new Image();
+  image.decoding = "async";
+  const promise = new Promise((resolve) => {
+    let settled = false;
+    const finish = (loaded) => {
+      if (settled) return;
+      settled = true;
+      resolve(loaded);
+    };
+    image.onload = async () => {
+      try {
+        await image.decode();
+      } catch {
+        // A loaded image is still usable when decode() is unavailable or rejects.
+      }
+      finish(true);
+    };
+    image.onerror = () => finish(false);
+    window.setTimeout(() => finish(false), 8000);
+  });
+
+  artworkPreloads.set(path, { image, promise });
+  image.src = path;
+
+  while (artworkPreloads.size > MAX_PRELOADED_ARTWORK) {
+    const oldest = artworkPreloads.keys().next().value;
+    if (oldest === path) break;
+    artworkPreloads.delete(oldest);
+  }
+  return promise;
+}
+
+function queueArtworkPreloads(index) {
+  [index, index + 1, index - 1].forEach((candidate) => {
+    preloadArtwork(state.poems[candidate]?.artwork);
+  });
+
+  const preloadFurther = () => {
+    [index + 2, index - 2].forEach((candidate) => {
+      preloadArtwork(state.poems[candidate]?.artwork);
+    });
+  };
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(preloadFurther, { timeout: 1500 });
+  } else {
+    window.setTimeout(preloadFurther, 250);
+  }
+}
 
 const readerTabLabels = {
   roman: "Roman transliteration",
@@ -281,6 +346,25 @@ function updateScrollAffordance() {
   elements.scrollAffordance.hidden = !hasOverflow || atEnd;
 }
 
+function openEditorialOverlay() {
+  if (!elements.editorialOverlay || state.isEditorialOpen) return;
+  state.isEditorialOpen = true;
+  renderEditorialTab();
+  elements.editorialOverlay.hidden = false;
+  elements.editorialOverlay.setAttribute("aria-hidden", "false");
+  elements.reader.classList.add("is-editorial-open");
+  elements.editorialClose.focus();
+}
+
+function closeEditorialOverlay(restoreFocus = true) {
+  if (!elements.editorialOverlay || !state.isEditorialOpen) return;
+  state.isEditorialOpen = false;
+  elements.editorialOverlay.hidden = true;
+  elements.editorialOverlay.setAttribute("aria-hidden", "true");
+  elements.reader.classList.remove("is-editorial-open");
+  if (restoreFocus) elements.editorialOpen.focus();
+}
+
 function renderEditorialTab(tab = state.activeReaderTab) {
   if (!state.currentPoem || !elements.readerInterpretation) return;
   const editorial = state.editorial[state.currentPoem.id];
@@ -371,6 +455,7 @@ function renderEditorialTab(tab = state.activeReaderTab) {
 }
 
 function renderReader(poem, updateHash = true) {
+  closeEditorialOverlay(false);
   state.currentPoem = poem;
   elements.readerNumber.textContent = `पृष्ठ ${formatNumber(poem.number)} · ${
     poem.date ? new Intl.DateTimeFormat("hi-IN", { dateStyle: "long" }).format(new Date(`${poem.date}T00:00:00`)) : "दिनांक उपलब्ध नहीं"
@@ -384,13 +469,13 @@ function renderReader(poem, updateHash = true) {
     }),
   );
   elements.readerBody.closest(".reader-original").scrollTop = 0;
-  state.activeReaderTab = "roman";
   renderEditorialTab();
   renderArtworkPage(poem);
 
   const index = state.poems.findIndex((entry) => entry.id === poem.id);
   elements.previousPoem.disabled = index <= 0;
   elements.nextPoem.disabled = index >= state.poems.length - 1;
+  queueArtworkPreloads(index);
   updateReaderFavorite();
 
   if (updateHash) {
@@ -407,6 +492,8 @@ function openReader(poem, updateHash = true) {
 
 function closeReader() {
   state.isTurning = false;
+  closeEditorialOverlay(false);
+  elements.reader.classList.remove("is-preparing-turn");
   elements.reader.classList.remove("is-turning");
   elements.turningSheet.classList.remove("turn-next", "turn-previous");
   elements.turningSheet.hidden = true;
@@ -485,21 +572,34 @@ function startPageTurnAnimation(direction) {
   );
 }
 
-function moveReader(direction) {
+async function moveReader(direction) {
   if (state.isTurning) return;
+  if (state.isEditorialOpen) {
+    closeEditorialOverlay();
+    return;
+  }
   const index = state.poems.findIndex((poem) => poem.id === state.currentPoem?.id);
   const current = state.currentPoem;
   const next = state.poems[index + direction];
   if (!next) return;
 
+  state.isTurning = true;
+  elements.reader.classList.add("is-preparing-turn");
+  await preloadArtwork(next.artwork);
+  elements.reader.classList.remove("is-preparing-turn");
+  if (!elements.reader.open || state.currentPoem?.id !== current.id) {
+    state.isTurning = false;
+    return;
+  }
+
   const useSimpleTransition =
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   if (useSimpleTransition) {
     renderReader(next);
+    state.isTurning = false;
     return;
   }
 
-  state.isTurning = true;
   elements.reader.classList.add("is-turning");
 
   if (window.matchMedia("(max-width: 900px)").matches) {
@@ -509,8 +609,10 @@ function moveReader(direction) {
       clonePoemPageForTurn(elements.turningBack);
     } else {
       clonePoemPageForTurn(elements.turningBack);
-      renderReader(next);
+      renderReader(next, false);
       clonePoemPageForTurn(elements.turningFront);
+      renderReader(current, false);
+      window.setTimeout(() => renderReader(next), 350);
     }
     startPageTurnAnimation(direction);
     return;
@@ -601,12 +703,21 @@ function bindEvents() {
   elements.coverOpen?.addEventListener("click", startReading);
   elements.randomButton?.addEventListener("click", openRandomPoem);
   elements.readerClose.addEventListener("click", closeReader);
+  elements.editorialOpen.addEventListener("click", openEditorialOverlay);
+  elements.editorialClose.addEventListener("click", () => closeEditorialOverlay());
+  elements.editorialOverlay.addEventListener("click", (event) => {
+    if (event.target === elements.editorialOverlay) closeEditorialOverlay();
+  });
   elements.reader.addEventListener("click", (event) => {
     if (event.target === elements.reader) closeReader();
   });
   elements.reader.addEventListener("cancel", (event) => {
     event.preventDefault();
-    closeReader();
+    if (state.isEditorialOpen) {
+      closeEditorialOverlay();
+    } else {
+      closeReader();
+    }
   });
   elements.favoriteButton.addEventListener("click", () => {
     if (state.currentPoem) toggleFavorite(state.currentPoem.id);
@@ -631,6 +742,7 @@ function bindEvents() {
   elements.readerInterpretation.addEventListener("scroll", updateScrollAffordance);
   window.addEventListener("keydown", (event) => {
     if (!elements.reader.open) return;
+    if (state.isEditorialOpen) return;
     if (event.target.closest?.(".reader-tabs, .reader-interpretation")) return;
     if (event.key === "ArrowLeft") moveReader(-1);
     if (event.key === "ArrowRight") moveReader(1);
@@ -655,6 +767,7 @@ async function start() {
     ]);
     state.poems = poems;
     state.editorial = editorial.records;
+    queueArtworkPreloads(0);
     if (elements.totalCount) elements.totalCount.textContent = formatNumber(stats.total);
     if (elements.yearCount) elements.yearCount.textContent = formatNumber(stats.years.length);
     makeYearFilters(stats.years);
