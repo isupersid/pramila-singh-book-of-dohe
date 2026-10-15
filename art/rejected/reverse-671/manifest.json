@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "session": "reverse-671",
+  "generatedAt": "2026-10-15T10:57:22.172Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423130600",
+      "page": 664,
+      "title": "कांड",
+      "file": "notes_20240423130600-rejected-1.jpg",
+      "reason": "A long line of generated Devanagari writing crossed the scene.",
+      "sha256": "f85a27a2027aa5d50b0ebde4ee16a29451abf5f6acdcc21db65d327d340db059",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}

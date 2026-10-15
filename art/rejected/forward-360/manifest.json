@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-360",
+  "generatedAt": "2026-10-15T10:57:21.150Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423123630",
+      "page": 362,
+      "title": "नाटक",
+      "file": "notes_20240423123630-rejected-1.jpg",
+      "reason": "The Hindi title मन के मोती was embedded prominently in the scene.",
+      "sha256": "bd8caa783a7f1913835d8a5e69f3aeacf5308f01ec57a6de42fd06dd4fa5cf2d",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
