@@ -2,10 +2,11 @@
   "version": 1,
   "method": "Per-edge near-uniform paper-color detection followed by visual before/after contact-sheet review. Crop boxes remove only verified blank outer margin pixels; no fixed crop was used.",
   "summary": {
-    "trimmed_total": 93,
+    "trimmed_total": 103,
     "trimmed_existing_tracked": 82,
     "trimmed_new_batch": 11,
-    "ambiguous_unchanged": 2
+    "ambiguous_unchanged": 2,
+    "trimmed_cli_batch": 10
   },
   "trimmed": [
     {
@@ -2425,6 +2426,266 @@
       "original_sha256": "32a5a80f953e6fd24b4775eed8a6e21e1430d4e29fe2aa9805775302dce74c00",
       "trimmed_sha256": "6a928116040f988d3df87789e8a0a5498eab57e8eb7a5280ab34f2b7e4c0a31e",
       "scope": "new_batch"
+    },
+    {
+      "file": "notes_20240423120414.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        62,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        62,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2338
+      ],
+      "original_sha256": "ccdbe04a7182f11edbe305307e47c8fe74a49552d16995de9da2d46402b7443b",
+      "trimmed_sha256": "a586f992d40852e095ac81626f8fa76386fd7999995d22b29b4b5d075031f2a1",
+      "scope": "cli_batch_210_465"
+    },
+    {
+      "file": "notes_20240423120431.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        60,
+        64,
+        1733,
+        2332
+      ],
+      "trim": [
+        60,
+        64,
+        59,
+        68
+      ],
+      "new_size": [
+        1673,
+        2268
+      ],
+      "original_sha256": "cdd92f5751df135d6b7116d5e505364a5513fa8cd977b7b54b969f2de1a15523",
+      "trimmed_sha256": "3644d35e9f58f89c551c63035d0e0a9dad28cf006417a9b3d784869463489e7d",
+      "scope": "cli_batch_210_465"
+    },
+    {
+      "file": "notes_20240423124758.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        42,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        42,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2358
+      ],
+      "original_sha256": "c0c913331f3d331dae7db7a55867469cf69adc10955c259ce5b7868fa6f53235",
+      "trimmed_sha256": "ce6d60cdf351c3e8749a439aa6129c8feda4894f406c01c67ef630f2d16b81ad",
+      "scope": "cli_batch_210_465"
+    },
+    {
+      "file": "notes_20240423124841.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        41,
+        64,
+        1792,
+        2343
+      ],
+      "trim": [
+        41,
+        64,
+        0,
+        57
+      ],
+      "new_size": [
+        1751,
+        2279
+      ],
+      "original_sha256": "66230379144ba9dc866ee2a0d726a4efe833f469a737cc53c0963b7f2900fbb6",
+      "trimmed_sha256": "023b203aa7a8d5743367f04ec24ecfcb24b3c1bb9a5c5e07049484701de2ef6f",
+      "scope": "cli_batch_210_465"
+    },
+    {
+      "file": "notes_20240423124845.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        52,
+        64,
+        1756,
+        2340
+      ],
+      "trim": [
+        52,
+        64,
+        36,
+        60
+      ],
+      "new_size": [
+        1704,
+        2276
+      ],
+      "original_sha256": "67003da6f0a35ef7cb990f7904d7d06de58664a6a9c84476bd30f0c03adfcb71",
+      "trimmed_sha256": "82fab87072b21655a6cd6c75cbeeaa47978d29b39a26b03c6890f7c870a31da0",
+      "scope": "cli_batch_210_465"
+    },
+    {
+      "file": "notes_20240423124849.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        52,
+        65,
+        1739,
+        2338
+      ],
+      "trim": [
+        52,
+        65,
+        53,
+        62
+      ],
+      "new_size": [
+        1687,
+        2273
+      ],
+      "original_sha256": "a759bc0811648a9e7773f52d3a1f674bc3a9be26d646b2cad39c6a93457ca9d8",
+      "trimmed_sha256": "259fb0a5b4d17875fe94ec60590c3d24bfe57e7d3fdc18f4e56ab3133feebb11",
+      "scope": "cli_batch_210_465"
+    },
+    {
+      "file": "notes_20240423124904.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        66,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        66,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2334
+      ],
+      "original_sha256": "7a1e7b3ba54a1e9e238f7e01776bdd983b92ca5dd52a1d359e0e2c75d2d86c35",
+      "trimmed_sha256": "61a50d719f03ec460afe77dbd8137680cd2395a7ca9b5deffdc450a9de1625f1",
+      "scope": "cli_batch_210_465"
+    },
+    {
+      "file": "notes_20240423124923.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        54,
+        64,
+        1739,
+        2339
+      ],
+      "trim": [
+        54,
+        64,
+        53,
+        61
+      ],
+      "new_size": [
+        1685,
+        2275
+      ],
+      "original_sha256": "f7fbfa4d40b081554b96e32e3d1af30dee85c0a583c2e3c621e8046aa5e84fec",
+      "trimmed_sha256": "4a15b4bb61c133e9f88f9b88b2d706b9423088c73440f9edeb40aa2bae1495c8",
+      "scope": "cli_batch_210_465"
+    },
+    {
+      "file": "notes_20240423124930.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        54,
+        64,
+        1738,
+        2339
+      ],
+      "trim": [
+        54,
+        64,
+        54,
+        61
+      ],
+      "new_size": [
+        1684,
+        2275
+      ],
+      "original_sha256": "45329f605890340684040cf1875c8a7024ed11facfa00024aec8d57fe807eb58",
+      "trimmed_sha256": "43206ea654efa2058e419654a5309db4dbe4b4728e5d889ced6a944de0d4d2b2",
+      "scope": "cli_batch_210_465"
+    },
+    {
+      "file": "notes_20240423124933.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        82,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        82,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2318
+      ],
+      "original_sha256": "fdd6ced401e31306d62b8f5c7b0e97ed9ed5a3368fd341e26391ab54afb60320",
+      "trimmed_sha256": "7bcb14bd04ecd3b4d54f2ff6eda5eb5781830e95e54f55333a7047a68a9d635b",
+      "scope": "cli_batch_210_465"
     }
   ],
   "ambiguous_unchanged": [
