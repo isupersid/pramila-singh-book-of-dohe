@@ -79,7 +79,8 @@ Authenticate once using a dedicated profile outside the repository:
 
 ```powershell
 npm run artwork:auth -- `
-  --profile "C:\Users\super\.copilot\gemini-art-profile-forward"
+  --profile "C:\Users\super\.copilot\gemini-art-profile-forward" `
+  --wait-for-login 600
 ```
 
 Plan a queue without opening Gemini:
@@ -105,10 +106,17 @@ The runner hovers over the completed Gemini image and uses the visible download 
 
 ```powershell
 npm run artwork:review -- --session "forward-135" --open
+npm run artwork:reject -- `
+  --session "forward-135" `
+  --ids "note_id_1,note_id_2" `
+  --reason "Generated lettering or visual defect"
+npm run artwork:archive-rejected -- `
+  --session "forward-135" `
+  --reasons-file ".artwork-cli\forward-135\rejection-reasons.json"
 npm run artwork:accept -- --session "forward-135" --all
 ```
 
-`accept` copies only approved native downloads into `art/`, merges mappings, appends prompt provenance, rebuilds generated data, and runs validation.
+`reject` archives the rejected candidate inside the ignored checkpoint and returns that queue item to `pending` for regeneration. `archive-rejected` optionally preserves those candidates under `art/rejected/<session>/` with a committed manifest and review reasons; rejected files are never added to the public artwork mapping. `accept` copies only approved native downloads into `art/`, merges mappings, appends prompt provenance, rebuilds generated data, and runs validation.
 
 ### Parallel agents
 

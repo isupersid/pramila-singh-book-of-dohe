@@ -21,11 +21,14 @@ test("parseArgs supports repeated references and inline values", () => {
     "one.jpg",
     "--reference",
     "two.jpg",
+    "--wait-for-login",
+    "600",
   ]);
   assert.equal(parsed.command, "run");
   assert.equal(parsed.options.startPage, "135");
   assert.equal(parsed.options.count, "25");
   assert.deepEqual(parsed.options.reference, ["one.jpg", "two.jpg"]);
+  assert.equal(parsed.options.waitForLogin, "600");
 });
 
 test("selectMissingPoems respects direction and existing mappings", () => {
