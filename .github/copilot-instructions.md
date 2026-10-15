@@ -126,6 +126,7 @@ The tests verify that every source note appears exactly once, raw text is preser
 ## Deployment
 
 GitHub Pages deploys automatically from `main` using `.github/workflows/pages.yml`.
+The workflow runs `scripts/build_site.py` and uploads `_site/`, not the repository root. Only artwork referenced by `data/artwork.json` is deployed; rejected candidates remain in Git for review but are excluded from the public Pages artifact. Native artwork is preserved in the repository while temporary deployment copies are resized and compressed.
 
 After merging, verify:
 
