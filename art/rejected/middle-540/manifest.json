@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "session": "middle-540",
-  "generatedAt": "2026-10-15T10:57:21.670Z",
+  "generatedAt": "2026-10-15T19:49:51.627Z",
   "notice": "Rejected review candidates only. These files are not mapped into the public book.",
   "entries": [
     {
@@ -9,7 +9,7 @@
       "page": 545,
       "title": "शर्त",
       "file": "notes_20240423125321-rejected-1.jpg",
-      "reason": "The map held by the family was labeled India.",
+      "reason": "Visual QA: generated English or Hindi writing embedded on papers and devices",
       "sha256": "103e83a426928708e42fe040eee26266dd90c80ec25e41dad2b6d97ac0402f82",
       "dimensions": {
         "width": 1792,
@@ -22,8 +22,34 @@
       "page": 547,
       "title": "विज्ञान",
       "file": "notes_20240423125328-rejected-1.jpg",
-      "reason": "Extensive generated text appeared on the newspaper and computer.",
+      "reason": "Visual QA: generated English or Hindi writing embedded on papers and devices",
       "sha256": "d5b6e0848994bb63c200c2780f55b20b84efc954ced6bc13b8e7379795c56935",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125401",
+      "page": 556,
+      "title": "अंत",
+      "file": "notes_20240423125401-rejected-1.jpg",
+      "reason": "Hindi words and an arrow labeled the progression from labor to result.",
+      "sha256": "5ea5c6421891856c5f475ad423a1a3c8f81f5144bd3b2bbdad9a3c518b8315b3",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125406",
+      "page": 557,
+      "title": "आह",
+      "file": "notes_20240423125406-rejected-1.jpg",
+      "reason": "The Hindi word आह was embedded prominently in the sky.",
+      "sha256": "c6a330b678284708e6019aee3f231b01467f7ef23bad72293c10fa5417cecff4",
       "dimensions": {
         "width": 1792,
         "height": 2400

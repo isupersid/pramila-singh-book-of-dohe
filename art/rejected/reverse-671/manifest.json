@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "session": "reverse-671",
-  "generatedAt": "2026-10-15T10:57:22.172Z",
+  "generatedAt": "2026-10-15T19:49:52.118Z",
   "notice": "Rejected review candidates only. These files are not mapped into the public book.",
   "entries": [
     {
@@ -9,8 +9,47 @@
       "page": 664,
       "title": "कांड",
       "file": "notes_20240423130600-rejected-1.jpg",
-      "reason": "A long line of generated Devanagari writing crossed the scene.",
+      "reason": "Visual QA: generated Devanagari writing embedded across the illustration",
       "sha256": "f85a27a2027aa5d50b0ebde4ee16a29451abf5f6acdcc21db65d327d340db059",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130533",
+      "page": 657,
+      "title": "वेद",
+      "file": "notes_20240423130533-rejected-1.jpg",
+      "reason": "English storefront signs and writing on the desk papers were visible.",
+      "sha256": "34ba2a8087681e57b77d65d323f2b2517261332dc784d9e50d34bad00b236be9",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130519",
+      "page": 654,
+      "title": "बिंदु",
+      "file": "notes_20240423130519-rejected-1.jpg",
+      "reason": "The television displayed the English word LOSS.",
+      "sha256": "7964c9418891d93e348ab65411ac7e5204c90c15e7f6b50f85000a4bfc60b337",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130503",
+      "page": 651,
+      "title": "अनुदान",
+      "file": "notes_20240423130503-rejected-1.jpg",
+      "reason": "Generated writing appeared across newspapers and documents on the desk.",
+      "sha256": "a547f3717ed067565128a7797854447cca5a1d9113f2f561badbdb4117ae0564",
       "dimensions": {
         "width": 1792,
         "height": 2400
