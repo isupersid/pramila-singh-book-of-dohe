@@ -4,3 +4,4 @@ node_modules/
 Thumbs.db
 .artwork-cli/
 .gemini-artwork-profile/
+_site/

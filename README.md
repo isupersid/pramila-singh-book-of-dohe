@@ -162,3 +162,11 @@ python -m unittest discover -s tests
 node --check app.js
 git diff --check
 ```
+
+GitHub Pages deploys a temporary optimized build rather than uploading native artwork and rejected review archives directly. Build the same ignored `_site/` output locally with:
+
+```powershell
+python scripts/build_site.py
+```
+
+Only artwork referenced by `data/artwork.json` is copied. Native files in `art/` remain unchanged; the deployment copies are resized and compressed for browser delivery.
