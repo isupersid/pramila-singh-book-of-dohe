@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "session": "middle-515",
+  "generatedAt": "2026-10-15T10:30:54.300Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423125206",
+      "page": 523,
+      "title": "राक्षस",
+      "file": "notes_20240423125206-rejected-1.jpg",
+      "reason": "The destructive figures carried sacks labeled with English words.",
+      "sha256": "c524d75be391e50302f3252849d00980de16e35997bfaf3412c9c49d475e57f5",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125240",
+      "page": 532,
+      "title": "मय",
+      "file": "notes_20240423125240-rejected-1.jpg",
+      "reason": "Faint generated Hindi lettering appeared behind the family.",
+      "sha256": "5d3e0e284069183d47fd4b348283f89a9b9a6c34096c5545f37b74a3eefd1198",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}

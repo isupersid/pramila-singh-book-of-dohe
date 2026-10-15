@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-285",
+  "generatedAt": "2026-10-15T10:31:43.998Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423122847",
+      "page": 290,
+      "title": "गति",
+      "file": "notes_20240423122847-rejected-1.jpg",
+      "reason": "Hindi text was embedded along the rays representing speed.",
+      "sha256": "af6e8d92f8ce788cefc11135c695316d5d366b702fff956e6a5db6600bdb48e2",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123105",
+      "page": 302,
+      "title": "आसक्ति",
+      "file": "notes_20240423123105-rejected-1.jpg",
+      "reason": "Generated writing appeared on scrolls and papers in the foreground.",
+      "sha256": "d5ea4154f16eebd25d3af04f8e2202fafce141fc93d5fdff0e5a9548debe9b0b",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123111",
+      "page": 304,
+      "title": "पायल",
+      "file": "notes_20240423123111-rejected-1.jpg",
+      "reason": "Multiple Hindi callout labels annotated the bridal attire.",
+      "sha256": "1209eb4791abe25c5975ef06099b48b08bf886f648102d5d3378defad19292c1",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123115",
+      "page": 305,
+      "title": "गबन",
+      "file": "notes_20240423123115-rejected-1.jpg",
+      "reason": "Generated writing appeared on an identity card and open register.",
+      "sha256": "9be3aa68783c3bcbd4e586aecfe4f05ca1ff3c7c1692f653f67c2a46987a05b4",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123122",
+      "page": 307,
+      "title": "गंगा",
+      "file": "notes_20240423123122-rejected-1.jpg",
+      "reason": "A Hindi word was embedded below the divine figure.",
+      "sha256": "3ab39e7a31a04d86cee5bda5a1729ddfe1e100fac10fe0477325fcedc295cfe5",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123126",
+      "page": 308,
+      "title": "चकित",
+      "file": "notes_20240423123126-rejected-1.jpg",
+      "reason": "Hindi labels appeared around the elder and symbols were marked on stones.",
+      "sha256": "ba35bf8f943344cf0db1486d09092a0cbd11ff69b94005968f4d905568f08d50",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123129",
+      "page": 309,
+      "title": "महानता",
+      "file": "notes_20240423123129-rejected-1.jpg",
+      "reason": "Multiple Hindi concept labels were embedded throughout the lotus scene.",
+      "sha256": "4d7f565b9e1b53695b79e9ad05f8c2be0923aa89af6cc6c8601069dbfc6bd398",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
