@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "session": "reverse-696",
+  "generatedAt": "2026-10-15T10:29:39.998Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423130831",
+      "page": 695,
+      "title": "पिशाच",
+      "file": "notes_20240423130831-rejected-1.jpg",
+      "reason": "Hindi labels were embedded beside the demon figures.",
+      "sha256": "0003ec22a176489580b6a43c5e6feccba7bed19a6c87e514315a63caa58d5ab6",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130750",
+      "page": 690,
+      "title": "अंतिम",
+      "file": "notes_20240423130750-rejected-1.jpg",
+      "reason": "Hindi labels describing the final day appeared in the landscape.",
+      "sha256": "c8b274a5caf88d8272c366befc3af14d0dab33d9025d5f6132f1c845551d105d",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130729",
+      "page": 686,
+      "title": "कलह",
+      "file": "notes_20240423130729-rejected-1.jpg",
+      "reason": "Hindi explanatory text appeared above the conflict scene.",
+      "sha256": "ad3dd7d300e3a575c2be10ad945b57243b670aaa10dfc031425d48083955f598",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130717",
+      "page": 682,
+      "title": "अटल",
+      "file": "notes_20240423130717-rejected-1.jpg",
+      "reason": "A generated political label appeared below the portrait.",
+      "sha256": "18239128d025d5882854d9a462ebe6e63b72b1c266ca5adacbde1cb5b06bdd4b",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130714",
+      "page": 681,
+      "title": "अक्षर",
+      "file": "notes_20240423130714-rejected-1.jpg",
+      "reason": "Generated writing appeared on the wooden tablet.",
+      "sha256": "477aabd3e7b61aa3032789e388f5b26fd2fa2fb9de8ec5f07e30da54a79d837f",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130704",
+      "page": 678,
+      "title": "कोटि",
+      "file": "notes_20240423130704-rejected-1.jpg",
+      "reason": "A large numeral and explanatory text were embedded above the divine figures.",
+      "sha256": "4d52107aaa08ec9945ac4725b7415981ef2e61267a036aa0259f03832466217d",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130658",
+      "page": 677,
+      "title": "ऋषि",
+      "file": "notes_20240423130658-rejected-1.jpg",
+      "reason": "राम and other markings were embedded on the bridge stones.",
+      "sha256": "2f0b4370fceac27b810b1f9f809ddec5c50bb07eb031a851c5e036899f8fae3c",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130645",
+      "page": 675,
+      "title": "नैन",
+      "file": "notes_20240423130645-rejected-1.jpg",
+      "reason": "Hindi lyrics and musical text were embedded across the devotional scene.",
+      "sha256": "b544bf7c2633d4abbe1ba8fe2483db9a4e64fc22db8ec3c019485528ea22f9ee",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130640",
+      "page": 674,
+      "title": "प्रश्न",
+      "file": "notes_20240423130640-rejected-1.jpg",
+      "reason": "Large question and exclamation punctuation marks were embedded around the seeker.",
+      "sha256": "6aa1c6bcd9351c0de20ad43fd6c139bbf11c931211487e5132fec6382cb2e0f8",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}

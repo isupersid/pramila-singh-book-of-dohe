@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-310",
+  "generatedAt": "2026-10-15T10:30:53.711Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423123144",
+      "page": 313,
+      "title": "रुचि",
+      "file": "notes_20240423123144-rejected-1.jpg",
+      "reason": "Generated Latin-like labels appeared on book spines beside the family.",
+      "sha256": "068ab21f4ed078a770bf3b86b5f78bdd09d2d7f0a85a267ce18a2b6dd63fc7bd",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123210",
+      "page": 320,
+      "title": "विकार",
+      "file": "notes_20240423123210-rejected-1.jpg",
+      "reason": "Readable generated writing appeared on the elder's open book.",
+      "sha256": "8ac0dfd1edae7efaef8f0d8821bc98d07dd9f6f6380a15d2dbe88c975edf117c",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123216",
+      "page": 322,
+      "title": "कागज",
+      "file": "notes_20240423123216-rejected-1.jpg",
+      "reason": "Generated manuscript writing and a digital icon were embedded in the scene.",
+      "sha256": "cc0228031814c94da9edd72f812a84881f648a66fd16a438e664c3a11d948fde",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123321",
+      "page": 330,
+      "title": "शयन",
+      "file": "notes_20240423123321-rejected-1.jpg",
+      "reason": "Large Hindi words were embedded in the dream scene.",
+      "sha256": "d0696e1cc7d08bd7d60dc67b2a29d6bbf2f05e365911d29caa9fe01b9dbdd7ec",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123350",
+      "page": 333,
+      "title": "हंगामा",
+      "file": "notes_20240423123350-rejected-1.jpg",
+      "reason": "Generated Hindi writing appeared on books held by the villagers.",
+      "sha256": "e5563c43bbb18d46a82c56fa1958dc62ec849aaeca316cfe973783ef38ceef5e",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
