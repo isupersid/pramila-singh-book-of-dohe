@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-260",
+  "generatedAt": "2026-10-15T09:52:17.500Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423122634",
+      "page": 260,
+      "title": "खाता",
+      "file": "notes_20240423122634-rejected-1.jpg",
+      "reason": "Generated writing is visible in the open account book.",
+      "sha256": "5cdd42a95043dfa636759708e1323502ad0a4f4346cacba42a106a586e14e574",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423122650",
+      "page": 263,
+      "title": "श्रृंगार",
+      "file": "notes_20240423122650-rejected-1.jpg",
+      "reason": "A large block of generated Hindi verse is embedded above the landscape.",
+      "sha256": "a74ebb9e94e34de8a11896b58be80a558a828006f330e3d4daa15b2ba0c96948",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423122653",
+      "page": 264,
+      "title": "समुन्नत",
+      "file": "notes_20240423122653-rejected-1.jpg",
+      "reason": "Generated Hindi lettering is embedded over the village scene.",
+      "sha256": "bb1d4841636a3284a9e598a14f1798499268aa44f27492aeb5efde8a1fed3f0f",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423122713",
+      "page": 268,
+      "title": "गीता",
+      "file": "notes_20240423122713-rejected-1.jpg",
+      "reason": "Generated text is visible in the open scripture beneath the students.",
+      "sha256": "c03c282eb6eccb3525b36096e33ce269be977d31000e08ad72690564a86e5f6e",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423122822",
+      "page": 283,
+      "title": "व्यक्तित्व/कृतित्व",
+      "file": "notes_20240423122822-rejected-1.jpg",
+      "reason": "Generated writing is visible throughout the manuscript.",
+      "sha256": "64dd9839cef62ad996a9b9e11cedde80a093d47bf35fe73f1b273930c0c48727",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
