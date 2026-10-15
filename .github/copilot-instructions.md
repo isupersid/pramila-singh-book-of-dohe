@@ -45,6 +45,7 @@ The public site is:
 - Store the base prompt and poem-specific prompt in `art/prompts.md`.
 - Maintain the established watercolor-and-gouache visual identity described in that file.
 - Do not add lettering or generated Hindi text inside illustrations.
+- In Gemini, hover the completed image and use the visible download button in the image's top-right controls. Prefer this direct download over opening the image viewer and waiting for a second download surface.
 - Desktop/tablet readers show artwork on the facing left page.
 - Phone readers use artwork as a softly faded page background.
 - If a poem has no artwork, desktop uses the standard flower placeholder; phones should not waste vertical space on a placeholder.

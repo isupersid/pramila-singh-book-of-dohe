@@ -212,6 +212,13 @@ function createCard(poem) {
   const favoriteButton = fragment.querySelector(".card-favorite");
 
   card.dataset.id = poem.id;
+  if (poem.artwork) {
+    card.classList.add("has-artwork");
+    card.style.setProperty(
+      "--card-artwork",
+      `url(${JSON.stringify(poem.artwork)})`,
+    );
+  }
   fragment.querySelector(".card-number").textContent =
     `पृष्ठ ${formatNumber(poem.number).padStart(3, "०")}`;
   fragment.querySelector(".card-year").textContent = poem.year

@@ -842,6 +842,20 @@ a {
     box-shadow 180ms ease;
 }
 
+.poem-card.has-artwork::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background:
+    linear-gradient(rgb(255 253 247 / 78%), rgb(255 253 247 / 86%)),
+    var(--card-artwork) center / cover no-repeat;
+  filter: saturate(0.88);
+  transform: scale(1.015);
+  transition:
+    filter 180ms ease,
+    transform 220ms ease;
+}
+
 .poem-card::after {
   position: absolute;
   right: -32px;
@@ -860,7 +874,14 @@ a {
   transform: translateY(-4px);
 }
 
+.poem-card.has-artwork:hover::before {
+  filter: saturate(1);
+  transform: scale(1.045);
+}
+
 .card-open {
+  position: relative;
+  z-index: 1;
   display: flex;
   width: 100%;
   height: 100%;
