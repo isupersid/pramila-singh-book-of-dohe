@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "session": "middle-565",
+  "generatedAt": "2026-10-15T20:52:12.206Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423125451",
+      "page": 566,
+      "title": "चमक",
+      "file": "notes_20240423125451-rejected-1.jpg",
+      "reason": "Visual QA: generated punctuation, captions, loose letters or circular text embedded in the illustration",
+      "sha256": "e97a5189c95639c0f5acd4d966e02e55adf230df5c293a82aacd71bf75b71ce0",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125527",
+      "page": 574,
+      "title": "प्रलाप",
+      "file": "notes_20240423125527-rejected-1.jpg",
+      "reason": "Visual QA: generated punctuation, captions, loose letters or circular text embedded in the illustration",
+      "sha256": "e6c493b72c029826e37140c4ea88b37cc08be2ddf1989f7afba94bc745eb3511",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125527",
+      "page": 574,
+      "title": "प्रलाप",
+      "file": "notes_20240423125527-rejected-2.jpg",
+      "reason": "A full block of generated Hindi poem text remained in the second attempt.",
+      "sha256": "99d106c9ab2ed749ef7b76b0a778743c0312f0206c277c30527736ae2fcc7002",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423125546",
+      "page": 579,
+      "title": "ऊब",
+      "file": "notes_20240423125546-rejected-1.jpg",
+      "reason": "Visual QA: generated punctuation, captions, loose letters or circular text embedded in the illustration",
+      "sha256": "29caa29ecf1b9695f9712bbcb75d1286e4820caab59075a83a0c075a750d84aa",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125546",
+      "page": 579,
+      "title": "ऊब",
+      "file": "notes_20240423125546-rejected-2.jpg",
+      "reason": "Multiple blocks of generated Hindi text remained above the family scene.",
+      "sha256": "d0eac2d9c0cf4d80c33c1b5e345d49b4989b02624e7eabc961caf9fc7205dc96",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423125643",
+      "page": 585,
+      "title": "अखिल",
+      "file": "notes_20240423125643-rejected-1.jpg",
+      "reason": "Visual QA: generated punctuation, captions, loose letters or circular text embedded in the illustration",
+      "sha256": "93da807e3f2a3573a55c1934383336a75eeac3a5fb5ac6d7ecf089fd48d51f8f",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125646",
+      "page": 586,
+      "title": "कर्ता",
+      "file": "notes_20240423125646-rejected-1.jpg",
+      "reason": "Visual QA: generated punctuation, captions, loose letters or circular text embedded in the illustration",
+      "sha256": "0caffcc86d76b31e5742cc96f026b0319406d7a0a4de57d774d5711f5e0d9138",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125650",
+      "page": 587,
+      "title": "अंतर",
+      "file": "notes_20240423125650-rejected-1.jpg",
+      "reason": "Visual QA: generated punctuation, captions, loose letters or circular text embedded in the illustration",
+      "sha256": "58523b6291a9fadea6cb00ac8728ffe54959cef80ac2a0ff157b06dc60d15779",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125650",
+      "page": 587,
+      "title": "अंतर",
+      "file": "notes_20240423125650-rejected-2.jpg",
+      "reason": "Repeated ॐ glyphs were embedded throughout the rainbow bands.",
+      "sha256": "ecf2dc6a7dc724d23889c746231f939c5cc1d78a13c1b18d9dfa9e2b86e23112",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423125653",
+      "page": 588,
+      "title": "कुटिल",
+      "file": "notes_20240423125653-rejected-1.jpg",
+      "reason": "Visual QA: generated punctuation, captions, loose letters or circular text embedded in the illustration",
+      "sha256": "71c62c82b52dc26029284db953aed188521a874fdf4512a37f70ea0fc91723b7",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125653",
+      "page": 588,
+      "title": "कुटिल",
+      "file": "notes_20240423125653-rejected-2.jpg",
+      "reason": "The Hindi title कुटिल was embedded prominently above the scene.",
+      "sha256": "eeed7254d274eedeb94c40c80ad80bd75857743c0c32af5af2ed0d9d7129463a",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    }
+  ]
+}

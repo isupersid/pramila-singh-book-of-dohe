@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-385",
+  "generatedAt": "2026-10-15T20:44:37.875Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423123809",
+      "page": 388,
+      "title": "केश",
+      "file": "notes_20240423123809-rejected-1.jpg",
+      "reason": "A Hindi label was generated on the vessel beside the seated elder.",
+      "sha256": "1d9800145d0d7cd547a4b1426fb909211d32d9867d58e1ad9f3a89e4a69deed1",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123818",
+      "page": 390,
+      "title": "केश",
+      "file": "notes_20240423123818-rejected-1.jpg",
+      "reason": "A Hindi label was generated on the vessel behind the woman.",
+      "sha256": "fb88640e245f45aa6c3b1029217849f9bd4c383b1408470ffac7907efefcbc2b",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123827",
+      "page": 393,
+      "title": "शिव",
+      "file": "notes_20240423123827-rejected-1.jpg",
+      "reason": "Small Hindi labels annotated the offerings beside the Shiva shrine.",
+      "sha256": "ef83cd03aff81129f1e78424ec54999f1a3ec79ee06b30c5570f80f625c0c528",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123850",
+      "page": 400,
+      "title": "फल",
+      "file": "notes_20240423123850-rejected-1.jpg",
+      "reason": "Hindi phrases were embedded inside concept bubbles on the tree.",
+      "sha256": "9032813e650d95e71405b30b174f81eee2dcf6464a773b6b7820388a2fcd1ed4",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123901",
+      "page": 403,
+      "title": "फल",
+      "file": "notes_20240423123901-rejected-1.jpg",
+      "reason": "A Hindi headline was embedded above the seated man.",
+      "sha256": "2522b2c26cc7dedce114538a4eead1d213391ee0433ca581626dfe103d71ba2c",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123917",
+      "page": 408,
+      "title": "संकल्प",
+      "file": "notes_20240423123917-rejected-1.jpg",
+      "reason": "A Hindi devotional phrase was embedded above the elder.",
+      "sha256": "11380a306a83f2cfeda9cf6eeb3599e776145a7c9d086f1bc0a100b9e50b01ba",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}

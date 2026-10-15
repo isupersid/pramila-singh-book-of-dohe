@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "session": "reverse-646",
+  "generatedAt": "2026-10-15T20:44:39.495Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423130438",
+      "page": 644,
+      "title": "धातु",
+      "file": "notes_20240423130438-rejected-1.jpg",
+      "reason": "An English metal chart, Hindi label and English explanatory sentence were embedded in the illustration.",
+      "sha256": "92bde03721651b33528d2f623a77264b68d77970097ad89fbb2dbc3a1731ecd4",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130418",
+      "page": 638,
+      "title": "चाबुक",
+      "file": "notes_20240423130418-rejected-1.jpg",
+      "reason": "Hindi labels annotated the elephant, horse and restraint tools.",
+      "sha256": "0472af50b9d9061e8c89b9dc7ae4855d86ef77743981d02826e2559def6c8ab5",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130408",
+      "page": 635,
+      "title": "बांसुरी",
+      "file": "notes_20240423130408-rejected-1.jpg",
+      "reason": "Hindi place and concept labels were embedded throughout the music scene.",
+      "sha256": "f88967d6021e811ca9868220607b923a653c276e4b6a9b25370eab7b956b47f2",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130404",
+      "page": 634,
+      "title": "मृदु",
+      "file": "notes_20240423130404-rejected-1.jpg",
+      "reason": "A large Hindi title and additional word were embedded in the music scene.",
+      "sha256": "9afe807a9fbb1d15bdbb6ef0cedf17541b6735aafc1311c9d46fa334ce2beb2a",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130355",
+      "page": 632,
+      "title": "मंद",
+      "file": "notes_20240423130355-rejected-1.jpg",
+      "reason": "A full Hindi poster and poem text were embedded beside the road illustration.",
+      "sha256": "634a2670433c05f436e69e42875f8646b724e6e82d24c1e088f1169bca751fa1",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130351",
+      "page": 631,
+      "title": "चित्र",
+      "file": "notes_20240423130351-rejected-1.jpg",
+      "reason": "An English production note was printed at the bottom of the artwork.",
+      "sha256": "38f12e1d3dc9e8246a36f1a50270c113053891e42a4eef719ede1e86dce81e6d",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130347",
+      "page": 630,
+      "title": "अक्ल",
+      "file": "notes_20240423130347-rejected-1.jpg",
+      "reason": "Multiple Hindi labels annotated the branching paths.",
+      "sha256": "dd2e44892357ca729a575a397baea347542c3aa324cfb0272a0888ad4b6e1f8f",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130344",
+      "page": 629,
+      "title": "थाली",
+      "file": "notes_20240423130344-rejected-1.jpg",
+      "reason": "A Hindi headline was embedded above the meal.",
+      "sha256": "fc6f57a38e9013e828a45f060981a6172d0d0de5410590e38e193de67cce3189",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130337",
+      "page": 627,
+      "title": "लगाम",
+      "file": "notes_20240423130337-rejected-1.jpg",
+      "reason": "Many Hindi labels annotated the horse, reins and surrounding concepts.",
+      "sha256": "1e326df7b2a2ff6204d10f4b7e63d741b74c9df7927c0d5c4d42c656092ed4a9",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130333",
+      "page": 626,
+      "title": "दुकान",
+      "file": "notes_20240423130333-rejected-1.jpg",
+      "reason": "A readable English storefront sign appeared in the market.",
+      "sha256": "fa1fc228931099084338de8bb44eba2050a2cd7ece54867d942733ab105cf99d",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130330",
+      "page": 625,
+      "title": "भीड़",
+      "file": "notes_20240423130330-rejected-1.jpg",
+      "reason": "A Hindi phrase was embedded across the cloud scene.",
+      "sha256": "24c263ac7323e405c1f08a696f6f370efd3a828f0edd0bf93b0d7598081cd63e",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130326",
+      "page": 624,
+      "title": "पर्वतीय",
+      "file": "notes_20240423130326-rejected-1.jpg",
+      "reason": "Hindi weather and terrain labels were embedded across the mountain scene.",
+      "sha256": "b235d6c37265183a5323b64eb1386ff446780ed21caa14d4af04b72599dafff2",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
