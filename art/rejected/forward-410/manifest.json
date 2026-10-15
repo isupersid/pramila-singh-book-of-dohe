@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-410",
+  "generatedAt": "2026-10-15T20:44:38.406Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423123954",
+      "page": 419,
+      "title": "वस्तु",
+      "file": "notes_20240423123954-rejected-1.jpg",
+      "reason": "Hindi labels annotated the open book and surrounding concept diagram.",
+      "sha256": "a56d6afb794788da9ee852ad85c5892f8761ca8901f984a94469fd6751b33966",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423124001",
+      "page": 421,
+      "title": "वस्तु",
+      "file": "notes_20240423124001-rejected-1.jpg",
+      "reason": "A generated Hindi price or quantity tag hung from the calf.",
+      "sha256": "bec76e94fc306315002b08edf50ddf263ffe4a5575436b2e65e82b3cc361eef0",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423124006",
+      "page": 422,
+      "title": "संकोच",
+      "file": "notes_20240423124006-rejected-1.jpg",
+      "reason": "Large Devanagari alphabet characters floated around the speaker.",
+      "sha256": "9a0992e3b73632e808079bcbc8ea77f31a1396d6c25673d8869a49ad289444f2",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
