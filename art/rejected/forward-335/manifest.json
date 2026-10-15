@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-335",
+  "generatedAt": "2026-10-15T19:49:50.600Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423123509",
+      "page": 352,
+      "title": "तुलसी",
+      "file": "notes_20240423123509-rejected-1.jpg",
+      "reason": "Hindi labels for grief and illness were embedded around the tulsi scene.",
+      "sha256": "e42ae63707a646311bcfe901b4fe7af197f3ff9ea1a1e60d8a70ed0b71c2fcdc",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423123513",
+      "page": 353,
+      "title": "दोष",
+      "file": "notes_20240423123513-rejected-1.jpg",
+      "reason": "A Hindi heading, explanatory line and notation were embedded in the scene.",
+      "sha256": "ab063fdae6c6c4e9a3dc079d55fa17ec718dabc48bb48e454b2b34dcbb10a532",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
