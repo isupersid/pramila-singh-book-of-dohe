@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-210",
+  "generatedAt": "2026-10-15T08:22:24.982Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423120313",
+      "page": 212,
+      "title": "गुणा",
+      "file": "notes_20240423120313-rejected-1.jpg",
+      "reason": "Large generated numerals are embedded prominently in the composition.",
+      "sha256": "e830bb2d465d166f87c4e9a157ff7408a1c74387dd15ae4b8caa9974cbeed48d",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423120350",
+      "page": 222,
+      "title": "आतप",
+      "file": "notes_20240423120350-rejected-1.jpg",
+      "reason": "Hindi and English explanatory text is embedded in the illustration.",
+      "sha256": "6627329e9acad68c3b88ebc325a7b0ef4ff6f0741f0d1a47d0289108086c8117",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423120354",
+      "page": 223,
+      "title": "अंग",
+      "file": "notes_20240423120354-rejected-1.jpg",
+      "reason": "Downloaded at 896x1200, below the native 1792x2400 batch resolution.",
+      "sha256": "03da0e164059570f60a02b4c9dae0fd8dde48f84c54416114fe4dbbffe140f0d",
+      "dimensions": {
+        "width": 896,
+        "height": 1200
+      },
+      "originalAttempt": 1
+    }
+  ]
+}

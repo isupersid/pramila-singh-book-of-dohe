@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "session": "middle-465",
+  "generatedAt": "2026-10-15T08:32:44.696Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423124813",
+      "page": 474,
+      "title": "अजेय",
+      "file": "notes_20240423124813-rejected-1.jpg",
+      "reason": "Generated Hindi lettering appeared in the upper-right visual flow.",
+      "sha256": "49bc39b3f0c41dd3e0e756b78ccd819c08d9d7a779e0c9aa515fb2d032bb002a",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423124856",
+      "page": 479,
+      "title": "छाप",
+      "file": "notes_20240423124856-rejected-1.jpg",
+      "reason": "Multiple Hindi words were embedded in the dark thought cloud.",
+      "sha256": "6106fb45698d95695ff3f56e931b524c968d1a38cd05eb77108db829dc1627ba",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423124915",
+      "page": 482,
+      "title": "सौंदर्य",
+      "file": "notes_20240423124915-rejected-1.jpg",
+      "reason": "Generated English words appeared above the seated figures.",
+      "sha256": "51fc7ba7e049c5ee077015fc12a7abc564b3f1cacbc56d324d2a4e094878ec3b",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423124915",
+      "page": 482,
+      "title": "सौंदर्य",
+      "file": "notes_20240423124915-rejected-2.jpg",
+      "reason": "Generated writing remained visible on the open book and loose papers.",
+      "sha256": "4c7b10779d7c4d134082cfeb966c23c41c962e6ca2a8e03cfc19d02d1a703d5b",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    }
+  ]
+}
