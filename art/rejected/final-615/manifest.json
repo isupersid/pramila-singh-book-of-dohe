@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "session": "final-615",
+  "generatedAt": "2026-10-15T22:27:06.142Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423125855",
+      "page": 616,
+      "title": "हाय",
+      "file": "notes_20240423125855-rejected-1.jpg",
+      "reason": "Latin letters and medical-like notation appeared in the thought cloud.",
+      "sha256": "15cbb3aee23f4201d1b43f6bb512e3fdf2d119b5a3e186887b2f8b83dab66312",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130307",
+      "page": 619,
+      "title": "संघ",
+      "file": "notes_20240423130307-rejected-1.jpg",
+      "reason": "A large circular ring of generated glyphs appeared above the gathering.",
+      "sha256": "51a0a21badd17709b2643cb65c476e1f661cdfa18bc152088ab9330d816110c6",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}

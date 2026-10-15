@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "session": "final-435",
+  "generatedAt": "2026-10-15T22:27:05.148Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423124408",
+      "page": 451,
+      "title": "बेल",
+      "file": "notes_20240423124408-rejected-1.jpg",
+      "reason": "The download was not native 1792x2400 and included a written document.",
+      "sha256": "72780dbbd1db6e016871d0985c2174c20a6264fdd251854dde487999e87e1a12",
+      "dimensions": {
+        "width": 896,
+        "height": 1200
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
