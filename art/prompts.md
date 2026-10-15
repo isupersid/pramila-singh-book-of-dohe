@@ -2323,11 +2323,29 @@ All files in this batch are untouched native Gemini 3:4 downloads. Dimensions an
 >
 > Use earthy green, natural cream, muted saffron, soft indigo, fruit tones and antique gold. No currency, luxury goods, written wishes, tags, sacred text, words, letters, numbers, signatures or logos.
 
-### 109. टांग — Gemini safety blocked
+### 109. टांग — resolved with user-generated retry
 
 - Note ID: `notes_20240423115120`
-- Image: None
-- Status: No artwork generated. Gemini refused all three attempts with “Sorry, I can't generate unsafe images.” Do not retry or attempt to bypass the safety system.
+- Image: `notes_20240423115120.jpg`
+- Status: Accepted. The user generated a successful full-bleed devotional illustration after the earlier automated conversation refused three attempts. The refusal history is retained below for provenance.
+
+#### Accepted retry
+
+> Create the next illustration in the established “मन के मोती” style.
+>
+> The doha describes decorating the entrance of an Indian home with a floral toran and respectfully offering bilva leaves to Lord Shiva while praying for happiness.
+>
+> Create a peaceful devotional scene at dawn. Show a welcoming traditional Indian doorway decorated with a graceful toran made from fresh marigolds, jasmine and green leaves. Near the doorway, include a softly glowing brass diya and a small, respectful Shiva shrine with a simple शिवलिंग. A devotee’s hands gently place three fresh bilva leaves before the shrine.
+>
+> Use warm saffron and antique-gold light near the doorway, balanced with soft indigo, earthy green and natural cream tones. The scene should communicate welcome, devotion, hope and the wish for household happiness.
+>
+> Native 3:4 portrait composition. Full-bleed painted artwork extending naturally to all four edges. Keep important subjects safely inside the composition, but allow watercolor texture and background details to reach the canvas edges.
+>
+> No blank white or cream border, paper mat, decorative frame, page margin, text, lettering, captions, signatures or logos.
+>
+> This is a peaceful home-decoration and devotional scene. Do not depict bodily harm, suspended people, severed limbs, threats or violent imagery.
+>
+> Generate exactly one finished illustration.
 
 #### Refused attempt 1
 
