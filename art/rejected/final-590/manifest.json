@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "session": "final-590",
+  "generatedAt": "2026-10-15T22:27:05.662Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423125711",
+      "page": 591,
+      "title": "तनाव",
+      "file": "notes_20240423125711-rejected-1.jpg",
+      "reason": "Generated writing appeared on the open book above the tense family.",
+      "sha256": "02f7a1ba1f277410c768a9d6ac009a5d29d4f7400f0b846f9d6b8c88445a1ad4",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125714",
+      "page": 592,
+      "title": "गहन",
+      "file": "notes_20240423125714-rejected-1.jpg",
+      "reason": "The Hindi title गहन was embedded prominently at the top.",
+      "sha256": "ee219ed60d079b4afc47bd112cca60c6fa66f03bc970d61ccc3ba9729471eea2",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125726",
+      "page": 595,
+      "title": "गुलाब",
+      "file": "notes_20240423125726-rejected-1.jpg",
+      "reason": "Generated Hindi writing appeared across the open book beneath the rose.",
+      "sha256": "6bf86483eb2f9a9ce259e0fdcd218835ec835013393227626d04a338bf02a6ba",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125743",
+      "page": 600,
+      "title": "राशि",
+      "file": "notes_20240423125743-rejected-1.jpg",
+      "reason": "A Hindi title and full poem text were embedded in the scene.",
+      "sha256": "7d9098784f47c36a1bc4bf3c93563778991bb3f35b33089ad13b319da5d0b2f2",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125751",
+      "page": 602,
+      "title": "कुंडली",
+      "file": "notes_20240423125751-rejected-1.jpg",
+      "reason": "A horoscope chart with letters, numerals and written markings dominated the scene.",
+      "sha256": "59bce91e378a8f9a8264aa5af48395d14fe5642b33365a469f3459c2d10c5f1c",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125754",
+      "page": 603,
+      "title": "पत्र",
+      "file": "notes_20240423125754-rejected-1.jpg",
+      "reason": "Generated writing appeared on the letter or document beside the child.",
+      "sha256": "69f313bcabef756b4429df578444d46af70f77e62c54d4d10456cef721b83535",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125818",
+      "page": 610,
+      "title": "पान",
+      "file": "notes_20240423125818-rejected-1.jpg",
+      "reason": "Commercial paan packets carried generated printed labels.",
+      "sha256": "aaee0f7746bec419a3e8adc38ab2d3f185919de5fdaad1d7489c3644d109d7d4",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125846",
+      "page": 614,
+      "title": "ज्वाला",
+      "file": "notes_20240423125846-rejected-1.jpg",
+      "reason": "Hindi labels annotated the illustrated flame stages.",
+      "sha256": "520ec80c12bdd32e50742330055bdb59b97304e696bb4d9eb864e4007682f565",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
