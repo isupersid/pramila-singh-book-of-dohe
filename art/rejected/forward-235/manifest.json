@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-235",
+  "generatedAt": "2026-10-15T09:22:26.772Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423122515",
+      "page": 239,
+      "title": "समय",
+      "file": "notes_20240423122515-rejected-1.jpg",
+      "reason": "Visual QA: generated labels or decorative lettering embedded in the illustration",
+      "sha256": "51e8c322e7730f98bb04031de964258ac458a6aca332fa5ef44f2525a71ef9af",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423122515",
+      "page": 239,
+      "title": "समय",
+      "file": "notes_20240423122515-rejected-2.jpg",
+      "reason": "Second visual QA rejection: generated captions, labels or writing remained",
+      "sha256": "c0c14f97aa04a3d2dbf9756ef3694aa545454a4cce30534a3d1718c1f4d041c9",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423122530",
+      "page": 243,
+      "title": "झूठ/समानार्थी",
+      "file": "notes_20240423122530-rejected-1.jpg",
+      "reason": "Generated lettering appeared around the teacher halo.",
+      "sha256": "b3bf9d9ff077bbf3d1431ef1642e799d1104ce9b44f9d9af1578a1090fcc1c38",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423122530",
+      "page": 243,
+      "title": "झूठ/समानार्थी",
+      "file": "notes_20240423122530-rejected-2.jpg",
+      "reason": "The English title King Harishchandra of Ayodhya appeared at the top.",
+      "sha256": "4a43ae2a4c5eb17acc62510ae0cd1aa4f9785eef13655e4d71373d59495f2ca9",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423122530",
+      "page": 243,
+      "title": "झूठ/समानार्थी",
+      "file": "notes_20240423122530-rejected-3.jpg",
+      "reason": "The English title remained in the third attempt.",
+      "sha256": "17526b3504f6141917cb71b49805304ce2e0e29ff417c4c09b92b264c4cad55e",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 3
+    },
+    {
+      "noteId": "notes_20240423122533",
+      "page": 244,
+      "title": "पेय",
+      "file": "notes_20240423122533-rejected-1.jpg",
+      "reason": "Visual QA: generated labels or decorative lettering embedded in the illustration",
+      "sha256": "4a039328683ee424bece07b89f5eaf30a71937fc38c3269ae1223c13b5c6fa89",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423122533",
+      "page": 244,
+      "title": "पेय",
+      "file": "notes_20240423122533-rejected-2.jpg",
+      "reason": "Second visual QA rejection: generated captions, labels or writing remained",
+      "sha256": "710374837818b214960ad20971be1c713dacbc0406d1024be9e753777e55362a",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423122540",
+      "page": 246,
+      "title": "कवि",
+      "file": "notes_20240423122540-rejected-1.jpg",
+      "reason": "Generated lettering appeared around the teacher halo.",
+      "sha256": "010ec442b85ab755b940c9934e691b3b1e235fbc977aa81f988aede8edf7560f",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423122540",
+      "page": 246,
+      "title": "कवि",
+      "file": "notes_20240423122540-rejected-2.jpg",
+      "reason": "Generated writing appeared in the open book.",
+      "sha256": "4bc88c1f49efd03d13586702fdab77b198045c4c5222335086f7d9c0cc55135a",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423122540",
+      "page": 246,
+      "title": "कवि",
+      "file": "notes_20240423122540-rejected-3.jpg",
+      "reason": "Generated writing remained in the open book.",
+      "sha256": "f14282a7186818e8a1b474b3a624e3aea22fbf20e8c5b06139d2b6ff5a0469cc",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 3
+    },
+    {
+      "noteId": "notes_20240423122540",
+      "page": 246,
+      "title": "कवि",
+      "file": "notes_20240423122540-rejected-4.jpg",
+      "reason": "Extensive generated script appeared in the book and circular lettering despite a scene-only prompt.",
+      "sha256": "1826f22719f44a025873a42ff694fa7aac3a43b08175e82de8b87d00025471d2",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 4
+    },
+    {
+      "noteId": "notes_20240423122548",
+      "page": 248,
+      "title": "रोला",
+      "file": "notes_20240423122548-rejected-1.jpg",
+      "reason": "Visual QA: generated labels or decorative lettering embedded in the illustration",
+      "sha256": "95eb1bbe1d48a22dd7b841fd1bb5b462b42016634317e0adb55c13f221c1ec47",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423122548",
+      "page": 248,
+      "title": "रोला",
+      "file": "notes_20240423122548-rejected-2.jpg",
+      "reason": "Second visual QA rejection: generated captions, labels or writing remained",
+      "sha256": "ec14f836ff504878808159aba7dd4a79ae5a278873702ed2f4ee0066c5d75524",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423122552",
+      "page": 249,
+      "title": "श्रमिक/मजदूर/समानार्थी",
+      "file": "notes_20240423122552-rejected-1.jpg",
+      "reason": "Visual QA: generated labels or decorative lettering embedded in the illustration",
+      "sha256": "5dec3476649388aad6a1172f35427620dc67c05f7842ef65d5cbb05c5fb022b7",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423122552",
+      "page": 249,
+      "title": "श्रमिक/मजदूर/समानार्थी",
+      "file": "notes_20240423122552-rejected-2.jpg",
+      "reason": "Second visual QA rejection: generated captions, labels or writing remained",
+      "sha256": "6feadc4c5518b49dcc84717b808f71fcced4fef41463938f2f19ba39f531602b",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    }
+  ]
+}

@@ -206,7 +206,7 @@ async function run(options) {
 
   try {
     for (const entry of session.entries) {
-      if (entry.status === "downloaded" || entry.status === "accepted") continue;
+      if (["downloaded", "accepted", "blocked"].includes(entry.status)) continue;
       if (generatedInChat === 0 || generatedInChat >= freshEvery) {
         await seedFreshChat(page, references);
         generatedInChat = 0;
@@ -248,6 +248,10 @@ async function seedFreshChat(page, references) {
   if (pageState === "authentication") {
     throw new Error("Authentication required. Run the `auth` command.");
   }
+  const newChat = page.getByRole("link", { name: "New chat" }).first();
+  await newChat.waitFor({ state: "visible", timeout: 15_000 });
+  await newChat.click();
+  await page.waitForTimeout(750);
 
   if (references.length) await uploadReferences(page, references);
   await activateImageMode(page);
