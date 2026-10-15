@@ -64,6 +64,73 @@ records के लिए भविष्य में draft overrides से अ
 
 चित्र उस रचना के खुले हुए पुस्तक-पन्ने पर दिखाई देगा। जिन रचनाओं के लिए अभी चित्र नहीं है, वहाँ जानबूझकर एक सुंदर placeholder रखा गया है।
 
+## Gemini artwork CLI
+
+The repository includes a review-first Playwright CLI for generating artwork efficiently without publishing unreviewed output.
+
+Install dependencies without downloading Playwright's bundled browser—the CLI uses the locally installed Chrome:
+
+```powershell
+$env:PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD = "1"
+npm install
+```
+
+Authenticate once using a dedicated profile outside the repository:
+
+```powershell
+npm run artwork:auth -- `
+  --profile "C:\Users\super\.copilot\gemini-art-profile-forward"
+```
+
+Plan a queue without opening Gemini:
+
+```powershell
+npm run artwork:plan -- --start-page 135 --count 25
+```
+
+Generate into an isolated review checkpoint:
+
+```powershell
+npm run artwork:run -- `
+  --profile "C:\Users\super\.copilot\gemini-art-profile-forward" `
+  --session "forward-135" `
+  --start-page 135 `
+  --count 25 `
+  --fresh-chat-every 25 `
+  --reference "art\notes_20240423113656.jpg" `
+  --reference "art\notes_20240423113808.jpg"
+```
+
+The runner hovers over the completed Gemini image and uses the visible download button. Downloads remain under ignored `.artwork-cli/` storage until reviewed:
+
+```powershell
+npm run artwork:review -- --session "forward-135" --open
+npm run artwork:accept -- --session "forward-135" --all
+```
+
+`accept` copies only approved native downloads into `art/`, merges mappings, appends prompt provenance, rebuilds generated data, and runs validation.
+
+### Parallel agents
+
+Multiple agents can work independently by using:
+
+- non-overlapping page ranges
+- distinct `--session` names
+- distinct persistent `--profile` directories
+
+For example, one worker can move forward from page 135 while another moves backward from page 746:
+
+```powershell
+npm run artwork:run -- `
+  --profile "C:\Users\super\.copilot\gemini-art-profile-reverse" `
+  --session "reverse-746" `
+  --direction reverse `
+  --start-page 746 `
+  --count 25
+```
+
+Each checkpoint remains isolated until explicitly accepted. Chrome profiles contain authenticated Google sessions and must never be committed, uploaded, or shared.
+
 ## मुख्य विशेषताएँ
 
 - 750 अद्वितीय मूल रचनाओं का सुरक्षित, खोजने योग्य संग्रह
