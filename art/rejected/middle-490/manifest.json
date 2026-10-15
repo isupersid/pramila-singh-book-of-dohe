@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "session": "middle-490",
+  "generatedAt": "2026-10-15T09:14:27.159Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423124947",
+      "page": 490,
+      "title": "भेंट",
+      "file": "notes_20240423124947-rejected-1.jpg",
+      "reason": "Visual QA: generated words, labels or diagram annotations embedded in the illustration",
+      "sha256": "7a63331e272411038bdcd937cfd2ecfc4dd47997d30b3c81af00270c41ccdf1f",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125044",
+      "page": 501,
+      "title": "चिह्न",
+      "file": "notes_20240423125044-rejected-1.jpg",
+      "reason": "Visual QA: generated words, labels or diagram annotations embedded in the illustration",
+      "sha256": "db5593475f1370e7a289e5c3ddb5509093876efc9a26378a1a8c5c741f8d0610",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125048",
+      "page": 502,
+      "title": "ध्वजवाहक",
+      "file": "notes_20240423125048-rejected-1.jpg",
+      "reason": "Generated Hindi lettering appeared near the moon and spacecraft.",
+      "sha256": "eafcd84742308cdb19b2ec7a584aab75b30521374c18a23bf22a8a41627450b1",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125048",
+      "page": 502,
+      "title": "ध्वजवाहक",
+      "file": "notes_20240423125048-rejected-2.jpg",
+      "reason": "ISRO lettering and the Hindi word ध्वजवाहक remained embedded.",
+      "sha256": "4efa5e725fc416506a1ee267a5f546302398465d0d391f47bb3a004dc8c2c62a",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423125055",
+      "page": 504,
+      "title": "भूत",
+      "file": "notes_20240423125055-rejected-1.jpg",
+      "reason": "The Hindi word भूत was embedded beside the cart.",
+      "sha256": "075e009e5fc1b4f1ee5c9fcf921bd67a70966569d719164e825951b73b22e517",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125055",
+      "page": 504,
+      "title": "भूत",
+      "file": "notes_20240423125055-rejected-2.jpg",
+      "reason": "Hindi labels भूत, आज and भविष्य remained embedded.",
+      "sha256": "005953f7c3c62b3ef126935e050de222d3fee7a7013e22fa12b2429cc0ae81c6",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423125058",
+      "page": 505,
+      "title": "विदेश",
+      "file": "notes_20240423125058-rejected-1.jpg",
+      "reason": "The Hindi title विदेश was embedded at the top.",
+      "sha256": "9a1d10ef0f6189537b3f082db3417a1d5f9383ea45b92b46b2484c4e991c0cba",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125058",
+      "page": 505,
+      "title": "विदेश",
+      "file": "notes_20240423125058-rejected-2.jpg",
+      "reason": "Hindi labels यह देश and परिवेश remained embedded.",
+      "sha256": "f361502936d9f6725eb26366dbfb69ceb9e6402beccc957e4febe887acfdbbc3",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423125111",
+      "page": 509,
+      "title": "शून्य",
+      "file": "notes_20240423125111-rejected-1.jpg",
+      "reason": "The Hindi word शून्य and mathematical annotations were embedded.",
+      "sha256": "c3fdf9b4c8dc0ef090c5442341b146b015eb8269ae0126827058ac00102d6755",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125111",
+      "page": 509,
+      "title": "शून्य",
+      "file": "notes_20240423125111-rejected-2.jpg",
+      "reason": "The word शून्य and extensive equations remained embedded.",
+      "sha256": "fe1d31a20aa6394c53da4c9e7be53b7ad13339a8e8d1d97b4ec3015669c892ed",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423125114",
+      "page": 510,
+      "title": "राखी",
+      "file": "notes_20240423125114-rejected-1.jpg",
+      "reason": "Visual QA: generated words, labels or diagram annotations embedded in the illustration",
+      "sha256": "0e0b59e772c5cf33ac8e164ce17f20e565ad49eae62bb347d1ef24deb2c5c2af",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125117",
+      "page": 511,
+      "title": "बुद्धि",
+      "file": "notes_20240423125117-rejected-1.jpg",
+      "reason": "Visual QA: generated words, labels or diagram annotations embedded in the illustration",
+      "sha256": "16f3bf2829e339468f60235aa7e97beff61dcdfd80d9d22d54a176cd43e426dd",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423125120",
+      "page": 512,
+      "title": "अपराधी",
+      "file": "notes_20240423125120-rejected-1.jpg",
+      "reason": "Visual QA: generated words, labels or diagram annotations embedded in the illustration",
+      "sha256": "af7e57e428f384c2963771513f580ac499d6e3e04b636338808689401cc5c1c4",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}

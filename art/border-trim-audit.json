@@ -2,11 +2,11 @@
   "version": 1,
   "method": "Per-edge near-uniform paper-color detection followed by visual before/after contact-sheet review. Crop boxes remove only verified blank outer margin pixels; no fixed crop was used.",
   "summary": {
-    "trimmed_total": 103,
+    "trimmed_total": 120,
     "trimmed_existing_tracked": 82,
     "trimmed_new_batch": 11,
     "ambiguous_unchanged": 2,
-    "trimmed_cli_batch": 10
+    "trimmed_cli_batch": 27
   },
   "trimmed": [
     {
@@ -2686,6 +2686,448 @@
       "original_sha256": "fdd6ced401e31306d62b8f5c7b0e97ed9ed5a3368fd341e26391ab54afb60320",
       "trimmed_sha256": "7bcb14bd04ecd3b4d54f2ff6eda5eb5781830e95e54f55333a7047a68a9d635b",
       "scope": "cli_batch_210_465"
+    },
+    {
+      "file": "notes_20240423122555.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        57,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        57,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2343
+      ],
+      "original_sha256": "1c70c029a1add5bf7678df958be1a2dbd0975a8e2a81b6a089412d75d21af55d",
+      "trimmed_sha256": "7a5e1bbd34f0573dc96c310d96340a6f193aa833e9518fbed214811d52448acf",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423122600.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        57,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        57,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2343
+      ],
+      "original_sha256": "6a931915a85c663bf57534a50e4cabf53fc2891e03efecb584e115432a991383",
+      "trimmed_sha256": "29121227d83bb5abb7acf37a3dab1b01cdf47ad8b60db2e73348b1a14a9ef0d5",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423122604.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        55,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        55,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2345
+      ],
+      "original_sha256": "9daec617ae005307020f4d707392560514f8a1a7022f2e1ce30cae1fb6242b21",
+      "trimmed_sha256": "a162430b38cd6f1082acb2121d5f54ccc2d66185b950f4a45dde9597cd1e719b",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423122607.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        55,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        55,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2345
+      ],
+      "original_sha256": "fa0e997cc24c9a463cf218e3678bb577c8d86be6ecd84f312eed8bb35ac897f7",
+      "trimmed_sha256": "1adf1f007822a31957e48fb8ba27eb0d36b8e858eee0e123aa5b2844eef5acf1",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423122610.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        63,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        63,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2337
+      ],
+      "original_sha256": "00a20f8e6a9e613d07a7e2065e778a440a28982449a95cf03b81d064cf426d57",
+      "trimmed_sha256": "6883886e265fe3554ac5ea5f5983032b3ddb45bc01f981debf1305202c8266de",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423122615.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        56,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        56,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2344
+      ],
+      "original_sha256": "9f5f82175bc52fa3d3ce3b230022547619760fbac03f7c1a04d5b2ede5e8327c",
+      "trimmed_sha256": "2050f4f881b8d37b038f6a57a8e3267c4af4837faf262b5425f01214ea064059",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423122618.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        55,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        55,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2345
+      ],
+      "original_sha256": "4af8a0a368927baf1b8dbff005157e66a6bba02ecd38f27ad76dfd037b858fff",
+      "trimmed_sha256": "cb6511665b6744396633771a483d500aaa3958276065ce5984a144781b6261db",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423122622.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        63,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        63,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2337
+      ],
+      "original_sha256": "e8eb22bc8e9f1f3a1fa3ae33b0dc66eea4ec4bc9d9522e8bca69cd7262e96676",
+      "trimmed_sha256": "27faa9cd3eaa817bb5532ff6fb9033a31461126d0be51aeb4bc80be76b117bf4",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423122625.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        63,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        63,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2337
+      ],
+      "original_sha256": "c6b0c68198512b2a439d3662552513326f6a4210986863f1548887ce1c306ca0",
+      "trimmed_sha256": "ef73fc7b1fa730ee833b7f9e37890c341b6adf342eb47186b0822b419efa1446",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423124947.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        62,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        62,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2338
+      ],
+      "original_sha256": "e07870e80ab9b75002e76096733e3e4ccd54ab97cfd76464d7d07107ecf69ce4",
+      "trimmed_sha256": "0e5cf3e5090aceaadc59daad2384e376d376e140120dc314a2b7d09876fd2bc7",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423125010.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        63,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        63,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2337
+      ],
+      "original_sha256": "302defa31f1b91339b969a2708c2489f6bee3495f60fe30919f825f7eb20a85a",
+      "trimmed_sha256": "5ef39be3737e09f64bb6a70fe1907ed4c3ff805749d079e13666fdc1b5716a4d",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423125048.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        53,
+        63,
+        1792,
+        2336
+      ],
+      "trim": [
+        53,
+        63,
+        0,
+        64
+      ],
+      "new_size": [
+        1739,
+        2273
+      ],
+      "original_sha256": "0d8c0d600d95efa58d6046a12289ff8771620228fb70fbf6ba119b704be94b65",
+      "trimmed_sha256": "ba43e76e544f375c9743930a3a7b4cd067b9cde7098e318abe3dfbd6da981653",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423125052.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        52,
+        63,
+        1737,
+        2376
+      ],
+      "trim": [
+        52,
+        63,
+        55,
+        24
+      ],
+      "new_size": [
+        1685,
+        2313
+      ],
+      "original_sha256": "7a20945bac08fc23561024021eef549ac18b20bb45818e4c7a5f7a4db4139ad7",
+      "trimmed_sha256": "1e348569b73abfb6fffac4de743d8ab23757d8a7a5ced3bae7a4fcf2e5a464c4",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423125058.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        54,
+        0,
+        1792,
+        2400
+      ],
+      "trim": [
+        54,
+        0,
+        0,
+        0
+      ],
+      "new_size": [
+        1738,
+        2400
+      ],
+      "original_sha256": "6650f96b0171b8b76caaed8e229be913066883041757d5c97ba2c864318e6e57",
+      "trimmed_sha256": "79d9a261d735c3a1d57f432859514522adb5d9332d4d578366cbfa208c98b80e",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423125101.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        0,
+        64,
+        1792,
+        2400
+      ],
+      "trim": [
+        0,
+        64,
+        0,
+        0
+      ],
+      "new_size": [
+        1792,
+        2336
+      ],
+      "original_sha256": "98340ec95f1fc433819e6957760235f3b32e41aef831604726d65cdeb25910ff",
+      "trimmed_sha256": "6d2c45c00f3303db91b1b60c3ccbcee58af2630415757ccb2be5f56e7adf5e6f",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423125105.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        52,
+        64,
+        1739,
+        2400
+      ],
+      "trim": [
+        52,
+        64,
+        53,
+        0
+      ],
+      "new_size": [
+        1687,
+        2336
+      ],
+      "original_sha256": "8926a4b6822602ed40130c937f8f7a2a0f36b6dfd27f3d98135b7e929cebb6b7",
+      "trimmed_sha256": "1f6caae3d9ad7a5a30eaf564883a56a354f36964f12cdbace0a43e97baef2cc5",
+      "scope": "cli_batches_235_465_490_721"
+    },
+    {
+      "file": "notes_20240423125111.jpg",
+      "original_size": [
+        1792,
+        2400
+      ],
+      "crop_box": [
+        53,
+        63,
+        1792,
+        2400
+      ],
+      "trim": [
+        53,
+        63,
+        0,
+        0
+      ],
+      "new_size": [
+        1739,
+        2337
+      ],
+      "original_sha256": "b35d208382b15f99e7a6156a42bd5449d2c880e99df6409b9de4fa938eb0ea86",
+      "trimmed_sha256": "d1d83f36b6c27b04f34aa8034d7f741254fca3235fab108de2a0dae6e9f3b1c2",
+      "scope": "cli_batches_235_465_490_721"
     }
   ],
   "ambiguous_unchanged": [

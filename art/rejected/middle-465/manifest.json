@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "session": "middle-465",
-  "generatedAt": "2026-10-15T08:32:44.696Z",
+  "generatedAt": "2026-10-15T08:59:17.478Z",
   "notice": "Rejected review candidates only. These files are not mapped into the public book.",
   "entries": [
     {
@@ -16,6 +16,19 @@
         "height": 2400
       },
       "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423124813",
+      "page": 474,
+      "title": "अजेय",
+      "file": "notes_20240423124813-rejected-2.jpg",
+      "reason": "Generated writing remained visible in the open book at the bottom.",
+      "sha256": "cbe3d336da551f5ffaaf069118c1339bae56ad1ef072f95e46f655dce0efbbe9",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
     },
     {
       "noteId": "notes_20240423124856",

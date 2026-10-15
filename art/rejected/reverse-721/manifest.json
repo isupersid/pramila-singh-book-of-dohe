@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "session": "reverse-721",
+  "generatedAt": "2026-10-15T09:03:58.600Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423131016",
+      "page": 721,
+      "title": "राम",
+      "file": "notes_20240423131016-rejected-1.jpg",
+      "reason": "The number 500 and circular lettering are embedded above Ram.",
+      "sha256": "2ef25f971975650c88646d517faef9cfe7faefd8421ef01fa3192b6cbac42e5a",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130952",
+      "page": 717,
+      "title": "नव लेखन में भाषायी अशुद्धियां",
+      "file": "notes_20240423130952-rejected-1.jpg",
+      "reason": "Generated English writing appears in the book and smoke.",
+      "sha256": "00ab49bba5c199f2b073a2dda9abe3633b9cc28310e1ec77bcffefd03e54fef1",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423130855",
+      "page": 702,
+      "title": "वर्ष",
+      "file": "notes_20240423130855-rejected-1.jpg",
+      "reason": "The year 2024 is embedded in the sun.",
+      "sha256": "6a0a5b54948a627930fe94400a02f3797ae97769667a42973fa37bbbed8cde16",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
