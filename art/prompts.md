@@ -4768,3 +4768,1746 @@ This checkpoint continues after the documented page-109 safety block. Pages 123�
 > - background watercolor and gouache washes must continue naturally to every edge
 >
 > Generate exactly one image.
+
+
+## Gemini CLI checkpoint — forward-185
+
+### 186. हनुमान
+
+- Note ID: `notes_20240423120007`
+- Image: `notes_20240423120007.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `aab65a204fd2a6dad8b7dd0cf538ac93f7462b150604188ed8f8584ac2e144ee`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 186.
+>
+> Poem title: हनुमान
+> Note ID: notes_20240423120007
+>
+> चैत्र शुक्ल की पूर्णिमा, तिथि है बहुत महान।
+> इसी तिथि पर प्रगट हुए, पवन पुत्र हनुमान।
+>
+> Editorial English draft: The full-moon date of bright Chaitra is greatly revered. On this date Hanuman, son of the wind, is believed to have appeared.
+> सरल अर्थ: चैत्र शुक्ल पूर्णिमा को हनुमान जन्मोत्सव की पावन तिथि बताया गया है। हनुमान को पवनपुत्र कहकर उनके प्रकट होने की धार्मिक परंपरा याद की गई है।
+> Editorial context: The catalog date is 2023-04-05, while the raw metadata gives 2023-04-06 and “हनुमान” as the prompt. The verse states a common North Indian Hanuman Jayanti tradition; observance dates can differ by region.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 187. उर
+
+- Note ID: `notes_20240423120011`
+- Image: `notes_20240423120011.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `714e965f0cd9bcb6be4613854b7f7864af9462910ed0d1b1967ebcd52594361a`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 187.
+>
+> Poem title: उर
+> Note ID: notes_20240423120011
+>
+> धड़कन से हनुमान की, निकले प्रभु का नाम।
+> उनके उर में बस रहे, सिया संग श्री राम।
+>
+> Editorial English draft: The Lord's name emerges with every beat of Hanuman's heart. Within his heart dwell Lord Rama together with Sita.
+> सरल अर्थ: हनुमान की हर धड़कन में प्रभु का नाम सुनाई देने की भक्तिपूर्ण कल्पना है। उनके हृदय में सीता और राम के बसने का अर्थ उनकी अटूट भक्ति है।
+> Editorial context: Dated 2023-04-06 with “उर” (heart) as the prompt, the couplet uses familiar devotional imagery of Sita and Rama dwelling in Hanuman's heart. It is spiritual symbolism, not an anatomical claim.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 188. हनुमान/बजरंगबली/समानार्थी
+
+- Note ID: `notes_20240423120014`
+- Image: `notes_20240423120014.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `c8bf8c04bcbd3443d52a9539ce303cbd97896625fa6687d8d32703b59dfe483a`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 188.
+>
+> Poem title: हनुमान/बजरंगबली/समानार्थी
+> Note ID: notes_20240423120014
+>
+> हनुमान
+> राम भक्ति करते सदा,दूजा न कोई काम
+> करो भक्ति हनुमान की, बनेंगे बिगड़े काम।
+> लखनऊ
+>
+> Editorial English draft: Hanuman He remains devoted to Rama, with no other task. Worship Hanuman, and troubled affairs will be set right. Lucknow
+> सरल अर्थ: हनुमान का मुख्य कार्य राम-भक्ति बताया गया है। उनकी पूजा से बिगड़े काम सँवरने की आशा व्यक्त होती है; यह भक्तिपूर्ण विश्वास है, निश्चित परिणाम का वादा नहीं।
+> Editorial context: Dated 2023-04-06 with a prompt listing names for Hanuman, the record also preserves “Lucknow” as a location line. The claim about fixing difficulties is devotional language rather than practical assurance.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 189. मोर्चा
+
+- Note ID: `notes_20240423120018`
+- Image: `notes_20240423120018.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `c6e0a8056e61673714259480a69f765bf30b321da300ea781ded908507627a18`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 189.
+>
+> Poem title: मोर्चा
+> Note ID: notes_20240423120018
+>
+> मोर्चा बालाकोट ने, विश्व में दी पहचान।
+> वायु सेना की मार से,दंग हुआ इमरान।
+>
+> Editorial English draft: The Balakot operation gave India recognition across the world. Imran was stunned by the air force's strike.
+> सरल अर्थ: यह दोहा बालाकोट वायु हमले को भारत की वैश्विक पहचान और सैन्य शक्ति से जोड़ता है। “इमरान” संभवतः तत्कालीन पाकिस्तानी प्रधानमंत्री इमरान खान हैं, पर उनकी निजी प्रतिक्रिया कविता का दावा है।
+> Editorial context: The catalog date is 2023-04-06, while the raw metadata gives 2023-04-07 and “मोर्चा” as the prompt. The wording appears to refer to India's 2019 Balakot airstrike and likely names then Pakistani prime minister Imran Khan; “stunned” is rhetorical and not independently evidenced here.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 190. क्षमा/माफी/समानार्थी
+
+- Note ID: `notes_20240423120022`
+- Image: `notes_20240423120022.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `ddb2a466f2e9c75acd19cb648eebaf0f9368da10ae9c1e112192b810e719b265`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 190.
+>
+> Poem title: क्षमा/माफी/समानार्थी
+> Note ID: notes_20240423120022
+>
+> क्षमा
+> क्षमा दान करके सदा,बनिए बड़े महान।
+> बढ़ती है सद्भावना, बढ़े मान सम्मान।
+> लखनऊ
+>
+> Editorial English draft: Forgiveness By always granting forgiveness, become generous and noble. Goodwill grows, and honour and respect increase. Lucknow
+> सरल अर्थ: क्षमा करने से मन की उदारता और आपसी सद्भाव बढ़ता है। इससे संबंध सुधर सकते हैं और व्यक्ति का सम्मान भी बढ़ता है।
+> Editorial context: Dated 2023-04-07 with a prompt listing forgiveness and its synonyms, the record also preserves “Lucknow” as a location line. The couplet offers general ethical advice, not a response to a named offence.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 191. नगरी
+
+- Note ID: `notes_20240423120027`
+- Image: `notes_20240423120027.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `870da870a17120a1b875e02e2ef825b90fd52c1da656f7eb1105061ec5f34f23`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 191.
+>
+> Poem title: नगरी
+> Note ID: notes_20240423120027
+>
+> काशी नगरी पूज्य है, विश्वनाथ  का धाम।
+> दूर-दूर तक विश्व में, फैला इसका नाम।
+>
+> Editorial English draft: The city of Kashi is revered as the abode of Vishwanath. Its name has spread far and wide across the world.
+> सरल अर्थ: काशी को पूजनीय नगरी और विश्वनाथ का धाम बताया गया है। उसकी धार्मिक प्रसिद्धि को दूर-दूर तक फैला हुआ कहा गया है।
+> Editorial context: Dated 2023-04-07 with “नगरी” as the prompt, the verse refers to Kashi, or Varanasi, and the Kashi Vishwanath tradition. No particular pilgrimage or event is named.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 192. मयूर
+
+- Note ID: `notes_20240423120034`
+- Image: `notes_20240423120034.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `30ec87a1b3d95f18e903a8ef5aa6a86fd3f38b1ed33c33fc4f883245e0962045`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 192.
+>
+> Poem title: मयूर
+> Note ID: notes_20240423120034
+>
+> नभ में बदरा छा गए, नाचे मस्त मयूर।
+> पुरवइया चलने लगी, छाने लगा सुरूर।
+>
+> Editorial English draft: Clouds covered the sky, and delighted peacocks danced. The easterly breeze began to blow, spreading exhilaration.
+> सरल अर्थ: आकाश में बादल छाने, मोरों के नाचने और पुरवाई चलने से वर्षा ऋतु का आनंदमय वातावरण बनता है। “सुरूर” यहाँ प्रकृति से उपजा उल्लास है।
+> Editorial context: Dated 2023-04-08 with “मयूर” as the prompt, the couplet presents a seasonal nature scene. It does not identify a particular storm, monsoon date, or location.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 193. आमंत्रण
+
+- Note ID: `notes_20240423120038`
+- Image: `notes_20240423120038.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `5ca8243009b92f0e06159d86a93575186d321096c25e7b8f2163dddfaabd52ca`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 193.
+>
+> Poem title: आमंत्रण
+> Note ID: notes_20240423120038
+>
+> आमंत्रण स्वीकार लो,गणपति ज्ञान निधान।
+> रिद्धि,सिद्धि को साथ में, ले आना भगवान।
+>
+> Editorial English draft: Ganesha, treasury of wisdom, please accept this invitation. Lord, bring Riddhi and Siddhi with you.
+> सरल अर्थ: ज्ञान के भंडार गणपति को आमंत्रित किया गया है और उनसे रिद्धि-सिद्धि को साथ लाने की विनती है। ये नाम समृद्धि और आध्यात्मिक सिद्धि के प्रतीक भी माने जाते हैं।
+> Editorial context: The catalog date is 2023-04-08, while the raw metadata gives 2023-04-09 and “आमंत्रण” as the prompt. The verse uses devotional Ganesha imagery; it does not specify a wedding, worship ceremony, or other occasion for the invitation.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 194. कूप
+
+- Note ID: `notes_20240423120041`
+- Image: `notes_20240423120041.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `26b18c02799606e66cc774a6d59369d66cc0a55098b22cc06c129c287cf90dfe`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 194.
+>
+> Poem title: कूप
+> Note ID: notes_20240423120041
+>
+> राम भक्ति के कूप में,डाल भक्ति की डोर।
+> सुख जल से गागर भरो, खींचो अपनी ओर।
+>
+> Editorial English draft: Lower the rope of devotion into the well of devotion to Rama. Fill your pitcher with the water of happiness and draw it toward yourself.
+> सरल अर्थ: राम-भक्ति को कुएँ और भक्ति को रस्सी मानकर रूपक बनाया गया है। साधक उस कुएँ से सुखरूपी जल भरकर अपने जीवन में लाता है।
+> Editorial context: Dated 2023-04-09 with “कूप” as the prompt, the poem develops an extended well-and-water metaphor for devotion to Rama. It describes spiritual happiness, not a physical well.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 195. रोला
+
+- Note ID: `notes_20240423120048`
+- Image: `notes_20240423120048.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `e16a20cc20dd90e7118efb62260c9bc7b62193d523145527696bf218efa8f3dc`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 195.
+>
+> Poem title: रोला
+> Note ID: notes_20240423120048
+>
+> विषय:(स्वतंत्र)
+> नाचे मस्त मयूर,घटा नभ में है छाई।
+> छाने लगा सुरूर, गजब ढाये पुरवाई।
+> मस्त झूमते पेड़, झूमती है अमराई।
+> जीव जंतु सब मस्त,धरा लगती हर्षाई।
+> सादर समीक्षार्थ
+>
+> Editorial English draft: Theme: free choice Delighted peacocks dance as clouds fill the sky. Exhilaration spreads while the easterly breeze works its wonder. Trees sway joyfully, and the mango grove sways with them. All creatures are delighted, and the earth appears joyful. Respectfully submitted for review.
+> सरल अर्थ: स्वतंत्र विषय के रोला में बादल, नाचते मोर, पुरवाई, झूमते पेड़ और अमराई का वर्षा-दृश्य है। जीव-जंतुओं और धरती को भी प्रसन्न दिखाकर पूरी प्रकृति का उल्लास रचा गया है।
+> Editorial context: Dated 2023-04-09 and explicitly marked as a free-choice rola, the poem contains no separate prompt or named place. Its clouds, peacocks, easterly wind, and mango grove form a conventional joyful rain-season scene.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 197. पद
+
+- Note ID: `notes_20240423120059`
+- Image: `notes_20240423120059.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `090bc4a2335217948068f9f5bb74a80884d24196b30f55f9a5a5306c1686d710`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 197.
+>
+> Poem title: पद
+> Note ID: notes_20240423120059
+>
+> काव्य जगत के सूर्य हैं, सबसे बड़ा है कद।
+> कृष्ण बाल लीला भरे,गायें सूर कवि पद।
+>
+> Editorial English draft: He is a sun in the world of poetry, with stature above all. The poet Sur sings verses filled with Krishna's childhood play.
+> सरल अर्थ: सूरदास को काव्य-जगत का सूर्य और महान कवि कहा गया है। उनके पदों में बाल कृष्ण की लीलाओं के सुंदर वर्णन की प्रशंसा की गई है।
+> Editorial context: Dated 2023-04-11 with “पद” as the prompt, “सूर कवि” most likely refers to the devotional poet Surdas, celebrated for compositions about child Krishna. “Greatest stature” is praise, not an objective ranking.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 198. काशी
+
+- Note ID: `notes_20240423120115`
+- Image: `notes_20240423120115.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `56dd0f139e813d8e8358dfdee70df4a70106e2849f6d046d6d065caebdf06a72`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 198.
+>
+> Poem title: काशी
+> Note ID: notes_20240423120115
+>
+> आयोजन संख्या:६१
+> काशी नगरी धन्य है, विश्वनाथ का धाम।
+> दूर-दूर तक विश्व में,फैला इसका नाम‌‌।
+> फैला इसका नाम, पर्यटक देख लुभाते।
+> बावन दिन कर सफर,क्रूज का लुत्फ उठाते।
+> भव बाधा से दूर, करे है यह सुखराशी।
+> भारत की पहचान,बनी है नगरी काशी।
+>
+> Editorial English draft: Event number: 61 The city of Kashi is blessed, the abode of Vishwanath. Its name has spread far and wide across the world. Its fame has spread, and the sights charm visiting tourists. They travel for fifty-two days and enjoy the cruise. This source of happiness keeps worldly obstacles away. The city of Kashi has become an emblem of India.
+> सरल अर्थ: कुंडलिया काशी को विश्वनाथ का पवित्र धाम और भारत की पहचान बताती है। साथ ही पर्यटकों तथा बावन दिन की क्रूज यात्रा का उल्लेख करके धार्मिक नगर को आधुनिक पर्यटन से जोड़ती है।
+> Editorial context: Dated 2023-04-11, labelled event 61, and prompted by “काशी,” the fifty-two-day cruise may refer to the MV Ganga Vilas river journey promoted in early 2023, but the vessel is not named in the poem. The spiritual claim about removing worldly obstacles is devotional.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 199. सारस
+
+- Note ID: `notes_20240423120120`
+- Image: `notes_20240423120120.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `adc18d155cbd1ddd25a099f24a8ddcba1b2f2cf205bf48662e61524d3894904c`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 199.
+>
+> Poem title: सारस
+> Note ID: notes_20240423120120
+>
+> आरिफ,सारस मित्रता,हुई बहुत मशहूर।
+> वन विभाग के नियम ने, मित्र कर दिये दूर।
+>
+> Editorial English draft: The friendship between Arif and a sarus crane became very famous. A forest department rule separated the two friends.
+> सरल अर्थ: आरिफ और सारस की चर्चित मित्रता का उल्लेख है। वन विभाग के नियमों के कारण दोनों के अलग होने को कविता दुखद बिछोह के रूप में देखती है।
+> Editorial context: Dated 2023-04-12 with “सारस” as the prompt, the poem appears to refer to reports about Mohammad Arif and a sarus crane in Uttar Pradesh. It presents the separation as caused by forest rules; the full legal and animal-welfare circumstances are not contained in the note.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 202. अटपटा
+
+- Note ID: `notes_20240423120228`
+- Image: `notes_20240423120228.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `dc6893f150c4a8498b85bb155854c7161cb3ccdef54ef222f473d4299a72263b`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 202.
+>
+> Poem title: अटपटा
+> Note ID: notes_20240423120228
+>
+> बालक बोले अटपटा, सुनकर मां हर्षाय।
+> गले लगाके चूमके, झट से गोद उठाय।
+>
+> Editorial English draft: The child speaks in an odd, unformed way, and the mother delights in hearing it. She hugs and kisses the child, then quickly lifts the child into her lap.
+> सरल अर्थ: छोटे बच्चे की अटपटी या अधूरी बोली सुनकर माँ प्रसन्न होती है। वह प्यार से बच्चे को गले लगाती, चूमती और गोद में उठा लेती है।
+> Editorial context: The catalog date is 2023-04-12, while the raw metadata gives 2023-04-13 and “अटपटा” as the prompt. The scene is a general family moment; no particular mother or child is identified.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 203. संध्या
+
+- Note ID: `notes_20240423120233`
+- Image: `notes_20240423120233.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `3976aa9d95560778ba69b860a49758c88e418d33afa38319dfcbba986e001d9f`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 203.
+>
+> Poem title: संध्या
+> Note ID: notes_20240423120233
+>
+> संध्या काल न सोइये, काटें  मत नाखून।
+> घर में झाड़ू ना करें, लक्ष्मी बसहिं सुकून।
+>
+> Editorial English draft: Do not sleep at twilight, and do not cut your nails then. Do not sweep the house at that hour, so Lakshmi may dwell there peacefully.
+> सरल अर्थ: संध्या समय सोने, नाखून काटने और झाड़ू लगाने से बचने की पारंपरिक घरेलू मान्यताएँ बताई गई हैं। इन्हें लक्ष्मी के घर में टिके रहने से जोड़ा गया है; यह सांस्कृतिक विश्वास है, वैज्ञानिक नियम नहीं।
+> Editorial context: Dated 2023-04-13 with “संध्या” as the prompt, the couplet preserves customary beliefs about evening conduct and Lakshmi. It should be read as cultural-religious advice, not as a demonstrable cause of prosperity.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 204. शोभा/समानार्थी
+
+- Note ID: `notes_20240423120237`
+- Image: `notes_20240423120237.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `b3633f53a5628cdb0b81e399b2eabf04d78d73941d3c4c74b62f4631df8a87c3`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 204.
+>
+> Poem title: शोभा/समानार्थी
+> Note ID: notes_20240423120237
+>
+> शोभा
+> घर की शोभा बेटियां, बेटे हैं अभिमान।
+> बहुएं घर की शान हैं, नाती,पोते जान।
+>
+> Editorial English draft: Beauty Daughters are the beauty of the home, and sons are its pride. Daughters-in-law are the home's honour, while grandchildren are life itself.
+> सरल अर्थ: परिवार के अलग-अलग सदस्यों को प्रेमपूर्ण उपमाएँ दी गई हैं—बेटियाँ शोभा, बेटे अभिमान, बहुएँ शान और नाती-पोते प्राण समान। यह स्नेह की अभिव्यक्ति है, भूमिकाओं की कठोर परिभाषा नहीं।
+> Editorial context: Dated 2023-04-14 with a prompt offering “शोभा” and synonyms, the verse reflects affectionate family values. Its gendered descriptions are preserved as the poem's language rather than presented as universal roles.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 205. प्रातः
+
+- Note ID: `notes_20240423120241`
+- Image: `notes_20240423120241.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `a08db66e7e66fa1bdf2a424df56849319632e4af734278a576413a7f2f7572c3`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 205.
+>
+> Poem title: प्रातः
+> Note ID: notes_20240423120241
+>
+> प्रातः काल उठो सदा, करो सैर,व्यायाम।
+> रोग,शोक सब दूर हों,नहीं वैद्य का काम‌।
+>
+> Editorial English draft: Always rise in the morning and go walking or exercise. Illness and sorrow will stay away, leaving no work for a physician.
+> सरल अर्थ: सुबह उठकर सैर और व्यायाम करने की स्वास्थ्यकर सलाह दी गई है। रोग-दुख पूरी तरह दूर होने और वैद्य की जरूरत न पड़ने की बात काव्यात्मक अतिशयोक्ति है, चिकित्सकीय गारंटी नहीं।
+> Editorial context: Dated 2023-04-14 with “प्रातः” as the prompt, the couplet promotes morning exercise. Its claim that all illness will disappear is rhetorical and should not replace medical care.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 206. भवन
+
+- Note ID: `notes_20240423120245`
+- Image: `notes_20240423120245.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `92924c2ce52cef7a5fbd8b7940af65f9337841ac4e493737e25e5989e558132e`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 206.
+>
+> Poem title: भवन
+> Note ID: notes_20240423120245
+>
+> राज-भवन को छोड़के, छोड़ अयोध्या धाम।
+> पिता वचन को मान दे, पहुंचे वन श्री राम।
+>
+> Editorial English draft: Leaving the royal palace and departing from Ayodhya's sacred home, Shri Rama honoured his father's word and reached the forest.
+> सरल अर्थ: श्रीराम राजमहल और अयोध्या का सुख छोड़कर पिता के वचन का सम्मान करते हुए वन जाते हैं। दोहा वचन-पालन और त्याग को महत्व देता है।
+> Editorial context: The record is dated 2023-04-15 and names “भवन” as the provided word. It draws on the Ramayana episode of Rama leaving Ayodhya for exile; the verse does not specify a particular retelling.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 207. गुनाह
+
+- Note ID: `notes_20240423120249`
+- Image: `notes_20240423120249.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `718297e9fa89ac5d87cda3905e993c06862f439ba0b0471e06ced40d881bf6f1`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 207.
+>
+> Poem title: गुनाह
+> Note ID: notes_20240423120249
+>
+> बहुत बड़ा इक माफिया, आज रहा पछताय।
+> कर गुनाह की इंतहा,बेबस नीर बहाय‌।
+>
+> Editorial English draft: A very powerful mafia figure is regretting his deeds today. Having taken crime to its limit, he helplessly sheds tears.
+> सरल अर्थ: दोहा एक प्रभावशाली अपराधी को अपने अत्यधिक अपराधों के परिणाम पर असहाय होकर पछताते दिखाता है। संदेश है कि गलत शक्ति अंत में सहारा नहीं देती।
+> Editorial context: Dated 2023-04-15 with the prompt “गुनाह,” the verse appears to respond to then-current news about a mafia figure facing loss or punishment. No person is named, so a specific identification remains uncertain.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 208. रोला
+
+- Note ID: `notes_20240423120254`
+- Image: `notes_20240423120254.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `28f5c904bfaf03ffc29e7ec7224f033a4707f7cee23b89c10eec02e1d67f2339`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 208.
+>
+> Poem title: रोला
+> Note ID: notes_20240423120254
+>
+> विषय:(स्वतंत्र)
+> जिसने किया गुनाह,सजा उसने है पाई।
+> रोता खुद है आज, बना बेबस है भाई।
+> सुन बेटे की मौत, जेल में नींद न आई।
+> होती है बेकार,पाप से भरी कमाई।
+> सादर समीक्षार्थ
+>
+> Editorial English draft: Topic: open. The one who committed the crime has received the punishment. Today he himself weeps, rendered helpless, brother. After hearing of his son's death, he could not sleep in prison. Earnings filled with sin ultimately prove worthless. Respectfully submitted for review.
+> सरल अर्थ: इस रोला में अपराध करने वाले व्यक्ति को दंड, बेटे की मृत्यु का दुख और जेल की बेबसी झेलते दिखाया गया है। पाप से कमाई दौलत को अंततः व्यर्थ बताया गया है।
+> Editorial context: This open-topic rola is dated 2023-04-15. Its references to a jailed figure and a son's death appear connected to contemporary crime news, but neither person nor incident is named in the record.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 209. वाद्य
+
+- Note ID: `notes_20240423120259`
+- Image: `notes_20240423120259.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `d2c6a5173f50d0664ce5b61cc352d979804a9ecb4d3b91854c07215a7423114a`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 209.
+>
+> Poem title: वाद्य
+> Note ID: notes_20240423120259
+>
+> पुरवाई के साथ ज्यों, रिमझिम पड़े फुहार।
+> वाद्य यंत्र सुन हो रहे, झंकृत मन के तार।
+>
+> Editorial English draft: As a light rain falls with the east wind, Hearing the instruments sets the heart's strings resonating.
+> सरल अर्थ: पुरवाई, रिमझिम वर्षा और वाद्य-संगीत मिलकर मन को भाव-विभोर करते हैं। हृदय के तार झंकृत होना भीतर आनंद और संवेदना जागने का रूपक है।
+> Editorial context: The 2023-04-16 record uses “वाद्य” as its provided word. It joins rainy-season imagery with a musical metaphor and does not point to a specific event.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+## Gemini CLI checkpoint — forward-185
+
+### 185. जयंती
+
+- Note ID: `notes_20240423120002`
+- Image: `notes_20240423120002.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `afcc0d30dc127e07d45bc0f2e499a45b713b99333ce21723d6e6cb87a9fc1d38`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 185.
+>
+> Poem title: जयंती
+> Note ID: notes_20240423120002
+>
+> सत्य,अहिंसा, का मिला; महावीर से ज्ञान।
+> जन्म जयंती मनाके, झूमे सकल जहान।
+>
+> Editorial English draft: From Mahavira came the teaching of truth and nonviolence. Celebrating his birth anniversary, the whole world rejoices.
+> सरल अर्थ: महावीर जयंती पर भगवान महावीर से मिली सत्य और अहिंसा की शिक्षा को याद किया गया है। उत्सव की खुशी को पूरे संसार के झूमने की अतिशयोक्ति से व्यक्त किया गया है।
+> Editorial context: Dated 2023-04-05 with “जयंती” as the prompt, the wording identifies Mahavira Jayanti. “The whole world” is celebratory poetic language and does not claim universal observance.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 196. अंकित
+
+- Note ID: `notes_20240423120052`
+- Image: `notes_20240423120052.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `6ba37eeb75a2385577e471c208017da704603eaf1178f1db47f46ce3083c7bfa`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 196.
+>
+> Poem title: अंकित
+> Note ID: notes_20240423120052
+>
+> भारत के इतिहास में,अंकित है शुभ नाम।
+> भगत सिंघ को कर रहा, सारा देश सलाम।
+>
+> Editorial English draft: His honoured name is inscribed in India's history. People throughout the country salute the freedom fighter Bhagat Singh.
+> सरल अर्थ: भगत सिंह के नाम को भारत के इतिहास में सम्मान से अंकित बताया गया है। पूरा देश उन्हें सलाम करके उनके बलिदान और साहस को याद करता है।
+> Editorial context: Dated 2023-04-11 with “अंकित” as the prompt, the verse explicitly names Bhagat Singh. It is a general patriotic tribute and does not identify a particular anniversary.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 200. डाह
+
+- Note ID: `notes_20240423120127`
+- Image: `notes_20240423120127.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `ca0c0f1587a1c3686f3ddfc2a155f41bff75fb51c6c7a6bca51db35f14e68e76`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 200.
+>
+> Poem title: डाह
+> Note ID: notes_20240423120127
+>
+> रहते हैं बेचैन वो, जिनको होती डाह।
+> दूजे का सुख देखके, भरते रहते आह‌।
+>
+> Editorial English draft: Those who feel envy remain restless. Seeing another person's happiness, they keep sighing.
+> सरल अर्थ: ईर्ष्या करने वाला व्यक्ति बेचैन रहता है और दूसरों का सुख देखकर दुखी होता है। दोहा डाह छोड़कर अपने मन को शांत रखने की सीख देता है।
+> Editorial context: Dated 2023-04-12 with “डाह” as the prompt, the couplet describes envy as a source of inner unrest. It is a general moral observation and does not target a named person.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 201. मधुर
+
+- Note ID: `notes_20240423120224`
+- Image: `notes_20240423120224.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `dc1da9efa9728e152b9ce7928fdde25165ac52e82b1d168b7095ff76fa070e25`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 201.
+>
+> Poem title: मधुर
+> Note ID: notes_20240423120224
+>
+> वाणी मीठी बोलिए,बनें मधुर संबंध‌।
+> रिश्तों से आती रहे, मनमोहक सी गंध।
+>
+> Editorial English draft: Speak sweetly so that relationships become gentle. Then a captivating fragrance will keep rising from those bonds.
+> सरल अर्थ: मधुर वाणी से संबंध भी मधुर बनते हैं। अच्छे रिश्तों से मिलने वाली प्रसन्नता को मनमोहक सुगंध के रूपक से व्यक्त किया गया है।
+> Editorial context: Dated 2023-04-12 with “मधुर” as the prompt, the couplet links courteous speech with healthy relationships. The fragrance is figurative rather than literal.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+## Gemini CLI checkpoint — reverse-746
+
+### 746. सांकल
+
+- Note ID: `notes_20240423131139`
+- Image: `notes_20240423131139.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `cc09fdee75fec459ad739e01cb24c6fc9a2c2ae86a191efac9ab5967ec542b38`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 746.
+>
+> Poem title: सांकल
+> Note ID: notes_20240423131139
+>
+> आये सांकल की जगह, ऑटोमेटिक लॉक।
+> कार्ड लगाकर खोलिए, और कीजिए वॉक।
+>
+> Editorial English draft: Automatic locks have replaced the old door chain. Use a card to open one, and then go for your walk.
+> सरल अर्थ: पुरानी सांकल की जगह कार्ड से खुलने वाले ऑटोमेटिक लॉक का चित्र है। रचना रोजमर्रा की तकनीक से आए बदलाव को हल्के और सहज अंदाज में बताती है।
+> Editorial context: The prompt is “सांकल.” The couplet contrasts a traditional chain or latch with a card-operated automatic lock, likely the kind used in hotels or modern buildings; the exact setting is not stated.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 745. आराधना
+
+- Note ID: `notes_20240423131135`
+- Image: `notes_20240423131135.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `ee7b16f77719097013e64f1e82095af5899b26444a2726ef435d4164cd2e2654`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 745.
+>
+> Poem title: आराधना
+> Note ID: notes_20240423131135
+>
+> वाम अंग सब फड़क कर, कहते शुभ हो काम।
+> कर गौरी आराधना, पाये सिय ने राम।
+>
+> Editorial English draft: Every twitch on the left side suggested that the undertaking would be auspicious. By worshipping Gauri, Sita attained Ram.
+> सरल अर्थ: दोहा शुभ शकुन और सीता की गौरी-पूजा को जोड़ता है। भाव यह है कि गौरी की आराधना और मंगल संकेतों के बीच सीता को राम वर के रूप में मिले।
+> Editorial context: The prompt is “आराधना.” The couplet appears to draw on Ramayana wedding traditions in which Sita worships Gauri and receives a blessing regarding Ram. Beliefs about left-side twitching as an omen are traditional and vary by context.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 744. मीरा
+
+- Note ID: `notes_20240423131132`
+- Image: `notes_20240423131132.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `03a7a39de90d2975ddc6159d8687b7de2c3cf6580e40d02b26cc8a3d110c1257`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 744.
+>
+> Poem title: मीरा
+> Note ID: notes_20240423131132
+>
+> मीरा सुध-बुध भूल कर, गिरधर में आसक्त।
+> राधा राजस्थान की, कहते हैं सब भक्त।
+>
+> Editorial English draft: Meera, forgetting all worldly awareness, was absorbed in Giridhar. All devotees call her the Radha of Rajasthan.
+> सरल अर्थ: मीरा की कृष्ण-भक्ति इतनी गहरी बताई गई है कि वे सांसारिक सुध-बुध भूलकर गिरधर में लीन हो गईं। उन्हें राजस्थान की राधा कहना उनके प्रेम और समर्पण की प्रशंसा है।
+> Editorial context: The prompt is “मीरा.” The couplet refers to the poet-saint Mirabai's devotion to Krishna, whom she addressed as Giridhar, and uses “Radha of Rajasthan” as an honorific devotional comparison rather than a formal historical title.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 743. वेद
+
+- Note ID: `notes_20240423131129`
+- Image: `notes_20240423131129.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `57b222a6ef9c3f466777ca836b52672849aa16fffb7021e2bde817bb78d9fd62`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 743.
+>
+> Poem title: वेद
+> Note ID: notes_20240423131129
+>
+> दिया हमें पर ब्रह्म ने, स्वयं वेद का ज्ञान।
+> ऋषियों ने मौखिक सुना, लिखा लगा कर ध्यान।
+>
+> Editorial English draft: The Supreme Brahman gave us the knowledge of the Vedas. The sages heard it orally and wrote it down with concentration.
+> सरल अर्थ: दोहा वेदों के ज्ञान को परब्रह्म से प्राप्त पवित्र ज्ञान मानता है। ऋषियों की श्रुति-परंपरा, ध्यानपूर्वक सुनने, याद रखने और आगे लिखित रूप में सुरक्षित करने के योगदान का सम्मान किया गया है।
+> Editorial context: The prompt is “वेद.” The couplet reflects a devotional understanding of the Vedas as divine revelation heard by sages. Historically, Vedic texts were transmitted orally for long periods before manuscript traditions; the line compresses that complex process.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 741. वसंत
+
+- Note ID: `notes_20240423131123`
+- Image: `notes_20240423131123.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `57a49daf91668245f57d56d01551d330385a142b8529f84a642910c17fb1f05f`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 741.
+>
+> Poem title: वसंत
+> Note ID: notes_20240423131123
+>
+> पंचमी तिथि वसंत पर, बढ़ी देश की शान।
+> यू.ए.ई. में बन गया, मंदिर आलीशान।
+>
+> Editorial English draft: On the date of Vasant Panchami, the nation's pride increased. A magnificent temple was completed in the UAE.
+> सरल अर्थ: वसंत पंचमी के दिन संयुक्त अरब अमीरात में बने भव्य हिंदू मंदिर पर प्रसन्नता व्यक्त की गई है। कवयित्री इसे विदेश में भारतीय आस्था और संस्कृति की प्रतिष्ठा बढ़ाने वाली उपलब्धि मानती हैं।
+> Editorial context: Dated 14 February 2024, which was Vasant Panchami, the verse appears to refer to the inauguration of the BAPS Hindu Mandir in Abu Dhabi that day. “The nation's pride increased” is the poem's celebratory perspective.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 740. मयूर
+
+- Note ID: `notes_20240423131120`
+- Image: `notes_20240423131120.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `c51020fb2af9fa071ade8f2565136e4882af36ae7cef97d410fdb8b7d7b75511`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 740.
+>
+> Poem title: मयूर
+> Note ID: notes_20240423131120
+>
+> भोले के दरबार का,अद्भुत देखा रंग।
+> बैल,बाघ इक संग हैं ; साथ मयूर, भुजंग।
+>
+> Editorial English draft: I saw a wondrous scene in Lord Shiva's court. The bull and tiger are together, alongside peacock and serpent.
+> सरल अर्थ: शिव के दरबार में बैल, बाघ, मोर और सर्प जैसे स्वभावतः विरोधी जीव एक साथ दिखाई देते हैं। यह अद्भुत दृश्य शिव-सान्निध्य में वैर मिटने और समरसता बनने का भाव देता है।
+> Editorial context: The prompt is “मयूर.” The verse gathers animals associated with Shiva's household and other deities—such as Nandi, the tiger, peacock, and serpent—to express harmony among natural adversaries. The exact iconographic grouping is poetic.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 739. यशस्वी
+
+- Note ID: `notes_20240423131117`
+- Image: `notes_20240423131117.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `98dd243a66af6cea6fba28b7119e7861b354db988b073bce4ed183a5b61c57f2`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 739.
+>
+> Poem title: यशस्वी
+> Note ID: notes_20240423131117
+>
+> हरिश्चंद्र सा विश्व में, नहीं यशस्वी आज।
+> वचन निभाने के लिए, छोड़ा राज समाज।
+>
+> Editorial English draft: No one today is as renowned in the world as Harishchandra. To keep his word, he gave up kingdom and society.
+> सरल अर्थ: राजा हरिश्चंद्र को वचन निभाने और सत्य पर अडिग रहने के कारण यशस्वी बताया गया है। राज-पाट और सामाजिक सुख छोड़ने पर भी उन्होंने अपना संकल्प नहीं छोड़ा।
+> Editorial context: The prompt is “यशस्वी.” The couplet invokes the legendary King Harishchandra, celebrated in Hindu narrative traditions for truthfulness and extreme sacrifice. “No one today” is emphatic praise rather than a measurable comparison.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 738. कील
+
+- Note ID: `notes_20240423131114`
+- Image: `notes_20240423131114.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `c005eac8d8ea08c72db4e22af888f9f182d04816b7662d2d3dca2b89f110256f`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 738.
+>
+> Poem title: कील
+> Note ID: notes_20240423131114
+>
+> 1.
+> लट्टू लकड़ी का बना, बीच गड़ी है कील।
+> रस्सी गोल लपेटकर, झटके से दें ढील।
+> 2.
+> नाचे लट्टू कील पर, खेल बड़ा प्राचीन।
+> बच्चे अद्भुत खेल को,देखें फिर तल्लीन।
+>
+> Editorial English draft: 1. The spinning top is made of wood, with a nail fixed in its centre. Wrap a string around it and release it with a quick pull. 2. The top dances upon its nail; this is a very ancient game. Children watch the wonderful toy, absorbed once again.
+> सरल अर्थ: रचना लकड़ी के लट्टू की बनावट और उसे चलाने का तरीका बताती है। रस्सी लपेटकर झटका देने पर लट्टू अपनी कील पर नाचता है और यह पुराना खेल बच्चों को आज भी तल्लीन कर देता है।
+> Editorial context: The prompt is “कील.” The two verses describe the metal point of a traditional wooden spinning top, the string used to launch it, and the continuing appeal of this old children's game.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 737. निगाह
+
+- Note ID: `notes_20240423131111`
+- Image: `notes_20240423131111.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `2521d51d7315b51b8edd804f7dab6cfd9bfc7d3738821adc7ac09ac59f3df08d`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 737.
+>
+> Poem title: निगाह
+> Note ID: notes_20240423131111
+>
+> हसरत भरी निगाह में,दिखें मुझे बस राम।
+> अवधपुरी को मैं चली, तजकर सारे काम।
+>
+> Editorial English draft: In my longing gaze, I see only Ram. Leaving all my tasks, I have set out for Ayodhya.
+> सरल अर्थ: कवयित्री की लालसा-भरी दृष्टि में केवल राम हैं। वे सारे काम छोड़कर अवधपुरी जाने की बात कहती हैं, जिससे भक्ति, दर्शन की इच्छा और तीर्थ-यात्रा का उत्साह प्रकट होता है।
+> Editorial context: Dated 3 February 2024 with the prompt “निगाह,” the couplet expresses a first-person desire to go to Ayodhya and see Ram. It follows soon after the January consecration, but the record does not confirm an actual journey.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 736. आश्रित
+
+- Note ID: `notes_20240423131109`
+- Image: `notes_20240423131109.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `d443e5f140b517159971ad7f01e18c465d4dd5690444457aad38f67b3892b52e`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 736.
+>
+> Poem title: आश्रित
+> Note ID: notes_20240423131109
+>
+> छाया में वटवृक्ष की, खिलते नहीं पलाश।
+> आश्रित बरगद वृक्ष के, नहीं छुएं आकाश।
+>
+> Editorial English draft: Palash trees do not blossom beneath the banyan's shade. Those dependent on the banyan tree do not touch the sky.
+> सरल अर्थ: बरगद की घनी छाया में पलाश के न खिलने की छवि से अत्यधिक आश्रय का नुकसान समझाया गया है। भाव यह है कि आगे बढ़ने के लिए अपने प्रकाश, स्थान और आत्मनिर्भरता की जरूरत होती है।
+> Editorial context: The prompt is “आश्रित.” The couplet uses the shade and scale of a banyan tree as a metaphor for dependence limiting growth. The botanical statement functions poetically and should not be read as a universal rule about palash trees.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 735. चक्की
+
+- Note ID: `notes_20240423131105`
+- Image: `notes_20240423131105.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `3869b2e87fa4b586d8d159a210be186a97931459827db00eedf288c1f2cd55d2`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 735.
+>
+> Poem title: चक्की
+> Note ID: notes_20240423131105
+>
+> सागर खारा क्यों हुआ, जानें कथा प्रबुद्ध।
+> चक्की चले समुद्र में, नमक फेंकती शुद्ध।
+>
+> Editorial English draft: The wise know the tale of why the ocean became salty. A mill keeps turning in the sea, continually casting out salt.
+> सरल अर्थ: यह दोहा उस लोककथा का संकेत देता है जिसमें जादुई चक्की समुद्र में लगातार नमक पीसती रहती है और इसी से सागर खारा बताया जाता है। यह वैज्ञानिक कारण नहीं, कल्पनापूर्ण कथा है।
+> Editorial context: The prompt is “चक्की.” The verse appears to invoke the widespread folktale motif of a magical salt mill lost at sea, used to explain why seawater is salty. The exact regional version is not identified.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 734. शापित
+
+- Note ID: `notes_20240423131101`
+- Image: `notes_20240423131101.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `3503941c93ce2c885dbbc957047fe82527f44afd6c3a9b3018b6dc74f89771bf`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 734.
+>
+> Poem title: शापित
+> Note ID: notes_20240423131101
+>
+> शापित दशरथ ने तजे, सुत वियोग में प्राण।
+> महंगा उनको पड़ गया, शब्द भेदता बाण।
+>
+> Editorial English draft: Cursed Dasharatha gave up his life in grief at separation from his son. The arrow he shot by following sound cost him dearly.
+> सरल अर्थ: दोहा राजा दशरथ के पुत्र-वियोग में प्राण त्यागने को उनके पुराने कर्म से जोड़ता है। शब्दभेदी बाण से श्रवण कुमार की अनजाने में हुई मृत्यु के बाद मिले शाप की ओर संकेत है।
+> Editorial context: The prompt is “शापित.” The couplet draws on the Ramayana-associated story of Dasharatha's sound-guided arrow, Shravan Kumar's death, and the curse that Dasharatha would also die grieving for a son. Details vary across retellings.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 732. प्रणय
+
+- Note ID: `notes_20240423131054`
+- Image: `notes_20240423131054.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `87762a67ec8b5a9c0eefa267d5511118f6b290e3bcc4c626fb3a21c87e56d869`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 732.
+>
+> Poem title: प्रणय
+> Note ID: notes_20240423131054
+>
+> प्रणय निवेदन लखन ने, नहीं किया स्वीकार।
+> शूर्पणखा की कथा यह,सर्वविदित संसार‌।
+>
+> Editorial English draft: Lakshman did not accept the proposal of love. This story of Shurpanakha is known throughout the world.
+> सरल अर्थ: दोहा रामायण के उस प्रसंग को याद करता है जिसमें शूर्पणखा लक्ष्मण के सामने प्रणय-निवेदन करती है और वे उसे स्वीकार नहीं करते।
+> Editorial context: The prompt is “प्रणय.” The couplet refers to the widely retold Ramayana encounter among Shurpanakha, Ram, and Lakshman. Versions differ in wording and sequence, so this context stays close to the poem's concise account.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 731. ध्वज
+
+- Note ID: `notes_20240423131051`
+- Image: `notes_20240423131051.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `7990a521c8d31d34fd385a60f136e2cd1f4e0119f506c1d13798cd6d77fceab8`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 731.
+>
+> Poem title: ध्वज
+> Note ID: notes_20240423131051
+>
+> 1.
+> ध्वज अपना लहरा रहा, चांद दक्षिणी छोर।
+> खींचे रोवर ने वहां, राष्ट्र चिह्न चंहु ओर।
+> 2.
+> भगवा ध्वज लहरा रहा, भारत में चंहु ओर।
+> रामलला का आगमन, मचा रहा है शोर।
+> 3.
+> देशभक्त सैनिक सभी, रखते ध्वज का मान।
+> आन बान इसकी रखें, हो जाते कुर्बान।
+>
+> Editorial English draft: 1. Our flag is flying at the Moon's southern edge. There the rover has drawn national emblems all around. 2. The saffron flag is flying throughout India. The arrival of Ram Lalla is stirring great excitement. 3. Every patriotic soldier preserves the honour of the flag. They protect its pride and dignity, even sacrificing their lives.
+> सरल अर्थ: रचना ध्वज की छवि से तीन प्रसंग जोड़ती है—चंद्रयान की चंद्र-दक्षिण क्षेत्र की उपलब्धि, रामलला के स्वागत में लहराते भगवा ध्वज, और राष्ट्रध्वज की आन-बान के लिए समर्पित सैनिक।
+> Editorial context: Dated 29 January 2024, the verses appear to combine Chandrayaan-3, the recent Ayodhya consecration, and military respect for the national flag. The rover's wheel carried Indian symbols intended to leave impressions, but the poem's image of emblems “all around” is celebratory wording rather than a verified technical result.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 729. गणतंत्र
+
+- Note ID: `notes_20240423131044`
+- Image: `notes_20240423131044.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `d647aade5020c370c12bd5336f525d2ca0e6ad1e7433bf16b49f402af22924bd`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 729.
+>
+> Poem title: गणतंत्र
+> Note ID: notes_20240423131044
+>
+> प्रथम बार गणतंत्र पर, नया दिखा अंदाज।
+> शंख, नगाड़े गूंजते; थे परेड में आज।
+>
+> Editorial English draft: For the first time, Republic Day showed a new style. Conches and drums resounded in today's parade.
+> सरल अर्थ: दोहा गणतंत्र दिवस परेड में दिखाई दिए नए अंदाज का उल्लेख करता है। शंख और नगाड़ों की गूंज के माध्यम से राष्ट्रीय समारोह में पारंपरिक भारतीय वाद्यों की उपस्थिति पर प्रसन्नता व्यक्त हुई है।
+> Editorial context: Dated 26 January 2024, the verse appears to refer to traditional instruments heard in that day's Republic Day parade. “For the first time” is retained as the poem's observation and has not been independently established here.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 728. संविधान
+
+- Note ID: `notes_20240423131041`
+- Image: `notes_20240423131041.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `298ee6698ecdaa83f36b7c7a4d2840aefc286297fe18e0c96db309af657fbf9f`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 728.
+>
+> Poem title: संविधान
+> Note ID: notes_20240423131041
+>
+> 1.
+> संविधान से है मिला, जनता को अधिकार।
+> राष्ट्र चलाने के लिए,चुने स्वयं सरकार।
+> 2.
+> संविधान के मायने, सब हैं एक समान।
+> सभी जातियों के लिए,होगा एक विधान।
+>
+> Editorial English draft: 1. The Constitution has given rights to the people. To govern the nation, they choose their own government. 2. The Constitution means that everyone is equal. There must be one law for people of every caste.
+> सरल अर्थ: रचना बताती है कि संविधान जनता को अधिकार और अपनी सरकार चुनने की शक्ति देता है। उसका मूल संदेश समानता है—हर जाति के लिए कानून एक समान होना चाहिए।
+> Editorial context: The record is dated 2024-01-26, India's Republic Day, and names “संविधान” as the prompt. The poem focuses on democratic choice, rights, legal equality, and caste equality.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 727. अटूट
+
+- Note ID: `notes_20240423131038`
+- Image: `notes_20240423131038.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `ed05f9340aa720f2bb4e3e83c1fb36177790802843fc93fad2ca4d15395d4bd8`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 727.
+>
+> Poem title: अटूट
+> Note ID: notes_20240423131038
+>
+> शबरी सा विश्वास ले, जपें राम का नाम।
+> हो अटूट श्रद्धा जहां, वहां पहुंचते राम।
+>
+> Editorial English draft: With faith like Shabari's, chant the name of Ram. Where devotion is unwavering, Ram arrives there.
+> सरल अर्थ: शबरी की अटूट प्रतीक्षा और भक्ति को आदर्श मानकर राम-नाम जपने की सीख दी गई है। भाव यह है कि सच्ची और दृढ़ श्रद्धा में ईश्वर की निकटता अनुभव होती है।
+> Editorial context: The prompt is “अटूट.” The couplet invokes Shabari from the Ramayana tradition as a model of steadfast devotion and Ram's response to sincere faith.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 726. छाया
+
+- Note ID: `notes_20240423131035`
+- Image: `notes_20240423131035.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `51693a0c79371d3c9c1f2c8aa1886795b1c8623fdae4f620166dc10da663402d`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 726.
+>
+> Poem title: छाया
+> Note ID: notes_20240423131035
+>
+> किरणें जहां प्रकाश की, नहीं पहुंचती पार।
+> छाया बनती उस जगह, दिखता वह आकार।
+>
+> Editorial English draft: Where rays of light cannot pass through, a shadow forms there, showing that shape.
+> सरल अर्थ: जब कोई वस्तु प्रकाश की किरणों को आगे जाने से रोकती है, तब छाया बनती है। उस छाया की रूपरेखा से वस्तु का आकार दिखाई देता है।
+> Editorial context: The supplied word is “छाया.” The verse gives a simple everyday description of shadow formation and the outline produced when light is blocked.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 725. अंग
+
+- Note ID: `notes_20240423131028`
+- Image: `notes_20240423131028.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `04849e88c8beba9ea791ffa61492ac45fcbec5d43184cc5fdb5af06e48742fb5`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 725.
+>
+> Poem title: अंग
+> Note ID: notes_20240423131028
+>
+> चक्र सुदर्शन से कटे, मातु सती के अंग।
+> क्रोध शांत शिव का हुआ, मोह हो गया भंग।
+>
+> Editorial English draft: Sati's limbs were severed by the Sudarshan Chakra. Shiva's anger subsided, and his attachment was broken.
+> सरल अर्थ: यह दोहा उस पौराणिक कथा को याद करता है जिसमें विष्णु का सुदर्शन चक्र सती के शरीर के अंग अलग करता है। इससे शोक और क्रोध में डूबे शिव का उग्र रूप शांत होने तथा मोह टूटने का भाव आता है।
+> Editorial context: The prompt is “अंग.” The couplet draws on a Shakta-Shaiva myth associated with Sati's death, Shiva's grief, Vishnu's Sudarshan Chakra, and the origins of Shakti Peethas. Retellings differ in detail, so the context does not assert one version as definitive.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 724. सूरत
+
+- Note ID: `notes_20240423131032`
+- Image: `notes_20240423131032.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `eb38b9573e4877efbef1361984b949201cfd79ce8888152088eba66eb26b4cf0`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 724.
+>
+> Poem title: सूरत
+> Note ID: notes_20240423131032
+>
+> प्रमुख नगर गुजरात का, सूरत इसका नाम।
+> हीरों के व्यापार से, चमक रहा है नाम।
+>
+> Editorial English draft: A major city of Gujarat is named Surat. Its name shines through the diamond trade.
+> सरल अर्थ: सूरत को गुजरात का प्रमुख नगर बताते हुए उसके हीरा-व्यापार की प्रसिद्धि का उल्लेख किया गया है। चमकते हीरों और नगर के चमकते नाम को सुंदर ढंग से जोड़ा गया है।
+> Editorial context: Dated 23 January 2024 with the prompt “सूरत,” the verse refers to Surat, Gujarat, and its well-known diamond cutting and trading industry. No particular business or event is identified.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 723. सियाराम
+
+- Note ID: `notes_20240423131024`
+- Image: `notes_20240423131024.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `cd7d702cd6943eafc7a6be86afc97e1b0b65fc8e2dccad49a906545190cb7b10`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 723.
+>
+> Poem title: सियाराम
+> Note ID: notes_20240423131024
+>
+> सियाराम सी जोड़ियां, नहीं जगत में नाथ।
+> रोज शादियां टूटतीं, नहीं निभे अब साथ।
+>
+> Editorial English draft: There is no couple in the world like Sita and Ram, O Lord. Marriages break every day; companionship no longer endures.
+> सरल अर्थ: दोहा सियाराम की जोड़ी को आदर्श मानकर आज के टूटते विवाहों पर चिंता व्यक्त करता है। इसका मुख्य संदेश साथ निभाने और रिश्ते के प्रति प्रतिबद्ध रहने का है, हालांकि वास्तविक संबंधों की परिस्थितियां अलग-अलग हो सकती हैं।
+> Editorial context: The prompt is “सियाराम.” The couplet contrasts a devotional ideal of Sita-Ram companionship with a broad criticism of contemporary marriage breakdown. The claim about marriages is rhetorical and should not be treated as social data.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+### 722. उत्सव
+
+- Note ID: `notes_20240423131019`
+- Image: `notes_20240423131019.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `ea8c6a5d25745192ce41add802ceef8be7415dfdc17c1d8bed830ad3253996c2`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 722.
+>
+> Poem title: उत्सव
+> Note ID: notes_20240423131019
+>
+> 1.
+> किया पांच सौ वर्ष तक,भक्तों ने संघर्ष।
+> उत्सव आज मना रहे, मिलकर सभी सहर्ष।
+> 2.
+> पृथ्वी से आकाश तक, आनंदित परिवेश।
+> घर-घर उत्सव आज है, हुआ राम मय देश।
+> 3.
+> उत्सव आज मना रहे, राम भक्त सब साथ।
+> जितने रावण देश में, कट गए उनके माथ।
+>
+> Editorial English draft: 1. Devotees struggled for five hundred years. Today everyone is joyfully celebrating together. 2. From earth to sky, the surroundings are filled with delight. Every home celebrates today; the nation is immersed in Ram. 3. All devotees of Ram are celebrating together today. The heads of all the Ravanas in the country have been cut down.
+> सरल अर्थ: प्राण-प्रतिष्ठा के दिन लिखी गई रचना भक्तों के सामूहिक उत्सव और राममय वातावरण का चित्र देती है। अंतिम पंक्ति में रावण के सिर कटने की छवि बुराई पर विजय के रूपक के रूप में आती है।
+> Editorial context: Dated 22 January 2024 and prompted by “उत्सव,” the poem appears to respond directly to the Ram Mandir consecration in Ayodhya that day. “Five hundred years” reflects a common celebratory framing, while the Ravana image is best read as a forceful mythological metaphor rather than a report of literal violence.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+## Gemini CLI checkpoint — reverse-746
+
+### 742. साधना
+
+- Note ID: `notes_20240423131126`
+- Image: `notes_20240423131126.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `fb29c7934734e356f8569be0335a501f523667a716d72d27975860899d62ca1e`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 742.
+>
+> Poem title: साधना
+> Note ID: notes_20240423131126
+>
+> 1.
+> कठिन साधना से मिली, ध्रुव को प्रभु की गोद।
+> चमक रहा आकाश में, मन में है आमोद।
+> 2.
+> रत्नाकर ने था जपा, उल्टा प्रभु का नाम‌।
+> सच्ची उनकी साधना, मिले प्रभु श्री राम।
+> 3.
+> सतत साधना योग से, पूरा हो विश्वास‌।
+> गंगा आईं धरा पर, भागीरथी प्रयास।
+>
+> Editorial English draft: 1. Through difficult spiritual practice, Dhruva attained the Lord's embrace. He shines in the sky, with joy in his heart. 2. Ratnakar repeated the Lord's name in reverse. His practice was sincere, and he encountered Lord Ram. 3. With continuous disciplined practice, faith is fulfilled. The Ganga came to earth through Bhagiratha's effort.
+> सरल अर्थ: तीन प्रसंग कठिन और निरंतर साधना का फल दिखाते हैं। ध्रुव को प्रभु की गोद और आकाश में स्थान मिलता है, रत्नाकर जप से बदलते हैं, और भगीरथ के प्रयास से गंगा धरती पर आती हैं।
+> Editorial context: The prompt is “साधना.” The verses draw on devotional narratives of Dhruva, Ratnakar's transformation into Valmiki through the “mara/Rama” tradition, and Bhagiratha's penance to bring the Ganga to earth. These are traditional accounts with variant retellings.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+
+
+## Gemini CLI checkpoint — reverse-746
+
+### 733. तारा
+
+- Note ID: `notes_20240423131058`
+- Image: `notes_20240423131058.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `45a128fc5b9716b6d4093f923bf4c4a9b02150d6b440f6c42b9e671ed019e771`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 733.
+>
+> Poem title: तारा
+> Note ID: notes_20240423131058
+>
+> 1.
+> तारा सबकी आंख का, मनमोहन घनश्याम।
+> भांति भांति लीला करे, ब्रज है उसका धाम।
+> 2.
+> शुक्र अगर हो उच्च का, देता यश और मान।
+> सुखमय जीवन के लिए,तारा यह पहचान।
+> 3.
+> तारा हर इक गोत्र का,सप्त ऋषि को जान।
+> होती इनके के नाम से,गोत्रों की पहचान।
+> 4.
+> चमके उत्तर दिशा में, पाकर प्रभु का धाम।
+> तारा है यह भोर का, ध्रुव है इसका नाम।
+> 5.
+> तारा जब है टूटता, करे नहीं नभ शोक।
+> आना जाना है नियम, नहीं सके हम रोक।
+>
+> Editorial English draft: 1. The darling of every eye is the enchanting dark-hued Krishna. He performs many kinds of divine play, and Braj is his home. 2. If Venus is exalted, it grants fame and honour. For a happy life, recognize this star. 3. Know the seven sages as the guiding stars of every lineage. Lineages receive their identities from their names. 4. Shining in the north after attaining the Lord's abode, this is the star of dawn; Dhruva is its name. 5. When a star falls, the sky does not grieve. Coming and going is a law that we cannot stop.
+> सरल अर्थ: पांच दोहों में तारे के अलग-अलग रूप आए हैं—आंखों के तारे कृष्ण, ज्योतिष का शुक्र, गोत्रों से जुड़े सप्तऋषि, उत्तर दिशा में ध्रुव और टूटता तारा। अंतिम भाग आने-जाने को जीवन का अटल नियम मानने की सीख देता है।
+> Editorial context: The prompt is “तारा.” The sequence blends Krishna devotion, traditional astrology, gotra associations with the Saptarishi, the Dhruva story, and a reflection on falling stars. The phrase calling Dhruva the “star of dawn” is translated as written, though Dhruva is traditionally identified with the pole star, not the morning star.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+>
+> CRITICAL VISUAL DIRECTION: Create a single poetic night landscape, not an astronomy chart or educational diagram. Do not show labels, star names, arrows, callout lines, written explanations, typographic symbols or infographic layout. Suggest Krishna, the morning star, the seven sages and a falling star only through unlabeled visual imagery in one continuous sky.
+
+
+### 730. मेवा
+
+- Note ID: `notes_20240423131047`
+- Image: `notes_20240423131047.jpg`
+- Status: Accepted through the Playwright CLI review workflow.
+- Download SHA-256: `e173a554bc69946eaa39b47af8e56f7fcccb8feb86dd654a745bdbf27ea088b6`
+- Native dimensions: 1792×2400
+
+> Create exactly one finished illustration for page 730.
+>
+> Poem title: मेवा
+> Note ID: notes_20240423131047
+>
+> 1
+> जिला जामताड़ा सुना,अद्भुत इसका नाम।
+> सस्ती है मेवा यहां,सब्जी जैसे दाम।
+> 2.
+> गुड़ में मेवा डालिए,सोंठ,गोंद हो साथ।
+> लड्डू इसके खाइए, चाटेंगे फिर हाथ।
+> 3.
+> याददाश्त बढ़िया रहे, खाते जो बादाम।
+> मेवा यह स्वादिष्ट है, है प्रोटीन तमाम।
+> 4.
+> सूखें जब अंगूर तो, किशमिश पाती रूप।
+> मेवा मीठी यह बने, अद्भुत और अनूप।
+> 5.
+> चिलगोजा मेवा सुनो, गुणकारी भरपूर।
+> स्वाद विटामिन के लिए, काफी है मशहूर।
+> 6.
+> मेवा इक मशहूर है, पिस्ता उसका नाम।
+> बर्फी इसकी खाइए, भूलें स्वाद तमाम।
+> 7.
+> मीठे में मेवा लगे, स्वर्ण जड़ित ज्यों रत्न।
+> शोभा इनकी गजब हो, मिलते जब बहु यत्न।
+>
+> Editorial English draft: 1. I have heard of Jamtara district and its remarkable name. Dry fruits are inexpensive here, priced like vegetables. 2. Add dry fruits to jaggery, along with dried ginger and edible gum. Eat these laddus, and afterward you will lick your fingers. 3. Those who eat almonds keep a good memory. This dry fruit is delicious and contains abundant protein. 4. When grapes dry, they take the form of raisins. They become a sweet dry fruit, wonderful and distinctive. 5. Listen: the chilgoza pine nut is full of beneficial qualities. It is well known for its taste and vitamins. 6. There is a famous dry fruit called the pistachio. Eat its barfi, and every other flavour will be forgotten. 7. Dry fruits in sweets look like gems set in gold. Their beauty is amazing when they are obtained with much effort.
+> सरल अर्थ: इन सात दोहों में मेवों और उनसे बने पकवानों का स्वादपूर्ण वर्णन है। जामताड़ा में सस्ते मेवे, गुड़-सोंठ-गोंद के लड्डू, बादाम, किशमिश, चिलगोजा, पिस्ता और मिठाइयों में उनकी रत्न-जैसी सजावट का उल्लेख किया गया है।
+> Editorial context: The prompt is “मेवा.” The opening claim about inexpensive dry fruits in Jamtara may reflect a report, local observation, or wordplay, but the record gives no source, so it remains uncertain. Nutritional benefits are translated as general poetic claims and not presented as medical guidance.
+>
+> Interpret the poem as one dignified, coherent visual scene. Preserve cultural and devotional references respectfully. Do not add facts that are not supported by the poem or editorial context.
+>
+> OUTPUT REQUIREMENTS:
+> - Gemini native 3:4 portrait, highest available resolution
+> - true full-bleed painting reaching all four canvas edges
+> - no white or cream blank border, paper mat, decorative frame or page margin
+> - no text, Devanagari, captions, labels, signatures, numbers or logos
+> - keep essential figures and objects inside an 8% safe area
+> - background watercolor and gouache washes must continue naturally to every edge
+>
+> Generate exactly one image.
+>
+> CRITICAL VISUAL DIRECTION: Create a warm household still-life scene, not a food chart, recipe card, ingredient list, map or infographic. Show assorted dry fruits, laddus and a family sharing them naturally. Do not label foods, locations or ingredients; no numbered sections, callouts, arrows or written explanations.

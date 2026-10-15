@@ -39,11 +39,11 @@ test("selectMissingPoems respects direction and existing mappings", () => {
   const artwork = { "note-2": "art/note-2.jpg" };
   assert.deepEqual(
     selectMissingPoems(poems, artwork, {
-      startPage: 1,
+      startPage: 3,
       count: 3,
       direction: "forward",
     }).map((poem) => poem.number),
-    [1, 3, 4],
+    [3, 4, 5],
   );
   assert.deepEqual(
     selectMissingPoems(poems, artwork, {

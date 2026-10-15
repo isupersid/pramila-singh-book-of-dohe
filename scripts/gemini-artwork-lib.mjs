@@ -49,9 +49,11 @@ export function selectMissingPoems(poems, artwork, {
   endPage,
 } = {}) {
   const step = direction === "reverse" ? -1 : 1;
-  const lower = endPage === undefined ? 1 : Math.min(startPage, endPage);
+  const lower = endPage === undefined
+    ? direction === "reverse" ? 1 : startPage
+    : Math.min(startPage, endPage);
   const upper = endPage === undefined
-    ? poems.length
+    ? direction === "reverse" ? startPage : poems.length
     : Math.max(startPage, endPage);
 
   return poems

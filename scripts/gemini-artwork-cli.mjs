@@ -302,8 +302,9 @@ async function generateOne({
   maxAttempts,
   generationTimeout,
 }) {
+  const previousAttempts = entry.attempts || 0;
   for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
-    entry.attempts = attempt;
+    entry.attempts = previousAttempts + attempt;
     const before = await generatedImageSources(page);
     const beforeText = await page.locator("body").innerText();
     await sendPrompt(page, `${basePrompt}\n\n${entry.prompt}`);
@@ -315,19 +316,35 @@ async function generateOne({
     );
     if (outcome.type !== "image") {
       if (outcome.type === "safety") {
-        return { status: "safety", message: outcome.message, attempts: attempt };
+        return {
+          status: "safety",
+          message: outcome.message,
+          attempts: entry.attempts,
+        };
       }
       if (outcome.type === "quota" || outcome.type === "authentication") {
-        return { status: outcome.type, message: outcome.message, attempts: attempt };
+        return {
+          status: outcome.type,
+          message: outcome.message,
+          attempts: entry.attempts,
+        };
       }
       if (attempt === maxAttempts) {
-        return { status: "timeout", message: outcome.message, attempts: attempt };
+        return {
+          status: "timeout",
+          message: outcome.message,
+          attempts: entry.attempts,
+        };
       }
       await page.waitForTimeout(1500);
       continue;
     }
 
-    const download = await downloadGeneratedImage(page, outcome.index);
+    const download = await downloadGeneratedImage(
+      page,
+      outcome.src,
+      before,
+    );
     const extension = extensionFromFilename(download.suggestedFilename());
     const relativeDownload = path.join("downloads", `${entry.id}${extension}`);
     const destination = path.join(downloadsDir, `${entry.id}${extension}`);
@@ -336,7 +353,7 @@ async function generateOne({
     const hash = await sha256(destination);
     return {
       status: "downloaded",
-      attempts: attempt,
+      attempts: entry.attempts,
       download: relativeDownload.replaceAll("\\", "/"),
       suggestedFilename: download.suggestedFilename(),
       dimensions: {
@@ -404,59 +421,85 @@ async function waitForOutcome(page, before, beforeText, timeout) {
 
     const candidates = await imageCandidates(page);
     const generated = candidates.find((candidate) => !before.has(candidate.src));
-    if (generated) return { type: "image", index: generated.index };
+    if (generated) return { type: "image", src: generated.src };
     await page.waitForTimeout(1200);
   }
   return { type: "timeout", message: "Gemini returned no image or explicit error." };
 }
 
-async function downloadGeneratedImage(page, imageIndex) {
-  const image = page.locator("img").nth(imageIndex);
-  await image.scrollIntoViewIfNeeded();
-  await image.hover();
+async function downloadGeneratedImage(page, initialSource, before) {
+  const deadline = Date.now() + 45_000;
+  let preferredSource = initialSource;
 
-  const imageBox = await image.boundingBox();
-  const buttons = page.locator("button");
-  const candidates = await buttons.evaluateAll((items) => items.map((button, index) => {
-    const label = [
-      button.getAttribute("aria-label"),
-      button.getAttribute("title"),
-      button.textContent,
-    ].filter(Boolean).join(" ");
-    const box = button.getBoundingClientRect();
-    return {
-      index,
-      label,
-      visible: box.width > 0 && box.height > 0,
-      x: box.x,
-      y: box.y,
-    };
-  }).filter((button) => (
-    button.visible &&
-    /download/i.test(button.label)
-  )));
+  while (Date.now() < deadline) {
+    const generated = (await imageCandidates(page))
+      .filter((candidate) => !before.has(candidate.src))
+      .sort((left, right) => (
+        left.src === preferredSource ? -1 :
+          right.src === preferredSource ? 1 :
+            right.index - left.index
+      ));
 
-  const nearest = candidates
-    .map((button) => ({
-      ...button,
-      distance: imageBox
-        ? Math.hypot(
+    for (const candidate of generated) {
+      const image = page.locator("img").nth(candidate.index);
+      try {
+        await image.scrollIntoViewIfNeeded({ timeout: 3000 });
+        await image.hover({ timeout: 3000 });
+        preferredSource = candidate.src;
+        await page.waitForTimeout(400);
+      } catch {
+        continue;
+      }
+
+      const imageBox = await image.boundingBox().catch(() => null);
+      if (!imageBox) continue;
+      const buttons = page.locator("button");
+      const controls = await buttons.evaluateAll((items) => items.map((button, index) => {
+        const label = [
+          button.getAttribute("aria-label"),
+          button.getAttribute("title"),
+          button.textContent,
+        ].filter(Boolean).join(" ");
+        const box = button.getBoundingClientRect();
+        return {
+          index,
+          label,
+          visible: box.width > 0 && box.height > 0,
+          x: box.x,
+          y: box.y,
+        };
+      }).filter((button) => (
+        button.visible &&
+        /download/i.test(button.label)
+      )));
+
+      const nearest = controls
+        .map((button) => ({
+          ...button,
+          distance: Math.hypot(
             button.x - (imageBox.x + imageBox.width),
             button.y - imageBox.y,
-          )
-        : 0,
-    }))
-    .sort((left, right) => left.distance - right.distance)[0];
+          ),
+        }))
+        .sort((left, right) => left.distance - right.distance)[0];
+      if (!nearest) continue;
 
-  if (!nearest) {
-    throw new Error(
-      "Generated image appeared, but Gemini's hover download button was not found.",
-    );
+      try {
+        const downloadPromise = page.waitForEvent("download", {
+          timeout: 15_000,
+        });
+        await buttons.nth(nearest.index).click();
+        return await downloadPromise;
+      } catch {
+        await page.waitForTimeout(750);
+      }
+    }
+    await page.waitForTimeout(1000);
   }
 
-  const downloadPromise = page.waitForEvent("download");
-  await buttons.nth(nearest.index).click();
-  return downloadPromise;
+  throw new Error(
+    "Generated image appeared, but Gemini's hover download button did not become ready.",
+  );
 }
 
 async function review(options) {
@@ -616,7 +659,10 @@ async function archiveRejected(options) {
         page: entry.page,
         title: entry.title,
         file: targetName,
-        reason: reasonOverrides[entry.id] || review.reason,
+        reason:
+          reasonOverrides[`${entry.id}#${index + 1}`] ||
+          reasonOverrides[entry.id] ||
+          review.reason,
         sha256: review.sha256,
         dimensions: review.dimensions,
         originalAttempt: index + 1,
