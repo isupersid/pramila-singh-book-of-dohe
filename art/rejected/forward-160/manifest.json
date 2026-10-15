@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-160",
+  "generatedAt": "2026-10-15T05:51:30.296Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423115744",
+      "page": 162,
+      "title": "कुंभ",
+      "file": "notes_20240423115744-rejected-1.jpg",
+      "reason": "The Hindi title कुंभ is embedded prominently at the top of the image.",
+      "sha256": "95b48660970370c572af6adea9aeefa47be0ce1a92dee4a0fab51395cdcb6e73",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423115806",
+      "page": 167,
+      "title": "मकरंद/पराग",
+      "file": "notes_20240423115806-rejected-1.jpg",
+      "reason": "Multiple Hindi explanatory labels are embedded around the flowers, bees and vessel.",
+      "sha256": "516a847ec8a272f3182d7ac0f14fcab0480d530d7b0af01e6427d6c4d4c766f2",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423115849",
+      "page": 175,
+      "title": "छात्र",
+      "file": "notes_20240423115849-rejected-1.jpg",
+      "reason": "The Hindi word लक्ष्य is embedded prominently above the student.",
+      "sha256": "310f3508efb9e60aa646387f4e00680e2a23691b00d8ee4f6f24532165e11488",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423115856",
+      "page": 176,
+      "title": "रोला",
+      "file": "notes_20240423115856-rejected-1.jpg",
+      "reason": "Several Hindi labels are embedded around the student, bird and study symbols.",
+      "sha256": "483fe5bd882f4e2c1de92e41cb1bc38971c4c98e299308ef801a82c95973d8eb",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
