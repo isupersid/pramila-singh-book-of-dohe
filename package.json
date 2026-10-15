@@ -1,0 +1,17 @@
+{
+  "name": "pramila-singh-book-of-dohe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "artwork:auth": "node scripts/gemini-artwork-cli.mjs auth",
+    "artwork:plan": "node scripts/gemini-artwork-cli.mjs plan",
+    "artwork:run": "node scripts/gemini-artwork-cli.mjs run",
+    "artwork:review": "node scripts/gemini-artwork-cli.mjs review",
+    "artwork:accept": "node scripts/gemini-artwork-cli.mjs accept",
+    "test:artwork-cli": "node --test tests/gemini_artwork_cli.test.mjs"
+  },
+  "dependencies": {
+    "image-size": "^2.0.2",
+    "playwright": "^1.55.0"
+  }
+}

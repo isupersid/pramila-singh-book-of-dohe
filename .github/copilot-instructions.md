@@ -46,6 +46,8 @@ The public site is:
 - Maintain the established watercolor-and-gouache visual identity described in that file.
 - Do not add lettering or generated Hindi text inside illustrations.
 - In Gemini, hover the completed image and use the visible download button in the image's top-right controls. Prefer this direct download over opening the image viewer and waiting for a second download surface.
+- For bulk work, prefer `scripts/gemini-artwork-cli.mjs`. Use separate `--session` queue names, non-overlapping page ranges, and separate persistent `--profile` directories for parallel agents. Generated files remain in ignored `.artwork-cli/` checkpoints until explicitly reviewed and accepted.
+- Persistent browser profiles contain authenticated Google sessions. Keep them outside the repository and never commit, upload, inspect, or share their contents.
 - Desktop/tablet readers show artwork on the facing left page.
 - Phone readers use artwork as a softly faded page background.
 - If a poem has no artwork, desktop uses the standard flower placeholder; phones should not waste vertical space on a placeholder.
