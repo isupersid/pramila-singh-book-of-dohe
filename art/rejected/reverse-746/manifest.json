@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "session": "reverse-746",
+  "generatedAt": "2026-10-15T08:08:13.621Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423131126",
+      "page": 742,
+      "title": "साधना",
+      "file": "notes_20240423131126-rejected-1.jpg",
+      "reason": "Faint generated writing or watermark-like lettering appeared near the lower edge.",
+      "sha256": "eeb04ecf6042571b1dadb7635fb139a927f92c87a1166148496552d42f1872bb",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423131058",
+      "page": 733,
+      "title": "तारा",
+      "file": "notes_20240423131058-rejected-1.jpg",
+      "reason": "Multiple Hindi astronomical labels were embedded around the stars and constellations.",
+      "sha256": "e0205a9c175a747abb6e690abdea21e472f22e076bda2b335fd24e01182445a6",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423131058",
+      "page": 733,
+      "title": "तारा",
+      "file": "notes_20240423131058-rejected-2.jpg",
+      "reason": "English astronomical labels, callout lines and explanatory text remained embedded.",
+      "sha256": "08a32978bcebd14941ff8e485b8ee2782f821cd877d5e026399b58bae2cf1f1d",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    },
+    {
+      "noteId": "notes_20240423131047",
+      "page": 730,
+      "title": "मेवा",
+      "file": "notes_20240423131047-rejected-1.jpg",
+      "reason": "Extensive Hindi labels and numbered explanatory text were embedded throughout the food illustration.",
+      "sha256": "b85b587a045de5cbd40be8e0b4d0d7fd56ab8427c51989f52de6245269e61c65",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423131047",
+      "page": 730,
+      "title": "मेवा",
+      "file": "notes_20240423131047-rejected-2.jpg",
+      "reason": "Hindi food names and a labeled map remained embedded in the second attempt.",
+      "sha256": "06096acacf0be8345eb96c640497745ba23fe882df8e0814239c43b863f1426e",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 2
+    }
+  ]
+}

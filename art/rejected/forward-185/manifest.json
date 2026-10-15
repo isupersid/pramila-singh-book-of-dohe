@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-185",
+  "generatedAt": "2026-10-15T06:18:21.117Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423120052",
+      "page": 196,
+      "title": "अंकित",
+      "file": "notes_20240423120052-rejected-1.jpg",
+      "reason": "Generated writing appears on the tree in the Bhagat Singh memorial scene.",
+      "sha256": "00d24bb1e2b35b7ad5bb9ce5bfa2d32a74a36d576740fcfdfa622ca5eabf6139",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423120127",
+      "page": 200,
+      "title": "डाह",
+      "file": "notes_20240423120127-rejected-1.jpg",
+      "reason": "Hindi labels are embedded directly in the jealousy illustration.",
+      "sha256": "73dc9c74f576b102b00fe1a679f4bf8792af5755fd2d8c6e3b2daa4729309ce4",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423120224",
+      "page": 201,
+      "title": "मधुर",
+      "file": "notes_20240423120224-rejected-1.jpg",
+      "reason": "Hindi labels are embedded directly in the sweet-speech illustration.",
+      "sha256": "40f37ccecf3eddddbd7658fffff024d9c3f32b91983602f4f123b60b5ed3f1b2",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}
