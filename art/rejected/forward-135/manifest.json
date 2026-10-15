@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "session": "forward-135",
+  "generatedAt": "2026-10-15T05:32:50.995Z",
+  "notice": "Rejected review candidates only. These files are not mapped into the public book.",
+  "entries": [
+    {
+      "noteId": "notes_20240423115357",
+      "page": 135,
+      "title": "विरोध",
+      "file": "notes_20240423115357-rejected-1.jpg",
+      "reason": "Generated writing appears throughout the manuscripts and open book.",
+      "sha256": "7085771a72452bd4cbc2cf1e547fe5f645e5b1aa3ace43b8c443b3623dcdee25",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423115604",
+      "page": 145,
+      "title": "स्वार्थ",
+      "file": "notes_20240423115604-rejected-1.jpg",
+      "reason": "Downloaded at 896x1200, below the native 1792x2400 resolution of the batch.",
+      "sha256": "9f148c96ad000748e97086ca52edff6f5c441fd66b2c645cff13661223a2d754",
+      "dimensions": {
+        "width": 896,
+        "height": 1200
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423115611",
+      "page": 147,
+      "title": "पाठ",
+      "file": "notes_20240423115611-rejected-1.jpg",
+      "reason": "Generated glyphs and lettering appear around the devotional symbols and book.",
+      "sha256": "90694a39b27e3c29d752e29c34c0d7709cd11b1843496ca91c610e743dc70d14",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423115722",
+      "page": 158,
+      "title": "शहीद",
+      "file": "notes_20240423115722-rejected-1.jpg",
+      "reason": "Embedded slogans and labels appear above and around the memorial figures.",
+      "sha256": "53e53bb8da72530516fa976f96256ff3eb6a4cac20abe88520fa0808b04d21c6",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    },
+    {
+      "noteId": "notes_20240423115729",
+      "page": 159,
+      "title": "नरक",
+      "file": "notes_20240423115729-rejected-1.jpg",
+      "reason": "Multiple Hindi labels are embedded directly in the landscape.",
+      "sha256": "e72143c5c7d542a4ec18d424d05fa1ba96cf2e80bc779bb2d283ac84ac8ea4e5",
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "originalAttempt": 1
+    }
+  ]
+}

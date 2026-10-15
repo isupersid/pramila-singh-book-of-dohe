@@ -8,6 +8,8 @@
     "artwork:run": "node scripts/gemini-artwork-cli.mjs run",
     "artwork:review": "node scripts/gemini-artwork-cli.mjs review",
     "artwork:accept": "node scripts/gemini-artwork-cli.mjs accept",
+    "artwork:reject": "node scripts/gemini-artwork-cli.mjs reject",
+    "artwork:archive-rejected": "node scripts/gemini-artwork-cli.mjs archive-rejected",
     "test:artwork-cli": "node --test tests/gemini_artwork_cli.test.mjs"
   },
   "dependencies": {

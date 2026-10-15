@@ -45,6 +45,8 @@ async function main() {
   if (command === "run") return run(options);
   if (command === "review") return review(options);
   if (command === "accept") return accept(options);
+  if (command === "reject") return reject(options);
+  if (command === "archive-rejected") return archiveRejected(options);
   if (command === "status") return status(options);
 
   throw new Error(`Unknown command: ${command}`);
@@ -83,9 +85,15 @@ async function authenticate(options) {
 
   console.log(`Gemini opened with persistent profile:\n${profile}`);
   console.log("Complete Google sign-in and any 2FA/CAPTCHA in the browser.");
-  const prompt = readline.createInterface({ input: process.stdin, output: process.stdout });
-  await prompt.question("Press Enter here after Gemini is ready...");
-  prompt.close();
+  if (options.waitForLogin) {
+    const waitSeconds = asPositiveInteger(options.waitForLogin, 600);
+    console.log(`Waiting up to ${waitSeconds} seconds for Gemini to become ready...`);
+    await waitForAuthenticatedGemini(page, waitSeconds * 1000);
+  } else {
+    const prompt = readline.createInterface({ input: process.stdin, output: process.stdout });
+    await prompt.question("Press Enter here after Gemini is ready...");
+    prompt.close();
+  }
 
   const state = classifyGeminiText(await page.locator("body").innerText());
   if (state === "authentication") {
@@ -93,6 +101,19 @@ async function authenticate(options) {
   }
   await context.close();
   console.log("Authentication profile saved.");
+}
+
+async function waitForAuthenticatedGemini(page, timeout) {
+  const deadline = Date.now() + timeout;
+  while (Date.now() < deadline) {
+    const bodyText = await page.locator("body").innerText();
+    const state = classifyGeminiText(bodyText);
+    const hasTextbox = await page.getByRole("textbox").count() > 0 ||
+      await page.locator('textarea, [contenteditable="true"]').count() > 0;
+    if (state !== "authentication" && hasTextbox) return;
+    await page.waitForTimeout(1500);
+  }
+  throw new Error("Timed out waiting for Gemini authentication.");
 }
 
 async function plan(options) {
@@ -187,13 +208,14 @@ async function run(options) {
     for (const entry of session.entries) {
       if (entry.status === "downloaded" || entry.status === "accepted") continue;
       if (generatedInChat === 0 || generatedInChat >= freshEvery) {
-        await seedFreshChat(page, data.basePrompt, references);
+        await seedFreshChat(page, references);
         generatedInChat = 0;
       }
 
       const result = await generateOne({
         page,
         entry,
+        basePrompt: data.basePrompt,
         downloadsDir,
         maxAttempts,
         generationTimeout,
@@ -220,7 +242,7 @@ async function run(options) {
   console.log(`Review: ${path.join(sessionDir, "review.html")}`);
 }
 
-async function seedFreshChat(page, basePrompt, references) {
+async function seedFreshChat(page, references) {
   await page.goto(GEMINI_URL, { waitUntil: "domcontentloaded" });
   const pageState = classifyGeminiText(await page.locator("body").innerText());
   if (pageState === "authentication") {
@@ -228,33 +250,54 @@ async function seedFreshChat(page, basePrompt, references) {
   }
 
   if (references.length) await uploadReferences(page, references);
-  await sendPrompt(
-    page,
-    `${basePrompt}\n\nConfirm that you will use this visual identity for the following poem illustrations. Do not generate an image yet.`,
-  );
-  await page.waitForTimeout(1500);
+  await activateImageMode(page);
+}
+
+async function activateImageMode(page) {
+  const toolsButton = page.getByRole("button", {
+    name: /upload & tools/i,
+  }).first();
+  await toolsButton.waitFor({ state: "visible", timeout: 15_000 });
+  await toolsButton.click();
+  const createImage = page.getByRole("menuitemcheckbox", {
+    name: /create image/i,
+  }).last();
+  await createImage.waitFor({ state: "visible", timeout: 10_000 });
+  await createImage.click();
+  await page.waitForTimeout(500);
 }
 
 async function uploadReferences(page, references) {
   for (const reference of references) await access(reference);
   let input = page.locator('input[type="file"]').first();
-  if (!await input.count()) {
-    const uploadButton = page.getByRole("button", {
-      name: /upload|add files|attach/i,
-    }).first();
-    if (await uploadButton.count()) await uploadButton.click();
-    input = page.locator('input[type="file"]').first();
+  if (await input.count()) {
+    await input.setInputFiles(references);
+    await page.waitForTimeout(1200);
+    return;
   }
-  if (!await input.count()) {
-    throw new Error("Could not find Gemini's file-upload input.");
-  }
-  await input.setInputFiles(references);
+
+  const toolsButton = page.getByRole("button", {
+    name: /upload & tools/i,
+  }).first();
+  await toolsButton.waitFor({ state: "visible", timeout: 15_000 });
+  await toolsButton.click();
+  const uploadFiles = page.getByRole("menuitem", {
+    name: /upload files/i,
+  }).last();
+  await uploadFiles.waitFor({ state: "visible", timeout: 10_000 });
+  const chooserPromise = page.waitForEvent("filechooser");
+  await uploadFiles.click();
+  const chooser = await chooserPromise;
+  await chooser.setFiles(references);
   await page.waitForTimeout(1200);
+  return;
+
 }
 
 async function generateOne({
   page,
   entry,
+  basePrompt,
   downloadsDir,
   maxAttempts,
   generationTimeout,
@@ -263,7 +306,7 @@ async function generateOne({
     entry.attempts = attempt;
     const before = await generatedImageSources(page);
     const beforeText = await page.locator("body").innerText();
-    await sendPrompt(page, entry.prompt);
+    await sendPrompt(page, `${basePrompt}\n\n${entry.prompt}`);
     const outcome = await waitForOutcome(
       page,
       before,
@@ -499,10 +542,110 @@ async function accept(options) {
   console.log(`Accepted ${accepted.length} artwork file(s).`);
 }
 
+async function reject(options) {
+  const { sessionDir, session, sessionFile } = await loadSession(options);
+  const ids = String(options.ids || "")
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean);
+  if (!ids.length) throw new Error("Provide --ids with one or more note IDs.");
+
+  const rejectedDir = path.join(sessionDir, "rejected");
+  await mkdir(rejectedDir, { recursive: true });
+  let rejected = 0;
+
+  for (const entry of session.entries) {
+    if (!ids.includes(entry.id)) continue;
+    if (entry.status !== "downloaded") {
+      throw new Error(`${entry.id} is not a downloaded review candidate.`);
+    }
+    const source = path.join(sessionDir, entry.download);
+    const extension = path.extname(source);
+    const archivedName = `${entry.id}-attempt-${entry.attempts}${extension}`;
+    const archived = path.join(rejectedDir, archivedName);
+    await copyFile(source, archived);
+    entry.reviewHistory ??= [];
+    entry.reviewHistory.push({
+      status: "rejected",
+      rejectedAt: new Date().toISOString(),
+      reason: options.reason || "Rejected during visual review.",
+      archivedDownload: path
+        .relative(sessionDir, archived)
+        .replaceAll("\\", "/"),
+      sha256: entry.sha256,
+      dimensions: entry.dimensions,
+    });
+    entry.status = "pending";
+    entry.download = null;
+    entry.suggestedFilename = null;
+    entry.dimensions = null;
+    entry.sha256 = null;
+    entry.downloadedAt = null;
+    rejected += 1;
+  }
+
+  if (rejected !== ids.length) {
+    const known = new Set(session.entries.map((entry) => entry.id));
+    const missing = ids.filter((id) => !known.has(id));
+    throw new Error(`Unknown note IDs: ${missing.join(", ")}`);
+  }
+  await writeJsonAtomic(sessionFile, session);
+  await writeReview(sessionDir, session);
+  console.log(`Rejected ${rejected} image(s); entries returned to pending.`);
+}
+
+async function archiveRejected(options) {
+  const { sessionDir, session } = await loadSession(options);
+  const reasonOverrides = options.reasonsFile
+    ? await readJson(path.resolve(options.reasonsFile))
+    : {};
+  const archiveDir = path.join(ROOT, "art", "rejected", session.name);
+  await mkdir(archiveDir, { recursive: true });
+  const records = [];
+
+  for (const entry of session.entries) {
+    for (const [index, review] of (entry.reviewHistory || []).entries()) {
+      if (review.status !== "rejected" || !review.archivedDownload) continue;
+      const source = path.join(sessionDir, review.archivedDownload);
+      const extension = path.extname(source);
+      const targetName = `${entry.id}-rejected-${index + 1}${extension}`;
+      const target = path.join(archiveDir, targetName);
+      await copyFile(source, target);
+      records.push({
+        noteId: entry.id,
+        page: entry.page,
+        title: entry.title,
+        file: targetName,
+        reason: reasonOverrides[entry.id] || review.reason,
+        sha256: review.sha256,
+        dimensions: review.dimensions,
+        originalAttempt: index + 1,
+      });
+    }
+  }
+
+  if (!records.length) {
+    throw new Error("This checkpoint has no rejected images to archive.");
+  }
+  await writeJsonAtomic(path.join(archiveDir, "manifest.json"), {
+    schemaVersion: 1,
+    session: session.name,
+    generatedAt: new Date().toISOString(),
+    notice: "Rejected review candidates only. These files are not mapped into the public book.",
+    entries: records,
+  });
+  console.log(`Archived ${records.length} rejected image(s) in ${archiveDir}`);
+}
+
 async function appendPromptCheckpoint(session, entries) {
   const promptPath = path.join(ROOT, "art", "prompts.md");
   const heading = `\n\n## Gemini CLI checkpoint — ${session.name}\n`;
-  const blocks = entries.map((entry) => `
+  const blocks = entries.map((entry) => {
+    const quotedPrompt = entry.prompt
+      .split("\n")
+      .map((line) => line ? `> ${line}` : ">")
+      .join("\n");
+    return `
 ### ${entry.page}. ${entry.title}
 
 - Note ID: \`${entry.id}\`
@@ -511,8 +654,9 @@ async function appendPromptCheckpoint(session, entries) {
 - Download SHA-256: \`${entry.sha256}\`
 - Native dimensions: ${entry.dimensions?.width || "unknown"}×${entry.dimensions?.height || "unknown"}
 
-> ${entry.prompt.replaceAll("\n", "\n> ")}
-`).join("\n");
+${quotedPrompt}
+`;
+  }).join("\n");
   await writeFile(
     promptPath,
     `${await readFile(promptPath, "utf8")}${heading}${blocks}`,
@@ -564,6 +708,7 @@ Gemini artwork CLI
 
 Authentication:
   node scripts/gemini-artwork-cli.mjs auth --profile <outside-repo-directory>
+  node scripts/gemini-artwork-cli.mjs auth --profile <dir> --wait-for-login 600
 
 Plan missing artwork:
   node scripts/gemini-artwork-cli.mjs plan --start-page 135 --count 25
@@ -577,6 +722,10 @@ Generate into a review checkpoint:
 Review:
   node scripts/gemini-artwork-cli.mjs review --session forward-135 --open
   node scripts/gemini-artwork-cli.mjs status --session forward-135
+  node scripts/gemini-artwork-cli.mjs reject --session forward-135 \\
+    --ids note_id_1,note_id_2 --reason "Generated lettering"
+  node scripts/gemini-artwork-cli.mjs archive-rejected --session forward-135 \
+    --reasons-file .artwork-cli/forward-135/rejection-reasons.json
 
 Publish approved checkpoint images:
   node scripts/gemini-artwork-cli.mjs accept --session forward-135 --all
