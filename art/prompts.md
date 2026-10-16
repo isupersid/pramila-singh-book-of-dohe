@@ -10482,8 +10482,9 @@ This checkpoint continues after the documented page-109 safety block. Pages 123â
 
 - Note ID: `notes_20240423122540`
 - Image: `notes_20240423122540.jpg`
-- Status: Accepted through the Playwright CLI review workflow.
-- Download SHA-256: `1826f22719f44a025873a42ff694fa7aac3a43b08175e82de8b87d00025471d2`
+- Status: Accepted through direct family visual review of archived attempt 3.
+- Selection note: The earlier automated rejection reason was invalid; the selected image contains no book or generated writing.
+- Download SHA-256: `f14282a7186818e8a1b474b3a624e3aea22fbf20e8c5b06139d2b6ff5a0469cc`
 - Native dimensions: 1792Ã—2400
 
 > Create exactly one silent visual scene. A classical Indian poet recites aloud beneath a flowering tree while attentive listeners, birds and expressive theatre performers respond emotionally. The poet uses open hand gestures and holds nothing. Do not include books, manuscripts, papers, scrolls, writing tools, stage signs, captions, names, quotes, letters, numerals, halo text or any text-bearing object. Native 3:4 watercolor and gouache, full bleed, no border.
