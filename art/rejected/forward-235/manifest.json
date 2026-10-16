@@ -125,19 +125,6 @@
       "noteId": "notes_20240423122540",
       "page": 246,
       "title": "कवि",
-      "file": "notes_20240423122540-rejected-3.jpg",
-      "reason": "Generated writing remained in the open book.",
-      "sha256": "f14282a7186818e8a1b474b3a624e3aea22fbf20e8c5b06139d2b6ff5a0469cc",
-      "dimensions": {
-        "width": 1792,
-        "height": 2400
-      },
-      "originalAttempt": 3
-    },
-    {
-      "noteId": "notes_20240423122540",
-      "page": 246,
-      "title": "कवि",
       "file": "notes_20240423122540-rejected-4.jpg",
       "reason": "Extensive generated script appeared in the book and circular lettering despite a scene-only prompt.",
       "sha256": "1826f22719f44a025873a42ff694fa7aac3a43b08175e82de8b87d00025471d2",
