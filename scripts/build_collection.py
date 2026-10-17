@@ -45,16 +45,19 @@ METADATA_PREFIXES = (
 )
 
 
+# Split a working copy of the source into trimmed lines for parsing.
 def normalize_lines(text: str) -> list[str]:
     return [line.strip() for line in text.replace("\r\n", "\n").splitlines()]
 
 
+# Remove surrounding markup, collapse whitespace, and limit titles to 80 characters.
 def clean_title(value: str) -> str:
     value = value.strip().strip("#_*\"'“”‘’:-–। ")
     value = re.sub(r"\s+", " ", value)
     return value[:80]
 
 
+# Identify dates, attribution, prompt labels, and other non-poem metadata.
 def is_metadata(line: str) -> bool:
     compact = line.strip()
     if not compact:
@@ -74,6 +77,8 @@ def is_metadata(line: str) -> bool:
     return False
 
 
+# Find a valid date near the start of the record, assuming 2024 for month/day headers.
+# Return an ISO date, or None when no supported date can be parsed.
 def extract_date(lines: list[str]) -> str | None:
     for line in lines[:12]:
         match = FULL_DATE_RE.match(line)
@@ -104,6 +109,8 @@ def extract_date(lines: list[str]) -> str | None:
     return None
 
 
+# Prefer the provided prompt, then a plausible heading, then a numbered fallback.
+# Also return the heading's line index, if found, so it can be omitted from the body.
 def extract_title(lines: list[str], fallback_number: int) -> tuple[str, int | None]:
     for line in lines[:14]:
         match = PROMPT_RE.search(line)
@@ -128,6 +135,8 @@ def extract_title(lines: list[str], fallback_number: int) -> tuple[str, int | No
     return f"रचना {fallback_number}", None
 
 
+# Keep poem lines and internal stanza breaks while removing the title, metadata,
+# decorative separators, and trailing blank lines.
 def extract_body(lines: list[str], title_index: int | None) -> list[str]:
     body: list[str] = []
     for index, line in enumerate(lines):
@@ -151,6 +160,7 @@ def extract_body(lines: list[str], title_index: int | None) -> list[str]:
     return body
 
 
+# Heuristically classify the writing using length, narrative keywords, and punctuation.
 def classify(body: list[str]) -> str:
     joined = " ".join(body)
     if len(joined) > 1200 or any(
@@ -162,6 +172,8 @@ def classify(body: list[str]) -> str:
     return "रचना"
 
 
+# Parse preserved sources, attach artwork, sort and number entries, and write catalog
+# data and statistics before regenerating the editorial drafts.
 def main() -> None:
     if not NOTES_DIR.exists():
         raise SystemExit(f"Missing source notes directory: {NOTES_DIR}")

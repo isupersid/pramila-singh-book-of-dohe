@@ -202,6 +202,8 @@ WORD_ROMAN = {
 }
 
 
+# Convert a Devanagari word to Roman text using known forms first, then character
+# mappings that account for vowel signs, virama, and a final inherent vowel.
 def transliterate_word(word: str) -> str:
     if word in WORD_ROMAN:
         return WORD_ROMAN[word]
@@ -232,11 +234,13 @@ def transliterate_word(word: str) -> str:
     return re.sub(r"a(?=\b)", "", "".join(output))
 
 
+# Remove zero-width joiners and transliterate Devanagari runs, preserving other text.
 def transliterate(text: str) -> str:
     cleaned = text.replace("\u200c", "").replace("\u200d", "")
     return DEVANAGARI_RE.sub(lambda match: transliterate_word(match.group(0)), cleaned)
 
 
+# Extract and clean the first nonempty provided prompt from the preserved record.
 def extract_prompt(raw: str) -> str | None:
     for line in raw.splitlines():
         match = PROMPT_RE.search(line.strip())
@@ -247,6 +251,7 @@ def extract_prompt(raw: str) -> str | None:
     return None
 
 
+# Link the record's date and optional provided prompt to their preserved source.
 def evidence_for(poem: dict, prompt: str | None) -> list[dict]:
     evidence = [
         {
@@ -266,6 +271,8 @@ def evidence_for(poem: dict, prompt: str | None) -> list[dict]:
     return evidence
 
 
+# Build low-confidence context limited to the recorded date and optional prompt,
+# without asserting a historical connection or authorial intent.
 def default_context(poem: dict, prompt: str | None) -> dict:
     if prompt:
         text = (
@@ -291,6 +298,7 @@ def default_context(poem: dict, prompt: str | None) -> dict:
     }
 
 
+# Package an editorial explanation with its confidence and review caveat.
 def text_layer(text: str, confidence: str, note: str) -> dict:
     return {
         "text": text,
@@ -299,6 +307,8 @@ def text_layer(text: str, confidence: str, note: str) -> dict:
     }
 
 
+# Assemble an unreviewed draft with source provenance, transliteration, and flags.
+# Apply curated layers when present; otherwise leave translations and meanings null.
 def build_record(poem: dict, override: dict | None) -> dict:
     prompt = extract_prompt(poem["raw"])
     flags = ["ai-generated-draft", "family-review-required"]
@@ -369,6 +379,8 @@ def build_record(poem: dict, override: dict | None) -> dict:
     }
 
 
+# Reject drafts whose English line count differs from the source or whose required
+# explanation and context fields are blank.
 def validate_override(poem: dict, override: dict) -> None:
     if len(override["literalEnglish"]) != len(poem["body"]):
         raise ValueError(
@@ -379,6 +391,8 @@ def validate_override(poem: dict, override: dict) -> None:
             raise ValueError(f"{poem['id']}: empty curated field {key}")
 
 
+# Load poems and curated overrides, reject unknown IDs or invalid drafts, and write
+# the generated editorial dataset with a summary of curated and flagged records.
 def main() -> None:
     poems = json.loads(POEMS_FILE.read_text(encoding="utf-8"))
     overrides = json.loads(OVERRIDES_FILE.read_text(encoding="utf-8"))

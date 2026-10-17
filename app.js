@@ -1,6 +1,8 @@
 const PAGE_SIZE = 24;
 const FAVORITES_KEY = "pramila-poetry-favorites";
 
+// Both pages share this script and the reader markup. Landing/catalog-only
+// elements may be null, so their setup and rendering paths must stay guarded.
 const elements = {
   totalCount: document.querySelector("#total-count"),
   yearCount: document.querySelector("#year-count"),
@@ -44,6 +46,8 @@ const elements = {
   poemPage: document.querySelector(".page-poem"),
 };
 
+// Filters affect the catalog's visible list; the reader navigates the full poems
+// array. Favorites persist locally, while reader and animation state are transient.
 const state = {
   poems: [],
   editorial: {},
@@ -59,9 +63,12 @@ const state = {
   favorites: new Set(JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]")),
 };
 
+// Keep a bounded, insertion-ordered cache of images and their loading promises.
 const artworkPreloads = new Map();
 const MAX_PRELOADED_ARTWORK = 6;
 
+// Reuse in-flight artwork requests and refresh their cache priority. Resolve to a
+// load result rather than reject, so failed or slow artwork cannot block a turn.
 function preloadArtwork(path) {
   if (!path) return Promise.resolve(true);
   if (artworkPreloads.has(path)) {
@@ -75,6 +82,7 @@ function preloadArtwork(path) {
   image.decoding = "async";
   const promise = new Promise((resolve) => {
     let settled = false;
+    // Loading, decoding, errors, and the timeout can race; settle only once.
     const finish = (loaded) => {
       if (settled) return;
       settled = true;
@@ -103,11 +111,14 @@ function preloadArtwork(path) {
   return promise;
 }
 
+// Warm the current and adjacent pages immediately, then defer more distant images
+// so speculative loading does not compete with the reader's initial work.
 function queueArtworkPreloads(index) {
   [index, index + 1, index - 1].forEach((candidate) => {
     preloadArtwork(state.poems[candidate]?.artwork);
   });
 
+  // Request pages two steps away during idle time, or after a short fallback delay.
   const preloadFurther = () => {
     [index + 2, index - 2].forEach((candidate) => {
       preloadArtwork(state.poems[candidate]?.artwork);
@@ -128,10 +139,12 @@ const readerTabLabels = {
   archive: "मूल अभिलेख",
 };
 
+// Search titles, displayed lines, and preserved source text with matching casing.
 function searchableText(poem) {
   return `${poem.title} ${poem.body.join(" ")} ${poem.raw}`.toLocaleLowerCase("hi-IN");
 }
 
+// Build short previews without blank lines or standalone numeric list markers.
 function cleanExcerpt(lines, limit = 4) {
   return lines
     .filter((line) => line && !/^\d+[.)]?$/.test(line))
@@ -139,14 +152,18 @@ function cleanExcerpt(lines, limit = 4) {
     .join("\n");
 }
 
+// Use the Hindi/India locale consistently for counts, years, and page numbers.
 function formatNumber(value) {
   return new Intl.NumberFormat("hi-IN").format(value);
 }
 
+// Serialize the favorite-ID set so this browser remembers it across page loads.
 function saveFavorites() {
   localStorage.setItem(FAVORITES_KEY, JSON.stringify([...state.favorites]));
 }
 
+// Persist the changed favorite and synchronize catalog hearts and the open reader.
+// Reuse existing cards when possible to avoid rebuilding the grid on every toggle.
 function toggleFavorite(id) {
   if (state.favorites.has(id)) {
     state.favorites.delete(id);
@@ -162,6 +179,7 @@ function toggleFavorite(id) {
   }
 }
 
+// Keep the reader's heart and accessible pressed state aligned with local favorites.
 function updateReaderFavorite() {
   if (!elements.favoriteButton) return;
   const isFavorite = state.currentPoem && state.favorites.has(state.currentPoem.id);
@@ -169,6 +187,8 @@ function updateReaderFavorite() {
   elements.favoriteButton.querySelector("span:first-child").textContent = isFavorite ? "♥" : "♡";
 }
 
+// Build the all-years/year buttons. A selection resets pagination and rebuilds the
+// controls so their pressed states match the newly filtered collection.
 function makeYearFilters(years) {
   if (!elements.yearFilters) return;
   const options = [{ label: "सभी", value: "all" }, ...years.map((year) => ({
@@ -194,6 +214,8 @@ function makeYearFilters(years) {
   );
 }
 
+// Intersect search, year, and favorites criteria without changing catalog order
+// or the full poem list used for reader navigation.
 function applyFilters() {
   const query = elements.searchInput.value.trim().toLocaleLowerCase("hi-IN");
   state.visible = state.poems.filter((poem) => {
@@ -205,6 +227,8 @@ function applyFilters() {
   });
 }
 
+// Populate the catalog template and wire opening/favoriting independently, keeping
+// source text as textContent rather than interpreting it as HTML.
 function createCard(poem) {
   const fragment = elements.cardTemplate.content.cloneNode(true);
   const card = fragment.querySelector(".poem-card");
@@ -240,6 +264,9 @@ function createCard(poem) {
   return fragment;
 }
 
+// Display the filtered slice and update counts, empty state, and load-more control.
+// With resetGrid=false, refresh hearts in place unless favorites-only membership
+// requires rebuilding the displayed cards.
 function renderCollection(resetGrid = true) {
   if (!elements.poemGrid) return;
   applyFilters();
@@ -264,6 +291,8 @@ function renderCollection(resetGrid = true) {
   elements.loadMore.hidden = displayed.length >= state.visible.length;
 }
 
+// Reset the facing artwork before selecting its image or placeholder, and configure
+// the same artwork as a mobile background without adding a separate phone page.
 function renderArtworkPage(poem) {
   state.displayedArtworkId = poem.id;
   elements.artworkImage.onload = null;
@@ -273,11 +302,13 @@ function renderArtworkPage(poem) {
 
   if (poem.artwork) {
     const expectedArtwork = poem.artwork;
+    // Ignore a late load notification if a different poem's artwork is now selected.
     const revealArtwork = () => {
       if (state.displayedArtworkId === poem.id) {
         elements.artworkImage.hidden = false;
       }
     };
+    // Reveal the placeholder on failure only while this artwork selection is current.
     const showArtworkFallback = () => {
       if (state.displayedArtworkId === poem.id) {
         elements.artPlaceholder.hidden = false;
@@ -288,6 +319,7 @@ function renderArtworkPage(poem) {
     elements.artworkImage.onerror = showArtworkFallback;
     elements.artworkImage.src = poem.artwork;
     elements.artworkImage.alt = `${poem.title} के लिए कलाकृति`;
+    // Cached images may already be ready before the load handler gets a chance to run.
     if (elements.artworkImage.complete && elements.artworkImage.naturalWidth) {
       revealArtwork();
     }
@@ -305,12 +337,15 @@ function renderArtworkPage(poem) {
   }
 }
 
+// Add a plain-text section heading within an editorial panel.
 function appendHeading(container, text) {
   const heading = document.createElement("h3");
   heading.textContent = text;
   container.append(heading);
 }
 
+// Render editorial lines as paragraphs, preserving blank lines with a nonbreaking
+// space so stanza spacing survives HTML layout.
 function appendLines(container, lines, className = "") {
   const group = document.createElement("div");
   if (className) group.className = className;
@@ -322,6 +357,7 @@ function appendLines(container, lines, className = "") {
   container.append(group);
 }
 
+// Append an available review caveat using styling distinct from the reading text.
 function appendEditorialNote(container, text) {
   if (!text) return;
   const note = document.createElement("p");
@@ -330,6 +366,8 @@ function appendEditorialNote(container, text) {
   container.append(note);
 }
 
+// Gate each tab on actual content: the archive comes from the preserved poem,
+// while English can contain a literal draft, a child-friendly meaning, or both.
 function readerTabHasContent(tab, editorial) {
   if (tab === "archive") return Boolean(state.currentPoem?.raw);
   if (!editorial) return false;
@@ -345,6 +383,8 @@ function readerTabHasContent(tab, editorial) {
   return false;
 }
 
+// Show the reading panel's scroll hint only when more content remains below.
+// Small tolerances avoid flicker from rounded layout and scroll measurements.
 function updateScrollAffordance() {
   if (!elements.readerInterpretation || !elements.scrollAffordance) return;
   const panel = elements.readerInterpretation;
@@ -353,6 +393,8 @@ function updateScrollAffordance() {
   elements.scrollAffordance.hidden = !hasOverflow || atEnd;
 }
 
+// Open the editorial sheet within the reader and move focus to its close control.
+// CSS uses the open-state class to suppress the underlying book controls.
 function openEditorialOverlay() {
   if (!elements.editorialOverlay || state.isEditorialOpen) return;
   state.isEditorialOpen = true;
@@ -363,6 +405,8 @@ function openEditorialOverlay() {
   elements.editorialClose.focus();
 }
 
+// Dismiss the sheet and normally return focus to its opener. Rendering a different
+// poem or closing the whole reader skips that intermediate focus restoration.
 function closeEditorialOverlay(restoreFocus = true) {
   if (!elements.editorialOverlay || !state.isEditorialOpen) return;
   state.isEditorialOpen = false;
@@ -372,6 +416,8 @@ function closeEditorialOverlay(restoreFocus = true) {
   if (restoreFocus) elements.editorialOpen.focus();
 }
 
+// Retain the selected tab when it has content, otherwise choose an available one.
+// Rebuild the panel with separate editorial layers, evidence, and review caveats.
 function renderEditorialTab(tab = state.activeReaderTab) {
   if (!state.currentPoem || !elements.readerInterpretation) return;
   const editorial = state.editorial[state.currentPoem.id];
@@ -388,6 +434,7 @@ function renderEditorialTab(tab = state.activeReaderTab) {
     const isSelected = button.dataset.readerTab === tab;
     button.disabled = !isAvailable;
     button.setAttribute("aria-selected", String(isSelected));
+    // Only the selected tab is a Tab-key stop; arrow keys select the others.
     button.tabIndex = isSelected ? 0 : -1;
   });
 
@@ -457,10 +504,14 @@ function renderEditorialTab(tab = state.activeReaderTab) {
   elements.editorialConfidence.textContent = confidence
     ? `विश्वास: ${confidence === "medium" ? "मध्यम" : "कम"}`
     : "";
+  // New poems/tabs start at the top; measure the hint after the new content lays out.
   panel.scrollTop = 0;
   requestAnimationFrame(updateScrollAffordance);
 }
 
+// Render a complete reader state: original writing, editorial panel, artwork,
+// navigation boundaries, and favorite. Reset the original's independent scroller.
+// Temporary animation renders pass updateHash=false to keep share links stable.
 function renderReader(poem, updateHash = true) {
   closeEditorialOverlay(false);
   state.currentPoem = poem;
@@ -486,10 +537,13 @@ function renderReader(poem, updateHash = true) {
   updateReaderFavorite();
 
   if (updateHash) {
+    // Replace rather than push history so page turns do not create a Back-button trail.
     history.replaceState(null, "", `#poem=${poem.id}`);
   }
 }
 
+// Populate the book before showing its modal dialog; an already-open reader is
+// updated in place, including when a different poem is opened through its URL hash.
 function openReader(poem, updateHash = true) {
   renderReader(poem, updateHash);
   if (!elements.reader.open) {
@@ -497,6 +551,8 @@ function openReader(poem, updateHash = true) {
   }
 }
 
+// Reset reader/turn UI state, dismiss the dialog, and remove only the poem hash
+// while preserving the current page path and query string.
 function closeReader() {
   state.isTurning = false;
   closeEditorialOverlay(false);
@@ -510,6 +566,8 @@ function closeReader() {
   }
 }
 
+// Snapshot the rendered poem page for a visually matching turning face. Remove
+// duplicate IDs and button/summary Tab stops from the decorative clone.
 function clonePoemPageForTurn(container) {
   const clone = elements.poemPage.cloneNode(true);
   clone.classList.add("turning-page-clone");
@@ -518,6 +576,8 @@ function clonePoemPageForTurn(container) {
     element.setAttribute("tabindex", "-1");
   });
   container.replaceChildren(clone);
+  // cloneNode does not copy scroll offsets; preserve vertical reading positions
+  // and horizontal tab scrolling so the animated text and controls do not jump.
   const sourceScrollers = elements.poemPage.querySelectorAll(
     ".reader-original, .reader-interpretation, .reader-tabs",
   );
@@ -530,10 +590,13 @@ function clonePoemPageForTurn(container) {
   });
 }
 
+// Place the displayed poem on the sheet's front face for a two-page book turn.
 function cloneCurrentPageForTurn() {
   clonePoemPageForTurn(elements.turningFront);
 }
 
+// Build the reverse face from the requested poem's artwork or standard placeholder,
+// rather than assuming the currently displayed artwork belongs to that poem.
 function cloneArtworkPageForTurn(poem) {
   const clone = elements.pageArt.cloneNode(true);
   const image = clone.querySelector("img");
@@ -558,11 +621,14 @@ function cloneArtworkPageForTurn(poem) {
   elements.turningBack.replaceChildren(clone);
 }
 
+// Start the sheet at the appropriate rotation and let CSS animate the turn.
+// Its completion handler hides the sheet and releases the navigation lock.
 function startPageTurnAnimation(direction) {
   elements.turningSheet.style.transform =
     direction > 0 ? "rotateY(0deg)" : "rotateY(-180deg)";
   elements.turningSheet.hidden = false;
   elements.turningSheet.classList.remove("turn-next", "turn-previous");
+  // Force layout between removing/adding classes so consecutive turns restart CSS.
   void elements.turningSheet.offsetWidth;
   elements.turningSheet.classList.add(direction > 0 ? "turn-next" : "turn-previous");
   elements.turningSheet.addEventListener(
@@ -579,8 +645,12 @@ function startPageTurnAnimation(direction) {
   );
 }
 
+// Navigate the full catalog: +1 moves forward and -1 moves backward. Prepare
+// artwork, snapshot the correct sheet faces, and coordinate the underlying pages
+// separately for the single-page phone layout and the desktop two-page spread.
 async function moveReader(direction) {
   if (state.isTurning) return;
+  // A navigation request dismisses an open editorial sheet without also turning.
   if (state.isEditorialOpen) {
     closeEditorialOverlay();
     return;
@@ -590,10 +660,12 @@ async function moveReader(direction) {
   const next = state.poems[index + direction];
   if (!next) return;
 
+  // Lock before awaiting the image to prevent overlapping turns during loading.
   state.isTurning = true;
   elements.reader.classList.add("is-preparing-turn");
   await preloadArtwork(next.artwork);
   elements.reader.classList.remove("is-preparing-turn");
+  // Loading may outlive the dialog or selection; abandon this now-stale request.
   if (!elements.reader.open || state.currentPoem?.id !== current.id) {
     state.isTurning = false;
     return;
@@ -601,6 +673,7 @@ async function moveReader(direction) {
 
   const useSimpleTransition =
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  // Reduced motion changes the poem directly without creating a turning sheet.
   if (useSimpleTransition) {
     renderReader(next);
     state.isTurning = false;
@@ -609,12 +682,17 @@ async function moveReader(direction) {
 
   elements.reader.classList.add("is-turning");
 
+  // This breakpoint matches the CSS single-page layout; both faces contain poem
+  // snapshots because the phone reader has no separate facing artwork page.
   if (window.matchMedia("(max-width: 900px)").matches) {
     if (direction > 0) {
+      // Carry the current poem on the front, with the destination behind/reverse.
       clonePoemPageForTurn(elements.turningFront);
       renderReader(next);
       clonePoemPageForTurn(elements.turningBack);
     } else {
+      // Capture both poems, then restore the current one until the returning sheet
+      // covers it. Temporary renders must not publish intermediate URL hashes.
       clonePoemPageForTurn(elements.turningBack);
       renderReader(next, false);
       clonePoemPageForTurn(elements.turningFront);
@@ -628,6 +706,8 @@ async function moveReader(direction) {
   if (direction > 0) {
     cloneCurrentPageForTurn();
   } else {
+    // Backward desktop turn: current artwork forms the reverse and the previous
+    // poem forms the front; its artwork can already sit beneath the moving sheet.
     cloneArtworkPageForTurn(current);
     renderReader(next, false);
     cloneCurrentPageForTurn();
@@ -636,6 +716,8 @@ async function moveReader(direction) {
   }
 
   if (direction > 0) {
+    // Forward desktop turn: reveal the next poem beneath the current poem's front.
+    // Put destination artwork on the reverse, delaying the stationary art swap.
     renderReader(next);
     cloneArtworkPageForTurn(next);
     renderArtworkPage(current);
@@ -643,11 +725,15 @@ async function moveReader(direction) {
   }
 
   if (direction < 0) {
+    // These 350 ms swaps happen partway through the CSS turn, not at completion;
+    // the moving sheet masks the underlying content change.
     window.setTimeout(() => renderReader(next), 350);
   }
   startPageTurnAnimation(direction);
 }
 
+// Choose a deterministic daily feature from the full collection, so visitors
+// loading within the same UTC day see the same landing-page selection.
 function chooseFeatured() {
   if (!state.poems.length || !elements.featuredCard) return;
   const dayNumber = Math.floor(Date.now() / 86_400_000);
@@ -658,12 +744,15 @@ function chooseFeatured() {
   elements.featuredCard.addEventListener("click", () => openReader(featured));
 }
 
+// Open a random poem from the full collection, independent of catalog filters.
 function openRandomPoem() {
   if (!state.poems.length) return;
   const poem = state.poems[Math.floor(Math.random() * state.poems.length)];
   openReader(poem);
 }
 
+// Resolve a shareable #poem=ID on startup or hash changes without rewriting it;
+// leave the reader unchanged when the hash does not identify a known poem.
 function openHashPoem() {
   const match = location.hash.match(/^#poem=(.+)$/);
   if (!match) return;
@@ -671,6 +760,7 @@ function openHashPoem() {
   if (poem) openReader(poem, false);
 }
 
+// Copy a URL for the current poem and briefly acknowledge it after clipboard success.
 async function copyCurrentLink() {
   const url = new URL(location.href);
   url.hash = `poem=${state.currentPoem.id}`;
@@ -682,10 +772,13 @@ async function copyCurrentLink() {
   }, 1600);
 }
 
+// Wire page-specific browsing controls and the shared reader once data is ready.
+// Keep keyboard behavior local to the active layer: editorial tabs before the book.
 function bindEvents() {
   if (elements.searchInput) {
     let searchTimer;
     elements.searchInput.addEventListener("input", () => {
+      // Debounce typing; each new query starts again with one page of results.
       window.clearTimeout(searchTimer);
       searchTimer = window.setTimeout(() => {
         state.renderedCount = PAGE_SIZE;
@@ -703,6 +796,7 @@ function bindEvents() {
       renderCollection();
     });
   }
+  // Both landing-page entry points open the first poem in catalog order.
   const startReading = () => {
     if (state.poems.length) openReader(state.poems[0]);
   };
@@ -712,6 +806,7 @@ function bindEvents() {
   elements.readerClose.addEventListener("click", closeReader);
   elements.editorialOpen.addEventListener("click", openEditorialOverlay);
   elements.editorialClose.addEventListener("click", () => closeEditorialOverlay());
+  // Only a click on the backdrop itself dismisses its layer, not clicks inside it.
   elements.editorialOverlay.addEventListener("click", (event) => {
     if (event.target === elements.editorialOverlay) closeEditorialOverlay();
   });
@@ -719,6 +814,7 @@ function bindEvents() {
     if (event.target === elements.reader) closeReader();
   });
   elements.reader.addEventListener("cancel", (event) => {
+    // Override native Escape dismissal so the editorial sheet closes first.
     event.preventDefault();
     if (state.isEditorialOpen) {
       closeEditorialOverlay();
@@ -738,6 +834,7 @@ function bindEvents() {
     button.addEventListener("keydown", (event) => {
       if (!["ArrowLeft", "ArrowRight"].includes(event.key)) return;
       event.preventDefault();
+      // Wrap between available tabs, moving focus and selection together.
       const available = elements.readerTabs.filter((tab) => !tab.disabled);
       const currentIndex = available.indexOf(button);
       const direction = event.key === "ArrowRight" ? 1 : -1;
@@ -750,6 +847,7 @@ function bindEvents() {
   window.addEventListener("keydown", (event) => {
     if (!elements.reader.open) return;
     if (state.isEditorialOpen) return;
+    // Do not turn pages when arrow keys belong to tabs or the interpretation panel.
     if (event.target.closest?.(".reader-tabs, .reader-interpretation")) return;
     if (event.key === "ArrowLeft") moveReader(-1);
     if (event.key === "ArrowRight") moveReader(1);
@@ -757,6 +855,9 @@ function bindEvents() {
   window.addEventListener("hashchange", openHashPoem);
 }
 
+// Fetch all generated datasets in parallel, initialize whichever page is present,
+// then honor deep links after state and handlers are ready. Log startup failures
+// and show a collection error message when that page's grid is available.
 async function start() {
   try {
     const [poemsResponse, statsResponse, editorialResponse] = await Promise.all([
